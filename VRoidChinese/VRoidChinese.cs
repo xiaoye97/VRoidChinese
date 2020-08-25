@@ -33,6 +33,8 @@ namespace VRoidChinese
             harmony.Patch(WelcomeControllerType.GetProperty("LanguagePreferencesDropdownItemList").GetGetMethod(), prefix: new HarmonyMethod(typeof(VRoidChinese).GetMethod("WelcomeController_LanguagePreferencesDropdownItemList_Get_Prefix")));
             //修正语言选项刷新索引上限
             harmony.Patch(AccessTools.Method(WelcomeControllerType, "UpdateLanguagePreferencesWithIndex"), prefix: new HarmonyMethod(typeof(VRoidChinese).GetMethod("WelcomeController_UpdateLanguagePreferencesWithIndex_Prefix")));
+            //设置标题
+            harmony.Patch(AccessTools.Method(AccessTools.TypeByName("WindowTitle"), "Update"), prefix: new HarmonyMethod(typeof(VRoidChinese).GetMethod("WindowTitle_Update_Prefix")));
             //刷新数据
             RefreshLanguage();
             //设定当前语言为中文
@@ -115,6 +117,12 @@ namespace VRoidChinese
                 }
                 dict.Add("zh", zh);
             }
+        }
+
+        public static bool WindowTitle_Update_Prefix(ref string title)
+        {
+            title += " 中文汉化 By xiaoye97";
+            return true;
         }
     }
 }
