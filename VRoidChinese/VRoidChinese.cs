@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 namespace VRoidChinese
 {
-    [BepInPlugin("me.xiaoye97.plugin.VRoid.Chinese", "VRoid汉化插件", "1.0")]
+    [BepInPlugin("translate_zh_cn", "VRoid汉化插件", "1.0")]
     public class VRoidChinese : BaseUnityPlugin
     {
         //中文配置
@@ -20,7 +20,7 @@ namespace VRoidChinese
             //初始化
             TranslatorType = AccessTools.TypeByName("Translator");
             WelcomeControllerType = AccessTools.TypeByName("WelcomeController");
-            harmony = new Harmony("me.xiaoye97.plugin.VRoid.Chinese");
+            harmony = new Harmony("translate_zh_cn");
             //与配置文件进行配对
             var enDict = Traverse.Create(TranslatorType).Field("enDictionary").GetValue<Dictionary<string, string>>();
             enDict.Add("GUI.Welcome.Preferences.Language.Chinese", "简体中文");
