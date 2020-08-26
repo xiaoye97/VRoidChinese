@@ -4,10 +4,11 @@ using HarmonyLib;
 using UnityEngine;
 using BepInEx.Configuration;
 using System.Collections.Generic;
+using System.IO;
 
 namespace VRoidChinese
 {
-    [BepInPlugin("me.xiaoye97.plugin.VRoid.Chinese", "VRoid汉化插件", "1.0")]
+    [BepInPlugin("VRoid.Chinese", "VRoid汉化插件", "1.1")]
     public class VRoidChinese : BaseUnityPlugin
     {
         //中文配置
@@ -20,7 +21,7 @@ namespace VRoidChinese
             //初始化
             TranslatorType = AccessTools.TypeByName("Translator");
             WelcomeControllerType = AccessTools.TypeByName("WelcomeController");
-            harmony = new Harmony("me.xiaoye97.plugin.VRoid.Chinese");
+            harmony = new Harmony("VRoid.Chinese");
             //与配置文件进行配对
             var enDict = Traverse.Create(TranslatorType).Field("enDictionary").GetValue<Dictionary<string, string>>();
             enDict.Add("GUI.Welcome.Preferences.Language.Chinese", "简体中文");
