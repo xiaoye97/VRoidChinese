@@ -55,7 +55,6 @@ namespace VRoidChinese
         /// </summary>
         public static bool WelcomeController_LanguagePreferencesDropdownItemList_Get_Prefix(ref KeyValuePair<string, string>[] __result)
         {
-            //Debug.Log("触发WelcomeController_LanguagePreferencesDropdownItemList_Get_Prefix");
             __result = new KeyValuePair<string, string>[]
             {
                 new KeyValuePair<string, string>("en", "GUI.Welcome.Preferences.Language.English"),
@@ -70,7 +69,6 @@ namespace VRoidChinese
         /// </summary>
         public static bool WelcomeController_UpdateLanguagePreferencesWithIndex_Prefix(object __instance, int index)
         {
-            //Debug.Log("触发WelcomeController_UpdateLanguagePreferencesWithIndex_Prefix");
             if (index == Traverse.Create(__instance).Field("languageDropdownIndex").GetValue<int>() || index < 0 || index >= 3)
             {
                 return false;
