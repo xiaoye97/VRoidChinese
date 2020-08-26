@@ -25,7 +25,7 @@ namespace VRoidChinese
             harmony = new Harmony("VRoid.Chinese");
             //与配置文件进行配对
             var enDict = Traverse.Create(TranslatorType).Field("enDictionary").GetValue<Dictionary<string, string>>();
-            enDict.Add("GUI.Welcome.Preferences.Language.Chinese", "简体中文");
+            enDict.Add("GUI.Welcome.Preferences.Language.Chinese", "中文");
             foreach (var k in enDict.Keys)
             {
                 var config = Config.Bind<string>("翻译", k, enDict[k]);
@@ -72,14 +72,7 @@ namespace VRoidChinese
         public static IEnumerable<CodeInstruction> WelcomeController_UpdateLanguagePreferencesWithIndex_Transpiler(IEnumerable<CodeInstruction> instructions)
         {
             List<CodeInstruction> codes = new List<CodeInstruction>(instructions);
-            for(int i = 0; i < codes.Count; i++)
-            {
-                if(codes[i].opcode == OpCodes.Ldc_I4_2)
-                {
-                    codes[i].opcode = OpCodes.Ldc_I4_3;
-                    break;
-                }
-            }
+            codes[8].opcode = OpCodes.Ldc_I4_3;
             return codes.AsEnumerable();
         }
 
