@@ -2,7 +2,9 @@
 using BepInEx;
 using HarmonyLib;
 using UnityEngine;
+using System.Linq;
 using BepInEx.Configuration;
+using System.Reflection.Emit;
 using System.Collections.Generic;
 
 namespace VRoidChinese
@@ -32,7 +34,7 @@ namespace VRoidChinese
             //添加中文选项
             harmony.Patch(WelcomeControllerType.GetProperty("LanguagePreferencesDropdownItemList").GetGetMethod(), prefix: new HarmonyMethod(typeof(VRoidChinese).GetMethod("WelcomeController_LanguagePreferencesDropdownItemList_Get_Prefix")));
             //修正语言选项刷新索引上限
-            harmony.Patch(AccessTools.Method(WelcomeControllerType, "UpdateLanguagePreferencesWithIndex"), prefix: new HarmonyMethod(typeof(VRoidChinese).GetMethod("WelcomeController_UpdateLanguagePreferencesWithIndex_Prefix")));
+            harmony.Patch(AccessTools.Method(WelcomeControllerType, "UpdateLanguagePreferencesWithIndex"), transpiler: new HarmonyMethod(typeof(VRoidChinese).GetMethod("WelcomeController_UpdateLanguagePreferencesWithIndex_Transpiler")));
             //设置标题
             harmony.Patch(AccessTools.Method(AccessTools.TypeByName("WindowTitle"), "Update"), prefix: new HarmonyMethod(typeof(VRoidChinese).GetMethod("WindowTitle_Update_Prefix")));
             //刷新数据
@@ -67,22 +69,18 @@ namespace VRoidChinese
         /// <summary>
         /// 中文选项刷新索引补丁
         /// </summary>
-        public static bool WelcomeController_UpdateLanguagePreferencesWithIndex_Prefix(object __instance, int index)
+        public static IEnumerable<CodeInstruction> WelcomeController_UpdateLanguagePreferencesWithIndex_Transpiler(IEnumerable<CodeInstruction> instructions)
         {
-            if (index == Traverse.Create(__instance).Field("languageDropdownIndex").GetValue<int>() || index < 0 || index >= 3)
+            List<CodeInstruction> codes = new List<CodeInstruction>(instructions);
+            for(int i = 0; i < codes.Count; i++)
             {
-                return false;
+                if(codes[i].opcode == OpCodes.Ldc_I4_2)
+                {
+                    codes[i].opcode = OpCodes.Ldc_I4_3;
+                    break;
+                }
             }
-            Traverse.Create(__instance).Field("languageDropdownIndex").SetValue(index);
-            Type UserPreferencesManagerType = AccessTools.TypeByName("UserPreferencesManager");
-            object ins = Traverse.Create(UserPreferencesManagerType).Property("Instance").GetValue();
-            object loc = Traverse.Create(ins).Field("Application").Property("Localization").GetValue();
-            Traverse.Create(loc).Property("Language").SetValue(Traverse.Create(WelcomeControllerType).Property("LanguagePreferencesDropdownItemList").GetValue<KeyValuePair<string, string>[]>()[index].Key);
-            Traverse.Create(TranslatorType).Method("UpdateCurrentUICulture").GetValue();
-            Traverse.Create(__instance).Field("welcomeTranslation").Method("ApplyTranslation").GetValue();
-            Traverse.Create(__instance).Method("UpdateSampleList").GetValue();
-            Traverse.Create(__instance).Method("UpdateOpenList").GetValue();
-            return false;
+            return codes.AsEnumerable();
         }
 
         /// <summary>
