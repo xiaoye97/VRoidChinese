@@ -4,7 +4,6 @@ using HarmonyLib;
 using UnityEngine;
 using BepInEx.Configuration;
 using System.Collections.Generic;
-using System.IO;
 
 namespace VRoidChinese
 {
