@@ -1,27 +1,14 @@
-# VRoidChinese
-VRoid汉化插件
 
-### 特性
-- 运行时对软件进行汉化，不修改软件本体。
-- 通过配置文件进行文本配置
+
+VRoid汉化插件的汉化配置文件
+
+持续更新
 
 ### 使用方法
-1. 下载BepInEx 64位，解压到软件根目录(https://github.com/BepInEx/BepInEx/releases)
-2. 将VRoidChinese.dll放入BepInEx/plugins文件夹(如果没有则新建)
-3. 将me.xiaoye97.plugin.VRoid.Chinese.cfg放入BepInEx/config文件夹(如果没有则新建)
-4. 启动VRoid Studio
-
-### 帮助翻译
-#### 修改配置文件法
-1. 使用外部文本编辑器，如VSCode，记事本等打开me.xiaoye97.plugin.VRoid.Chinese.cfg
-2. 对照英文默认值进行翻译
-3. 运行VRoid Studio进行测试
-
-#### 软件运行时修改翻译文本法
-1. 下载ConfigurationManager(https://github.com/BepInEx/BepInEx.ConfigurationManager)
-2. 将ConfigurationManager.dll放入BepInEx/plugins文件夹
-3. 在VRoid Studio中，按F1打开配置文件管理器，直接修改对应词条的翻译文本
-4. 按F5保存配置文件，部分翻译在刷新页面时会直接生效，部分需要重启软件生效
+1. 把本文config文件内的translate_zh_cn.cfg拖动到插件config目录内
+2. 修改插件目录,VRoidChinese文件夹内VRoidChinese.cs中的配置文件名(形如VRoid.Chinese或me.balabala.translate,定位:第10行和第23行)至translate_zh_cn,并保存
+3. done
 
 #### 提交翻译
-1. 提交PR或者直接发给我(QQ:1066666683 VRoid交流群:418069375)
+1. 提交PR或者发给QQ:1066666683 
+2. VRoid交流群:418069375
