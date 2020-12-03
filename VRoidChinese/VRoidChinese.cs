@@ -9,7 +9,7 @@ using System.Collections.Generic;
 
 namespace VRoidChinese
 {
-    [BepInPlugin("VRoid.Chinese", "VRoid汉化插件", "1.2")]
+    [BepInPlugin("VRoid.Chinese", "VRoid汉化插件", "1.3")]
     public class VRoidChinese : BaseUnityPlugin
     {
         //中文配置
@@ -108,6 +108,9 @@ namespace VRoidChinese
             }
         }
 
+        /// <summary>
+        /// 修改标题
+        /// </summary>
         public static bool WindowTitle_Update_Prefix(ref string title)
         {
             title += " 中文汉化 By xiaoye97";
