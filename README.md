@@ -7,10 +7,28 @@ VRoid汉化插件
 
 ## 使用方法
 #### 安装
-1. 下载BepInEx 64位，解压到软件根目录(https://github.com/BepInEx/BepInEx/releases)
-2. 将VRoidChinese.dll放入BepInEx/plugins文件夹(如果没有则新建)
-3. 将VRoid.Chinese.cfg放入BepInEx/config文件夹(如果没有则新建)
-4. 启动VRoid Studio
+0. 确保软件路径没有中文或其他特殊字符!!!确保软件路径没有中文或其他特殊字符!!!确保软件路径没有中文或其他特殊字符!!!
+1. 下载Releases中的最新版本
+2. 解压到软件根目录，解压之后的文件结构如下(标星号*的为汉化插件，请确保路径正确)
+
+```
+|-VRoidStudio-vx.y.z-win
+  |-BepInEx*
+    |-config
+      |-BepInEx.cfg
+      |-VRoid.Chinese.cfg
+    |-core
+      |- ...
+    |-plugins
+      |-VRoidChinese.dll
+  |-VRoidStudio_Data
+  |-doorstop_config.ini*
+  |-UnityCrashHandler64.exe
+  |-UnityPlayer.dll
+  |-VRoidStudio.exe
+  |-winhttp.dll*
+```
+3. 启动软件，软件启动时会比加汉化之前稍慢一些，是正常现象
 
 ### 更新翻译
 1. 如果插件没有更新，但是仓库中的翻译有更新，则从仓库下载VRoid.Chinese.cfg覆盖到BepInEx/config文件夹即可
