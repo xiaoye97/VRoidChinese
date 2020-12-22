@@ -31,7 +31,7 @@ VRoid汉化插件
 4. 启动软件，软件启动时会比加汉化之前稍慢一些，是正常现象
 5. GIF图示
 
-![image](https://github.com/xiaoye97/VRoidChinese/VRoidStudioChineseInstallTutorial.gif) 
+![image](https://github.com/xiaoye97/VRoidChinese/blob/master/VRoidStudioChineseInstallTutorial.gif) 
 
 #### 更新翻译
 1. 如果插件没有更新，但是仓库中的翻译有更新，则从仓库下载VRoid.Chinese.cfg覆盖到BepInEx/config文件夹即可
