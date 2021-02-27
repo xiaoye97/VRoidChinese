@@ -29,8 +29,7 @@ VRoid汉化插件
   |-VRoidStudio.exe
   |-winhttp.dll*
 ```
-4. 启动软件，软件启动时会比加汉化之前稍慢一些，是正常现象
-5. GIF图示
+4. GIF图示
 
 ![image](https://github.com/xiaoye97/VRoidChinese/blob/master/VRoidStudioChineseInstallTutorial.gif) 
 
