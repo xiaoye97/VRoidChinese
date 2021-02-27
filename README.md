@@ -11,6 +11,7 @@ VRoid汉化插件
 2. 下载Releases中的最新版本
 3. 解压到软件根目录，解压之后的文件结构如下(标星号*的为汉化插件，请确保路径正确)
 
+注:Steam版本不带后面的-vx.y.z-win，其他同理
 ```
 |-VRoidStudio-vx.y.z-win
   |-BepInEx*
@@ -37,16 +38,7 @@ VRoid汉化插件
 1. 如果插件没有更新，但是仓库中的翻译有更新，则从仓库下载VRoid.Chinese.cfg覆盖到BepInEx/config文件夹即可
 
 ## 帮助翻译
-#### 修改配置文件法
 1. 使用外部文本编辑器，如VSCode，记事本等打开VRoid.Chinese.cfg
 2. 对照英文默认值进行翻译
 3. 运行VRoid Studio进行测试
-
-#### 软件运行时修改翻译文本法
-1. 下载ConfigurationManager(https://github.com/BepInEx/BepInEx.ConfigurationManager)
-2. 将ConfigurationManager.dll放入BepInEx/plugins文件夹
-3. 在VRoid Studio中，按F1打开配置文件管理器，直接修改对应词条的翻译文本
-4. 按F5保存配置文件，部分翻译在刷新页面时会直接生效，部分需要重启软件生效
-
-#### 提交翻译或校对
-1. 提交PR或者直接发给我(QQ:1066666683 VRoid交流群:418069375)
+4. 确认无误后，提交PR或者直接发给我(QQ:1066666683 VRoid交流群:418069375)
