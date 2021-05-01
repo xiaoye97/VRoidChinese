@@ -41,12 +41,17 @@ VRoid汉化插件
 ##### 因软件更新导致的汉化失效?在GitHub上提交issue提醒开发人员!
 ##### 出现了不可名状的bug?在GitHub上提交issue提醒开发人员!并汇报插件运行日志.
 (日志文件定位:%RootLetter%:\install location...\VRoid Studio\BepInEx\LogOutput.log)
-ps: 在..BepInEx\config\BepInEx.cfg中可以修改日志等级,如果你希望你的issue能够得到更有用的回复, 或者帮助开发人员了解bug的详细, 请根据此文件内的提示把日志记录等级开到最大.
+
+ps: 
+
+在..BepInEx\config\BepInEx.cfg中可以修改日志等级,如果你希望你的issue能够得到更有用的回复, 或者帮助开发人员了解bug的详细, 请根据此文件内的提示把日志记录等级开到最大.
 
 ##### 不知道为什么汉化失效?按照Q&A进行自我排查!
 ### Q&A
 Q: 我的vroid是steam上下载的, 在一次更新后汉化失效, 完全无法在vroid欢迎页面选择到中文!我要如何解决.
+
 A:
+
 1. 检查GitHub上插件是否更新, 若更新请在release中下载最新版本, 在文件目录中**覆盖**之前的文件.
 2. 尝试重新安装插件, 甚至重新安装软件后安装插件.
 3. 下载使用集成了插件的vroid软件,例如https://share.weiyun.com/TSkcpf9I
