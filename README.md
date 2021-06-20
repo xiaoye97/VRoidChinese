@@ -48,14 +48,43 @@ ps:
 
 ##### 不知道为什么汉化失效?按照Q&A进行自我排查!
 ### Q&A
-Q: 我的vroid是steam上下载的, 在一次更新后汉化失效, 完全无法在vroid欢迎页面选择到中文!我要如何解决.
+Q: 
+
+我的vroid是steam上下载的, 在一次更新后汉化失效, 完全无法在vroid欢迎页面选择到中文!我要如何解决.
 
 A:
 
 1. 检查GitHub上插件是否更新, 若更新请在release中下载最新版本, 在文件目录中**覆盖**之前的文件.
 2. 尝试重新安装插件, 甚至重新安装软件后安装插件.
 3. 下载使用集成了插件的vroid软件,例如https://share.weiyun.com/TSkcpf9I
-4. 待续, 任何问题请积极提交.
+4. 定位到 c:\用户\你的用户名\AppData\LocalLow\pixiv\VRoidStudio\Player.log
+   浏览此文件, 若存在如下字段
+   
+   ```
+   ...
+    <RI> Initialized touch support.
+    UnloadTime: 0.674400 ms
+   ...
+   ```
+   
+   且在此之后没有看到任何形如
+   
+   ```
+   [Message:   BepInEx] BepInEx 5.4.5.0 - VRoidStudio
+   [Info   :   BepInEx] Running under Unity v2019.2.20.13008128
+   ```
+   
+   的字段出现, 请按照以下流程进行解决:
+   
+   ```
+   * 删除位于 c:\用户\你的用户名\AppData\LocalLow\ 下的pixiv文件夹, 即上述Player.log所在的父目录
+   * 卸载vroid软件及汉化插件 (直接删除也行)
+   * 重新启动计算机
+   * 安装vroid软件及汉化插件
+   * done!
+   ```
+   
+5. 待续, 任何问题请积极提交.
 
 ## 帮助翻译
 1. 使用外部文本编辑器，如notepad++，记事本等打开VRoid.Chinese.cfg
