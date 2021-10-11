@@ -10,7 +10,7 @@ using System.Collections.Generic;
 
 namespace VRoidChinese
 {
-    [BepInPlugin("VRoid.Chinese", "VRoid汉化插件", "1.4")]
+    [BepInPlugin("VRoid.Chinese", "VRoid汉化插件", "1.5")]
     public class VRoidChinese : BaseUnityPlugin
     {
         //中文配置
@@ -103,7 +103,7 @@ namespace VRoidChinese
                     sb.AppendLine($"{kv.Key}={kv.Value}");
                 }
             }
-            File.WriteAllText($"{Paths.ConfigPath}/VRoidChinese.cfg", sb.ToString());
+            File.WriteAllText($"{Paths.ConfigPath}/VRoid.Chinese.cfg", sb.ToString());
         }
 
         /// <summary>

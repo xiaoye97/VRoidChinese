@@ -31,16 +31,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="0Harmony20">
-      <HintPath>..\..\..\Modding\Bepinex\框架\BepInEx_x64_5.4.3.0\BepInEx\core\0Harmony20.dll</HintPath>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\APP\VRoidStudio-v0.14.0-win\BepInEx\core\0Harmony.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\SteamLibrary\steamapps\common\VRoid Studio\VRoidStudio_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\..\..\APP\VRoidStudio-v0.14.0-win\VRoidStudio_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="BepInEx">
-      <HintPath>..\..\..\Modding\Bepinex\框架\BepInEx_x64_5.4.3.0\BepInEx\core\BepInEx.dll</HintPath>
+      <HintPath>..\..\..\APP\VRoidStudio-v0.14.0-win\BepInEx\core\BepInEx.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System">
@@ -68,11 +68,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>..\..\..\SteamLibrary\steamapps\common\VRoid Studio\VRoidStudio_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>..\..\..\APP\VRoidStudio-v0.14.0-win\VRoidStudio_Data\Managed\UnityEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\..\..\SteamLibrary\steamapps\common\VRoid Studio\VRoidStudio_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>..\..\..\APP\VRoidStudio-v0.14.0-win\VRoidStudio_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
