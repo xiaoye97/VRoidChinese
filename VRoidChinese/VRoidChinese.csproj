@@ -35,12 +35,17 @@
       <HintPath>..\..\..\APP\VRoidStudio-v0.14.0-win\BepInEx\core\0Harmony.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\APP\VRoidStudio-v0.14.0-win\VRoidStudio_Data\Managed\Assembly-CSharp.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="BepInEx">
       <HintPath>..\..\..\APP\VRoidStudio-v0.14.0-win\BepInEx\core\BepInEx.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\SteamLibrary\steamapps\common\VRoid Studio\VRoidStudio_Data\Managed\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="StandaloneWindowTitleChanger">
+      <HintPath>..\..\..\SteamLibrary\steamapps\common\VRoid Studio\VRoidStudio_Data\Managed\StandaloneWindowTitleChanger.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System">
@@ -73,6 +78,18 @@
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>..\..\..\APP\VRoidStudio-v0.14.0-win\VRoidStudio_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\..\SteamLibrary\steamapps\common\VRoid Studio\VRoidStudio_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\..\..\SteamLibrary\steamapps\common\VRoid Studio\VRoidStudio_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="VRoid.UI">
+      <HintPath>..\..\..\SteamLibrary\steamapps\common\VRoid Studio\VRoidStudio_Data\Managed\VRoid.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
