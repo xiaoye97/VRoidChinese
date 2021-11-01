@@ -3,16 +3,11 @@ using BepInEx;
 using System.IO;
 using HarmonyLib;
 using UnityEngine;
-using System.Linq;
 using System.Text;
-using System.Reflection.Emit;
-using System.Collections.Generic;
-using VRoid.UI.Messages;
 using Newtonsoft.Json;
-using System.Collections;
-using System.Reflection;
+using VRoid.UI.Messages;
 using BepInEx.Configuration;
-using System.Globalization;
+using System.Collections.Generic;
 using StandaloneWindowTitleChanger;
 
 namespace VRoidChinese
@@ -20,54 +15,114 @@ namespace VRoidChinese
     [BepInPlugin("VRoid.Chinese", "VRoid汉化插件", "1.6")]
     public class VRoidChinese : BaseUnityPlugin
     {
+        /// <summary>
+        /// 汉化文本存放路径
+        /// </summary>
         public DirectoryInfo WorkDir = new DirectoryInfo($"{Paths.GameRootPath}/Chinese");
-        public ConfigEntry<bool> OnStartDump;
-        public ConfigEntry<bool> OnHasNullValueDump;
-        public ConfigEntry<bool> DevMode;
-        public ConfigEntry<KeyCode> RefreshLangKey;
-        public ConfigEntry<KeyCode> SwitchLangKey;
 
-        public static List<string> MessagesNullItems = new List<string>();
+        /// <summary>
+        /// 启动汉化插件时是否Dump原文
+        /// </summary>
+        public ConfigEntry<bool> OnStartDump;
+
+        /// <summary>
+        /// 出现空值时是否Dump合并文本
+        /// </summary>
+        public ConfigEntry<bool> OnHasNullValueDump;
+
+        /// <summary>
+        /// 开发者模式
+        /// </summary>
+        public ConfigEntry<bool> DevMode;
+
+        /// <summary>
+        /// 刷新UI快捷键
+        /// </summary>
+        public ConfigEntry<KeyCode> RefreshLangKey;
+
+        /// <summary>
+        /// 切换中英文快捷键
+        /// </summary>
+        public ConfigEntry<KeyCode> SwitchLangKey;
 
         /// <summary>
         /// 是否有空值，有空值则需要Dump
         /// </summary>
         public static bool HasNullValue;
 
+        /// <summary>
+        /// 英文原文Messages
+        /// </summary>
         public string ENMessage;
+
+        /// <summary>
+        /// 英文原文String
+        /// </summary>
         public string ENString;
+
+        /// <summary>
+        /// 英文原文String的字典形式
+        /// </summary>
         public Dictionary<string, string> ENStringDict = new Dictionary<string, string>();
+
+        /// <summary>
+        /// 合并文本Messages
+        /// </summary>
         public string MergeMessage;
+
+        /// <summary>
+        /// 合并文本String
+        /// </summary>
         public string MergeString;
 
+        /// <summary>
+        /// 是否显示提示
+        /// </summary>
         public static bool ShowUpdateTip;
 
-        // 是否进行了回退
+        /// <summary>
+        /// 是否进行了回退
+        /// </summary>
         public static bool IsFallback;
 
-        public Vector2 tipV2;
-
+        /// <summary>
+        /// 当前是否为中文
+        /// </summary>
         private bool nowCN;
 
         private void Start()
         {
-            if (!WorkDir.Exists)
+            try
             {
-                WorkDir.Create();
+                if (!WorkDir.Exists)
+                {
+                    WorkDir.Create();
+                }
+                // 备份原文
+                Backup();
+                // 读取配置
+                OnStartDump = Config.Bind<bool>("config", "OnStartDump", false, "当启动时进行转储(原词条)");
+                OnHasNullValueDump = Config.Bind<bool>("config", "OnHasNullValueDump", false, "当缺失词条时进行转储(合并后词条)");
+                DevMode = Config.Bind<bool>("config", "DevMode", false, "汉化者开发模式");
+                RefreshLangKey = Config.Bind<KeyCode>("config", "RefreshLangKey", KeyCode.F10, "[仅限开发模式]刷新语言快捷键");
+                SwitchLangKey = Config.Bind<KeyCode>("config", "SwitchLangKey", KeyCode.F11, "[仅限开发模式]切换语言快捷键");
+                if (OnStartDump.Value)
+                {
+                    // Dump原文到硬盘
+                    DumpOri();
+                }
+                // 开始汉化文本
+                ToCN();
+                Harmony.CreateAndPatchAll(typeof(VRoidChinese));
+                StandaloneWindowTitle.Change("VRoid Studio");
+                // 切换到中文
+                VRoid.UI.EditorOption.EditorOptionManager.Instance.EditorOption.Preference.languageMode = VRoid.UI.EditorOption.LanguageMode.En;
+                Messages.CurrentCrowdinLanguageCode = "en";
             }
-            Backup();
-            OnStartDump = Config.Bind<bool>("config", "OnStartDump", false, "当启动时进行转储(原词条)");
-            OnHasNullValueDump = Config.Bind<bool>("config", "OnHasNullValueDump", false, "当缺失词条时进行转储(合并后词条)");
-            DevMode = Config.Bind<bool>("config", "DevMode", false, "汉化者开发模式");
-            RefreshLangKey = Config.Bind<KeyCode>("config", "RefreshLangKey", KeyCode.F10, "[仅限开发模式]刷新语言快捷键");
-            SwitchLangKey = Config.Bind<KeyCode>("config", "SwitchLangKey", KeyCode.F11, "[仅限开发模式]切换语言快捷键");
-            if (OnStartDump.Value)
+            catch
             {
-                DumpOri();
+                ShowUpdateTip = true;
             }
-            ToCN();
-            Harmony.CreateAndPatchAll(typeof(VRoidChinese));
-            StandaloneWindowTitle.Change("VRoid Studio");
         }
 
         private void Update()
@@ -96,7 +151,7 @@ namespace VRoidChinese
         {
             if (ShowUpdateTip)
             {
-                Rect rect = new Rect(Screen.width / 2 - 200, Screen.height / 2 - 100, 400, 200);
+                Rect rect = new Rect(Screen.width / 2 - 200, Screen.height / 2 - 150, 400, 300);
                 rect = GUILayout.Window(1234, rect, TipWindowFunc, "出现异常", GUILayout.ExpandHeight(true));
             }
         }
@@ -105,13 +160,15 @@ namespace VRoidChinese
         {
             GUI.backgroundColor = Color.white;
             GUI.contentColor = Color.black;
-            GUILayout.Label("检查到有缺失的词条并引发了异常，可能是新版本新加入的词条。");
-            GUILayout.Label("可以前往Github查看汉化是否有更新。");
-            GUILayout.Label("如果Github上未更新汉化，可以到VRoid交流群找我反馈。");
+            GUILayout.Label("检查到汉化插件出现了异常，可能是与新版本不兼容导致。");
+            GUILayout.Label("可以前往GitHub查看汉化是否有更新。");
+            GUILayout.Label("如果GitHub上未更新汉化，可以到VRoid交流群找我反馈。");
             GUILayout.Label("汉化作者:xiaoye97");
+            GUILayout.Label("GitHub:xiaoye97");
             GUILayout.Label("QQ:1066666683");
             GUILayout.Label("B站:宵夜97");
             GUILayout.Label("VRoid交流群:684544577");
+            GUILayout.Label("汉化插件网址:https://github.com/xiaoye97/VRoidChinese");
             GUILayout.Label(" ");
             if (IsFallback)
             {
@@ -180,7 +237,6 @@ namespace VRoidChinese
         /// </summary>
         public void ToCN()
         {
-            MessagesNullItems.Clear();
             HasNullValue = false;
             Logger.LogInfo("----------开始汉化----------");
             FixString();
@@ -195,6 +251,7 @@ namespace VRoidChinese
             catch (Exception e)
             {
                 Logger.LogError($"刷新界面出现异常:{e.Message}\n{e.StackTrace}");
+                IsFallback = true;
                 ToEN();
             }
         }
@@ -205,7 +262,6 @@ namespace VRoidChinese
         public void ToEN()
         {
             Logger.LogInfo("切换到英文...");
-            IsFallback = true;
             var ori = Traverse.Create(typeof(Messages)).Field("s_localeDictionary").GetValue<Dictionary<string, Messages>>();
             ori["en"] = JsonConvert.DeserializeObject<Messages>(ENMessage);
             Traverse.Create(typeof(Messages)).Field("s_localeDictionary").SetValue(ori);
@@ -385,7 +441,6 @@ namespace VRoidChinese
                 {
                     // 没有字段，添加到通知
                     HasNullValue = true;
-                    MessagesNullItems.Add($"{k}:{baseJson[k]}");
                     Logger.LogWarning($"检测到缺失的词条 {k}:{baseJson[k]}");
                 }
             }
