@@ -10,9 +10,11 @@ VRoid汉化插件
 1. 下载Releases中的最新版本
 2. 解压到软件根目录，解压之后的文件结构如下(标星号*的为汉化插件，请确保路径正确)
 
-注:Steam版本不带后面的-vx.y.z-win，其他同理
 ```
-|-VRoidStudio-vx.y.z-win
+|-VRoid Studio
+  |-Chinese*
+    |-MessagesChinese.json
+    |-StringChinese.txt
   |-BepInEx*
     |-config
       |-BepInEx.cfg
@@ -33,7 +35,7 @@ VRoid汉化插件
 ![image](https://github.com/xiaoye97/VRoidChinese/blob/master/VRoidStudioChineseInstallTutorial.gif) 
 
 #### 更新翻译
-1. 如果插件没有更新，但是仓库中的翻译有更新，则从仓库下载VRoid.Chinese.cfg覆盖到BepInEx/config文件夹即可
+1. 如果插件没有更新，但是仓库中的翻译有更新，则从仓库下载Chinese文件夹下的两个文件覆盖到软件根目录下的Chinese文件夹即可
 
 
 ## 问题排查
@@ -55,8 +57,7 @@ A:
 
 1. 检查GitHub上插件是否更新, 若更新请在release中下载最新版本, 在文件目录中**覆盖**之前的文件. 若无效, 请参考下一条.
 2. 尝试重新安装插件, 甚至重新安装软件后安装插件. 若无效, 请参考下一条.
-3. 下载使用集成了插件的vroid软件,例如~~https://share.weiyun.com/TSkcpf9I~~. 若无效, 请参考下一条.
-4. 定位到 c:\用户\你的用户名\AppData\LocalLow\pixiv\VRoidStudio\Player.log
+3. 定位到 c:\用户\你的用户名\AppData\LocalLow\pixiv\VRoid Studio\Player.log
    浏览此文件, 若存在如下字段
    
    ```
@@ -69,24 +70,25 @@ A:
    且在此之后没有看到任何形如
    
    ```
-   [Message:   BepInEx] BepInEx 5.4.5.0 - VRoidStudio
-   [Info   :   BepInEx] Running under Unity v2019.2.20.13008128
+   [Message:   BepInEx] BepInEx 5.4.17.0 - VRoidStudio
+   [Info   :   BepInEx] Running under Unity v2020.3.19.6877495
    ```
    
    的字段出现, 请按照以下流程进行解决:
    
    ```
-   * 删除位于 c:\用户\你的用户名\AppData\LocalLow\ 下的pixiv文件夹, 即上述Player.log所在的父目录
+   * 删除位于 c:\用户\你的用户名\AppData\LocalLow 下的pixiv文件夹, 即上述Player.log所在的父目录
    * 卸载vroid软件及汉化插件 (直接删除也行)
    * 重新启动计算机
    * 安装vroid软件及汉化插件
    * done!
    ```
    
-5. 待续, 任何问题请积极提交.
+4. 待续, 任何问题请积极提交.
 
 ## 帮助翻译
-1. 使用外部文本编辑器，如notepad++，记事本等打开VRoid.Chinese.cfg
-2. 对照英文默认值进行翻译
-3. 运行VRoid Studio进行测试
-4. 确认无误后，提交PR或者直接发给我(QQ:1066666683 ~~VRoid交流群:418069375~~ QQ群:684544577)
+1. 编辑BepInEx/config/VRoid.Chinese.cfg，可以打开开发者模式，用来Dump英文原文和运行时切换原文
+2. 使用外部文本编辑器，如VSCode，记事本等打开Chinese文件夹下的两个文本
+3. 对照英文原文进行翻译
+4. 运行VRoid Studio进行测试
+5. 确认无误后，提交PR或者直接反馈给我(QQ:1066666683 VRoid交流群:684544577)
