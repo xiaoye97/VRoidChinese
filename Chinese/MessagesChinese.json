@@ -3727,8 +3727,8 @@
           "ViewModel": {
             "HubUploadDiscardingStateWarningDialogViewModel": {
               "Exit": "关闭",
-              "Message": "若取消, 任何改动将丢失.\r\n确定取消?",
-              "Title": "停止上传"
+              "Message": "如果现在关闭，未保存的编辑将丢失。\r\n确定要取消吗？",
+              "Title": "取消上传"
             }
           }
         }
