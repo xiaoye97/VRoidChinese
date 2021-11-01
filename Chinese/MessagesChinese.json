@@ -1418,7 +1418,10 @@
     },
     "Welcome": {
       "AppDescription": "Your 3D characters, \r\njust the way you pictured them",
-
+      "Avatars": {
+        "Header": "你的模型",
+        "NewAvatar": "新建模型"
+      },
       "Login": "登录",
       "ModelTypeSelection": {
         "Back": "返回",
