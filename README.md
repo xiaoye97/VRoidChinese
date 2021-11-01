@@ -12,17 +12,22 @@ VRoid 汉化插件
 #### 安装
 
 1. 下载 Releases 中的最新版本
-2. 解压到软件根目录, 解压之后的文件结构如下 (标星号\* 的为汉化插件, 请确保路径正确)
+2. 解压到软件根目录, 解压之后的目录结构如下 (标星号\* 的为汉化插件, 请确保路径正确)
 
 ```
 |-VRoid Studio
   |-BeplnEx*                  BeplnEx 框架
+    |-config
+      |-BepInEx.cfg           BeplnEx 的设置文件
   |
-  |-Chinese*                  汉化资源
+  |-Chinese*                  汉化资源文件夹
+    |-MessagesChinese.json    汉化文件
+    |-StringChinese.txt       汉化文件
   |
   |-MonoBleedingEdge          软件的资源文件夹
   |
   |-VRoidChinese*             汉化插件
+    |-..                      一些 .cs 文件
   |
   |-VRoidStudio_Data          软件的资源文件夹
   |
