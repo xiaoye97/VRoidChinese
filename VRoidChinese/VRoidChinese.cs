@@ -22,9 +22,10 @@ namespace VRoidChinese
     {
         public DirectoryInfo WorkDir = new DirectoryInfo($"{Paths.GameRootPath}/Chinese");
         public ConfigEntry<bool> OnStartDump;
-        public ConfigEntry<bool> OnFallbackDump;
+        public ConfigEntry<bool> OnHasNullValueDump;
         public ConfigEntry<bool> DevMode;
         public ConfigEntry<KeyCode> RefreshLangKey;
+        public ConfigEntry<KeyCode> SwitchLangKey;
 
         public static List<string> MessagesNullItems = new List<string>();
 
@@ -34,11 +35,19 @@ namespace VRoidChinese
         public static bool HasNullValue;
 
         public string ENMessage;
+        public string ENString;
+        public Dictionary<string, string> ENStringDict = new Dictionary<string, string>();
+        public string MergeMessage;
+        public string MergeString;
 
         public static bool ShowUpdateTip;
+
         // 是否进行了回退
         public static bool IsFallback;
+
         public Vector2 tipV2;
+
+        private bool nowCN;
 
         private void Start()
         {
@@ -46,16 +55,17 @@ namespace VRoidChinese
             {
                 WorkDir.Create();
             }
-            ENMessage = JsonConvert.SerializeObject(Messages.All["en"]);
-            OnStartDump = Config.Bind<bool>("config", "OnStartDump", false, "当启动时进行转储");
-            OnFallbackDump = Config.Bind<bool>("config", "OnFallbackDump", false, "当触发fallback时进行转储");
+            Backup();
+            OnStartDump = Config.Bind<bool>("config", "OnStartDump", false, "当启动时进行转储(原词条)");
+            OnHasNullValueDump = Config.Bind<bool>("config", "OnHasNullValueDump", false, "当缺失词条时进行转储(合并后词条)");
             DevMode = Config.Bind<bool>("config", "DevMode", false, "汉化者开发模式");
             RefreshLangKey = Config.Bind<KeyCode>("config", "RefreshLangKey", KeyCode.F10, "[仅限开发模式]刷新语言快捷键");
+            SwitchLangKey = Config.Bind<KeyCode>("config", "SwitchLangKey", KeyCode.F11, "[仅限开发模式]切换语言快捷键");
             if (OnStartDump.Value)
             {
-                Dump();
+                DumpOri();
             }
-            StartToChinese();
+            ToCN();
             Harmony.CreateAndPatchAll(typeof(VRoidChinese));
             StandaloneWindowTitle.Change("VRoid Studio");
         }
@@ -66,7 +76,18 @@ namespace VRoidChinese
             {
                 if (Input.GetKeyDown(RefreshLangKey.Value))
                 {
-                    StartToChinese();
+                    ToCN();
+                }
+                if (Input.GetKeyDown(SwitchLangKey.Value))
+                {
+                    if (nowCN)
+                    {
+                        ToEN();
+                    }
+                    else
+                    {
+                        ToCN();
+                    }
                 }
             }
         }
@@ -76,7 +97,7 @@ namespace VRoidChinese
             if (ShowUpdateTip)
             {
                 Rect rect = new Rect(Screen.width / 2 - 200, Screen.height / 2 - 100, 400, 200);
-                rect = GUILayout.Window(1234, rect, TipWindowFunc, "有缺失的汉化", GUILayout.ExpandHeight(true));
+                rect = GUILayout.Window(1234, rect, TipWindowFunc, "出现异常", GUILayout.ExpandHeight(true));
             }
         }
 
@@ -84,7 +105,8 @@ namespace VRoidChinese
         {
             GUI.backgroundColor = Color.white;
             GUI.contentColor = Color.black;
-            GUILayout.Label("检查到有缺失的词条，可以前往Github查看汉化是否有更新。");
+            GUILayout.Label("检查到有缺失的词条并引发了异常，可能是新版本新加入的词条。");
+            GUILayout.Label("可以前往Github查看汉化是否有更新。");
             GUILayout.Label("如果Github上未更新汉化，可以到VRoid交流群找我反馈。");
             GUILayout.Label("汉化作者:xiaoye97");
             GUILayout.Label("QQ:1066666683");
@@ -104,50 +126,99 @@ namespace VRoidChinese
         }
 
         /// <summary>
-        /// 转储词条
+        /// 备份原文
         /// </summary>
-        public void Dump()
+        public void Backup()
         {
-            Debug.Log("开始Dump Messages...");
-            var en = JsonConvert.SerializeObject(Messages.All["en"], Formatting.Indented);
-            File.WriteAllText($"{WorkDir.FullName}/DumpMessages_en.json", en);
-            Debug.Log("开始Dump String...");
+            Debug.Log("开始备份原文...");
+            ENMessage = JsonConvert.SerializeObject(Messages.All["en"], Formatting.Indented);
             var s_localeStringDictionary = Traverse.Create(typeof(Messages)).Field("s_localeStringDictionary").GetValue<Dictionary<string, Dictionary<string, string>>>();
             var enDict = s_localeStringDictionary["en"];
             StringBuilder sb = new StringBuilder();
             foreach (var kv in enDict)
             {
+                ENStringDict.Add(kv.Key, kv.Value);
                 string value = kv.Value.Replace("\r\n", "\\r\\n");
                 sb.AppendLine($"{kv.Key}={value}");
             }
-            File.WriteAllText($"{WorkDir.FullName}/DumpString_en.txt", sb.ToString());
+            ENString = sb.ToString();
+        }
+
+        /// <summary>
+        /// 转储词条
+        /// </summary>
+        public void DumpOri()
+        {
+            Debug.Log("开始Dump原文...");
+            File.WriteAllText($"{WorkDir.FullName}/DumpMessages_en.json", ENMessage);
+            File.WriteAllText($"{WorkDir.FullName}/DumpString_en.txt", ENString);
+        }
+
+        /// <summary>
+        /// Dump合并后的文本
+        /// </summary>
+        public void DumpMerge()
+        {
+            Debug.Log("开始Dump Merge Messages...");
+            Messages messages = JsonConvert.DeserializeObject<Messages>(MergeMessage);
+            string messagesStr = JsonConvert.SerializeObject(messages, Formatting.Indented);
+            File.WriteAllText($"{WorkDir.FullName}/DumpMergeMessages.json", messagesStr);
+            Debug.Log("开始Dump Merge String...");
+            var s_localeStringDictionary = Traverse.Create(typeof(Messages)).Field("s_localeStringDictionary").GetValue<Dictionary<string, Dictionary<string, string>>>();
+            var strDict = s_localeStringDictionary["en"];
+            StringBuilder sb = new StringBuilder();
+            foreach (var kv in strDict)
+            {
+                string value = kv.Value.Replace("\r\n", "\\r\\n");
+                sb.AppendLine($"{kv.Key}={value}");
+            }
+            File.WriteAllText($"{WorkDir.FullName}/DumpMergeString.txt", sb.ToString());
         }
 
         /// <summary>
         /// 开始汉化
         /// </summary>
-        public void StartToChinese()
+        public void ToCN()
         {
             MessagesNullItems.Clear();
             HasNullValue = false;
-            Logger.LogInfo("开始汉化...");
-            FixMessages();
+            Logger.LogInfo("----------开始汉化----------");
             FixString();
+            FixMessages();
             Logger.LogInfo("刷新界面...");
             try
             {
                 Messages.OnMessagesLanguageChange();
+                nowCN = true;
+                Logger.LogInfo("----------汉化完成----------");
             }
             catch (Exception e)
             {
                 Logger.LogError($"刷新界面出现异常:{e.Message}\n{e.StackTrace}");
-                Logger.LogInfo("回退汉化...");
-                IsFallback = true;
-                var ori = Traverse.Create(typeof(Messages)).Field("s_localeDictionary").GetValue<Dictionary<string, Messages>>();
-                ori["en"] = JsonConvert.DeserializeObject<Messages>(ENMessage);
-                Traverse.Create(typeof(Messages)).Field("s_localeDictionary").SetValue(ori);
-                Messages.OnMessagesLanguageChange();
+                ToEN();
             }
+        }
+
+        /// <summary>
+        /// 切换到英文原文
+        /// </summary>
+        public void ToEN()
+        {
+            Logger.LogInfo("切换到英文...");
+            IsFallback = true;
+            var ori = Traverse.Create(typeof(Messages)).Field("s_localeDictionary").GetValue<Dictionary<string, Messages>>();
+            ori["en"] = JsonConvert.DeserializeObject<Messages>(ENMessage);
+            Traverse.Create(typeof(Messages)).Field("s_localeDictionary").SetValue(ori);
+            Messages.OnMessagesLanguageChange();
+
+            var s_localeStringDictionary = Traverse.Create(typeof(Messages)).Field("s_localeStringDictionary").GetValue<Dictionary<string, Dictionary<string, string>>>();
+            var strDict = s_localeStringDictionary["en"];
+            foreach (var kv in ENStringDict)
+            {
+                strDict[kv.Key] = kv.Value;
+            }
+            Traverse.Create(typeof(Messages)).Field("s_localeStringDictionary").SetValue(s_localeStringDictionary);
+            nowCN = false;
         }
 
         /// <summary>
@@ -169,35 +240,36 @@ namespace VRoidChinese
                     Logger.LogError($"读取Messages汉化文件出现异常:{e.Message}\n{e.StackTrace}");
                     return;
                 }
-                Logger.LogInfo("开始解析Messages汉化文件...");
+                Logger.LogInfo("合并软件原有英文和Messages汉化文件...");
+                try
+                {
+                    JSONObject ori = new JSONObject(ENMessage);
+                    JSONObject cnJson = new JSONObject(json);
+                    MergeJson(ori, cnJson);
+                    MergeMessage = ori.ToString();
+                }
+                catch (Exception e)
+                {
+                    Logger.LogError($"合并软件原有英文和Messages汉化文件出现异常:{e.Message}\n{e.StackTrace}");
+                    return;
+                }
+                Logger.LogInfo("开始解析合并后文件...");
                 Messages cn;
                 try
                 {
-                    cn = JsonConvert.DeserializeObject<Messages>(json);
-                    File.WriteAllText($"{WorkDir}/test1.json", JsonConvert.SerializeObject(cn, Formatting.Indented));
+                    cn = JsonConvert.DeserializeObject<Messages>(MergeMessage);
                 }
                 catch (Exception e)
                 {
-                    Logger.LogError($"解析Messages汉化文件出现异常:{e.Message}\n{e.StackTrace}");
-                    return;
-                }
-                Logger.LogInfo("检查缺失的词条...");
-                Messages cnCheck;
-                try
-                {
-                    cnCheck = FallbackCopy(cn, Messages.All["en"]);
-                }
-                catch (Exception e)
-                {
-                    Logger.LogError($"检查缺失的词条出现异常:{e.Message}\n{e.StackTrace}");
+                    Logger.LogError($"解析合并后文件出现异常:{e.Message}\n{e.StackTrace}");
                     return;
                 }
                 if (HasNullValue)
                 {
-                    Logger.LogWarning("触发fallback,需要通知汉化作者进行更新.");
-                    if (OnFallbackDump.Value)
+                    Logger.LogWarning("有缺失的词条,需要通知汉化作者进行更新.");
+                    if (OnHasNullValueDump.Value)
                     {
-                        Dump();
+                        DumpMerge();
                     }
                 }
                 Logger.LogInfo("开始将中文Messages对象替换到英文对象...");
@@ -218,54 +290,6 @@ namespace VRoidChinese
             {
                 Logger.LogError($"未检测到Messages汉化文件{WorkDir}/MessagesChinese.json,请检查安装.");
             }
-        }
-
-        /// <summary>
-        /// 带退路的拷贝(对VRoidStudio的汉化无用，VRoidStudio使用只读属性，这里只用来检查空值)
-        /// </summary>
-        public static T FallbackCopy<T>(T target, T fallback)
-        {
-            // 检查是否为空，为空则使用后备
-            if (target == null)
-            {
-                HasNullValue = true;
-                ShowUpdateTip = true;
-                Debug.LogWarning($"Messages缺失汉化:{fallback}");
-                if (target is string)
-                {
-                    MessagesNullItems.Add(fallback as string);
-                }
-                return fallback;
-            }
-            // 如果是string或者值类型则直接返回
-            if (target is string || target.GetType().IsValueType)
-            {
-                return target;
-            }
-
-            object retval;
-            try
-            {
-                retval = Activator.CreateInstance(target.GetType());
-            }
-            catch
-            {
-                var json = JsonConvert.SerializeObject(fallback);
-                retval = JsonConvert.DeserializeObject<T>(json);
-            }
-            PropertyInfo[] pros = target.GetType().GetProperties(BindingFlags.Public | BindingFlags.Instance);
-            foreach (var pro in pros)
-            {
-                try
-                {
-                    object pt = pro.GetValue(target);
-                    object pf = pro.GetValue(fallback);
-                    object o = FallbackCopy(pt, pf);
-                    pro.SetValue(retval, o);
-                }
-                catch { }
-            }
-            return (T)retval;
         }
 
         /// <summary>
@@ -332,6 +356,39 @@ namespace VRoidChinese
         {
             newTitle += " 中文汉化 By 宵夜97";
             return true;
+        }
+
+        /// <summary>
+        /// 合并游戏英文数据和从文本读取的中文数据
+        /// </summary>
+        public void MergeJson(JSONObject baseJson, JSONObject modJson)
+        {
+            List<string> keys = new List<string>();
+            foreach (var k in baseJson.keys)
+            {
+                keys.Add(k);
+            }
+            foreach (var k in keys)
+            {
+                if (modJson.HasField(k))
+                {
+                    if (baseJson[k].IsString)
+                    {
+                        baseJson.SetField(k, modJson[k]);
+                    }
+                    else if (baseJson[k].IsObject)
+                    {
+                        MergeJson(baseJson[k], modJson[k]);
+                    }
+                }
+                else
+                {
+                    // 没有字段，添加到通知
+                    HasNullValue = true;
+                    MessagesNullItems.Add($"{k}:{baseJson[k]}");
+                    Logger.LogWarning($"检测到缺失的词条 {k}:{baseJson[k]}");
+                }
+            }
         }
     }
 }
