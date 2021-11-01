@@ -2,7 +2,7 @@
   "Application": {
     "Saving": {
       "PathInfo": {
-        "AvatarDirectoryAccessFailure": "无法访问此文件夹 \"{0}\"。 \r\n打开VRoid Studio时出错。 \r\n请检查指定的文件夹。",
+        "AvatarDirectoryAccessFailure": "无法访问此文件夹 \"{0}\".  \r\n打开VRoid Studio时出错.  \r\n请检查指定的文件夹. ",
         "Error": "出现了一些错误"
       }
     }
@@ -146,7 +146,7 @@
   "BugReportDialog": {
     "Close": "关闭",
     "CopyAllText": "复制所有文本",
-    "Description": "如果您想报告问题，请将以下信息粘贴到联系表单中。",
+    "Description": "如果您想报告问题, 请将以下信息粘贴到联系表单中. ",
     "Detail": "您的电脑硬件规格",
     "ErrorInfomation": "错误信息",
     "ErrorLog": "错误信息",
@@ -226,7 +226,7 @@
     "GetForFree": "获取",
     "Guideline": "Guidelines",
     "Import": "导入",
-    "Loading": "正在加载，请稍等片刻。",
+    "Loading": "正在加载, 请稍等片刻. ",
     "Logout": "登出",
     "Material": {
       "NormalMapWeight": "法线映射强度"
@@ -301,11 +301,11 @@
     "Quality": "显示质量",
     "Save": "保存",
     "Settings": "设置",
-    "SomethingWentWrong": "出现异常。",
+    "SomethingWentWrong": "出现异常. ",
     "Start": "快速开始",
     "TOS": "使用条款",
     "TransmissionRetry": "重试",
-    "TransmissionRetryDescription": "出现异常。\r\n请检查你的网络并重试。",
+    "TransmissionRetryDescription": "出现异常. \r\n请检查你的网络并重试. ",
     "Use": "使用此模型",
     "Yes": "是"
   },
@@ -321,8 +321,8 @@
     "CommericalUssage": "商业用途",
     "Contact": "联系方式",
     "DialogTitle": "VRM设置",
-    "ExportFailedAlertIO": "导出数据时出现异常。",
-    "ExportFailedAlertUnknown": "导出数据时出现异常。(未知错误)",
+    "ExportFailedAlertIO": "导出数据时出现异常. ",
+    "ExportFailedAlertUnknown": "导出数据时出现异常. (未知错误)",
     "Information": "模型信息",
     "LicenseType": "许可证",
     "LicenseTypeDropDown": {
@@ -352,7 +352,7 @@
   },
   "GUI": {
     "Announcement": {
-      "Error": "加载新闻时出现异常。",
+      "Error": "加载新闻时出现异常. ",
       "Title": "新闻"
     },
     "AvatarEditor": {
@@ -813,8 +813,8 @@
           "ToggleVisibility": "可见性"
         },
         "HairEditorViewController": {
-          "ProhibitionControlPoint": "控制点不能用于此头发类型。",
-          "ProhibitionRetouch": "修饰笔刷不能用于此头发类型。"
+          "ProhibitionControlPoint": "控制点不能用于此头发类型. ",
+          "ProhibitionRetouch": "修饰笔刷不能用于此头发类型. "
         },
         "HairEditorViewModel": {
           "AddBangsHair": "添加逻辑组",
@@ -1223,7 +1223,7 @@
           "Triangles": "多边形: ",
           "Upload": "上传",
           "UploadHeader": "步骤 2",
-          "Uploading": "正在上传，请稍候。\r\n上传完成后，您将被重定向到VRoid Hub。",
+          "Uploading": "正在上传, 请稍候. \r\n上传完成后, 您将被重定向到VRoid Hub. ",
           "UploadMode": "上传到VRoid Hub",
           "VariationName": "Variation Name",
           "Vertices": "顶点: ",
@@ -1768,9 +1768,9 @@
       },
       "Stage": {
         "PhotoViewModel": {
-          "TextureDownloadFailed": "保存图片时出错。",
+          "TextureDownloadFailed": "保存图片时出错. ",
           "TextureDownloadSucceeded": "保存成功",
-          "UpdateEventsFailed": "加载事件时出错。"
+          "UpdateEventsFailed": "加载事件时出错. "
         },
         "PostProcessParameter": {
           "PostProcessParameterViewModel": {
@@ -1865,7 +1865,7 @@
         },
         "CancelDialog": {
           "ConfirmationText": "关闭",
-          "Description": "如果关闭而不保存，编辑内容将丢失。\r\n您确定要关闭吗？",
+          "Description": "如果关闭而不保存, 编辑内容将丢失. \r\n您确定要关闭吗？",
           "Title": "未保存的改动"
         },
         "CharacterNaming": {
@@ -1920,7 +1920,7 @@
           "ConfirmationText": "Confirm",
           "Placeholder": "E.g. Shibu Sendagaya"
         },
-        "Notice": "Before you get started with VRoid Studio, you need to agree to the Terms of Use, Privacy Policy, and Guidelines.",
+        "Notice": "Before you get started with VRoid Studio, you need to agree to the Terms of Use, Privacy Policy, and Guidelines.准则",
         "PrivacyPolicyConfirmation": {
           "Description": "VRoid Studio's Privacy Policy was updated on March 30, 2020.",
           "Title": "See Privacy Policy"
@@ -2073,31 +2073,31 @@
             "Caption": "Description",
             "CaptionPlaceholder": "Write an introduction and/or use hashtags",
             "FailureDescription": "Something went wrong while uploading pictures. \r\nPlease check your internet connection and try again.",
-            "FailureTitle": "Connection Error",
-            "None": "None",
-            "Notice": "By posting this, you agree to the Terms of Use and Guidelines.",
-            "Upload": "Post",
-            "UploadCheck": "Go to VRoid Hub",
-            "UploadDoneMessage": "The photo was posted successfully. \r\nDo you want to see it on VRoid Hub?",
-            "UploadVRoidHub": "Post to VRoid Hub"
+            "FailureTitle": "Connection Error连接失败",
+            "None": "None没有",
+            "Notice": "By posting this, you agree to the Terms of Use and Guidelines.若发表, 则同意使用条款和准则.",
+            "Upload": "Post发表",
+            "UploadCheck": "Go to VRoid Hub转至 VRoid Hub",
+            "UploadDoneMessage": "The photo was posted successfully. \r\nDo you want to see it on VRoid Hub?照片发表成功, \r\n在 VRoid Hub上检视?",
+            "UploadVRoidHub": "Post to VRoid Hub发表在 VRoid Hub 上"
           }
         },
         "StudioSelectorTransform": {
-          "DownloadingWorld": "Downloading 3D Photo Studio Data",
-          "Error": "Something went wrong. \r\nPlease check your internet connection and try again.",
-          "Multiplay": "Shoot Together",
-          "Singleplay": "Shoot Alone",
-          "Title": "Where are you off to?",
+          "DownloadingWorld": "正在下载 3D Photo Studio 数据",
+          "Error": "出错了. \r\nPlease check your internet connection and try again.请检查网络连接并重试",
+          "Multiplay": "Shoot Together一起拍摄",
+          "Singleplay": "Shoot Alone单独拍摄",
+          "Title": "Where are you off to?你要去哪儿?",
           "WorldDownloadError": {
-            "Title": "Could not access photo studio"
+            "Title": "无法打开 photo studio"
           }
         }
       },
       "StudioActionButtonTutorialTransform": {
-        "Message": "Let's take a picture of your character!"
+        "Message": "为你的角色拍摄照片!"
       },
       "WelcomeTransform": {
-        "Accounts": "Manage Accounts"
+        "Accounts": "账户管理"
       }
     }
   },
@@ -2914,14 +2914,14 @@
       },
       "RabbitEar": {
         "BlendShape": {
-          "Bend_L": "Ear Bend (Left)",
+          "Bend_L": "Ear Bend (Left)耳朵弯曲 (向左)",
           "Bend_R": "Ear Bend (Right)",
           "Drop_L": "Droopy Ear (Left)",
           "Drop_R": "Droopy Ear (Right)",
           "Shrink": "Ear Size (Smaller)",
           "Straight": "Stand-up Ears",
           "Stretch": "Stretched Ears",
-          "Wide": "Wider Ears"
+          "Wide": "Wider Ears更宽的耳朵"
         }
       },
       "Shoes": {
@@ -2931,7 +2931,7 @@
       },
       "Tops": {
         "BlendShape": {
-          "CuffTightness": "Cuff Tightness",
+          "CuffTightness": "Cuff Tightness袖口松紧",
           "ShoulderFlat": "Shoulder Slope",
           "SkirtALine": "Waist Width",
           "SkirtLength": "Skirt Length",
@@ -2943,10 +2943,10 @@
         }
       },
       "Transferable": {
-        "CatEar": "Cat Ears",
-        "GlassesHi": "Glasses (Thick)",
-        "GlassesLow": "Glasses (Thin)",
-        "pixiv_VRoid_Attachment_CatEar_N00_Base_N00_000_00_Accessory_CatEar_TransferableType_N00_CatEar_transferable": "Cat Ears",
+        "CatEar": "Cat Ears猫耳",
+        "GlassesHi": "Glasses (Thick)眼镜 (厚)",
+        "GlassesLow": "Glasses (Thin)眼镜 (薄)",
+        "pixiv_VRoid_Attachment_CatEar_N00_Base_N00_000_00_Accessory_CatEar_TransferableType_N00_CatEar_transferable": "Cat Ears猫耳",
         "pixiv_VRoid_Attachment_GlassesHi_N00_Base_N00_000_00_Accessory_GlassesHi_TransferableType_N00_GlassesHi_transferable": "Glasses (Thick)",
         "pixiv_VRoid_Attachment_GlassesLow_N00_Base_N00_000_00_Accessory_GlassesLow_TransferableType_N00_GlassesLow_transferable": "Glasses (Thin)",
         "pixiv_VRoid_Attachment_RabbitEar_N00_Base_N00_000_00_Accessory_RabbitEar_TransferableType_N00_RabbitEar_transferable": "Rabbit Ears",
@@ -3005,16 +3005,16 @@
         "pixiv_VRoid_Clothing_Tops_N00_Base_N00_005_01_Tops_TransferableType_N00_Tops_transferable": "Hoodie",
         "pixiv_VRoid_Clothing_Tops_N00_Base_N00_007_01_Tops_TransferableType_N00_Tops_transferable": "Long Coat (High Neck)",
         "pixiv_VRoid_Clothing_Tops_N00_Base_N00_007_02_Tops_TransferableType_N00_Tops_transferable": "Long Coat (Shirt Collar)",
-        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_007_03_Tops_TransferableType_N00_Tops_transferable": "Long Coat (Stand-up Collar)",
-        "pixiv_VRoid_Clothing_Tops_N00_Base_SkinOverlay_TransferableType_N00_Tops_transferable": "Skin Overlay",
+        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_007_03_Tops_TransferableType_N00_Tops_transferable": "Long Coat (Stand-up Collar)大衣 (立领)",
+        "pixiv_VRoid_Clothing_Tops_N00_Base_SkinOverlay_TransferableType_N00_Tops_transferable": "Skin Overlay紧身衣",
         "RabbitEar": "Rabbit Ears"
       },
       "TransferableGroup": {
-        "pixiv_VRoid_Attachment_CatEar_N00_Base_N00_000_00_Accessory_CatEar_TransferableGroupType_N00_Level1_AnimalEar_transferablegroup": "Cat Ears",
+        "pixiv_VRoid_Attachment_CatEar_N00_Base_N00_000_00_Accessory_CatEar_TransferableGroupType_N00_Level1_AnimalEar_transferablegroup": "Cat Ears猫耳",
         "pixiv_VRoid_Attachment_GlassesHi_N00_Base_N00_000_00_Accessory_GlassesHi_TransferableGroupType_N00_Level1_Glasses_transferablegroup": "Glasses (Thick)",
         "pixiv_VRoid_Attachment_GlassesLow_N00_Base_N00_000_00_Accessory_GlassesLow_TransferableGroupType_N00_Level1_Glasses_transferablegroup": "Glasses (Thin)",
         "pixiv_VRoid_Attachment_RabbitEar_N00_Base_N00_000_00_Accessory_RabbitEar_TransferableGroupType_N00_Level1_AnimalEar_transferablegroup": "Rabbit Ears",
-        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_001_01_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - Uniform Vest (Short Sleeve)",
+        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_001_01_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - Uniform Vest (Short Sleeve)手臂配件 - 制服内衬 (短袖)",
         "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_001_02_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - Uniform Vest (Long Sleeve)",
         "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_002_01_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - Dress (Long Sleeve)",
         "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_002_02_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - Dress (Half Sleeve)",
@@ -3074,30 +3074,30 @@
       },
       "UniformLongSleeve": {
         "BlendShape": {
-          "CuffTightness": "Cuff Tightness",
-          "SleeveCrease": "Sleeve Crease",
-          "Spread": "Waist Width"
+          "CuffTightness": "Cuff Tightness袖口松紧",
+          "SleeveCrease": "Sleeve Crease袖子皱褶",
+          "Spread": "Waist Width腰部宽度"
         }
       },
       "UniformPants": {
         "BlendShape": {
-          "PantsCrease": "Pants Crease",
-          "PantsWidth": "Pants Width",
-          "ShoesIn": "Ankle Hem (更窄的)",
-          "ShoesOut": "Ankle Hem (Raise)"
+          "PantsCrease": "Pants Crease裤子褶皱",
+          "PantsWidth": "Pants Width裤子宽度",
+          "ShoesIn": "Ankle Hem (更窄的)脚踝下摆 (降低)",
+          "ShoesOut": "Ankle Hem (Raise)脚踝下摆 (提高)"
         }
       },
       "UniformShortSleeve": {
         "BlendShape": {
-          "WaistSpread": "Hem Spread"
+          "WaistSpread": "Hem Spread下摆松紧"
         }
       },
       "UniformSkirt": {
         "BlendShape": {
-          "Long": "Skirt (更长)",
-          "Narrow": "Skirt (Tighter)",
-          "Short": "Skirt (更短)",
-          "Spread": "Skirt (更宽)"
+          "Long": "裙子 (更长)",
+          "Narrow": "裙子 (更窄)",
+          "Short": "裙子 (更短)",
+          "Spread": "裙子 (更宽)"
         }
       }
     }
@@ -3105,15 +3105,15 @@
   "PushNotification": {
     "Channel": {
       "Official": {
-        "Name": "News from the VRoid team "
+        "Name": "News from the VRoid team VRoid team 新闻"
       }
     }
   },
   "Quality": {
     "High": "高",
     "Low": "低",
-    "Medium": "Mid",
-    "SuperHigh": "Highest"
+    "Medium": "Mid中等",
+    "SuperHigh": "Highest最高"
   },
   "RenameDialogController": {
     "Name": "名字",
@@ -3121,9 +3121,9 @@
   },
   "SaveAsDialogController": {
     "AvatarName": "角色名字",
-    "ReplaceAlert": "您已将该名称用于现有角色。\r\n是否覆盖数据并替换它？",
+    "ReplaceAlert": "您已将该名称用于现有角色. \r\n是否覆盖数据并替换它？",
     "Save": "保存",
-    "SaveFailedAlert": "保存角色时出错。"
+    "SaveFailedAlert": "保存角色时出错. "
   },
   "Scripts": {
     "HairEditor": {
@@ -3148,7 +3148,7 @@
       "ApplyColorDialog": {
         "View": {
           "ApplyColorDialog": {
-            "InfoMessage": "通过选择在编辑时应用颜色,&#x0A;\r\n你可以实时看到纹理变化&#x0A;\r\n在3D预览中。"
+            "InfoMessage": "通过选择在编辑时应用颜色,&#x0A;\r\n你可以实时看到纹理变化&#x0A;\r\n在3D预览中. "
           }
         }
       },
@@ -3161,10 +3161,10 @@
     "GUI": {
       "AvatarEditor": {
         "AccessoryBoneEditorScreenTransform": {
-          "ScreenName": "AccessoryBoneEditorScreen"
+          "ScreenName": "AccessoryBoneEditorScreen附件骨架编辑器"
         },
         "AccessoryDesignEditorScreenTransform": {
-          "ScreenName": "AccessoryDesignEditorScreen"
+          "ScreenName": "AccessoryDesignEditorScreen附件设计编辑器"
         },
         "ClothingEditor": {
           "ClothingPresetPropertyPanel": {
@@ -3226,8 +3226,8 @@
     },
     "Player": {
       "PlayerCore": {
-        "OtherModelLoadError": "加载好友的角色时出错。",
-        "PlayerModelLoadError": "加载你的角色时出错。"
+        "OtherModelLoadError": "加载好友的角色时出错. ",
+        "PlayerModelLoadError": "加载你的角色时出错. "
       }
     },
     "Scripts": {
@@ -3265,12 +3265,12 @@
             "Normal": "默认"
           },
           "ThemeSetting": {
-            "Dark": "Dark",
-            "Light": "Light"
+            "Dark": "Dark暗色",
+            "Light": "Light亮色"
           },
           "ThemeSettingTransform": {
-            "Dark": "Dark",
-            "Light": "Light"
+            "Dark": "Dark暗色",
+            "Light": "Light亮色"
           }
         },
         "ViewModel": {
@@ -3328,10 +3328,10 @@
         "BaseSelectDialog": {
           "View": {
             "BaseSelectDialog": {
-              "InfoMessage": "之后你可以使用滑块来编辑模型。"
+              "InfoMessage": "之后你可以使用滑块来编辑模型. "
             },
             "BaseSelectDialogTransform": {
-              "InfoMessage": "之后你可以使用滑块来编辑模型。"
+              "InfoMessage": "之后你可以使用滑块来编辑模型. "
             }
           },
           "ViewModel": {
@@ -3347,28 +3347,28 @@
         "AddTemplateDialog": {
           "ViewModel": {
             "AddTemplateDialogViewModel": {
-              "AddTemplate": "Add Template",
-              "HalfOnePiece": "Dress (Half Sleeve)",
-              "HighNeckLongCoat": "Long Coat (High Neck)",
-              "Hoodie": "Hoodie",
-              "LongCoat": "Long Coat",
-              "LongOnePiece": "Dress (Long Sleeve)",
-              "MiniTShirt": "Mini T-Shirt",
+              "AddTemplate": "Add Template添加模板",
+              "HalfOnePiece": "Dress (Half Sleeve)连衣裙 (半袖)",
+              "HighNeckLongCoat": "Long Coat (High Neck)大衣 (高领)",
+              "Hoodie": "Hoodie连帽衫",
+              "LongCoat": "Long Coat大衣",
+              "LongOnePiece": "Dress (Long Sleeve)连衣裙 (长袖)",
+              "MiniTShirt": "Mini T-Shirt迷你T恤",
               "OnePiece": "连衣裙",
               "Pants": "内裤",
-              "PantsNoCrease": "Pants (No Crease)",
-              "PantsWithCrease": "Pants (Crease)",
-              "PencilOnePiece": "Dress (Pencil Skirt)",
-              "PencilSkirt": "Pencil Skirt",
-              "SchoolLongVest": "Uniform Vest (Long Sleeve)",
-              "SchoolShortVest": "Uniform Vest (Short Sleeve)",
-              "SchoolSkirt": "Uniform Skirt",
-              "SchoolVest": "Uniform Vest",
-              "ShirtNeckLongCoat": "Long Coat (Shirt Collar)",
-              "ShortOnePiece": "Dress (Short Sleeve)",
-              "SkinOverlay": "Skin Overlay",
-              "StandLongCoat": "Long Coat (Stand-up Collar)",
-              "TShirt": "T-Shirt"
+              "PantsNoCrease": "Pants (No Crease)内裤 (无褶)",
+              "PantsWithCrease": "Pants (Crease)内裤 (有褶)",
+              "PencilOnePiece": "Dress (Pencil Skirt)连衣裙 (铅笔裙)",
+              "PencilSkirt": "Pencil Skirt铅笔裙",
+              "SchoolLongVest": "Uniform Vest (Long Sleeve)制服内衬 (长袖)",
+              "SchoolShortVest": "Uniform Vest (Short Sleeve)制服内衬 (短袖)",
+              "SchoolSkirt": "Uniform Skirt制服裙",
+              "SchoolVest": "Uniform Vest制服内衬",
+              "ShirtNeckLongCoat": "Long Coat (Shirt Collar)大衣 (衬衣领)",
+              "ShortOnePiece": "Dress (Short Sleeve)连衣裙 (短袖)",
+              "SkinOverlay": "Skin Overlay紧身衣",
+              "StandLongCoat": "Long Coat (Stand-up Collar)大衣 (立领)",
+              "TShirt": "T-ShirtT恤"
             }
           }
         }
@@ -3385,7 +3385,7 @@
         },
         "PopupAccessorySelectorScreen": {
           "Customize": "自定义",
-          "MaxAccessoryLabel": "The number of accessories in the same category has reached the limit of five",
+          "MaxAccessoryLabel": "The number of accessories in the same category has reached the limit of five同一类别的配件数量已达到上限5个",
           "Preset": "预设"
         }
       }
@@ -3393,18 +3393,18 @@
     "StartScreen": {
       "BaseSelectDialog": {
         "ViewModel": {
-          "Female": "Fem",
-          "Male": "Masc",
-          "Title": "Select a base to start with"
+          "Female": "Fem女",
+          "Male": "Masc男",
+          "Title": "Select a base to start with选择一个基底"
         }
       }
     },
     "World": {
       "SceneController": {
         "Error": "Oops",
-        "ErrorDefault": "Something went wrong.\r\nYou will be redirected to the photo studio selection screen.",
-        "ErrorGameFull": "This room is too crowded, better retry joining later.",
-        "JoinRoomFailed": "Could not join the room"
+        "ErrorDefault": "Something went wrong.\r\nYou will be redirected to the photo studio selection screen.出错了.\r\n重定向至 photo studio 选择页面",
+        "ErrorGameFull": "This room is too crowded, better retry joining later.房间已满, 请稍后重试",
+        "JoinRoomFailed": "Could not join the room未能加入房间"
       }
     }
   },
@@ -3414,74 +3414,74 @@
         "View": {
           "FittingPanel": {
             "Animation": "动画",
-            "Category": "Categories",
-            "LoadMan": "男性をロード",
-            "LoadWoman": "女性をロード",
-            "Run": "実行"
+            "Category": "Categories分类",
+            "LoadMan": "男性をロード加载男性",
+            "LoadWoman": "女性をロード加载女性",
+            "Run": "执行"
           },
           "FittingPanelTransform": {
             "Animation": "动画",
-            "Category": "Categories",
-            "LoadMan": "男性をロード",
-            "LoadWoman": "女性をロード",
-            "Run": "実行"
+            "Category": "Categories分类",
+            "LoadMan": "男性をロード加载男性",
+            "LoadWoman": "女性をロード加载女性",
+            "Run": "执行"
           },
           "GenerationPanel": {
-            "Category": "Categories",
-            "StartGenerate": "生成開始",
-            "StopGenerate": "生成中止"
+            "Category": "Categories分类",
+            "StartGenerate": "生成開始开始生成",
+            "StopGenerate": "生成中止停止生成"
           },
           "GenerationPanelTransform": {
-            "Category": "Categories",
-            "StartGenerate": "生成開始",
-            "StopGenerate": "生成中止"
+            "Category": "Categories分类",
+            "StartGenerate": "生成開始开始生成",
+            "StopGenerate": "生成中止停止生成"
           },
           "MigrationPanel": {
-            "AutoGenerateLackFolder": "Creates necessary files and folders in the folder you indicated from Settings",
-            "AutoGenerateSettingFolder": "譲渡要素作成に必要な設定フォルダを自動作成",
-            "Open": "Open",
-            "Run": "実行"
+            "AutoGenerateLackFolder": "Creates necessary files and folders in the folder you indicated from Settings在设置所指定的目录中创建必要的文件和文件夹.",
+            "AutoGenerateSettingFolder": "譲渡要素作成に必要な設定フォルダを自動作成自动创建可移植项目文件夹",
+            "Open": "Open打开",
+            "Run": "执行"
           },
           "MigrationPanelTransform": {
-            "AutoGenerateLackFolder": "Creates necessary files and folders in the folder you indicated from Settings",
-            "AutoGenerateSettingFolder": "譲渡要素作成に必要な設定フォルダを自動作成",
-            "Open": "Open",
-            "Run": "実行"
+            "AutoGenerateLackFolder": "Creates necessary files and folders in the folder you indicated from Settings在设置所指定的目录中创建必要的文件和文件夹.",
+            "AutoGenerateSettingFolder": "譲渡要素作成に必要な設定フォルダを自動作成自动创建可移植项目文件夹",
+            "Open": "Open打开",
+            "Run": "执行"
           },
           "SettingsPanel": {
-            "MacCopyInfo": "On Mac OS: Select the folder and press Option - Command - C",
-            "Open": "Open",
-            "WindowsCopyInfo": "On Windows: Open the folder on Explorer and click on the address bar"
+            "MacCopyInfo": "On Mac OS: Select the folder and press Option - Command - CMac OS: 选择文件夹并按下 Option - Command - C",
+            "Open": "Open打开",
+            "WindowsCopyInfo": "On Windows: Open the folder on Explorer and click on the address barWindows系统: 打开文件夹或文件管理器并点击地址栏"
           },
           "SettingsPanelTransform": {
-            "MacCopyInfo": "On Mac OS: Select the folder and press Option - Command - C",
-            "Open": "Open",
-            "WindowsCopyInfo": "On Windows: Open the folder on Explorer and click on the address bar"
+            "MacCopyInfo": "On Mac OS: Select the folder and press Option - Command - CMac OS: 选择文件夹并按下 Option - Command - C",
+            "Open": "Open打开",
+            "WindowsCopyInfo": "On Windows: Open the folder on Explorer and click on the address barWindows系统: 打开文件夹或文件管理器并点击地址栏"
           }
         }
       },
       "View": {
         "FittingPanel": {
-          "CanEquip": "装着できる譲渡要素",
-          "Equipping": "装着している譲渡要素"
+          "CanEquip": "装着できる譲渡要素可安装的可移植项目",
+          "Equipping": "装着している譲渡要素安装的可移植项目"
         },
         "GenerationPanel": {
-          "Log": "Log",
-          "Run": "実行"
+          "Log": "日志",
+          "Run": "执行"
         },
         "MigrationPanel": {
-          "AutoGenerateLackFolder": "Creates necessary files and folders in the folder you indicated from Settings",
-          "AutoGenerateSettingFolder": "Autogenerate folders for transferable items",
-          "Copy": "Convert the original data of the transferable items set for Beta ver female models to Stable ver. specification and copies it to the folder specified in Settings.",
-          "Info": "Please note that if you have manually set up files in the Transferable Items folder already specified in the Settings, the contents will be lost.",
-          "Translate": "Autogerenerated from Beta ver. transferable item"
+          "AutoGenerateLackFolder": "Creates necessary files and folders in the folder you indicated from Settings在设置所指定的目录中创建必要的文件和文件夹.",
+          "AutoGenerateSettingFolder": "Autogenerate folders for transferable items自动生成的可移植项目",
+          "Copy": "Convert the original data of the transferable items set for Beta ver female models to Stable ver. specification and copies it to the folder specified in Settings.将 Beta 版本的女性模型转换成正式版, 并复制到设置中指定的目录",
+          "Info": "Please note that if you have manually set up files in the Transferable Items folder already specified in the Settings , the contents will be lost.请注意, 若您已在设置中指定可移植项目位置, 内容将会丢失.",
+          "Translate": "Autogerenerated from Beta ver. transferable itemBeta 版本中自动生成的可移植项目"
         },
         "SettingsPanel": {
-          "CopyInfo": "To copy a folder's path you can do the following",
-          "MacCopyInfo": "On Mac OS: Select the folder and press Option - Command - C",
-          "Tips": "Tips",
+          "CopyInfo": "To copy a folder's path you can do the following你可以通过以下方式复制文件夹地址",
+          "MacCopyInfo": "On Mac OS: Select the folder and press Option - Command - CMac OS: 选择文件夹并按下 Option - Command - C",
+          "Tips": "Tips小提示",
           "Title": "设置",
-          "WindowsCopyInfo": "On Windows: Open the folder on Explorer and click on the address bar"
+          "WindowsCopyInfo": "On Windows: Open the folder on Explorer and click on the address barWindows系统: 打开文件夹或文件管理器并点击地址栏"
         }
       }
     }
@@ -3494,10 +3494,10 @@
     "Scripts": {
       "View": {
         "AccountField": {
-          "BuyCoin": "Purchase Coins"
+          "BuyCoin": "Purchase Coins购买硬币"
         },
         "AccountFieldTransform": {
-          "BuyCoin": "Purchase Coins"
+          "BuyCoin": "Purchase Coins购买硬币"
         }
       }
     },
@@ -3512,7 +3512,7 @@
   },
   "UnsavedDialogController": {
     "QuitLabel": "关闭",
-    "QuitText": "You haven't saved since your last edits. \r\nAre you sure you want to close VRoid Studio?"
+    "QuitText": "You haven't saved since your last edits. \r\nAre you sure you want to close VRoid Studio?当前编辑未保存. \r\n确认关闭 VRoid Studio?"
   },
   "URL": {
     "About3DPrintCaution": "https://vroid.pixiv.help/hc/en-us/articles/900006051606",
@@ -3589,16 +3589,16 @@
           "TitleSelectTemplate": "选择模板"
         },
         "ApplyColorDialog": {
-          "Description": "颜色可自定义项是您可以随时编辑颜色的部分\r\n使用颜色校准和编辑纹理的<b>灰度</b>来优化着色和自定义项目的最终结果。",
+          "Description": "颜色可自定义项是您可以随时编辑颜色的部分\r\n使用颜色校准和编辑纹理的<b>灰度</b>来优化着色和自定义项目的最终结果. ",
           "StartTextureEdit": "开始编辑纹理",
           "Title": "颜色可自定义项目"
         },
         "ConfirmCustomItemSavingDialog": {
           "ContinueWithoutSave": "开始编辑而不保存",
-          "Description": "是否要在开始编辑之前将临时项目另存为自定义项目\r\n未保存的项目将丢失。",
+          "Description": "是否要在开始编辑之前将临时项目另存为自定义项目\r\n未保存的项目将丢失. ",
           "Title": "保存临时项目"
         },
-        "FailedToLoadCustomItemsMessage": "加载在新版本的VRoid Studio上创建的数据时出错。\r\n请更新VRoid Studio。",
+        "FailedToLoadCustomItemsMessage": "加载在新版本的 VRoid Studio 上创建的数据时出错. \r\n请更新 VRoid Studio.",
         "ModelPresets": {
           "TemporaryCustomItem": {
             "Customizing": "未保存的项目",
@@ -3623,7 +3623,7 @@
           "Overwrite": "覆盖",
           "QuitWithoutSaving": "关闭但不保存",
           "SaveAsNewItem": "保存为新项目",
-          "SaveConfirmationMessage": "是否要在关闭编辑器之前保存此项目\r\n新编辑的项目保存在“自定义”选项卡中。",
+          "SaveConfirmationMessage": "是否要在关闭编辑器之前保存此项目\r\n新编辑的项目保存在“自定义”选项卡中. ",
           "TitleQuitHairBoneEditor": "关闭Bounce编辑器",
           "TitleQuitHairDesignEditor": "关闭发型编辑器",
           "TitleQuitTextureEditor": "关闭材质编辑器"
@@ -3668,16 +3668,16 @@
             "ViewModel": {
               "BoneGroupPropertyViewModel": {
                 "BoneCount": "骨骼",
-                "BoneGroup": "Completed Bone Group",
+                "BoneGroup": "Completed Bone Group完成骨骼组",
                 "BoneGroupedHair": "组头发",
-                "BoneParameter": "Bones Parameters",
-                "ColliderRadius": "Hit Radius",
-                "Gravity": "Gravity",
-                "RemoveHairFromBoneGroupCommand": "Remove Hair from Bone Group",
-                "SetAxisHintHairCommand": "Set Hair as Axis",
-                "SetAxisHintHairGroupCommand": "Move Axis to Group Center",
-                "SpringRootRate": "Fixed Point",
-                "Stiffness": "Stiffness"
+                "BoneParameter": "Bones Parameters骨骼参数",
+                "ColliderRadius": "Hit Radius命中半径",
+                "Gravity": "Gravity重力",
+                "RemoveHairFromBoneGroupCommand": "Remove Hair from Bone Group将头发移出骨骼组",
+                "SetAxisHintHairCommand": "Set Hair as Axis将头发设置为轴",
+                "SetAxisHintHairGroupCommand": "Move Axis to Group Center移动轴到组中心",
+                "SpringRootRate": "Fixed Point固定点",
+                "Stiffness": "Stiffness刚性"
               }
             }
           }
@@ -3693,28 +3693,28 @@
       },
       "HubConnection": {
         "AuthorizationCodeInputDialog": {
-          "AuthorizationCodeEmpty": "Authorization code required.",
-          "Label": "Authorization Code",
-          "Paste": "Paste",
-          "Title": "Please input authorization code"
+          "AuthorizationCodeEmpty": "Authorization code required.需要认证码",
+          "Label": "Authorization Code认证码",
+          "Paste": "Paste粘贴",
+          "Title": "Please input authorization code请输入认证码"
         },
         "LoginDialog": {
           "ViewModel": {
             "LoginDialogViewModel": {
               "Login": "登录",
               "LoginMessage": "请登录",
-              "LoginTitle": "上传到VRoid Hub",
-              "ModelEditingReLoginMessage": "您似乎还没有登录，请登录。\r\n到目前为止所做的任何编辑都不会丢失。",
-              "ReLoginMessage": "您似乎还没有登录，请登录。"
+              "LoginTitle": "上传到 VRoid Hub",
+              "ModelEditingReLoginMessage": "您似乎还没有登录, 请登录. \r\n到目前为止所做的任何编辑都不会丢失.",
+              "ReLoginMessage": "您似乎还没有登录, 请登录."
             }
           }
         },
         "MinimumSupportedVersionUpdatedDialog": {
           "ViewModel": {
             "MinimumSupportedVersionUpdatedDialogViewModel": {
-              "Message": "There's a new version of VRoid Studio available. \r\nPlease update the app from the Download page.",
-              "OpenDownloadPage": "To the Download page",
-              "Title": "Updates News"
+              "Message": "There's a new version of VRoid Studio available. \r\nPlease update the app from the Download page.有新的版本可用, 请前往下载页更新应用.",
+              "OpenDownloadPage": "To the Download page转到下载页",
+              "Title": "Updates News更新新闻"
             }
           }
         }
@@ -3724,8 +3724,8 @@
           "ViewModel": {
             "HubUploadDiscardingStateWarningDialogViewModel": {
               "Exit": "关闭",
-              "Message": "If you close now, unsaved edits will be lost.\r\nDo you want to close?",
-              "Title": "Stop Upload"
+              "Message": "If you close now, unsaved edits will be lost.\r\nDo you want to close?若取消, 任何改动将丢失.\r\n确定取消?",
+              "Title": "Stop Upload取消上传"
             }
           }
         }
@@ -3734,39 +3734,39 @@
         "AgreementsConfirmationDialog": {
           "ViewModel": {
             "AgreementsConfirmationDialogViewModel": {
-              "AgeConfirmation": "VRoid Mobile requires all users be at least 13 years old in order to create an account.",
-              "Agree": "Agree",
-              "Message": "Before you get started with VRoid Studio, you need to agree to the Terms of Use, Privacy Policy, and Guidelines.",
-              "Title": "Start"
+              "AgeConfirmation": "VRoid Mobile requires all users be at least 13 years old in order to create an account.创建 VRoid Mobile 账户年龄限制 13 岁以上",
+              "Agree": "Agree同意",
+              "Message": "Before you get started with VRoid Studio, you need to agree to the Terms of Use, Privacy Policy, and Guidelines.使用 VRoid Studio 前, 您需要同意使用条款、隐私政策与准则",
+              "Title": "Start开始"
             }
           }
         },
         "BetaModelImportDialog": {
           "ViewModel": {
             "BetaModelImportDialogViewModel": {
-              "AboutBetaModelImport": "What happens to Beta ver. models?",
-              "Content": "Before you can start editing a model imported from the Beta ver., you need to convert its data. \r\nNow creating new converted data...",
-              "Import": "Select a save destination and convert",
-              "Title": "Convert a beta model"
+              "AboutBetaModelImport": "What happens to Beta ver. models?Beta 版本的模型发生了什么?",
+              "Content": "Before you can start editing a model imported from the Beta ver., you need to convert its data. \r\nNow creating new converted data...编辑导入的 Beta 版本模型前, 你需要转换模型数据. \r\n创建新的转换数据...",
+              "Import": "Select a save destination and convert选择保存位置并转换",
+              "Title": "Convert a beta model转换一个 Beta 版本模型"
             }
           }
         },
         "BetaModelImportErrorDialog": {
           "ViewModel": {
             "BetaModelImportErrorDialogViewModel": {
-              "AboutBetaModelImport": "What happens to Beta ver. models?",
-              "Content": "Failed to import. Lorem ipsum dolor sit amet",
-              "Title": "Failed to convert a model"
+              "AboutBetaModelImport": "What happens to Beta ver. models?Beta 版本的模型发生了什么?",
+              "Content": "Failed to import. Lorem ipsum dolor sit amet导入失败. 乱数假文",
+              "Title": "Failed to convert a model转换模型失败"
             }
           }
         },
-        "ModelLoadingLabel": "正在加载，请稍待片刻。",
+        "ModelLoadingLabel": "正在加载, 请稍待片刻. ",
         "TutorialSelectDialog": {
-          "Description": "如果您是初学者，请参阅基础教程。\r\nBeta版用户可以查看新功能和更改内容。",
-          "ForBeginners": "初学者教程",
+          "Description": "如果您是初学者, 请参阅基础教程. \r\nBeta 版用户可以查看新功能和更改内容. ",
+          "ForBeginners": "新手教学",
           "ForBetaUsers": "与测试版的差异",
           "Skip": "跳过",
-          "Title": "欢迎来到VRoid Studio!",
+          "Title": "欢迎来到 VRoid Studio!",
           "UrlForBeginners": "https://vroid.pixiv.help/hc/en-us/articles/4405597663385",
           "UrlForBetaUsers": "https://vroid.pixiv.help/hc/en-us/articles/4405597671193",
           "Watch": "阅读帮助"
@@ -3776,14 +3776,14 @@
           "ErrorDialog": {
             "DuplicationErrorDescription": "粘贴模型失败",
             "DuplicationErrorTitle": "粘贴失败",
-            "InvalidNameErrorDescription": "模型名称包含无法使用的字符。请使用不带字符的模型名称\r\n「¥」「/」「:」「*」「?」「”」「<」「>」「|」",
-            "NewErrorDescription": "创建新模型失败。请再次尝试创建新模型。",
-            "NewErrorTitle": "创建新模型失败。",
-            "OpenErrorDescription": "未能加载模型。请检查文件夹中是否存在该模型，然后重试。",
+            "InvalidNameErrorDescription": "模型名称包含无法使用的字符. 请使用不带字符的模型名称\r\n「¥」「/」「:」「*」「?」「”」「<」「>」「|」",
+            "NewErrorDescription": "创建新模型失败. 请再次尝试创建新模型. ",
+            "NewErrorTitle": "创建新模型失败. ",
+            "OpenErrorDescription": "未能加载模型. 请检查文件夹中是否存在该模型, 然后重试. ",
             "OpenErrorTitle": "加载失败",
-            "RenameErrorDescription": "重命名失败。如果继续失败，请尝试在资源管理器上重命名它。",
+            "RenameErrorDescription": "重命名失败. 如果继续失败, 请尝试在资源管理器上重命名它. ",
             "RenameErrorTitle": "重命名失败",
-            "SameNameErrorDescription": "已经存在此名称，请换一个其他名字。"
+            "SameNameErrorDescription": "此名称已存在, 请换一个其他名字. "
           },
           "Header": {
             "Models": "你的模型",
@@ -3797,96 +3797,96 @@
       },
       "TextureEditorScreen": {
         "ViewModel": {
-          "TemplateLimitDescription": "You can stack up to five templates on top of each other.",
-          "TemplateLimitExceeded": "The maximum number of templates has been reached and no more can be added."
+          "TemplateLimitDescription": "You can stack up to five templates on top of each other.至多可以添加5个模板",
+          "TemplateLimitExceeded": "The maximum number of templates has been reached and no more can be added.已达到模板数量限制, 无法添加新的模板"
         }
       },
       "UnSavedDialog": {
         "DontSave": "不保存",
-        "InfoText": "在你离开前， \r\n想要保存改动吗？\r\n如果你不保存，你最后的改动会被丢弃。",
+        "InfoText": "在你离开前,  \r\n想要保存改动吗？\r\n如果你不保存, 你最后的改动会被丢弃. ",
         "Save": "保存",
         "Title": "未保存的改动"
       },
       "View": {
         "ModelPresets": {
-          "NoPresets": "Presets in this category are currently being prepared."
+          "NoPresets": "Presets in this category are currently being prepared.为此类别添加预设"
         }
       }
     }
   },
   "VRoidHub": {
     "AgeLimit": {
-      "AgeLimit_": "Age Restrictions",
-      "Normal": "All Ages",
+      "AgeLimit_": "Age Restrictions年龄分级",
+      "Normal": "All Ages全年龄",
       "R15": "R-15",
       "R18": "R-18"
     },
-    "AgeLimitMessage": "Set an age limit for viewing this media",
-    "AuthorizationMessage": "Enter Authorization Code",
-    "CharacterListTitleToAddModel": "Select the character you want to add a model to",
-    "CharacterListTitleToChooseModel": "Select the character you want to add a model to",
-    "CharacterNameMessage": "Enter a name for this character",
-    "CharacterNamePlaceholder": "角色名字",
-    "CharacterSetting": "New Character Settings",
-    "DefaultModelName": "Default Model",
+    "AgeLimitMessage": "Set an age limit for viewing this media设置年龄分级",
+    "AuthorizationMessage": "Enter Authorization Code输入认证码",
+    "CharacterListTitleToAddModel": "Select the character you want to add a model to选择需要添加模型的角色",
+    "CharacterListTitleToChooseModel": "Select the character you want to add a model to选择需要添加模型的角色",
+    "CharacterNameMessage": "Enter a name for this character为此角色添加一个名字",
+    "CharacterNamePlaceholder": "角色名",
+    "CharacterSetting": "New Character Settings新建角色设定",
+    "DefaultModelName": "Default Model默认模型",
     "HubCharacterModelSelectionDialog": {
-      "Message": "Select the model you want to update",
-      "Title": "Update a Model on VRoid Hub"
+      "Message": "Select the model you want to update选择需要更新的模型",
+      "Title": "Update a Model on VRoid Hub更新 VRoid Hub 上的模型"
     },
     "HubCharacterModelSettingsDialog": {
       "Character": {
         "NameLabel": "角色名字",
-        "Title": "Character Settings"
+        "Title": "Character Settings角色设定"
       },
       "CharacterModel": {
         "NameLabel": "模型名字",
-        "Title": "Model Settings"
+        "Title": "Model Settings模型设定"
       }
     },
     "HubCharacterSelectionDialog": {
       "Add": {
-        "Message": "Select the character you want to add a model to",
-        "Title": "Add a Model on VRoid Hub"
+        "Message": "Select the character you want to add a model to选择需要增加模型的角色",
+        "Title": "Add a Model on VRoid Hub添加模型到 VRoid Hub"
       },
       "Update": {
-        "Message": "Select the character you want to update a model of",
-        "Title": "Update a Model on VRoid Hub"
+        "Message": "Select the character you want to update a model of选择需要更新模型的角色",
+        "Title": "Update a Model on VRoid Hub更新 VRoid Hub 上的模型"
       }
     },
     "HubUploadTypeSelectionDialog": {
-      "AddCharacterLabel": "New Character",
-      "AddCharacterModelLabel": "New Model",
-      "AddCharacterModelSubLabel": "Add a new model to an existing character",
-      "AddCharacterSubLabel": "Create a new character",
-      "Title": "上传到VRoid Hub",
-      "UpdateCharacterModelLabel": "Model Update",
-      "UpdateCharacterModelSubLabel": "Update a model of an existing character"
+      "AddCharacterLabel": "New Character新建角色",
+      "AddCharacterModelLabel": "New Model新建模型",
+      "AddCharacterModelSubLabel": "Add a new model to an existing character为现有角色添加一个新模型",
+      "AddCharacterSubLabel": "Create a new character创建一个新角色",
+      "Title": "上传到 VRoid Hub",
+      "UpdateCharacterModelLabel": "Model Update更新模型",
+      "UpdateCharacterModelSubLabel": "Update a model of an existing character更新现有角色的模型"
     },
-    "JumpToVRoidHubMessage": "Check it out on VRoid Hub",
-    "LoginFailed": "Something went wrong with login.",
-    "ModelListTitle": "Select the variation of the model you want to modify",
-    "ModelNameMessage": "Enter a name for this variation",
-    "ModelNamePlaceholder": "Variation Name",
-    "ModelSetting": "New Model Settings",
-    "PasteButtonLabel": "Paste",
-    "UpdateModelButtonLabel": "Model Update",
-    "UpdateNewCharacterButtonSubLabel": "Update and replace an existing model",
-    "UploadCompletedMessage": "Your upload was successful",
-    "UploadFailed": "Something went wrong with the upload.",
-    "UploadNewCharacterButtonLabel": "New Character",
-    "UploadNewCharacterButtonSubLabel": "Upload this model as a brand-new character",
-    "UploadNewModelButtonLabel": "New Model",
-    "UploadNewModelButtonSubLabel": "Add a new model variation to an existing character",
-    "UploadTypeSelectionGuideMessage": "What are you uploading to VRoid Hub?"
+    "JumpToVRoidHubMessage": "Check it out on VRoid Hub在 VRoid Hub 上检视",
+    "LoginFailed": "Something went wrong with login.登录出错",
+    "ModelListTitle": "Select the variation of the model you want to modify选择需要修改的模型变动",
+    "ModelNameMessage": "Enter a name for this variation为此变动添加一个名字",
+    "ModelNamePlaceholder": "Variation Name变动名称",
+    "ModelSetting": "New Model Settings新建模型设定",
+    "PasteButtonLabel": "Paste粘贴",
+    "UpdateModelButtonLabel": "Model Update上传模型",
+    "UpdateNewCharacterButtonSubLabel": "Update and replace an existing model上传并替换现有模型",
+    "UploadCompletedMessage": "Your upload was successful上传成功",
+    "UploadFailed": "Something went wrong with the upload.上传时出错",
+    "UploadNewCharacterButtonLabel": "New Character新建角色",
+    "UploadNewCharacterButtonSubLabel": "Upload this model as a brand-new character将此模型上传至新角色",
+    "UploadNewModelButtonLabel": "New Model新建模型",
+    "UploadNewModelButtonSubLabel": "Add a new model variation to an existing character向现有模型提交变动",
+    "UploadTypeSelectionGuideMessage": "What are you uploading to VRoid Hub?你要上传什么到 VRoid Hub?"
   },
   "VRoidStudio": {
     "GUI": {
       "AvatarEditor": {
         "AccessoryBoneEditorScreenTransform": {
-          "ScreenName": "Accessory Bones Editor"
+          "ScreenName": "Accessory Bones Editor附件骨骼编辑器"
         },
         "AccessoryDesignEditorScreenTransform": {
-          "ScreenName": "Desing Editor"
+          "ScreenName": "Desing Editor设计编辑器"
         },
         "ClothingEditor": {
           "ClothingPresetPropertyPanel": {
@@ -3939,6 +3939,6 @@
     }
   },
   "WindowTitle": {
-    "Untitled": "Untitled"
+    "Untitled": "Untitled未命名"
   }
 }
