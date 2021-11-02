@@ -2,8 +2,8 @@
   "Application": {
     "Saving": {
       "PathInfo": {
-        "AvatarDirectoryAccessFailure": "无法访问此文件夹 \"{0}\". \r\n打开VRoid Studio时出错. \r\n请检查指定的文件夹.",
-        "Error": "出现了一些错误"
+        "AvatarDirectoryAccessFailure": "无法访问此文件夹 \"{0}\". \r\n打开 VRoid Studio 时出错. \r\n请检查指定的文件夹.",
+        "Error": "出错了"
       }
     }
   },
@@ -34,7 +34,7 @@
           "Fun": "开心",
           "I": "I",
           "Joy": "高兴",
-          "Neutral": "普通",
+          "Neutral": "自然",
           "O": "O",
           "Sorrow": "沮丧",
           "Surprised": "吃惊",
@@ -165,7 +165,7 @@
     },
     "IOS": {
       "InfoPlist": {
-        "NSCameraUsageDescription": "You will be able to use AR features by granting the app access to the camera.",
+        "NSCameraUsageDescription": "You will be able to use AR features by granting the app access to the camera.允许应用使用摄像头, 可以使用 AR 功能",
         "NSPhotoLibraryAddUsageDescription": "You will be able to save pictures by granting the app access to your photo library.",
         "NSPhotoLibraryUsageDescription": "You will be able to save pictures by granting the app access to your photo library."
       },
@@ -1011,9 +1011,9 @@
           "Female_Jumping2": "跳动 2",
           "Female_Jumping3": "跳动 3",
           "Female_JumpingOver": "Vaulting Horse",
-          "Female_laugh": "Laughing",
+          "Female_laugh": "Laughing笑",
           "Female_lmao": "LMAO",
-          "Female_Lost": "Loss",
+          "Female_Lost": "Loss失败",
           "Female_Running": "奔跑",
           "Female_Sliding": "Sliding",
           "Female_spot_awkward_smile": "AwkwardSmile",
@@ -1040,12 +1040,12 @@
           "Female_super_delicious": "SuperDelicious",
           "Female_Tired": "Tired",
           "Female_Walking": "行走",
-          "Female_Won": "Victory",
-          "Female_yay": "Yay!",
+          "Female_Won": "Victory胜利",
+          "Female_yay": "Yay!( •̀ ω •́ )y!",
           "FemaleAnimationMode": "Animations 1动作 1",
           "FullBodyImage": "Full-body全身",
           "FullBodyImageCapturing": "Take a full-body picture",
-          "FullBodyImageCapturingWithProgress": "Take a whole-body pic to be used as a thumbnail (1/2)",
+          "FullBodyImageCapturingWithProgress": "拍摄缩略图全身照 (1/2)",
           "GazeOffsetSync": "同步双眼",
           "HA": "牙齿",
           "HA_Fung1": "吸血鬼的牙齿",

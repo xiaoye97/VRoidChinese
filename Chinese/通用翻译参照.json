@@ -16,6 +16,7 @@
   "transferable items": "可移植文件",
   "OK": "是",
   "No": "否",
+  "所有的error": "出错惹",
   "purchase": "购买",
   "Drawing Mod": "绘图模式",
   "Editing Mod": "编辑模式",
@@ -52,5 +53,5 @@
   "ToggleLayerVisibility": "切换可见",
   "Skin Mask": "皮肤蒙版",
   "Unlit": "Unlit无光照",
-  "Tone": "阶调"
+  "Tone": "线条"
 }

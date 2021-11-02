@@ -104,8 +104,7 @@ A:
 
 ## 帮助翻译/校对
 
-1. 编辑 BepInEx/config/VRoid.Chinese.cfg, 可以打开开发者模式, 用来 Dump 英文原文和运行时切换原文.
-2. 使用外部文本编辑器, 如 VSCode, 记事本等打开 Chinese 文件夹下的两个文本.
-3. 对照英文原文进行翻译/校对.
-4. 运行 VRoid Studio 进行测试.
-5. 确认无误后, 提交 PR 或者直接反馈给我 (QQ:1066666683 VRoid 交流群:684544577).
+1. 直接修改 Chinese\MessagesChinese.json 中的值即可实现翻译.
+2. 校对时, 请参考 Chinese\旧版校对用翻译.txt 和 Chinese\通用翻译参考.json 中的词条.
+3. 完成校对/翻译后,运行 VRoid Studio 进行测试.
+4. 若确认无误, 请提交 PR 或者直接反馈给我 (QQ:1066666683 & QQ 社群:684544577).
