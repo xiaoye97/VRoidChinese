@@ -165,9 +165,9 @@
     },
     "IOS": {
       "InfoPlist": {
-        "NSCameraUsageDescription": "You will be able to use AR features by granting the app access to the camera.允许应用获得摄像头权限才能使用 AR 功能",
-        "NSPhotoLibraryAddUsageDescription": "You will be able to save pictures by granting the app access to your photo library.允许应用获得图库权限才能保存照片",
-        "NSPhotoLibraryUsageDescription": "You will be able to save pictures by granting the app access to your photo library.允许应用获得图库权限才能保存照片"
+        "NSCameraUsageDescription": "允许应用获得摄像头权限才能使用 AR 功能.",
+        "NSPhotoLibraryAddUsageDescription": "允许应用获得图库权限才能保存照片.",
+        "NSPhotoLibraryUsageDescription": "允许应用获得图库权限才能保存照片."
       },
       "LocalizationCode": "en"
     }
@@ -211,7 +211,7 @@
       "Design": "设计",
       "Expression": "面部表情",
       "HighlightTexture": "高光",
-      "LegacyColorChanger": "Shader颜色",
+      "LegacyColorChanger": "Shader 颜色",
       "MainTexture": "基础",
       "SkinAlphaMask": "皮肤蒙版",
       "SkinOverlay": "皮肤覆盖物",
@@ -317,10 +317,10 @@
       "OnlyAuthor": "仅作者"
     },
     "Author": "作者",
-    "CharactorizationPermissionsTitle": "Avatar Personality",
+    "CharactorizationPermissionsTitle": "个性化头像",
     "CommericalUssage": "商业用途",
     "Contact": "联系方式",
-    "DialogTitle": "VRM设置",
+    "DialogTitle": "VRM 设置",
     "ExportFailedAlertIO": "导出数据时出错.",
     "ExportFailedAlertUnknown": "导出数据时出错. (未知错误)",
     "Information": "模型信息",
@@ -377,8 +377,8 @@
         "AccessoryEditorViewModel": {
           "AnimalEar": "动物耳朵",
           "BaseModel": "基础模型",
-          "BlendShapeBottomsCrease": "裤子折痕",
-          "BlendShapeBottomsWide": "裤子宽度",
+          "BlendShapeBottomsCrease": "Pants折痕",
+          "BlendShapeBottomsWide": "Pants宽度",
           "BlendShapeOnePieceSkirtWeight": "裙摆",
           "BlendShapeOnePieceSleeve1": "袖口宽度",
           "BlendShapeOnePieceSleeve2": "袖口紧度",
@@ -394,7 +394,7 @@
           "Name": "名字",
           "None": "无",
           "OnePiece": "连衣裙",
-          "Pants": "Uniform (Pants)",
+          "Pants": "制服 (Pants)",
           "PartCategory": {
             "Accessory": "配饰",
             "Base": "基础模型",
@@ -418,16 +418,16 @@
           },
           "Preset": "预设",
           "Save": "保存",
-          "Slot": "Component组件",
+          "Slot": "组件",
           "Uniform": "校服"
         }
       },
       "BodyEditor": {
         "BodyEditorViewModel": {
-          "ArmLength": "Arm Length臂长",
-          "ArmLong": "Arm Length (更长)",
-          "ArmShort": "Arm Length (更短)",
-          "BodyScale": "Body Size",
+          "ArmLength": "臂长",
+          "ArmLong": "臂长 (更长)",
+          "ArmShort": "臂长 (更短)",
+          "BodyScale": "驱赶大小",
           "BustClose": "乳房收拢",
           "BustDirection": "胸部位置 (Y)",
           "BustDistance": "胸部张开",
@@ -490,12 +490,12 @@
       "ClothingEditor": {
         "ClothingEditorViewModel": {
           "BaseModel": "基础模型",
-          "BlendShapeBottomsCrease": "裤子折痕",
+          "BlendShapeBottomsCrease": "Pants折痕",
           "BlendShapeBottomsWide": "裤宽",
           "BlendShapeOnePieceSkirtWeight": "裙摆敞开度",
-          "BlendShapeOnePieceSleeve1": "Sleeve Width",
-          "BlendShapeOnePieceSleeve2": "Cuff Tightness",
-          "Categories": "Categories",
+          "BlendShapeOnePieceSleeve1": "袖口宽",
+          "BlendShapeOnePieceSleeve2": "袖口紧缩",
+          "Categories": "分类",
           "Delete": "删除",
           "Foot": "脚趾形状",
           "FootPart0": "赤脚 (平足)",
@@ -505,7 +505,7 @@
           "Name": "名字",
           "None": "None",
           "OnePiece": "连衣裙",
-          "Pants": "Uniform (Pants)",
+          "Pants": "制服 (Pants)",
           "PartCategory": {
             "Accessory": "配饰",
             "Base": "基础模型",
@@ -517,7 +517,7 @@
             "AccessoryHand": "手",
             "AccessoryHead": "头",
             "AccessoryLeg": "腿",
-            "AccessoryNeck": "Neck",
+            "AccessoryNeck": "颈",
             "Body": "身体",
             "ClothingBottoms": "下身",
             "ClothingTops": "上身",
@@ -525,12 +525,12 @@
             "Foot": "脚",
             "Hand": "手",
             "Head": "头",
-            "Shoes": "鞋子"
+            "Shoes": "鞋"
           },
           "Preset": "预设",
           "Save": "保存",
-          "Slot": "Component",
-          "Uniform": "School Uniform"
+          "Slot": "组件",
+          "Uniform": "校服"
         },
         "ClothingPresetPropertyPanel": {
           "Preset": "预设名字"
@@ -1459,51 +1459,51 @@
       "CoinChargeTransform": {
         "CoinChargeMode": "购买硬币",
         "Owned": "硬币",
-        "PurchaseMode": "Usage History使用历史",
-        "Sctl": "Notation based on the Specified Commercial Transaction Act基于《特定商业交易法》的说明",
-        "Settlement": "Notation based on the Payment Services Act基于《支付服务法》的说明"
+        "PurchaseMode": "使用历史",
+        "Sctl": "基于《特定商业交易法》的说明",
+        "Settlement": "基于《支付服务法》的说明"
       },
       "CoinUsageNote": {
-        "Android": "Purchased coins can be used in the VRoid Android app only.可以在 VRoid Android 应用中购买硬币.",
-        "IOS": "Purchased coins can be used in the VRoid iOS app only.可以在 VRoid IOS 应用中购买硬币."
+        "Android": "可以在 VRoid Android 应用中购买硬币.",
+        "IOS": "可以在 VRoid IOS 应用中购买硬币."
       },
       "InitializationFailureReason": {
         "NoProductsAvailable": {
-          "NoProductsText": "This feature is not ready at the moment. \r\nPlease come back after a while.功能还未上线. \r\n请稍后重试."
+          "NoProductsText": "功能还未上线. \r\n请稍后重试."
         },
         "PurchasingUnavailable": {
-          "NoProductsText": "Purchases on this device are limited\\nby the device settings.此设备已设置购买.",
-          "Toast": "Purchases on this device are limited by the device settings.购买达到设备设置的限制."
+          "NoProductsText": "此设备已设置购买限制.",
+          "Toast": "购买受限."
         }
       },
-      "PurchaseFailureByUnknownReason": "Something went wrong with your purchase.购买时出错.",
+      "PurchaseFailureByUnknownReason": "购买时出错.",
       "PurchaseFailureReason": {
-        "PurchasingUnavailable": "Purchases on this device are limited by the device settings.购买达到设备设置的限制.",
-        "UserCancelled": "Your purchase was cancelled购买已取消"
+        "PurchasingUnavailable": "购买受限.",
+        "UserCancelled": "购买已取消"
       },
       "PurchaseHistoryModel": {
         "Description": {
-          "PurchaseModelItem": "Item Purchase购买物品"
+          "PurchaseModelItem": "购买物品"
         }
       },
       "PurchaseTransform": {
         "Item": {
-          "Payment": "Paid付费"
+          "Payment": "付费"
         },
         "MessageItem": {
-          "Content": "It can take up to 5 minutes \r\nfor you usage history to update.使用历史 \r\n需要 5 分钟更新"
+          "Content": "使用历史 \r\n需要 5 分钟更新"
         }
       }
     },
     "MainViewModel": {
       "ARNotSupportedError": {
-        "Toast": "This feature is not available on your device.设备功能不兼容."
+        "Toast": "设备功能不兼容."
       },
       "CreateModelFailed": {
-        "Toast": "Something went wrong while creating model data.创建模型时出错."
+        "Toast": "创建模型时出错."
       },
       "LoadModelFailed": {
-        "Toast": "Something went wrong while loading models.加载模型时出错."
+        "Toast": "加载模型时出错."
       }
     },
     "ModelEditor": {
@@ -1697,30 +1697,30 @@
         },
         "PresetOptionViewModel": {
           "LoadFailed": {
-            "Toast": "Something went wrong while loading data.加载数据时出错"
+            "Toast": "加载数据时出错"
           }
         }
       },
       "Configuration": {
         "CombinedParameterViewModel": {
           "Name": {
-            "EyebrowAngle": "Eyebrow Angle",
-            "EyebrowDistance": "眉毛 Position (X)",
-            "EyebrowPosY": "眉毛 Position (Y)",
-            "EyebrowRotation": "眉毛 Tilt",
-            "EyeIrisSizeX": "Iris Size (X)",
-            "EyeIrisSizeY": "Iris Size (Y)",
-            "GazeDistance": "Irises Distance",
-            "GazeDistance2": "Gaze Distance",
-            "GazePosY": "Gaze (Y)目光 (Y)"
+            "EyebrowAngle": "眉毛角度",
+            "EyebrowDistance": "眉毛位置 (X)",
+            "EyebrowPosY": "眉毛位置 (Y)",
+            "EyebrowRotation": "眉毛倾斜",
+            "EyeIrisSizeX": "瞳孔尺寸 (X)",
+            "EyeIrisSizeY": "瞳孔尺寸 (Y)",
+            "GazeDistance": "瞳孔间距",
+            "GazeDistance2": "目光间距",
+            "GazePosY": "目光 (Y)"
           }
         }
       },
       "ModelEditorViewModel": {
-        "GetForFreeFailed": "Something went wrong while collecting items.物品收集时错误",
-        "GetForFreeSucceeded": "All items were collected succesfully物品收集完成",
-        "PaidPurchaseFailed": "Something went wrong with your purchase.购买时出错.",
-        "PaidPurchaseSucceeded": "Your purchase was successful购买成功"
+        "GetForFreeFailed": "物品收集时错误",
+        "GetForFreeSucceeded": "物品收集完成",
+        "PaidPurchaseFailed": "购买时出错.",
+        "PaidPurchaseSucceeded": "购买成功"
       }
     },
     "Share": {
@@ -1738,7 +1738,7 @@
       "Receiver": {
         "ReceiverModel": {
           "name": {
-            "CharacterShare": "Publish on VRoid Hub在 VRoid Hub 上发布"
+            "CharacterShare": "在 VRoid Hub 上发布"
           }
         }
       }
@@ -1746,26 +1746,26 @@
     "Studio": {
       "Model": {
         "TermsOfUseItemViewModel": {
-          "Characterization": "Usage as Avatar用作头像",
-          "CommercialUseOK": "Yes - For-profit是 - 营利性的",
-          "CorporateCommercialUse": "Corporate Commercial Use企业商用",
-          "Credit": "Credits信用",
-          "Modification": "Alterations修改",
-          "NG": "No否",
-          "OK": "Yes是",
-          "Optional": "Optional可选项",
-          "PersonalCommercialUse": "Individial Commercial Use独立商用",
-          "PersonalUseOK": "Yes - Non-profit是 - 非营利性",
-          "Redistribution": "Redistribution二次配布",
-          "Required": "Required需要",
-          "SexualExpression": "Usage in Sexual Depictions色情场景使用",
+          "Characterization": "用作头像",
+          "CommercialUseOK": "是 - 营利性的",
+          "CorporateCommercialUse": "企业商用",
+          "Credit": "信用",
+          "Modification": "修改",
+          "NG": "否",
+          "OK": "是",
+          "Optional": "可选项",
+          "PersonalCommercialUse": "独立商用",
+          "PersonalUseOK": "是 - 非营利性",
+          "Redistribution": "二次配布",
+          "Required": "需要",
+          "SexualExpression": "性描绘",
           "Undefined": "TBD",
-          "ViolentExpression": "Usage in Violent Depictions暴力场景使用"
+          "ViolentExpression": "暴力描绘"
         },
         "View": {
           "TermsOfUseDialogTransform": {
-            "Agreement": "I agree to use this model according to its usage conditions我同意此模型的使用条款",
-            "Title": "Usage Conditions使用条款"
+            "Agreement": "我同意此模型的使用条款",
+            "Title": "使用条款"
           }
         }
       },
@@ -1779,92 +1779,92 @@
           "PostProcessParameterViewModel": {
             "Label": {
               "Bloom": "泛光",
-              "ChromaticAberration": "Chromatic Aberration色差",
-              "ColorTemperature": "Temperature色温",
-              "Contrast": "Contrast对比度",
-              "DepthOfField": "Depth of Field景深",
-              "Frame": "Frame框架",
+              "ChromaticAberration": "色差",
+              "ColorTemperature": "色温",
+              "Contrast": "对比度",
+              "DepthOfField": "景深",
+              "Frame": "框架",
               "Grain": "Grain粒子",
-              "Hue": "Hue色相",
-              "Light": "Brightness亮度",
-              "Saturation": "Saturation饱和度",
-              "Vignette": "Vignette晕影"
+              "Hue": "色相",
+              "Light": "亮度",
+              "Saturation": "饱和度",
+              "Vignette": "晕影"
             }
           }
         },
         "Progress": {
           "TipModel": {
             "Body": {
-              "Focus": "When using filters, try enabling Blur and then tapping on the screen to change the focus!应用过滤器时, 尝试使用模糊功能并点击屏幕使其聚焦!",
-              "Hub": "in the Shoot Alone mode you can call up characters from VRoid Hub by tapping on the icon at the top right of the screen!单独拍摄模式中, 点击右上角的图标, 使用 VRoid Hub 中的角色!",
-              "Landscape": "Try using your smartphone sideways, you may find it easier to move around!侧着使用手机移动更方便!",
-              "Posing": "Tap on the person-like icon to select from a list of poses and emotions for your character!点击小人图标, 为你的角色选择动作或表情"
+              "Focus": "应用过滤器时, 尝试使用模糊功能并点击屏幕使其聚焦!",
+              "Hub": "单独拍摄模式中, 点击右上角的图标, 使用 VRoid Hub 中的角色!",
+              "Landscape": "横屏使用手机移动更方便!",
+              "Posing": "点击小人图标, 为你的角色选择动作或表情"
             },
             "Title": {
-              "Focus": "Focus聚焦",
-              "Hub": "Call up characters from VRoid Hub使用 VRoid Hub 中的角色",
-              "Landscape": "Landscape Mode横向模式",
-              "Posing": "Stirke a pose!摆个姿势!"
+              "Focus": "聚焦",
+              "Hub": "使用 VRoid Hub 中的角色",
+              "Landscape": "横屏模式",
+              "Posing": "摆个姿势!"
             }
           }
         },
         "StageViewModel": {
-          "ChannelJoined": "Joined successfully进入成功",
-          "Notification": "Notification消息提示",
-          "UserJoined": "{0} joined the room{0} 进入的房间"
+          "ChannelJoined": "进入成功",
+          "Notification": "消息提示",
+          "UserJoined": "{0} 进入的房间"
         }
       },
       "StageType": {
         "StageTypeViewModel": {
-          "MarkDownloadFailed": "Something went wrong while downloading watermarks, \r\nmaking them not available at the moment.下载水印时出错, \r\n当前任务不可用."
+          "MarkDownloadFailed": "下载水印时出错, \r\n当前任务不可用."
         }
       },
       "StudioViewModel": {
-        "AnimationDownloadFailed": "Something went wrong while downloading animations data. \r\nPlease check your internet connection and try again.加载动作数据时出错. \r\n请检查网络连接并重试.",
-        "DownloadingAnimationData": "Downloading Animation Data正在下载动作数据",
-        "DownloadingWorld": "Downloading 3D Photo Studio Data正在下载 3D photo studios 数据",
-        "WorldCommonDownloadFailed": "Something went wrong while downloading common data. \r\nPlease check your internet connection and try again.下载数据时出错. \r\n请检查网络连接并重试.",
-        "WorldDownloadFailed": "Something went wrong while downloading 3D photo studios data. \r\nPlease check your internet connection and try again.下载 3D photo studios 时出错. \r\n请检查网络连接并重试."
+        "AnimationDownloadFailed": "加载动作数据时出错. \r\n请检查网络连接并重试.",
+        "DownloadingAnimationData": "正在下载动作数据",
+        "DownloadingWorld": "正在下载 3D photo studios 数据",
+        "WorldCommonDownloadFailed": "下载数据时出错. \r\n请检查网络连接并重试.",
+        "WorldDownloadFailed": "下载 3D photo studios 时出错. \r\n请检查网络连接并重试."
       }
     },
     "View": {
       "AboutTransform": {
-        "Licenses": "Licenses许可",
-        "ModelTerms": "Model Usage Conditions模型使用条款",
-        "Version": "Version Info版本信息"
+        "Licenses": "许可",
+        "ModelTerms": "模型使用条款",
+        "Version": "版本信息"
       },
       "AccountsTransform": {
-        "Title": "Manage Accounts管理账户"
+        "Title": "管理账户"
       },
       "AnnouncementTransform": {
-        "Error": "Something went wrong while loading the news.加载新闻时出错",
-        "Title": "News新闻"
+        "Error": "加载新闻时出错",
+        "Title": "新闻"
       },
       "BundleDownloadProgressTransform": {
-        "Description": "Downloading data, please wait下载数据中, 请等待"
+        "Description": "下载数据中, 请等待"
       },
       "CharacterTypeSelectorTransform": {
-        "Title": "Create a Character创建角色"
+        "Title": "创建角色"
       },
       "EyeColorSetCollectionConfiguratorTransform": {
-        "BulkEdit": "Edit Both Eyes",
-        "CustomColor": "Custom Colors",
-        "Edit": "Edit",
+        "BulkEdit": "编辑双眼",
+        "CustomColor": "自定义颜色",
+        "Edit": "编辑",
         "Exit": "关闭",
-        "LeftEye": "Left Eye",
-        "RightEye": "Right Eye右眼"
+        "LeftEye": "左眼",
+        "RightEye": "右眼"
       },
       "LicensesTransform": {
-        "Title": "Licenses许可"
+        "Title": "许可"
       },
       "MainTransform": {
-        "AgeConfirmation": "All users must be at least 13 years old in order to create an account.创建账户年龄限制 13 岁以上",
-        "Agree": "I Agree我同意",
+        "AgeConfirmation": "创建账户年龄必须达到 13 岁",
+        "Agree": "我同意",
         "BundleDownloadConfirmation": {
-          "Description": "The app will start downloading necessary data ({0:f1} {1})开始下载必要文件 ({0:f1} {1})"
+          "Description": "开始下载必要文件 ({0:f1} {1})"
         },
         "BundleDownloadRetry": {
-          "Description": "Something went wrong while downloading necessary files. \r\nPlease check your internet connection and try again.下载必要文件时出错. \r\n请检查网络连接并重试."
+          "Description": "下载必要文件时出错. \r\n请检查网络连接并重试."
         },
         "CancelDialog": {
           "ConfirmationText": "关闭",
@@ -1872,225 +1872,225 @@
           "Title": "未保存的改动"
         },
         "CharacterNaming": {
-          "Description": "Pick a name for your character. Names can be up to 32 characters long.为角色起名. 名称最大长 32 字符",
-          "Title": "New Character新建角色"
+          "Description": "为角色起名. 名称最大长 32 字符",
+          "Title": "新建角色"
         },
         "CharacterRenaming": {
-          "Title": "Rename Character重命名角色"
+          "Title": "重命名角色"
         },
         "CoinChargeWarning": {
-          "ConfirmationText": "Charge充值",
-          "Description": "Charge coins?充值硬币?",
-          "Title": "Not enough coins硬币不足"
+          "ConfirmationText": "充值",
+          "Description": "不充钱你会变强?",
+          "Title": "硬币不足"
         },
         "DeleteAccountDataConfirmation": {
-          "Description": "When you delete your account data, \r\nall the models will be deleted too.若删除账户数据, \r\n所有模型都会丢失.",
-          "Title": "Delete Account Data删除账户数据"
+          "Description": "若删除账户数据, \r\n所有模型都会丢失.",
+          "Title": "删除账户数据"
         },
         "DeleteCharacterConfirmation": {
-          "Description": "By deleting this character you will delete its models too.删除角色后模型也会丢失.",
-          "Title": "Delete This Character?删除这个角色?"
+          "Description": "删除角色后模型也会丢失.",
+          "Title": "删除这个角色?"
         },
         "DeleteModelConfirmation": {
-          "Title": "Delete This Model?删除这个模型?"
+          "Title": "删除这个模型?"
         },
         "FirstCharacterCreationMessage": {
-          "ConfirmationText": "Start Creating开始创建",
-          "Description": "On VRoid Studio you can create 3D characters, dress them up and take their photos. Create your own original 3D avatar!在 VRoid Studio 中, 你可以创建 3D 角色, 装扮并拍照. 创建自己的 3D 角色吧!",
-          "Title": "Let's get started with 3D avatars!开始制作 3D 角色吧!"
+          "ConfirmationText": "开始创建",
+          "Description": "在 VRoid Studio 中, 你可以创建 3D 角色, 装扮并拍照. 创建自己的 3D 角色吧!",
+          "Title": "开始制作 3D 角色吧!"
         },
         "Help": "FAQ",
         "LoginFailureMessage": {
-          "Description": "Something went wrong with login. \r\nPlease check your internet connection and try again.登录时出错. \r\n请检查网络连接并重试.",
-          "Title": "Something went wrong with login.登录时出错"
+          "Description": "登录时出错. \r\n请检查网络连接并重试.",
+          "Title": "登录时出错"
         },
         "LogoutConfirmation": {
-          "Description": "You will log out of VRoid. \r\nDo you want to proceed?您将登出 VRoid. \r\n确认登出?"
+          "Description": "您将登出 VRoid. \r\n确认登出?"
         },
         "MaintenanceMessage": {
-          "ConfirmationText": "Open VRoid's Twitter",
-          "Description": "The app is currently undergoing maintenance. \r\nPlease come back after a while.应用正在维护. \r\n请稍后重试.",
-          "Title": "Under Maintenance正在维护"
+          "ConfirmationText": "转到 VRoid 推特",
+          "Description": "应用正在维护. \r\n请稍后重试.",
+          "Title": "维护中"
         },
         "ModelNaming": {
-          "Description": "Pick a name for your model. Names can be up to 32 characters long.为模型起名. 名称最大长 32 字符",
-          "Title": "Create a Model创建一个模型"
+          "Description": "为模型起名. 名称最大长 32 字符",
+          "Title": "创建一个模型"
         },
         "ModelRenaming": {
-          "Title": "Rename Model重命名模型"
+          "Title": "重命名模型"
         },
         "Naming": {
-          "ConfirmationText": "Confirm确认",
-          "Placeholder": "E.g. Shibu Sendagaya例如 Shibu Sendagaya"
+          "ConfirmationText": "确认",
+          "Placeholder": "例如 Shibu Sendagaya"
         },
-        "Notice": "Before you get started with VRoid Studio, you need to agree to the Terms of Use, Privacy Policy, and Guidelines.使用 VRoid Studio 前, 您需要同意使用条款、隐私政策和准则",
+        "Notice": "使用 VRoid Studio 前, 您需要同意使用条款、隐私政策和准则",
         "PrivacyPolicyConfirmation": {
-          "Description": "VRoid Studio's Privacy Policy was updated on March 30, 2020.VRoid Studio 的隐私政策于 2020 年 3 月 30 日更新.",
-          "Title": "See Privacy Policy请参阅隐私政策"
+          "Description": "VRoid Studid 的隐私政策于 2020 年 3 月 30 日更新.",
+          "Title": "请参阅隐私政策"
         },
         "PurchaseDeferred": {
-          "Description": "Your purchase is pending approval. \r\nPlease ask your guardian for approval \r\nbefore proceeding with the purchase.订单已提交. \r\n继续购买前请检查订单."
+          "Description": "订单已提交. \r\n继续购买前请检查订单."
         },
         "RequireToBackToHomeToAcceptInvitation": {
-          "Description": "In order to join a room, you will need to go back to the home screen first.请返回主页后加入房间"
+          "Description": "请返回主页后加入房间"
         },
         "RequireToBackToHomeToShooting": {
-          "Description": "In order to access the photo booth, you will need to go back to the home screen first.请返回主页后访问 photo booth"
+          "Description": "请返回主页后访问 photo booth"
         },
         "RetryFetchCoin": {
-          "Description": "Something went wrong while loading your coin balance. \r\nPlease check your internet connection and try again.加载硬币钱包时出错. \r\n请检查网络连接并重试."
+          "Description": "加载硬币钱包时出错. \r\n请检查网络连接并重试."
         },
         "StudioFetchFailedMessage": {
-          "Description": "Something went wrong while loading 3D photo studios. \r\nPlease check your internet connection and try again.加载 3D photo studios 时出错. \r\n请检查网络连接并重试.",
-          "Title": "Connection Error连接错误"
+          "Description": "加载 3D photo studios 时出错. \r\n请检查网络连接并重试.",
+          "Title": "连接错误"
         },
         "UpdateApplicationConfirmation": {
-          "ConfirmationText": "Check Update检查更新",
-          "Description": "In order to use the Shoot Together mode, everyone needs to be running the latest version of the app.分享拍摄模式仅可用于最新版本应用."
+          "ConfirmationText": "检查更新",
+          "Description": "分享拍摄模式仅可用于最新版本应用."
         },
         "UpdateAssetBundle": {
-          "Description": "In order to use the Shoot Together mode, everyone needs to be running the latest version of the app. \r\nPlease try again after everyone has restarted their devices.分享拍摄模式仅可用于最新版本应用. \r\n请在他人重启设备后重试."
+          "Description": "分享拍摄模式仅可用于最新版本应用. \r\n请在他人重启设备后重试."
         },
         "UpdateRequiredMessage": {
-          "Description": "There's a new version available. Please update the app.有新的版本可用. 请更新应用.",
-          "Title": "Update更新"
+          "Description": "有新的版本可用. 请更新应用.",
+          "Title": "更新"
         },
         "ValidateProductInCoinCharge": {
-          "ConfirmationText": "Collect收集",
-          "Description": "To purchase coins you first need to collect all uncollected coins. \r\nProceed collecting coins?购买硬币前需要收集硬币.  \r\n确认收集?"
+          "ConfirmationText": "收集",
+          "Description": "购买硬币前需要收集硬币.  \r\n确认收集?"
         },
         "ValidateProductInHome": {
-          "ConfirmationText": "Collect收集",
-          "Description": "You need to collect all uncollected coins. \r\nProceed collecting coins?需要收集硬币. \r\n确认收集?"
+          "ConfirmationText": "收集",
+          "Description": "需要收集硬币. \r\n确认收集?"
         },
         "VRMUploadFailureMessage": {
-          "Description": "Something went wrong while uploading the VRM file. \r\nPlease check your internet connection and try again.上传 VRM 时出错. \r\n请检查网络连接并重试.",
-          "Title": "Connection Error"
+          "Description": "上传 VRM 时出错. \r\n请检查网络连接并重试.",
+          "Title": "连接错误"
         },
-        "VRMUploadingMessage": "Now uploading to VRoid Hub正在上传至 VRoid Hub",
+        "VRMUploadingMessage": "正在上传至 VRoid Hub",
         "WaitForUnityIap": {
-          "Description": "Communicating with the server is taking a while. \r\nPlease check your internet connection and try again.连接超时. \r\n请检查网络连接并重试."
+          "Description": "连接超时. \r\n请检查网络连接并重试."
         },
         "WorldInvitationConfirmation": {
-          "ConfirmationText": "Join加入",
-          "Description": "Join the room you were invited to?加入受邀房间?"
+          "ConfirmationText": "加入",
+          "Description": "加入受邀房间?"
         }
       },
       "PurchaseTransform": {
-        "Total": "Total总共"
+        "Total": "总共"
       },
       "SettingsCopyableTextTransform": {
-        "Copied": "Copied {0}已复制 {0}"
+        "Copied": "已复制 {0}"
       },
       "SettingsTransform": {
-        "Account": "Account Settings账户设置",
-        "Screen": "Screen settings屏幕设置"
+        "Account": "账户设置",
+        "Screen": "屏幕设置"
       },
       "ShareTransform": {
-        "Broadcasters": "Go Live转到直播",
-        "Consumers": "Supported Apps支持的 App",
-        "OtherConsumers": "Find More Apps查看更多 App"
+        "Broadcasters": "转到直播",
+        "Consumers": "受支持的 App",
+        "OtherConsumers": "查看更多 App"
       },
       "ShareVRMUploadTransform": {
-        "Content": "Uploading data to VRoid Hub上传数据到 VRoid Hub"
+        "Content": "上传数据到 VRoid Hub"
       },
       "Studio": {
         "Stage": {
           "EmotionDrawerTransform": {
-            "Emotion": "Emotions表情",
-            "Pose": "Poses动作"
+            "Emotion": "表情",
+            "Pose": "动作"
           },
           "LogsDrawerTransform": {
-            "Input": "Say something说点什么"
+            "Input": "说点什么"
           },
           "ModelsDrawerTransform": {
             "HasNoHeartedModelsHeartFirstLineWide": "❤",
             "HasNoHeartedModelsHeartSecondLineWide": "",
-            "HasNoHeartedModelsPrefix": "VRoid HubでVRoid Hub 中心",
+            "HasNoHeartedModelsPrefix": "VRoid Hub 中心",
             "HasNoHeartedModelsPrefixWide": "VRoid Hub 中心",
-            "HasNoHeartedModelsSecondLine": "呼び出すことができます可以调用可以调用",
-            "HasNoHeartedModelsSecondLineWide": "ラクターを呼び出すこと可以呼出",
-            "HasNoHeartedModelsSuffix": "したキャラクターを角色",
-            "HasNoHeartedModelsSuffixWide": "したキャ我做了",
-            "HasNoHeartedModelsThirdLineWide": "ができます我可以",
-            "HasNoMyModels": "Upload characters to VRoid Hub to call them up上传角色至 VRoid Hub 并调用",
-            "HasNoMyModelsWide": "Upload characters to VRoid Hub to call them up上传角色至 VRoid Hub 并调用",
-            "HeartedCharacter": "Characters you ❤添加 ❤ 的角色",
+            "HasNoHeartedModelsSecondLine": "呼び出すことができます ?可以调用可以调用",
+            "HasNoHeartedModelsSecondLineWide": "ラクターを呼び出すこと ?可以呼出",
+            "HasNoHeartedModelsSuffix": "したキャラクターを ?角色",
+            "HasNoHeartedModelsSuffixWide": "したキャ ?我做了",
+            "HasNoHeartedModelsThirdLineWide": "ができます ?我可以",
+            "HasNoMyModels": "上传角色至 VRoid Hub 并调用",
+            "HasNoMyModelsWide": "上传角色至 VRoid Hub 并调用",
+            "HeartedCharacter": "添加 ❤ 的角色",
             "HeartedCharacterPrefix": "",
-            "HeartedCharacterSuffix": "したキャラクター角色",
-            "IsLoading": "Loading models加载模型",
-            "LinkToVRoidHub": "To VRoid Hub转到 VRoid Hub",
-            "More": "See More查看更多",
+            "HeartedCharacterSuffix": "したキャラクター ?角色",
+            "IsLoading": "加载模型",
+            "LinkToVRoidHub": "转到 VRoid Hub",
+            "More": "查看更多",
             "Reload": "重试"
           },
           "PhotoPreviewTransform": {
-            "AddMark": "Add Watermark",
-            "Mark": "Watermarks",
+            "AddMark": "添加水印",
+            "Mark": "水印",
             "Save": "保存",
-            "Share": "Share",
-            "UploadVRoidHubTall": "Post to\r\nVRoid Hub在\r\nVRoid Hub上发布",
-            "UploadVRoidHubWide": "Post to VRoid Hub在 VRoid Hub 上发布"
+            "Share": "分享",
+            "UploadVRoidHubTall": "发布在\r\nVRoid Hub上",
+            "UploadVRoidHubWide": "在 VRoid Hub 上发布"
           },
           "PlaceModelsDrawerTransform": {
-            "IsMaxSinglePlayer": "This room is full房间已满"
+            "IsMaxSinglePlayer": "房间已满"
           },
           "PlayerInfoDrawerTransform": {
-            "Kick": "Kick Out踢出",
-            "Member": "Members成员"
+            "Kick": "踢出",
+            "Member": "成员"
           },
           "ProgressTransform": {
-            "Loading": "Now Loading加载中"
+            "Loading": "加载中"
           },
           "ScanPromptTransform": {
-            "Text": "Move your device and\r\nscan the ground surface移动你的设备\r\n并扫描物体表面"
+            "Text": "移动你的设备\r\n并扫描物体表面"
           },
           "StageTransform": {
             "ExitConfirmation": {
-              "ConfirmationText": "Leave离开",
-              "Description": "Do you want to leave?确认离开?",
-              "Title": "Leave离开"
+              "ConfirmationText": "离开",
+              "Description": "确认离开?",
+              "Title": "离开"
             },
-            "Next": "Next下一步",
+            "Next": "下一步",
             "PhotoDiscardConfirmation": {
-              "ConfirmationText": "Discard丢弃",
-              "Description": "The data for the photo you took will be lost.\r\nAre you sure you want to discard this photo?所有改动将会丢失. \r\n确定丢弃此照片?",
-              "Title": "Discard Photo丢弃照片"
+              "ConfirmationText": "丢弃",
+              "Description": "所有改动将会丢失. \r\n确定丢弃此照片?",
+              "Title": "丢弃照片"
             },
             "ReconnectConfirmation": {
-              "ConfirmationText": "Reconnect重新连接",
-              "Description": "The connection was lost. Do you want to reconnect?连接已关闭, 尝试重新连接?",
-              "Title": "Connection Error连接错误"
+              "ConfirmationText": "重新连接",
+              "Description": "连接已关闭, 尝试重新连接?",
+              "Title": "连接错误"
             },
             "ShareConfirmation": {
-              "ConfirmationText": "Copy Link",
-              "Description": "Give your friends the link to this room to invite them here! You can take photos with up to four people.分享链接至好友, 至多邀请 4 人分享拍摄",
-              "Title": "Shoot Together分享拍摄"
+              "ConfirmationText": "复制链接",
+              "Description": "分享链接给好友, 至多邀请 4 人分享拍摄",
+              "Title": "分享拍摄"
             }
           },
           "UploadVRoidHubTransform": {
-            "AgeLimit": "Age Restrictions年龄分级",
-            "AgeLimitNormal": "All Ages全年龄",
+            "AgeLimit": "年龄分级",
+            "AgeLimitNormal": "全年龄",
             "AgeLimitR15": "R-15",
             "AgeLimitR18": "R-18",
-            "AttendingEvent": "Event事件",
-            "Caption": "Description说明",
-            "CaptionPlaceholder": "Write an introduction and/or use hashtags添加说明或使用标签",
-            "FailureDescription": "Something went wrong while uploading pictures. \r\nPlease check your internet connection and try again.图片上传时出错. \r\n请检查网络连接并重试",
-            "FailureTitle": "Connection Error连接失败",
-            "None": "None没有",
-            "Notice": "By posting this, you agree to the Terms of Use and Guidelines.若发布, 则同意使用条款和准则.",
-            "Upload": "Post发布",
-            "UploadCheck": "Go to VRoid Hub转至 VRoid Hub",
-            "UploadDoneMessage": "The photo was posted successfully. \r\nDo you want to see it on VRoid Hub?照片发布成功, \r\n在 VRoid Hub上检视?",
-            "UploadVRoidHub": "Post to VRoid Hub发布在 VRoid Hub 上"
+            "AttendingEvent": "事件",
+            "Caption": "说明",
+            "CaptionPlaceholder": "添加说明或使用标签",
+            "FailureDescription": "图片上传时出错. \r\n请检查网络连接并重试",
+            "FailureTitle": "连接失败",
+            "None": "没有",
+            "Notice": "若发布, 则同意使用条款和准则.",
+            "Upload": "发布",
+            "UploadCheck": "转到 VRoid Hub",
+            "UploadDoneMessage": "照片发布成功, \r\n在 VRoid Hub上检视?",
+            "UploadVRoidHub": "发布在 VRoid Hub 上"
           }
         },
         "StudioSelectorTransform": {
           "DownloadingWorld": "正在下载 3D Photo Studio 数据",
-          "Error": "出错了. \r\nPlease check your internet connection and try again.\r\n请检查网络连接并重试",
-          "Multiplay": "Shoot Together一起拍摄",
-          "Singleplay": "Shoot Alone单独拍摄",
-          "Title": "Where are you off to?你要去哪儿?",
+          "Error": "出错了. \r\n请检查网络连接并重试",
+          "Multiplay": "一起拍摄",
+          "Singleplay": "单独拍摄",
+          "Title": "你要去哪儿?",
           "WorldDownloadError": {
             "Title": "无法打开 photo studio"
           }
@@ -2114,8 +2114,8 @@
           "OK": "OK"
         },
         "ModelSelectorTransform": {
-          "xaml_0": "False",
-          "xaml_1": "False"
+          "xaml_0": "失败",
+          "xaml_1": "失败"
         },
         "Studio": {
           "Stage": {
@@ -2171,12 +2171,12 @@
         "F00_000": "基础模型",
         "F00_001_01": "制服 (短裙)",
         "F00_002_01": "连衣裙",
-        "F00_003_01": "Uniform (Pants)",
+        "F00_003_01": "制服 (Pants)",
         "F00_004_01": "Formal 1",
         "F00_005_01": "Casual 1",
         "F00_006_01": "Casual 2",
         "F00_007_01": "Casual 3",
-        "F00_008_01": "Long Coat"
+        "F00_008_01": "大衣"
       },
       "Casual1": {
         "BlendShape": {
@@ -2210,12 +2210,12 @@
         "F00_000": "基础模型",
         "F00_001_01": "制服 (短裙)",
         "F00_002_01": "连衣裙",
-        "F00_003_01": "Uniform (Pants)",
+        "F00_003_01": "制服(Pants)",
         "F00_004_01": "Formal 1",
         "F00_005_01": "Casual 1",
         "F00_006_01": "Casual 2",
         "F00_007_01": "Casual 3",
-        "F00_008_01": "Long Coat"
+        "F00_008_01": "大衣"
       },
       "Formal1": {
         "BlendShape": {
@@ -2275,84 +2275,84 @@
         "F00_000_00_Body_00_SKIN": "皮肤",
         "F00_000_00_EyeExtra_01_EYE": "Extra",
         "F00_000_00_EyeHighlight_00_EYE": "眼睛高光",
-        "F00_000_00_EyeIris_00_EYE": "Irises",
+        "F00_000_00_EyeIris_00_EYE": "瞳孔",
         "F00_000_00_EyeWhite_00_EYE": "眼白",
         "F00_000_00_Face_00_SKIN": "皮肤",
         "F00_000_00_FaceBrow_00_FACE": "眉毛",
         "F00_000_00_FaceEyelash_00_FACE": "睫毛",
         "F00_000_00_FaceEyeline_00_FACE": "眼线",
         "F00_000_00_FaceMouth_00_FACE": "嘴",
-        "F00_001_01_AccessoryNeck_01_CLOTH": "Ribbon",
-        "F00_001_01_Body_00_SKIN": "Skin (Uniform Skirt)",
-        "F00_001_01_Bottoms_01_CLOTH": "Uniform Skirt",
+        "F00_001_01_AccessoryNeck_01_CLOTH": "缎带",
+        "F00_001_01_Body_00_SKIN": "Skin (制服裙)",
+        "F00_001_01_Bottoms_01_CLOTH": "制服群",
         "F00_001_01_Shoes_01_CLOTH": "Loafers",
-        "F00_001_01_Tops_01_CLOTH": "Uniform Vest (Short Sleeve)",
-        "F00_001_02_Tops_01_CLOTH": "Uniform Vest (Long Sleeve)",
+        "F00_001_01_Tops_01_CLOTH": "制服内衬 (短袖)",
+        "F00_001_02_Tops_01_CLOTH": "制服内衬 (长袖)",
         "F00_002_01_Shoes_01_CLOTH": "Shoes (Dress)",
-        "F00_002_01_Tops_01_CLOTH": "Dress (Long Sleeve)",
+        "F00_002_01_Tops_01_CLOTH": "连衣裙 (长袖)",
         "F00_002_02_Body_00_SKIN": "Skin (Dress)",
-        "F00_002_02_Tops_01_CLOTH": "Dress (Half Sleeve)",
-        "F00_002_03_Tops_01_CLOTH": "Dress (Short Sleeve)",
-        "F00_002_04_Tops_01_CLOTH": "Dress (Pencil Skirt)",
+        "F00_002_02_Tops_01_CLOTH": "",
+        "F00_002_03_Tops_01_CLOTH": "连衣裙 (短袖)",
+        "F00_002_04_Tops_01_CLOTH": "连衣裙 (铅笔裙)",
         "F00_003_01_AccessoryNeck_01_CLOTH": "Tie",
-        "F00_003_01_Body_00_SKIN": "Skin (Uniform Pants)",
+        "F00_003_01_Body_00_SKIN": "Skin (制服Pants)",
         "F00_003_01_Bottoms_01_CLOTH": "内裤",
         "F00_003_01_Shoes_01_CLOTH": "Loafers",
-        "F00_003_01_Tops_01_CLOTH": "Uniform Vest (Pants, Short Sleeve)",
-        "F00_003_02_Tops_01_CLOTH": "Uniform Vest (Pants, Long Sleeve)",
+        "F00_003_01_Tops_01_CLOTH": "制服内衬 (Pants, 短袖)",
+        "F00_003_02_Tops_01_CLOTH": "制服内衬 (Pants, 长袖)",
         "F00_004_00_Body_00_SKIN": "Skin (Formal 1)",
-        "F00_004_01_Bottoms_01_CLOTH": "Pencil Skirt",
+        "F00_004_01_Bottoms_01_CLOTH": "铅笔裙",
         "F00_004_01_Shoes_01_CLOTH": "Heels",
-        "F00_004_01_Tops_01_CLOTH": "Mini T-Shirt",
+        "F00_004_01_Tops_01_CLOTH": "迷你T恤",
         "F00_005_01_Shoes_01_CLOTH": "Sneakers",
         "F00_005_01_Tops_01_CLOTH": "T-Shirt",
         "F00_006_01_Shoes_01_CLOTH": "Basketball Sneakers",
-        "F00_006_01_Tops_01_CLOTH": "Hoodie",
+        "F00_006_01_Tops_01_CLOTH": "连帽衫",
         "F00_007_01_Shoes_01_CLOTH": "High Cut Sneakers",
-        "F00_008_01_Body_00_SKIN": "Skin (Long Coat)",
-        "F00_008_01_Bottoms_01_CLOTH": "Pants (Long Coat)",
-        "F00_008_01_Tops_01_CLOTH": "Long Coat (High Neck)",
-        "F00_008_02_Tops_01_CLOTH": "Long Coat (Shirt Collar)",
-        "F00_008_03_Tops_01_CLOTH": "Long Coat (Stand-up Collar)"
+        "F00_008_01_Body_00_SKIN": "Skin (大衣)",
+        "F00_008_01_Bottoms_01_CLOTH": "Pants (大衣)",
+        "F00_008_01_Tops_01_CLOTH": "大衣 (高领)",
+        "F00_008_02_Tops_01_CLOTH": "大衣 (衬衣领)",
+        "F00_008_03_Tops_01_CLOTH": "大衣 (立领)"
       },
       "PartGroup": {
         "F00_000_00_Body": "基础模型",
         "F00_001_01_AccessoryNeck": "Ribbon",
-        "F00_001_01_Body": "Body (Uniform Skirt)",
-        "F00_001_01_Bottoms": "Uniform Skirt",
+        "F00_001_01_Body": "Body (制服裙)",
+        "F00_001_01_Bottoms": "制服裙",
         "F00_001_01_Shoes": "Loafers",
-        "F00_001_01_Tops": "Uniform Vest (Short Sleeve)",
-        "F00_001_02_Tops": "Uniform Vest (Long Sleeve)",
+        "F00_001_01_Tops": "制服内衬 (短袖)",
+        "F00_001_02_Tops": "制服内衬 (长袖)",
         "F00_002_01_Body": "Body (Dress)",
         "F00_002_01_Shoes": "Shoes (Dress)",
-        "F00_002_01_Tops": "Dress (Long Sleeve)",
-        "F00_002_02_Tops": "Dress (Half Sleeve)",
-        "F00_002_03_Tops": "Dress (Short Sleeve)",
-        "F00_002_04_Tops": "Dress (Pencil Skirt)",
+        "F00_002_01_Tops": "连衣裙 (长袖)",
+        "F00_002_02_Tops": "",
+        "F00_002_03_Tops": "连衣裙 (短袖)",
+        "F00_002_04_Tops": "连衣裙 (铅笔裙)",
         "F00_003_01_AccessoryNeck": "Tie",
-        "F00_003_01_Body": "Body (Uniform Pants)",
+        "F00_003_01_Body": "Body (制服Pants)",
         "F00_003_01_Bottoms": "内裤",
         "F00_003_01_Shoes": "Loafers (Pants)",
-        "F00_003_01_Tops": "Uniform Vest (Pants, Short Sleeve)",
-        "F00_003_02_Tops": "Uniform Vest (Pants, Long Sleeve)",
+        "F00_003_01_Tops": "制服内衬 (Pants, 短袖)",
+        "F00_003_02_Tops": "制服内衬 (Pants, 长袖)",
         "F00_004_01_Body": "Body (Formal 1)",
-        "F00_004_01_Bottoms": "Pencil Skirt",
+        "F00_004_01_Bottoms": "铅笔裙",
         "F00_004_01_Shoes": "Heels",
-        "F00_004_01_Tops": "Mini T-Shirt",
+        "F00_004_01_Tops": "迷你T恤",
         "F00_005_01_Body": "Body (Casual 1)",
         "F00_005_01_Shoes": "Sneakers",
         "F00_005_01_Tops": "T-Shirt",
         "F00_006_01_Body": "Body (Casual 2)",
         "F00_006_01_Shoes": "Basketball Sneakers",
-        "F00_006_01_Tops": "Hoodie",
+        "F00_006_01_Tops": "连帽衫",
         "F00_007_01_Body": "Body (Casual 3)",
         "F00_007_01_Shoes": "High Cut Sneakers",
-        "F00_008_01_Body": "Body (Long Coat)",
-        "F00_008_01_Bottoms": "Pants (Long Coat)",
-        "F00_008_01_Tops": "Long Coat (High Neck)",
-        "F00_008_02_Bottoms": "Pants (No Crease)",
-        "F00_008_02_Tops": "Long Coat (Shirt Collar)",
-        "F00_008_03_Tops": "Long Coat (Stand-up Collar)",
+        "F00_008_01_Body": "Body (大衣)",
+        "F00_008_01_Bottoms": "Pants (大衣)",
+        "F00_008_01_Tops": "大衣 (高领)",
+        "F00_008_02_Bottoms": "Pants (无褶)",
+        "F00_008_02_Tops": "大衣 (衬衣领)",
+        "F00_008_03_Tops": "大衣 (立领)",
         "F00_Face": "Face"
       },
       "Shoes": {
@@ -2410,7 +2410,7 @@
         "M00_005_01": "Casual 1",
         "M00_006_01": "Casual 2",
         "M00_007_01": "Casual 3",
-        "M00_008_01": "Long Coat"
+        "M00_008_01": "大衣"
       },
       "Casual1": {
         "BlendShape": {
@@ -2448,14 +2448,14 @@
       },
       "ClothingSet": {
         "M00_000": "基础模型",
-        "M00_001_01": "Uniform (Pants)",
+        "M00_001_01": "制服(Pants)",
         "M00_002_01": "连衣裙",
         "M00_003_01": "制服 (短裙)",
         "M00_004_01": "Formal 1",
         "M00_005_01": "Casual 1",
         "M00_006_01": "Casual 2",
         "M00_007_01": "Casual 3",
-        "M00_008_01": "Long Coat"
+        "M00_008_01": "大衣"
       },
       "Formal1": {
         "BlendShape": {
@@ -2525,75 +2525,75 @@
         "M00_000_01_Body_00_SKIN": "皮肤",
         "M00_001_01_AccessoryNeck_01_CLOTH": "Tie",
         "M00_001_01_Body_00_SKIN": "Skin (Uniform)",
-        "M00_001_01_Bottoms_01_CLOTH": "Uniform Pants",
+        "M00_001_01_Bottoms_01_CLOTH": "制服Pants",
         "M00_001_01_Shoes_01_CLOTH": "Loafers",
-        "M00_001_01_Tops_01_CLOTH": "Uniform Vest (Short Sleeve)",
-        "M00_001_02_Tops_01_CLOTH": "Uniform Vest (Long Sleeve)",
+        "M00_001_01_Tops_01_CLOTH": "制服内衬 (短袖)",
+        "M00_001_02_Tops_01_CLOTH": "制服内衬 (长袖)",
         "M00_002_01_Shoes_01_CLOTH": "Shoes (Dress)",
-        "M00_002_01_Tops_01_CLOTH": "Dress (Long Sleeve)",
+        "M00_002_01_Tops_01_CLOTH": "连衣裙 (长袖)",
         "M00_002_02_Body_00_SKIN": "Skin (Dress)",
-        "M00_002_02_Tops_01_CLOTH": "Dress (Half Sleeve)",
-        "M00_002_03_Tops_01_CLOTH": "Dress (Short Sleeve)",
-        "M00_002_04_Tops_01_CLOTH": "Dress (Pencil Skirt)",
+        "M00_002_02_Tops_01_CLOTH": "",
+        "M00_002_03_Tops_01_CLOTH": "连衣裙 (短袖)",
+        "M00_002_04_Tops_01_CLOTH": "连衣裙 (铅笔裙)",
         "M00_003_01_AccessoryNeck_01_CLOTH": "Ribbon",
-        "M00_003_01_Body_00_SKIN": "Skin (Uniform Skirt)",
-        "M00_003_01_Bottoms_01_CLOTH": "Uniform Skirt",
+        "M00_003_01_Body_00_SKIN": "Skin (制服裙)",
+        "M00_003_01_Bottoms_01_CLOTH": "制服裙",
         "M00_003_01_Shoes_01_CLOTH": "Loafers",
-        "M00_003_01_Tops_01_CLOTH": "Uniform Vest (Short Sleeve)",
-        "M00_003_02_Tops_01_CLOTH": "Uniform Vest (Long Sleeve)",
+        "M00_003_01_Tops_01_CLOTH": "制服内衬 (短袖)",
+        "M00_003_02_Tops_01_CLOTH": "制服内衬 (长袖)",
         "M00_004_00_Body_00_SKIN": "Skin (Formal 1)",
-        "M00_004_01_Bottoms_01_CLOTH": "Pencil Skirt",
+        "M00_004_01_Bottoms_01_CLOTH": "铅笔裙",
         "M00_004_01_Shoes_01_CLOTH": "Heels",
-        "M00_004_01_Tops_01_CLOTH": "Mini T-Shirt",
+        "M00_004_01_Tops_01_CLOTH": "迷你T恤",
         "M00_005_01_Shoes_01_CLOTH": "Sneakers",
         "M00_005_01_Tops_01_CLOTH": "T-Shirt",
         "M00_006_01_Shoes_01_CLOTH": "Basketball Sneakers",
-        "M00_006_01_Tops_01_CLOTH": "Hoodie",
+        "M00_006_01_Tops_01_CLOTH": "连帽衫",
         "M00_007_01_Shoes_01_CLOTH": "High Cut Sneakers",
-        "M00_008_01_Body_00_SKIN": "Skin (Long Coat)",
-        "M00_008_01_Bottoms_01_CLOTH": "Pants (Long Coat)",
-        "M00_008_01_Tops_01_CLOTH": "Long Coat (High Neck)",
-        "M00_008_02_Tops_01_CLOTH": "Long Coat (Shirt Collar)",
-        "M00_008_03_Tops_01_CLOTH": "Long Coat (Stand-up Collar)"
+        "M00_008_01_Body_00_SKIN": "Skin (大衣)",
+        "M00_008_01_Bottoms_01_CLOTH": "Pants (大衣)",
+        "M00_008_01_Tops_01_CLOTH": "大衣 (高领)",
+        "M00_008_02_Tops_01_CLOTH": "大衣 (衬衣领)",
+        "M00_008_03_Tops_01_CLOTH": "大衣 (立领)"
       },
       "PartGroup": {
         "M00_000_00_Body": "基础模型",
         "M00_001_01_AccessoryNeck": "Tie",
         "M00_001_01_Body": "Body (Uniform)",
-        "M00_001_01_Bottoms": "Uniform Pants",
+        "M00_001_01_Bottoms": "制服Pants",
         "M00_001_01_Shoes": "Loafers",
-        "M00_001_01_Tops": "Uniform Vest (Short Sleeve)",
-        "M00_001_02_Tops": "Uniform Vest (Long Sleeve)",
+        "M00_001_01_Tops": "制服内衬 (短袖)",
+        "M00_001_02_Tops": "制服内衬 (长袖)",
         "M00_002_01_Body": "Body (Dress)",
         "M00_002_01_Shoes": "Shoes (Dress)",
-        "M00_002_01_Tops": "Dress (Long Sleeve)",
-        "M00_002_02_Tops": "Dress (Half Sleeve)",
-        "M00_002_03_Tops": "Dress (Short Sleeve)",
-        "M00_002_04_Tops": "Dress (Pencil Skirt)",
+        "M00_002_01_Tops": "连衣裙 (长袖)",
+        "M00_002_02_Tops": "",
+        "M00_002_03_Tops": "连衣裙 (短袖)",
+        "M00_002_04_Tops": "连衣裙 (铅笔裙)",
         "M00_003_01_AccessoryNeck": "Ribbon",
-        "M00_003_01_Body": "Body (Uniform Skirt)",
-        "M00_003_01_Bottoms": "Uniform Skirt",
+        "M00_003_01_Body": "Body (制服裙)",
+        "M00_003_01_Bottoms": "制服裙",
         "M00_003_01_Shoes": "Loafers",
-        "M00_003_01_Tops": "Uniform Vest (Skirt, Short Sleeve)",
-        "M00_003_02_Tops": "Uniform Vest (Skirt, Long Sleeve)",
+        "M00_003_01_Tops": "制服内衬 (Skirt, 短袖)",
+        "M00_003_02_Tops": "制服内衬 (Skirt, 长袖)",
         "M00_004_01_Body": "Body (Formal 1)",
-        "M00_004_01_Bottoms": "Pencil Skirt",
+        "M00_004_01_Bottoms": "铅笔裙",
         "M00_004_01_Shoes": "Heels",
-        "M00_004_01_Tops": "Mini T-Shirt",
+        "M00_004_01_Tops": "迷你T恤",
         "M00_005_01_Body": "Body (Casual 1)",
         "M00_005_01_Shoes": "Sneakers",
         "M00_005_01_Tops": "T-Shirt",
         "M00_006_01_Body": "Body (Casual 2)",
         "M00_006_01_Shoes": "Basketball Sneakers",
-        "M00_006_01_Tops": "Hoodie",
+        "M00_006_01_Tops": "连帽衫",
         "M00_007_01_Body": "Body (Casual 3)",
         "M00_007_01_Shoes": "High Cut Sneakers",
-        "M00_008_01_Body": "Body (Long Coat)",
-        "M00_008_01_Bottoms": "Pants (Long Coat)",
-        "M00_008_01_Tops": "Long Coat (High Neck)",
-        "M00_008_02_Bottoms": "Pants (No Crease)",
-        "M00_008_02_Tops": "Long Coat (Shirt Collar)",
-        "M00_008_03_Tops": "Long Coat (Stand-up Collar)",
+        "M00_008_01_Body": "Body (大衣)",
+        "M00_008_01_Bottoms": "Pants (大衣)",
+        "M00_008_01_Tops": "大衣 (高领)",
+        "M00_008_02_Bottoms": "Pants (无褶)",
+        "M00_008_02_Tops": "大衣 (衬衣领)",
+        "M00_008_03_Tops": "大衣 (立领)",
         "M00_Face": "Face"
       },
       "Shoes": {
@@ -2634,12 +2634,12 @@
         "F00_000": "身体",
         "F00_001_01": "制服 (短裙)",
         "F00_002_01": "连衣裙",
-        "F00_003_01": "Uniform (Pants)",
+        "F00_003_01": "制服(Pants)",
         "F00_004_01": "Formal 1",
         "F00_005_01": "Casual 1",
         "F00_006_01": "Casual 2",
         "F00_007_01": "Casual 3",
-        "F00_008_01": "Long Coat"
+        "F00_008_01": "大衣"
       },
       "Casual1": {
         "BlendShape": {
@@ -2691,12 +2691,12 @@
         "F00_000": "身体",
         "F00_001_01": "制服 (短裙)",
         "F00_002_01": "连衣裙",
-        "F00_003_01": "Uniform (Pants)",
+        "F00_003_01": "制服(Pants)",
         "F00_004_01": "Formal 1",
         "F00_005_01": "Casual 1",
         "F00_006_01": "Casual 2",
         "F00_007_01": "Casual 3",
-        "F00_008_01": "Long Coat"
+        "F00_008_01": "大衣"
       },
       "Formal1": {
         "BlendShape": {
@@ -2817,103 +2817,103 @@
         "F00_000_00_FaceEyeline_00_FACE": "眼线",
         "F00_000_00_FaceMouth_00_FACE": "嘴",
         "F00_001_01_AccessoryNeck_01_CLOTH": "Ribbon",
-        "F00_001_01_Body_00_SKIN": "Skin (Uniform Skirt)",
-        "F00_001_01_Bottoms_01_CLOTH": "Uniform Skirt",
+        "F00_001_01_Body_00_SKIN": "Skin (制服裙)",
+        "F00_001_01_Bottoms_01_CLOTH": "制服裙",
         "F00_001_01_Shoes_01_CLOTH": "Loafers",
-        "F00_001_01_Tops_01_CLOTH": "Uniform Vest (Short Sleeve)",
-        "F00_001_02_Tops_01_CLOTH": "Uniform Vest (Long Sleeve)",
+        "F00_001_01_Tops_01_CLOTH": "制服内衬 (短袖)",
+        "F00_001_02_Tops_01_CLOTH": "制服内衬 (长袖)",
         "F00_002_01_Shoes_01_CLOTH": "Shoes (Dress)",
-        "F00_002_01_Tops_01_CLOTH": "Dress (Long Sleeve)",
+        "F00_002_01_Tops_01_CLOTH": "连衣裙 (长袖)",
         "F00_002_02_Body_00_SKIN": "Skin (Dress)",
-        "F00_002_02_Tops_01_CLOTH": "Dress (Half Sleeve)",
-        "F00_002_03_Tops_01_CLOTH": "Dress (Short Sleeve)",
-        "F00_002_04_Tops_01_CLOTH": "Dress (Pencil Skirt)",
+        "F00_002_02_Tops_01_CLOTH": "",
+        "F00_002_03_Tops_01_CLOTH": "连衣裙 (短袖)",
+        "F00_002_04_Tops_01_CLOTH": "连衣裙 (铅笔裙)",
         "F00_003_01_AccessoryNeck_01_CLOTH": "Tie",
-        "F00_003_01_Body_00_SKIN": "Skin (Uniform Pants)",
+        "F00_003_01_Body_00_SKIN": "Skin (制服Pants)",
         "F00_003_01_Bottoms_01_CLOTH": "内裤",
         "F00_003_01_Shoes_01_CLOTH": "Loafers",
-        "F00_003_01_Tops_01_CLOTH": "Uniform Vest (Pants, Short Sleeve)",
-        "F00_003_02_Tops_01_CLOTH": "Uniform Vest (Pants, Long Sleeve)",
+        "F00_003_01_Tops_01_CLOTH": "制服内衬 (Pants, 短袖)",
+        "F00_003_02_Tops_01_CLOTH": "制服内衬 (Pants, 长袖)",
         "F00_004_00_Body_00_SKIN": "Skin (Formal 1)",
-        "F00_004_01_Bottoms_01_CLOTH": "Pencil Skirt",
+        "F00_004_01_Bottoms_01_CLOTH": "铅笔裙",
         "F00_004_01_Shoes_01_CLOTH": "Heels",
-        "F00_004_01_Tops_01_CLOTH": "Mini T-Shirt",
+        "F00_004_01_Tops_01_CLOTH": "迷你T恤",
         "F00_005_01_Shoes_01_CLOTH": "Sneakers",
         "F00_005_01_Tops_01_CLOTH": "T-Shirt",
         "F00_006_01_Shoes_01_CLOTH": "Basketball Sneakers",
-        "F00_006_01_Tops_01_CLOTH": "Hoodie",
+        "F00_006_01_Tops_01_CLOTH": "连帽衫",
         "F00_007_01_Shoes_01_CLOTH": "High Cut Sneakers",
-        "F00_008_01_Body_00_SKIN": "Skin (Long Coat)",
-        "F00_008_01_Bottoms_01_CLOTH": "Pants (Long Coat)",
-        "F00_008_01_Tops_01_CLOTH": "Long Coat (High Neck)",
-        "F00_008_02_Tops_01_CLOTH": "Long Coat (Shirt Collar)",
-        "F00_008_03_Tops_01_CLOTH": "Long Coat (Stand-up Collar)"
+        "F00_008_01_Body_00_SKIN": "Skin (大衣)",
+        "F00_008_01_Bottoms_01_CLOTH": "Pants (大衣)",
+        "F00_008_01_Tops_01_CLOTH": "大衣 (高领)",
+        "F00_008_02_Tops_01_CLOTH": "大衣 (衬衣领)",
+        "F00_008_03_Tops_01_CLOTH": "大衣 (立领)"
       },
       "PartGroup": {
         "F00_000_00_Body": "身体",
         "F00_001_01_AccessoryNeck": "Ribbon",
-        "F00_001_01_Body": "Body (Uniform Skirt)",
-        "F00_001_01_Bottoms": "Uniform Skirt",
+        "F00_001_01_Body": "Body (制服裙)",
+        "F00_001_01_Bottoms": "制服裙",
         "F00_001_01_Shoes": "Loafers",
-        "F00_001_01_Tops": "Uniform Vest (Short Sleeve)",
-        "F00_001_02_Tops": "Uniform Vest (Long Sleeve)",
+        "F00_001_01_Tops": "制服内衬 (短袖)",
+        "F00_001_02_Tops": "制服内衬 (长袖)",
         "F00_002_01_Body": "Body (Dress)",
         "F00_002_01_Shoes": "Shoes (Dress)",
-        "F00_002_01_Tops": "Dress (Long Sleeve)",
-        "F00_002_02_Tops": "Dress (Half Sleeve)",
-        "F00_002_03_Tops": "Dress (Short Sleeve)",
-        "F00_002_04_Tops": "Dress (Pencil Skirt)",
+        "F00_002_01_Tops": "连衣裙 (长袖)",
+        "F00_002_02_Tops": "",
+        "F00_002_03_Tops": "连衣裙 (短袖)",
+        "F00_002_04_Tops": "连衣裙 (铅笔裙)",
         "F00_003_01_AccessoryNeck": "Tie",
-        "F00_003_01_Body": "Body (Uniform Pants)",
+        "F00_003_01_Body": "Body (制服Pants)",
         "F00_003_01_Bottoms": "内裤",
         "F00_003_01_Shoes": "Loafers (Pants)",
-        "F00_003_01_Tops": "Uniform Vest (Pants, Short Sleeve)",
-        "F00_003_02_Tops": "Uniform Vest (Pants, Long Sleeve)",
+        "F00_003_01_Tops": "制服内衬 (Pants, 短袖)",
+        "F00_003_02_Tops": "制服内衬 (Pants, 长袖)",
         "F00_004_01_Body": "Body (Formal 1)",
-        "F00_004_01_Bottoms": "Pencil Skirt",
+        "F00_004_01_Bottoms": "铅笔裙",
         "F00_004_01_Shoes": "Heels",
-        "F00_004_01_Tops": "Mini T-Shirt",
+        "F00_004_01_Tops": "迷你T恤",
         "F00_005_01_Body": "Body (Casual 1)",
         "F00_005_01_Shoes": "Sneakers",
         "F00_005_01_Tops": "T-Shirt",
         "F00_006_01_Body": "Body (Casual 2)",
         "F00_006_01_Shoes": "Basketball Sneakers",
-        "F00_006_01_Tops": "Hoodie",
+        "F00_006_01_Tops": "连帽衫",
         "F00_007_01_Body": "Body (Casual 3)",
         "F00_007_01_Shoes": "High Cut Sneakers",
-        "F00_008_01_Body": "Body (Long Coat)",
-        "F00_008_01_Bottoms": "Pants (Long Coat)",
-        "F00_008_01_Tops": "Long Coat (High Neck)",
-        "F00_008_02_Bottoms": "Pants (No Crease)",
-        "F00_008_02_Tops": "Long Coat (Shirt Collar)",
-        "F00_008_03_Tops": "Long Coat (Stand-up Collar)",
+        "F00_008_01_Body": "Body (大衣)",
+        "F00_008_01_Bottoms": "Pants (大衣)",
+        "F00_008_01_Tops": "大衣 (高领)",
+        "F00_008_02_Bottoms": "Pants (无褶)",
+        "F00_008_02_Tops": "大衣 (衬衣领)",
+        "F00_008_03_Tops": "大衣 (立领)",
         "F00_Face": "脸",
         "N00_001_01_Accessory_Tie": "Tie",
         "N00_001_01_Bottoms": "内裤",
         "N00_001_01_Shoes": "Loafers",
-        "N00_001_01_Tops": "Uniform Vest (Short Sleeve)",
+        "N00_001_01_Tops": "制服内衬 (短袖)",
         "N00_001_02_Accessory_Tie": "Ribbon",
-        "N00_001_02_Bottoms": "Pants (No Crease)",
-        "N00_001_02_Tops": "Uniform Vest (Long Sleeve)",
-        "N00_001_03_Bottoms": "Uniform Skirt",
+        "N00_001_02_Bottoms": "Pants (无褶)",
+        "N00_001_02_Tops": "制服内衬 (长袖)",
+        "N00_001_03_Bottoms": "制服裙",
         "N00_002_01_Shoes": "Shoes (Dress)",
-        "N00_002_01_Tops": "Dress (Long Sleeve)",
-        "N00_002_02_Tops": "Dress (Half Sleeve)",
-        "N00_002_03_Tops": "Dress (Short Sleeve)",
-        "N00_002_04_Tops": "Dress (Pencil Skirt)",
-        "N00_003_01_Bottoms": "Pencil Skirt",
+        "N00_002_01_Tops": "连衣裙 (长袖)",
+        "N00_002_02_Tops": "",
+        "N00_002_03_Tops": "连衣裙 (短袖)",
+        "N00_002_04_Tops": "连衣裙 (铅笔裙)",
+        "N00_003_01_Bottoms": "铅笔裙",
         "N00_003_01_Shoes": "Heels",
-        "N00_003_01_Tops": "Mini T-Shirt",
+        "N00_003_01_Tops": "迷你T恤",
         "N00_004_01_Shoes": "Sneakers",
         "N00_004_01_Tops": "T-Shirt",
         "N00_005_01_Shoes": "Basketball Sneakers",
-        "N00_005_01_Tops": "Hoodie",
+        "N00_005_01_Tops": "连帽衫",
         "N00_006_01_Shoes": "High Cut Sneakers",
-        "N00_007_01_Bottoms": "Pants (Long Coat)",
-        "N00_007_01_Tops": "Long Coat (High Neck)",
-        "N00_007_02_Bottoms": "Pants (No Crease)",
-        "N00_007_02_Tops": "Long Coat (Shirt Collar)",
-        "N00_007_03_Tops": "Long Coat (Stand-up Collar)"
+        "N00_007_01_Bottoms": "Pants (大衣)",
+        "N00_007_01_Tops": "大衣 (高领)",
+        "N00_007_02_Bottoms": "Pants (无褶)",
+        "N00_007_02_Tops": "大衣 (衬衣领)",
+        "N00_007_03_Tops": "大衣 (立领)"
       },
       "RabbitEar": {
         "BlendShape": {
@@ -2952,42 +2952,42 @@
         "pixiv_VRoid_Attachment_CatEar_N00_Base_N00_000_00_Accessory_CatEar_TransferableType_N00_CatEar_transferable": "Cat Ears猫耳",
         "pixiv_VRoid_Attachment_GlassesHi_N00_Base_N00_000_00_Accessory_GlassesHi_TransferableType_N00_GlassesHi_transferable": "Glasses (Thick)",
         "pixiv_VRoid_Attachment_GlassesLow_N00_Base_N00_000_00_Accessory_GlassesLow_TransferableType_N00_GlassesLow_transferable": "Glasses (Thin)",
-        "pixiv_VRoid_Attachment_RabbitEar_N00_Base_N00_000_00_Accessory_RabbitEar_TransferableType_N00_RabbitEar_transferable": "Rabbit Ears",
-        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_001_01_Tops_TransferableType_N00_ArmAccessory_transferable": "Uniform Vest (Short Sleeve)",
-        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_001_02_Tops_TransferableType_N00_ArmAccessory_transferable": "Uniform Vest (Long Sleeve)",
-        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_002_01_Tops_TransferableType_N00_ArmAccessory_transferable": "Dress (Long Sleeve)",
-        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_002_02_Tops_TransferableType_N00_ArmAccessory_transferable": "Dress (Half Sleeve)",
-        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_002_03_Tops_TransferableType_N00_ArmAccessory_transferable": "Dress (Short Sleeve)",
-        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_002_04_Tops_TransferableType_N00_ArmAccessory_transferable": "Dress (Pencil Skirt)",
-        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_003_01_Tops_TransferableType_N00_ArmAccessory_transferable": "Mini T-Shirt",
+        "pixiv_VRoid_Attachment_RabbitEar_N00_Base_N00_000_00_Accessory_RabbitEar_TransferableType_N00_RabbitEar_transferable": "兔儿",
+        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_001_01_Tops_TransferableType_N00_ArmAccessory_transferable": "制服内衬 (短袖)",
+        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_001_02_Tops_TransferableType_N00_ArmAccessory_transferable": "制服内衬 (长袖)",
+        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_002_01_Tops_TransferableType_N00_ArmAccessory_transferable": "连衣裙 (长袖)",
+        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_002_02_Tops_TransferableType_N00_ArmAccessory_transferable": "",
+        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_002_03_Tops_TransferableType_N00_ArmAccessory_transferable": "连衣裙 (短袖)",
+        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_002_04_Tops_TransferableType_N00_ArmAccessory_transferable": "连衣裙 (铅笔裙)",
+        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_003_01_Tops_TransferableType_N00_ArmAccessory_transferable": "迷你T恤",
         "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_004_01_Tops_TransferableType_N00_ArmAccessory_transferable": "T-Shirt",
-        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_005_01_Tops_TransferableType_N00_ArmAccessory_transferable": "Hoodie",
-        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_007_01_Tops_TransferableType_N00_ArmAccessory_transferable": "Long Coat (High Neck)",
-        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_007_02_Tops_TransferableType_N00_ArmAccessory_transferable": "Long Coat (Shirt Collar)",
-        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_007_03_Tops_TransferableType_N00_ArmAccessory_transferable": "Long Coat (Stand-up Collar)",
+        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_005_01_Tops_TransferableType_N00_ArmAccessory_transferable": "连帽衫",
+        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_007_01_Tops_TransferableType_N00_ArmAccessory_transferable": "大衣 (高领)",
+        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_007_02_Tops_TransferableType_N00_ArmAccessory_transferable": "大衣 (衬衣领)",
+        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_007_03_Tops_TransferableType_N00_ArmAccessory_transferable": "大衣 (立领)",
         "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_SkinOverlay_TransferableType_N00_ArmAccessory_transferable": "Skin Overlay",
         "pixiv_VRoid_Clothing_AccessoryNeck_N00_Base_N00_001_01_Accessory_Tie_TransferableType_N00_NeckAccessory_transferable": "Tie",
         "pixiv_VRoid_Clothing_AccessoryNeck_N00_Base_N00_001_02_Accessory_Tie_TransferableType_N00_NeckAccessory_transferable": "Ribbon",
         "pixiv_VRoid_Clothing_AccessoryNeck_N00_Base_SkinOverlay_TransferableType_N00_NeckAccessory_transferable": "Skin Overlay",
-        "pixiv_VRoid_Clothing_Bottoms_N00_Base_N00_001_01_Bottoms_TransferableType_N00_Bottoms_transferable": "Pants (Crease)",
-        "pixiv_VRoid_Clothing_Bottoms_N00_Base_N00_001_02_Bottoms_TransferableType_N00_Bottoms_transferable": "Pants (No Crease)",
-        "pixiv_VRoid_Clothing_Bottoms_N00_Base_N00_001_03_Bottoms_TransferableType_N00_Bottoms_transferable": "Uniform Skirt",
-        "pixiv_VRoid_Clothing_Bottoms_N00_Base_N00_003_01_Bottoms_TransferableType_N00_Bottoms_transferable": "Pencil Skirt",
+        "pixiv_VRoid_Clothing_Bottoms_N00_Base_N00_001_01_Bottoms_TransferableType_N00_Bottoms_transferable": "Pants (有褶)",
+        "pixiv_VRoid_Clothing_Bottoms_N00_Base_N00_001_02_Bottoms_TransferableType_N00_Bottoms_transferable": "Pants (无褶)",
+        "pixiv_VRoid_Clothing_Bottoms_N00_Base_N00_001_03_Bottoms_TransferableType_N00_Bottoms_transferable": "制服裙",
+        "pixiv_VRoid_Clothing_Bottoms_N00_Base_N00_003_01_Bottoms_TransferableType_N00_Bottoms_transferable": "铅笔裙",
         "pixiv_VRoid_Clothing_Bottoms_N00_Base_SkinOverlay_TransferableType_N00_Bottoms_transferable": "Skin Overlay",
         "pixiv_VRoid_Clothing_InnerBottom_N00_Base_SkinOverlay_TransferableType_N00_InnerBottom_transferable": "Skin Overlay",
         "pixiv_VRoid_Clothing_InnerTop_N00_Base_SkinOverlay_TransferableType_N00_InnerTop_transferable": "Skin Overlay",
-        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_001_01_Tops_TransferableType_N00_Onepiece_transferable": "Uniform Vest (Short Sleeve)",
-        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_001_02_Tops_TransferableType_N00_Onepiece_transferable": "Uniform Vest (Long Sleeve)",
-        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_002_01_Tops_TransferableType_N00_Onepiece_transferable": "Dress (Long Sleeve)",
-        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_002_02_Tops_TransferableType_N00_Onepiece_transferable": "Dress (Half Sleeve)",
-        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_002_03_Tops_TransferableType_N00_Onepiece_transferable": "Dress (Short Sleeve)",
-        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_002_04_Tops_TransferableType_N00_Onepiece_transferable": "Dress (Pencil Skirt)",
-        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_003_01_Tops_TransferableType_N00_Onepiece_transferable": "Mini T-Shirt",
+        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_001_01_Tops_TransferableType_N00_Onepiece_transferable": "制服内衬 (短袖)",
+        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_001_02_Tops_TransferableType_N00_Onepiece_transferable": "制服内衬 (长袖)",
+        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_002_01_Tops_TransferableType_N00_Onepiece_transferable": "连衣裙 (长袖)",
+        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_002_02_Tops_TransferableType_N00_Onepiece_transferable": "",
+        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_002_03_Tops_TransferableType_N00_Onepiece_transferable": "连衣裙 (短袖)",
+        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_002_04_Tops_TransferableType_N00_Onepiece_transferable": "连衣裙 (铅笔裙)",
+        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_003_01_Tops_TransferableType_N00_Onepiece_transferable": "迷你T恤",
         "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_004_01_Tops_TransferableType_N00_Onepiece_transferable": "T-Shirt",
-        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_005_01_Tops_TransferableType_N00_Onepiece_transferable": "Hoodie",
-        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_007_01_Tops_TransferableType_N00_Onepiece_transferable": "Long Coat (High Neck)",
-        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_007_02_Tops_TransferableType_N00_Onepiece_transferable": "Long Coat (Shirt Collar)",
-        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_007_03_Tops_TransferableType_N00_Onepiece_transferable": "Long Coat (Stand-up Collar)",
+        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_005_01_Tops_TransferableType_N00_Onepiece_transferable": "连帽衫",
+        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_007_01_Tops_TransferableType_N00_Onepiece_transferable": "大衣 (高领)",
+        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_007_02_Tops_TransferableType_N00_Onepiece_transferable": "大衣 (衬衣领)",
+        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_007_03_Tops_TransferableType_N00_Onepiece_transferable": "大衣 (立领)",
         "pixiv_VRoid_Clothing_Onepiece_N00_Base_SkinOverlay_TransferableType_N00_Onepiece_transferable": "Skin Overlay",
         "pixiv_VRoid_Clothing_Shoes_N00_Base_N00_001_01_Shoes_TransferableType_N00_Shoes_transferable": "Loafers",
         "pixiv_VRoid_Clothing_Shoes_N00_Base_N00_002_01_Shoes_TransferableType_N00_Shoes_transferable": "Dress Shoes",
@@ -2997,61 +2997,61 @@
         "pixiv_VRoid_Clothing_Shoes_N00_Base_N00_006_01_Shoes_TransferableType_N00_Shoes_transferable": "High Cut Sneakers",
         "pixiv_VRoid_Clothing_Shoes_N00_Base_SkinOverlay_TransferableType_N00_Shoes_transferable": "Skin Overlay",
         "pixiv_VRoid_Clothing_Socks_N00_Base_TransferableType_N00_Socks_transferable": "Skin Overlay",
-        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_001_01_Tops_TransferableType_N00_Tops_transferable": "Uniform Vest (Short Sleeve)",
-        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_001_02_Tops_TransferableType_N00_Tops_transferable": "Uniform Vest (Long Sleeve)",
-        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_002_01_Tops_TransferableType_N00_Tops_transferable": "Dress (Long Sleeve)",
-        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_002_02_Tops_TransferableType_N00_Tops_transferable": "Dress (Half Sleeve)",
-        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_002_03_Tops_TransferableType_N00_Tops_transferable": "Dress (Short Sleeve)",
-        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_002_04_Tops_TransferableType_N00_Tops_transferable": "Dress (Pencil Skirt)",
-        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_003_01_Tops_TransferableType_N00_Tops_transferable": "Mini T-Shirt",
+        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_001_01_Tops_TransferableType_N00_Tops_transferable": "制服内衬 (短袖)",
+        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_001_02_Tops_TransferableType_N00_Tops_transferable": "制服内衬 (长袖)",
+        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_002_01_Tops_TransferableType_N00_Tops_transferable": "连衣裙 (长袖)",
+        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_002_02_Tops_TransferableType_N00_Tops_transferable": "",
+        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_002_03_Tops_TransferableType_N00_Tops_transferable": "连衣裙 (短袖)",
+        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_002_04_Tops_TransferableType_N00_Tops_transferable": "连衣裙 (铅笔裙)",
+        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_003_01_Tops_TransferableType_N00_Tops_transferable": "迷你T恤",
         "pixiv_VRoid_Clothing_Tops_N00_Base_N00_004_01_Tops_TransferableType_N00_Tops_transferable": "T-Shirt",
-        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_005_01_Tops_TransferableType_N00_Tops_transferable": "Hoodie",
-        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_007_01_Tops_TransferableType_N00_Tops_transferable": "Long Coat (High Neck)",
-        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_007_02_Tops_TransferableType_N00_Tops_transferable": "Long Coat (Shirt Collar)",
-        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_007_03_Tops_TransferableType_N00_Tops_transferable": "Long Coat (Stand-up Collar)大衣 (立领)",
+        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_005_01_Tops_TransferableType_N00_Tops_transferable": "连帽衫",
+        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_007_01_Tops_TransferableType_N00_Tops_transferable": "大衣 (高领)",
+        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_007_02_Tops_TransferableType_N00_Tops_transferable": "大衣 (衬衣领)",
+        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_007_03_Tops_TransferableType_N00_Tops_transferable": "大衣 (立领)大衣 (立领)",
         "pixiv_VRoid_Clothing_Tops_N00_Base_SkinOverlay_TransferableType_N00_Tops_transferable": "Skin Overlay紧身衣",
-        "RabbitEar": "Rabbit Ears"
+        "RabbitEar": "兔儿"
       },
       "TransferableGroup": {
         "pixiv_VRoid_Attachment_CatEar_N00_Base_N00_000_00_Accessory_CatEar_TransferableGroupType_N00_Level1_AnimalEar_transferablegroup": "Cat Ears猫耳",
         "pixiv_VRoid_Attachment_GlassesHi_N00_Base_N00_000_00_Accessory_GlassesHi_TransferableGroupType_N00_Level1_Glasses_transferablegroup": "Glasses (Thick)",
         "pixiv_VRoid_Attachment_GlassesLow_N00_Base_N00_000_00_Accessory_GlassesLow_TransferableGroupType_N00_Level1_Glasses_transferablegroup": "Glasses (Thin)",
-        "pixiv_VRoid_Attachment_RabbitEar_N00_Base_N00_000_00_Accessory_RabbitEar_TransferableGroupType_N00_Level1_AnimalEar_transferablegroup": "Rabbit Ears",
-        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_001_01_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - Uniform Vest (Short Sleeve)手臂配饰 - 制服内衬 (短袖)",
-        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_001_02_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - Uniform Vest (Long Sleeve)",
-        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_002_01_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - Dress (Long Sleeve)",
-        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_002_02_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - Dress (Half Sleeve)",
-        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_002_03_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - Dress (Short Sleeve)",
-        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_002_04_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - Dress (Pencil Skirt)",
-        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_003_01_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - Mini T-Shirt",
+        "pixiv_VRoid_Attachment_RabbitEar_N00_Base_N00_000_00_Accessory_RabbitEar_TransferableGroupType_N00_Level1_AnimalEar_transferablegroup": "兔儿",
+        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_001_01_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - 制服内衬 (短袖)手臂配饰 - 制服内衬 (短袖)",
+        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_001_02_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - 制服内衬 (长袖)",
+        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_002_01_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - 连衣裙 (长袖)",
+        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_002_02_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - ",
+        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_002_03_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - 连衣裙 (短袖)",
+        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_002_04_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - 连衣裙 (铅笔裙)",
+        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_003_01_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - 迷你T恤",
         "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_004_01_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - T-Shirt",
-        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_005_01_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - Hoodie",
-        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_007_01_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - Long Coat (High Neck)",
-        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_007_02_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - Long Coat (Shirt Collar)",
-        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_007_03_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - Long Coat (Stan-up Collar)",
+        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_005_01_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - 连帽衫",
+        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_007_01_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - 大衣 (高领)",
+        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_007_02_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - 大衣 (衬衣领)",
+        "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_007_03_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - 大衣 (Stan-up Collar)",
         "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_SkinOverlay_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - Skin Overlay",
         "pixiv_VRoid_Clothing_AccessoryNeck_N00_Base_N00_001_01_Accessory_Tie_TransferableGroupType_N00_Level1_NeckAccessory_transferablegroup": "Neck Accessory - Tie",
         "pixiv_VRoid_Clothing_AccessoryNeck_N00_Base_N00_001_02_Accessory_Tie_TransferableGroupType_N00_Level1_NeckAccessory_transferablegroup": "Neck Accessory - Ribbon",
         "pixiv_VRoid_Clothing_AccessoryNeck_N00_Base_SkinOverlay_TransferableGroupType_N00_Level1_NeckAccessory_transferablegroup": "Neck Accessory - Skin Overlay",
         "pixiv_VRoid_Clothing_Bottoms_N00_Base_N00_001_01_Bottoms_TransferableGroupType_N00_Level1_Bottoms_transferablegroup": "Bottoms - Pants (Crease)",
-        "pixiv_VRoid_Clothing_Bottoms_N00_Base_N00_001_02_Bottoms_TransferableGroupType_N00_Level1_Bottoms_transferablegroup": "Bottoms - Pants (No Crease)",
-        "pixiv_VRoid_Clothing_Bottoms_N00_Base_N00_001_03_Bottoms_TransferableGroupType_N00_Level1_Bottoms_transferablegroup": "Bottoms - Uniform Skirt",
-        "pixiv_VRoid_Clothing_Bottoms_N00_Base_N00_003_01_Bottoms_TransferableGroupType_N00_Level1_Bottoms_transferablegroup": "Bottoms - Pencil Skirt",
+        "pixiv_VRoid_Clothing_Bottoms_N00_Base_N00_001_02_Bottoms_TransferableGroupType_N00_Level1_Bottoms_transferablegroup": "Bottoms - Pants (无褶)",
+        "pixiv_VRoid_Clothing_Bottoms_N00_Base_N00_001_03_Bottoms_TransferableGroupType_N00_Level1_Bottoms_transferablegroup": "Bottoms - 制服裙",
+        "pixiv_VRoid_Clothing_Bottoms_N00_Base_N00_003_01_Bottoms_TransferableGroupType_N00_Level1_Bottoms_transferablegroup": "Bottoms - 铅笔裙",
         "pixiv_VRoid_Clothing_Bottoms_N00_Base_SkinOverlay_TransferableGroupType_N00_Level1_Bottoms_transferablegroup": "Bottoms - Skin Overlay",
         "pixiv_VRoid_Clothing_InnerBottom_N00_Base_SkinOverlay_TransferableGroupType_N00_Level1_InnerBottom_transferablegroup": "Inner Bottoms - Skin Overlay",
         "pixiv_VRoid_Clothing_InnerTop_N00_Base_SkinOverlay_TransferableGroupType_N00_Level1_InnerTop_transferablegroup": "Inner Tops - Skin Overlay",
-        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_001_01_Tops_TransferableGroupType_N00_Level1_Onepiece_transferablegroup": "Dress - Uniform Vest (Short Sleeve)",
-        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_001_02_Tops_TransferableGroupType_N00_Level1_Onepiece_transferablegroup": "Dress - Uniform Vest (Long Sleeve)",
-        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_002_01_Tops_TransferableGroupType_N00_Level1_Onepiece_transferablegroup": "Dress - Dress (Long Sleeve)",
-        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_002_02_Tops_TransferableGroupType_N00_Level1_Onepiece_transferablegroup": "Dress - Dress (Half Sleeve)",
-        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_002_03_Tops_TransferableGroupType_N00_Level1_Onepiece_transferablegroup": "Dress - Dress (Short Sleeve)",
-        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_002_04_Tops_TransferableGroupType_N00_Level1_Onepiece_transferablegroup": "Dress - Dress (Pencil Skirt)",
-        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_003_01_Tops_TransferableGroupType_N00_Level1_Onepiece_transferablegroup": "Dress - Mini T-Shirt",
+        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_001_01_Tops_TransferableGroupType_N00_Level1_Onepiece_transferablegroup": "Dress - 制服内衬 (短袖)",
+        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_001_02_Tops_TransferableGroupType_N00_Level1_Onepiece_transferablegroup": "Dress - 制服内衬 (长袖)",
+        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_002_01_Tops_TransferableGroupType_N00_Level1_Onepiece_transferablegroup": "Dress - 连衣裙 (长袖)",
+        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_002_02_Tops_TransferableGroupType_N00_Level1_Onepiece_transferablegroup": "Dress - ",
+        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_002_03_Tops_TransferableGroupType_N00_Level1_Onepiece_transferablegroup": "Dress - 连衣裙 (短袖)",
+        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_002_04_Tops_TransferableGroupType_N00_Level1_Onepiece_transferablegroup": "Dress - 连衣裙 (铅笔裙)",
+        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_003_01_Tops_TransferableGroupType_N00_Level1_Onepiece_transferablegroup": "Dress - 迷你T恤",
         "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_004_01_Tops_TransferableGroupType_N00_Level1_Onepiece_transferablegroup": "Dress - T-Shirt",
-        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_005_01_Tops_TransferableGroupType_N00_Level1_Onepiece_transferablegroup": "Dress - Hoodie",
-        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_007_01_Tops_TransferableGroupType_N00_Level1_Onepiece_transferablegroup": "Dress - Long Coat (High Neck)",
-        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_007_02_Tops_TransferableGroupType_N00_Level1_Onepiece_transferablegroup": "Dress - Long Coat (Shirt Collar)",
-        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_007_03_Tops_TransferableGroupType_N00_Level1_Onepiece_transferablegroup": "Dress - Long Coat (Stand-up Collar)",
+        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_005_01_Tops_TransferableGroupType_N00_Level1_Onepiece_transferablegroup": "Dress - 连帽衫",
+        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_007_01_Tops_TransferableGroupType_N00_Level1_Onepiece_transferablegroup": "Dress - 大衣 (高领)",
+        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_007_02_Tops_TransferableGroupType_N00_Level1_Onepiece_transferablegroup": "Dress - 大衣 (衬衣领)",
+        "pixiv_VRoid_Clothing_Onepiece_N00_Base_N00_007_03_Tops_TransferableGroupType_N00_Level1_Onepiece_transferablegroup": "Dress - 大衣 (立领)",
         "pixiv_VRoid_Clothing_Onepiece_N00_Base_SkinOverlay_TransferableGroupType_N00_Level1_Onepiece_transferablegroup": "Dress - Skin Overlay",
         "pixiv_VRoid_Clothing_Shoes_N00_Base_N00_001_01_Shoes_TransferableGroupType_N00_Level1_Shoes_transferablegroup": "Shoes - Loafers",
         "pixiv_VRoid_Clothing_Shoes_N00_Base_N00_002_01_Shoes_TransferableGroupType_N00_Level1_Shoes_transferablegroup": "Shoes - Dress Shoes",
@@ -3061,38 +3061,38 @@
         "pixiv_VRoid_Clothing_Shoes_N00_Base_N00_006_01_Shoes_TransferableGroupType_N00_Level1_Shoes_transferablegroup": "Shoes - High Cut Sneakers",
         "pixiv_VRoid_Clothing_Shoes_N00_Base_SkinOverlay_TransferableGroupType_N00_Level1_Shoes_transferablegroup": "Shoes - Skin Overlay",
         "pixiv_VRoid_Clothing_Socks_N00_Base_TransferableGroupType_N00_Level1_Socks_transferablegroup": "Socks - Skin Overlay",
-        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_001_01_Tops_TransferableGroupType_N00_Level1_Tops_transferablegroup": "Tops - Uniform Vest (Short Sleeve)",
-        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_001_02_Tops_TransferableGroupType_N00_Level1_Tops_transferablegroup": "Tops - Uniform Vest (Long Sleeve)",
-        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_002_01_Tops_TransferableGroupType_N00_Level1_Tops_transferablegroup": "Tops - Dress (Long Sleeve)",
-        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_002_02_Tops_TransferableGroupType_N00_Level1_Tops_transferablegroup": "Tops - Dress (Half Sleeve)",
-        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_002_03_Tops_TransferableGroupType_N00_Level1_Tops_transferablegroup": "Tops - Dress (Short Sleeve)",
-        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_002_04_Tops_TransferableGroupType_N00_Level1_Tops_transferablegroup": "Tops - Dress (Pencil Skirt)",
-        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_003_01_Tops_TransferableGroupType_N00_Level1_Tops_transferablegroup": "Tops - Mini T-Shirt",
+        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_001_01_Tops_TransferableGroupType_N00_Level1_Tops_transferablegroup": "Tops - 制服内衬 (短袖)",
+        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_001_02_Tops_TransferableGroupType_N00_Level1_Tops_transferablegroup": "Tops - 制服内衬 (长袖)",
+        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_002_01_Tops_TransferableGroupType_N00_Level1_Tops_transferablegroup": "Tops - 连衣裙 (长袖)",
+        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_002_02_Tops_TransferableGroupType_N00_Level1_Tops_transferablegroup": "Tops - ",
+        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_002_03_Tops_TransferableGroupType_N00_Level1_Tops_transferablegroup": "Tops - 连衣裙 (短袖)",
+        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_002_04_Tops_TransferableGroupType_N00_Level1_Tops_transferablegroup": "Tops - 连衣裙 (铅笔裙)",
+        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_003_01_Tops_TransferableGroupType_N00_Level1_Tops_transferablegroup": "Tops - 迷你T恤",
         "pixiv_VRoid_Clothing_Tops_N00_Base_N00_004_01_Tops_TransferableGroupType_N00_Level1_Tops_transferablegroup": "Tops - T-Shirt",
-        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_005_01_Tops_TransferableGroupType_N00_Level1_Tops_transferablegroup": "Tops - Hoodie",
-        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_007_01_Tops_TransferableGroupType_N00_Level1_Tops_transferablegroup": "Tops - Long Coat (High Neck)",
-        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_007_02_Tops_TransferableGroupType_N00_Level1_Tops_transferablegroup": "Tops - Long Coat (Shirt Collar)",
-        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_007_03_Tops_TransferableGroupType_N00_Level1_Tops_transferablegroup": "Tops - Long Coat (Stand-up Collar)",
+        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_005_01_Tops_TransferableGroupType_N00_Level1_Tops_transferablegroup": "Tops - 连帽衫",
+        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_007_01_Tops_TransferableGroupType_N00_Level1_Tops_transferablegroup": "Tops - 大衣 (高领)",
+        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_007_02_Tops_TransferableGroupType_N00_Level1_Tops_transferablegroup": "Tops - 大衣 (衬衣领)",
+        "pixiv_VRoid_Clothing_Tops_N00_Base_N00_007_03_Tops_TransferableGroupType_N00_Level1_Tops_transferablegroup": "Tops - 大衣 (立领)",
         "pixiv_VRoid_Clothing_Tops_N00_Base_SkinOverlay_TransferableGroupType_N00_Level1_Tops_transferablegroup": "Tops - Skin Overlay"
       },
       "UniformLongSleeve": {
         "BlendShape": {
-          "CuffTightness": "Cuff Tightness袖口松紧",
-          "SleeveCrease": "Sleeve Crease袖子皱褶",
-          "Spread": "Waist Width腰部宽度"
+          "CuffTightness": "袖口松紧",
+          "SleeveCrease": "袖子皱褶",
+          "Spread": "腰部宽度"
         }
       },
       "UniformPants": {
         "BlendShape": {
-          "PantsCrease": "Pants Crease裤子褶皱",
-          "PantsWidth": "Pants Width裤子宽度",
-          "ShoesIn": "Ankle Hem (更窄)脚踝下摆 (降低)",
-          "ShoesOut": "Ankle Hem (Raise)脚踝下摆 (提高)"
+          "PantsCrease": "Pants褶皱",
+          "PantsWidth": "Pants宽度",
+          "ShoesIn": "脚踝下摆 (降低)",
+          "ShoesOut": "脚踝下摆 (提高)"
         }
       },
       "UniformShortSleeve": {
         "BlendShape": {
-          "WaistSpread": "Hem Spread下摆松紧"
+          "WaistSpread": "下摆松紧"
         }
       },
       "UniformSkirt": {
@@ -3108,15 +3108,15 @@
   "PushNotification": {
     "Channel": {
       "Official": {
-        "Name": "News from the VRoid team VRoid team 新闻"
+        "Name": "VRoid team 新闻"
       }
     }
   },
   "Quality": {
     "High": "高",
     "Low": "低",
-    "Medium": "Mid中等",
-    "SuperHigh": "Highest最高"
+    "Medium": "中",
+    "SuperHigh": "最高"
   },
   "RenameDialogController": {
     "Name": "名字",
@@ -3164,10 +3164,10 @@
     "GUI": {
       "AvatarEditor": {
         "AccessoryBoneEditorScreenTransform": {
-          "ScreenName": "AccessoryBoneEditorScreen附件骨架编辑器"
+          "ScreenName": "附件骨架编辑器"
         },
         "AccessoryDesignEditorScreenTransform": {
-          "ScreenName": "AccessoryDesignEditorScreen附件设计编辑器"
+          "ScreenName": "附件设计编辑器"
         },
         "ClothingEditor": {
           "ClothingPresetPropertyPanel": {
@@ -3246,7 +3246,7 @@
       },
       "BodyEditor": {
         "ViewModel": {
-          "cs_0": "All全部"
+          "cs_0": "全部"
         }
       },
       "Dialog": {
@@ -3268,12 +3268,12 @@
             "Normal": "默认"
           },
           "ThemeSetting": {
-            "Dark": "Dark暗色",
-            "Light": "Light亮色"
+            "Dark": "暗色",
+            "Light": "亮色"
           },
           "ThemeSettingTransform": {
-            "Dark": "Dark暗色",
-            "Light": "Light亮色"
+            "Dark": "暗色",
+            "Light": "亮色"
           }
         },
         "ViewModel": {
@@ -3350,27 +3350,27 @@
         "AddTemplateDialog": {
           "ViewModel": {
             "AddTemplateDialogViewModel": {
-              "AddTemplate": "Add Template添加模板",
-              "HalfOnePiece": "Dress (Half Sleeve)连衣裙 (半袖)",
-              "HighNeckLongCoat": "Long Coat (High Neck)大衣 (高领)",
-              "Hoodie": "Hoodie连帽衫",
-              "LongCoat": "Long Coat大衣",
-              "LongOnePiece": "Dress (Long Sleeve)连衣裙 (长袖)",
-              "MiniTShirt": "Mini T-Shirt迷你T恤",
+              "AddTemplate": "添加模板",
+              "HalfOnePiece": "连衣裙 (半袖)",
+              "HighNeckLongCoat": "大衣 (高领)",
+              "Hoodie": "连帽衫",
+              "LongCoat": "大衣",
+              "LongOnePiece": "连衣裙 (长袖)",
+              "MiniTShirt": "迷你T恤",
               "OnePiece": "连衣裙",
-              "Pants": "内裤",
-              "PantsNoCrease": "Pants (No Crease)内裤 (无褶)",
-              "PantsWithCrease": "Pants (Crease)内裤 (有褶)",
-              "PencilOnePiece": "Dress (Pencil Skirt)连衣裙 (铅笔裙)",
-              "PencilSkirt": "Pencil Skirt铅笔裙",
-              "SchoolLongVest": "Uniform Vest (Long Sleeve)制服内衬 (长袖)",
-              "SchoolShortVest": "Uniform Vest (Short Sleeve)制服内衬 (短袖)",
-              "SchoolSkirt": "Uniform Skirt制服裙",
-              "SchoolVest": "Uniform Vest制服内衬",
-              "ShirtNeckLongCoat": "Long Coat (Shirt Collar)大衣 (衬衣领)",
-              "ShortOnePiece": "Dress (Short Sleeve)连衣裙 (短袖)",
-              "SkinOverlay": "Skin Overlay紧身衣",
-              "StandLongCoat": "Long Coat (Stand-up Collar)大衣 (立领)",
+              "Pants": "Pants",
+              "PantsNoCrease": "Pants (无褶)",
+              "PantsWithCrease": "Pants (折痕 )",
+              "PencilOnePiece": "连衣裙 (铅笔裙)",
+              "PencilSkirt": "铅笔裙铅笔裙",
+              "SchoolLongVest": "制服内衬 (长袖)",
+              "SchoolShortVest": "制服内衬 (短袖)",
+              "SchoolSkirt": "制服裙",
+              "SchoolVest": "制服内衬",
+              "ShirtNeckLongCoat": "大衣 (衬衣领)",
+              "ShortOnePiece": "连衣裙 (短袖)",
+              "SkinOverlay": "Skin Overlay",
+              "StandLongCoat": "大衣 (立领)",
               "TShirt": "T恤"
             }
           }
@@ -3388,7 +3388,7 @@
         },
         "PopupAccessorySelectorScreen": {
           "Customize": "自定义",
-          "MaxAccessoryLabel": "The number of accessories in the same category has reached the limit of five同一类别的配饰数量已达到上限 (5个)",
+          "MaxAccessoryLabel": "同一类别的配饰数量已达到上限 (5个)",
           "Preset": "预设"
         }
       }
@@ -3396,18 +3396,18 @@
     "StartScreen": {
       "BaseSelectDialog": {
         "ViewModel": {
-          "Female": "Fem女",
-          "Male": "Masc男",
-          "Title": "Select a base to start with选择一个基底"
+          "Female": "女",
+          "Male": "男",
+          "Title": "选择一个基底"
         }
       }
     },
     "World": {
       "SceneController": {
         "Error": "Oops",
-        "ErrorDefault": "Something went wrong.\r\nYou will be redirected to the photo studio selection screen.出错了.\r\n重定向至 photo studio 选择页面",
-        "ErrorGameFull": "This room is too crowded, better retry joining later.房间拥挤, 请稍后重试",
-        "JoinRoomFailed": "Could not join the room未能加入房间"
+        "ErrorDefault": "出错了.\r\n重定向至 photo studio 选择页面",
+        "ErrorGameFull": "房间拥挤, 请稍后重试",
+        "JoinRoomFailed": "未能加入房间"
       }
     }
   },
@@ -3417,74 +3417,74 @@
         "View": {
           "FittingPanel": {
             "Animation": "动画",
-            "Category": "Categories分类",
-            "LoadMan": "男性をロード下载男性",
-            "LoadWoman": "女性をロード下载女性",
+            "Category": "分类",
+            "LoadMan": "下载男性",
+            "LoadWoman": "下载女性",
             "Run": "执行"
           },
           "FittingPanelTransform": {
             "Animation": "动画",
-            "Category": "Categories分类",
-            "LoadMan": "男性をロード下载男性",
-            "LoadWoman": "女性をロード下载女性",
+            "Category": "分类",
+            "LoadMan": "下载男性",
+            "LoadWoman": "下载女性",
             "Run": "执行"
           },
           "GenerationPanel": {
-            "Category": "Categories分类",
-            "StartGenerate": "生成開始开始生成",
-            "StopGenerate": "生成中止停止生成"
+            "Category": "分类",
+            "StartGenerate": "开始生成",
+            "StopGenerate": "停止生成"
           },
           "GenerationPanelTransform": {
-            "Category": "Categories分类",
-            "StartGenerate": "生成開始开始生成",
-            "StopGenerate": "生成中止停止生成"
+            "Category": "分类",
+            "StartGenerate": "开始生成",
+            "StopGenerate": "停止生成"
           },
           "MigrationPanel": {
-            "AutoGenerateLackFolder": "Creates necessary files and folders in the folder you indicated from Settings在设置所指定的目录中创建必要的文件和文件夹.",
-            "AutoGenerateSettingFolder": "譲渡要素作成に必要な設定フォルダを自動作成自动创建可移植项目文件夹",
-            "Open": "Open打开",
+            "AutoGenerateLackFolder": "在设置所指定的目录中创建必要的文件和文件夹.",
+            "AutoGenerateSettingFolder": "自动创建可移植项目文件夹",
+            "Open": "打开",
             "Run": "执行"
           },
           "MigrationPanelTransform": {
-            "AutoGenerateLackFolder": "Creates necessary files and folders in the folder you indicated from Settings在设置所指定的目录中创建必要的文件和文件夹.",
-            "AutoGenerateSettingFolder": "譲渡要素作成に必要な設定フォルダを自動作成自动创建可移植项目文件夹",
-            "Open": "Open打开",
+            "AutoGenerateLackFolder": "在设置所指定的目录中创建必要的文件和文件夹.",
+            "AutoGenerateSettingFolder": "自动创建可移植项目文件夹",
+            "Open": "打开",
             "Run": "执行"
           },
           "SettingsPanel": {
-            "MacCopyInfo": "On Mac OS: Select the folder and press Option - Command - CMac OS: 选择文件夹并按下 Option - Command - C",
-            "Open": "Open打开",
-            "WindowsCopyInfo": "On Windows: Open the folder on Explorer and click on the address barWindows系统: 打开文件夹或文件管理器并点击地址栏"
+            "MacCopyInfo": "Mac OS: 选择文件夹并按下 Option - Command - C",
+            "Open": "打开",
+            "WindowsCopyInfo": "Windows系统: 打开文件夹或文件管理器并点击地址栏"
           },
           "SettingsPanelTransform": {
-            "MacCopyInfo": "On Mac OS: Select the folder and press Option - Command - CMac OS: 选择文件夹并按下 Option - Command - C",
-            "Open": "Open打开",
-            "WindowsCopyInfo": "On Windows: Open the folder on Explorer and click on the address barWindows系统: 打开文件夹或文件管理器并点击地址栏"
+            "MacCopyInfo": "Mac OS: 选择文件夹并按下 Option - Command - C",
+            "Open": "打开",
+            "WindowsCopyInfo": "Windows系统: 打开文件夹或文件管理器并点击地址栏"
           }
         }
       },
       "View": {
         "FittingPanel": {
-          "CanEquip": "装着できる譲渡要素可安装的可移植项目",
-          "Equipping": "装着している譲渡要素安装的可移植项目"
+          "CanEquip": "可安装的可移植项目",
+          "Equipping": "安装的可移植项目"
         },
         "GenerationPanel": {
-          "Log": "Log",
-          "Run": "実行"
+          "Log": "日志",
+          "Run": "执行"
         },
         "MigrationPanel": {
-          "AutoGenerateLackFolder": "Creates necessary files and folders in the folder you indicated from Settings在设置所指定的目录中创建必要的文件和文件夹.",
-          "AutoGenerateSettingFolder": "Autogenerate folders for transferable items自动生成的可移植项目",
-          "Copy": "Convert the original data of the transferable items set for Beta ver female models to Stable ver. specification and copies it to the folder specified in Settings.将 Beta 版本的女性模型转换成正式版, 并复制到设置中指定的目录",
-          "Info": "Please note that if you have manually set up files in the Transferable Items folder already specified in the Settings , the contents will be lost.请注意, 若您已在设置中指定可移植项目位置, 内容将会丢失.",
-          "Translate": "Autogerenerated from Beta ver. transferable itemBeta 版本中自动生成的可移植项目"
+          "AutoGenerateLackFolder": "在设置所指定的目录中创建必要的文件和文件夹.",
+          "AutoGenerateSettingFolder": "自动生成的可移植项目",
+          "Copy": "将 Beta 版本的女性模型转换成正式版, 并复制到设置中指定的目录",
+          "Info": "请注意, 若您已在设置中指定可移植项目位置, 内容将会丢失.",
+          "Translate": "Beta 版本中自动生成的可移植项目"
         },
         "SettingsPanel": {
-          "CopyInfo": "To copy a folder's path you can do the following你可以通过以下方式复制文件夹地址",
-          "MacCopyInfo": "On Mac OS: Select the folder and press Option - Command - CMac OS: 选择文件夹并按下 Option - Command - C",
+          "CopyInfo": "你可以通过以下方式复制文件夹地址",
+          "MacCopyInfo": "Mac OS: 选择文件夹并按下 Option - Command - C",
           "Tips": "Tips小提示",
           "Title": "设置",
-          "WindowsCopyInfo": "On Windows: Open the folder on Explorer and click on the address barWindows系统: 打开文件夹或文件管理器并点击地址栏"
+          "WindowsCopyInfo": "Windows系统: 打开文件夹或文件管理器并点击地址栏"
         }
       }
     }
@@ -3497,10 +3497,10 @@
     "Scripts": {
       "View": {
         "AccountField": {
-          "BuyCoin": "Purchase Coins购买硬币"
+          "BuyCoin": "购买硬币"
         },
         "AccountFieldTransform": {
-          "BuyCoin": "Purchase Coins购买硬币"
+          "BuyCoin": "购买硬币"
         }
       }
     },
@@ -3671,15 +3671,15 @@
             "ViewModel": {
               "BoneGroupPropertyViewModel": {
                 "BoneCount": "骨骼",
-                "BoneGroup": "Completed Bone Group完成骨骼组",
+                "BoneGroup": "完成骨骼组",
                 "BoneGroupedHair": "组头发",
-                "BoneParameter": "Bones Parameters骨骼参数",
-                "ColliderRadius": "Hit Radius命中半径",
-                "Gravity": "Gravity重力",
-                "RemoveHairFromBoneGroupCommand": "Remove Hair from Bone Group将头发移出骨骼组",
+                "BoneParameter": "骨骼参数",
+                "ColliderRadius": "命中半径",
+                "Gravity": "重力",
+                "RemoveHairFromBoneGroupCommand": "将头发移出骨骼组",
                 "SetAxisHintHairCommand": "将头发设置为轴",
                 "SetAxisHintHairGroupCommand": "移动轴到组中心",
-                "SpringRootRate": "t固定点",
+                "SpringRootRate": "固定点",
                 "Stiffness": "刚性"
               }
             }
@@ -3696,17 +3696,17 @@
       },
       "HubConnection": {
         "AuthorizationCodeInputDialog": {
-          "AuthorizationCodeEmpty": "Authorization code required.需要认证码",
-          "Label": "Authorization Code认证码",
-          "Paste": "Paste粘贴",
-          "Title": "Please input authorization code请输入认证码"
+          "AuthorizationCodeEmpty": "需要认证码",
+          "Label": "认证码",
+          "Paste": "粘贴",
+          "Title": "请输入认证码"
         },
         "LoginDialog": {
           "ViewModel": {
             "LoginDialogViewModel": {
               "Login": "登录",
               "LoginMessage": "请登录",
-              "LoginTitle": "上传到VRoid Hub",
+              "LoginTitle": "上传到 VRoid Hub",
               "ModelEditingReLoginMessage": "您似乎还没有登录, 请登录.\r\n到目前为止所做的任何编辑都不会丢失.",
               "ReLoginMessage": "您似乎还没有登录, 请登录."
             }
@@ -3715,9 +3715,9 @@
         "MinimumSupportedVersionUpdatedDialog": {
           "ViewModel": {
             "MinimumSupportedVersionUpdatedDialogViewModel": {
-              "Message": "There's a new version of VRoid Studio available. \r\nPlease update the app from the Download page.有新的版本可用, 请前往下载页更新应用.",
-              "OpenDownloadPage": "To the Download page转到下载页",
-              "Title": "Updates News更新新闻"
+              "Message": "有新的版本可用, 请前往下载页更新应用.",
+              "OpenDownloadPage": "转到下载页",
+              "Title": "更新新闻"
             }
           }
         }
@@ -3747,19 +3747,19 @@
         "BetaModelImportDialog": {
           "ViewModel": {
             "BetaModelImportDialogViewModel": {
-              "AboutBetaModelImport": "What happens to Beta ver. models?Beta 版本的模型发生了什么?",
-              "Content": "Before you can start editing a model imported from the Beta ver., you need to convert its data. \r\nNow creating new converted data...编辑导入的 Beta 版本模型前, 你需要转换模型数据. \r\n创建新的转换数据...",
-              "Import": "Select a save destination and convert选择保存位置并转换",
-              "Title": "Convert a beta model转换一个 Beta 版本模型"
+              "AboutBetaModelImport": "Beta 版本的模型发生了什么?",
+              "Content": "编辑导入的 Beta 版本模型前, 你需要转换模型数据. \r\n创建新的转换数据...",
+              "Import": "选择保存位置并转换",
+              "Title": "转换一个 Beta 版本模型"
             }
           }
         },
         "BetaModelImportErrorDialog": {
           "ViewModel": {
             "BetaModelImportErrorDialogViewModel": {
-              "AboutBetaModelImport": "What happens to Beta ver. models?Beta 版本的模型发生了什么?",
-              "Content": "Failed to import. Lorem ipsum dolor sit amet导入失败. 乱数假文",
-              "Title": "Failed to convert a model转换模型失败"
+              "AboutBetaModelImport": "Beta 版本的模型发生了什么?",
+              "Content": "导入失败. 乱数假文",
+              "Title": "转换模型失败"
             }
           }
         },
@@ -3800,8 +3800,8 @@
       },
       "TextureEditorScreen": {
         "ViewModel": {
-          "TemplateLimitDescription": "You can stack up to five templates on top of each other.至多可以添加5个模板",
-          "TemplateLimitExceeded": "The maximum number of templates has been reached and no more can be added.已达到模板数量限制, 无法添加新的模板"
+          "TemplateLimitDescription": "至多可以添加5个模板",
+          "TemplateLimitExceeded": "已达到模板数量限制, 无法添加新的模板"
         }
       },
       "UnSavedDialog": {
@@ -3812,84 +3812,84 @@
       },
       "View": {
         "ModelPresets": {
-          "NoPresets": "Presets in this category are currently being prepared.为此类别添加预设"
+          "NoPresets": "为此类别添加预设"
         }
       }
     }
   },
   "VRoidHub": {
     "AgeLimit": {
-      "AgeLimit_": "Age Restrictions年龄分级",
-      "Normal": "All Ages全年龄",
+      "AgeLimit_": "年龄分级",
+      "Normal": "全年龄",
       "R15": "R-15",
       "R18": "R-18"
     },
-    "AgeLimitMessage": "Set an age limit for viewing this media设置年龄分级",
-    "AuthorizationMessage": "Enter Authorization Code输入认证码",
-    "CharacterListTitleToAddModel": "Select the character you want to add a model to选择需要添加模型的角色",
-    "CharacterListTitleToChooseModel": "Select the character you want to add a model to选择需要添加模型的角色",
-    "CharacterNameMessage": "Enter a name for this character为此角色添加一个名字",
+    "AgeLimitMessage": "设置媒体文件年龄分级",
+    "AuthorizationMessage": "输入认证码",
+    "CharacterListTitleToAddModel": "选择需要添加模型的角色",
+    "CharacterListTitleToChooseModel": "选择需要添加模型的角色",
+    "CharacterNameMessage": "为此角色添加一个名字",
     "CharacterNamePlaceholder": "角色名",
-    "CharacterSetting": "New Character Settings新建角色设定",
-    "DefaultModelName": "Default Model默认模型",
+    "CharacterSetting": "新建角色设定",
+    "DefaultModelName": "默认模型",
     "HubCharacterModelSelectionDialog": {
-      "Message": "Select the model you want to update选择需要更新的模型",
-      "Title": "Update a Model on VRoid Hub更新 VRoid Hub 上的模型"
+      "Message": "选择需要更新的模型",
+      "Title": "更新 VRoid Hub 上的模型"
     },
     "HubCharacterModelSettingsDialog": {
       "Character": {
         "NameLabel": "角色名",
-        "Title": "Character Settings角色设定"
+        "Title": "角色设定"
       },
       "CharacterModel": {
         "NameLabel": "模型名",
-        "Title": "Model Settings模型设定"
+        "Title": "模型设定"
       }
     },
     "HubCharacterSelectionDialog": {
       "Add": {
-        "Message": "Select the character you want to add a model to选择需要增加模型的角色",
-        "Title": "Add a Model on VRoid Hub添加模型到 VRoid Hub"
+        "Message": "选择需要增加模型的角色",
+        "Title": "添加模型到 VRoid Hub"
       },
       "Update": {
-        "Message": "Select the character you want to update a model of选择需要更新模型的角色",
-        "Title": "Update a Model on VRoid Hub更新 VRoid Hub 上的模型"
+        "Message": "选择需要更新模型的角色",
+        "Title": "更新 VRoid Hub 上的模型"
       }
     },
     "HubUploadTypeSelectionDialog": {
-      "AddCharacterLabel": "New Character新建角色",
-      "AddCharacterModelLabel": "New Model新建模型",
-      "AddCharacterModelSubLabel": "Add a new model to an existing character为现有角色添加一个新模型",
-      "AddCharacterSubLabel": "Create a new character创建新角色",
+      "AddCharacterLabel": "新建角色",
+      "AddCharacterModelLabel": "新建模型",
+      "AddCharacterModelSubLabel": "为现有角色添加一个新模型",
+      "AddCharacterSubLabel": "创建新角色",
       "Title": "上传到 VRoid Hub",
-      "UpdateCharacterModelLabel": "Model Update更新模型",
-      "UpdateCharacterModelSubLabel": "Update a model of an existing character更新现有角色的模型"
+      "UpdateCharacterModelLabel": "更新模型",
+      "UpdateCharacterModelSubLabel": "更新现有角色的模型"
     },
-    "JumpToVRoidHubMessage": "Check it out on VRoid Hub在 VRoid Hub 上检视",
-    "LoginFailed": "Something went wrong with login.登录时出错",
-    "ModelListTitle": "Select the variation of the model you want to modify选择需要修改的模型变动",
-    "ModelNameMessage": "Enter a name for this variation为此变动添加一个名字",
-    "ModelNamePlaceholder": "Variation Name变动名称",
-    "ModelSetting": "New Model Settings新建模型设定",
-    "PasteButtonLabel": "Paste粘贴",
-    "UpdateModelButtonLabel": "Model Update更新模型",
-    "UpdateNewCharacterButtonSubLabel": "Update and replace an existing model上传并替换现有模型",
-    "UploadCompletedMessage": "Your upload was successful上传成功",
-    "UploadFailed": "Something went wrong with the upload.上传时出错",
-    "UploadNewCharacterButtonLabel": "New Character新建角色",
-    "UploadNewCharacterButtonSubLabel": "Upload this model as a brand-new character将此模型上传至新角色",
-    "UploadNewModelButtonLabel": "New Model新建模型",
-    "UploadNewModelButtonSubLabel": "Add a new model variation to an existing character向现有模型提交变动",
-    "UploadTypeSelectionGuideMessage": "What are you uploading to VRoid Hub?你要上传什么到 VRoid Hub?"
+    "JumpToVRoidHubMessage": "在 VRoid Hub 上检视",
+    "LoginFailed": "登录时出错",
+    "ModelListTitle": "选择需要修改的模型变动",
+    "ModelNameMessage": "为此变动添加一个名字",
+    "ModelNamePlaceholder": "变动名称",
+    "ModelSetting": " 新建模型设定",
+    "PasteButtonLabel": "粘贴",
+    "UpdateModelButtonLabel": "更新模型",
+    "UpdateNewCharacterButtonSubLabel": "上传并替换现有模型",
+    "UploadCompletedMessage": "上传成功",
+    "UploadFailed": "上传时出错",
+    "UploadNewCharacterButtonLabel": "新建角色",
+    "UploadNewCharacterButtonSubLabel": "将此模型上传至新角色",
+    "UploadNewModelButtonLabel": "新建模型",
+    "UploadNewModelButtonSubLabel": "向现有模型提交变动",
+    "UploadTypeSelectionGuideMessage": "你要上传什么到 VRoid Hub?"
   },
   "VRoidStudio": {
     "GUI": {
       "AvatarEditor": {
         "AccessoryBoneEditorScreenTransform": {
-          "ScreenName": "Accessory Bones Editor附件骨骼编辑器"
+          "ScreenName": "附件骨骼编辑器"
         },
         "AccessoryDesignEditorScreenTransform": {
-          "ScreenName": "Desing Editor设计编辑器"
+          "ScreenName": "设计编辑器"
         },
         "ClothingEditor": {
           "ClothingPresetPropertyPanel": {
@@ -3942,6 +3942,6 @@
     }
   },
   "WindowTitle": {
-    "Untitled": "Untitled未命名"
+    "Untitled": "未命名"
   }
 }
