@@ -19,29 +19,19 @@ VRoid 汉化插件
 
 ```
 |-VRoid Studio
-  |-Asset*                    翻译/校对参考用的文件目录
-  |
   |-BeplnEx*                  BeplnEx 框架
     |-config
       |-BepInEx.cfg           BeplnEx 的设置文件
-  |
+    |-plugins                 BepInEx 插件存放目录
+      |-VRoidChinese.dll      汉化插件
   |-Chinese*                  汉化资源文件夹
     |-MessagesChinese.json    汉化文件
     |-StringChinese.txt       汉化文件
-  |
   |-MonoBleedingEdge          软件的资源文件夹
-  |
-  |-VRoidChinese*             汉化插件文件夹
-    |-..                      一些文件...
-  |
   |-VRoidStudio_Data          软件的资源文件夹
-  |
   |-VRoidStudio.exe           启动软件的执行文件
-  |
   |-doorstop_config.ini*      BeplnEx 的文件
-  |
   |-winhttp.dll*              BeplnEx 的文件
-  |
   |-..                        乱七八糟的文件们...
 ```
 
