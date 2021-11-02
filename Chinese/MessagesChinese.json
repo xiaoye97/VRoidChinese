@@ -213,7 +213,7 @@
       "HighlightTexture": "高光",
       "LegacyColorChanger": "Shader颜色",
       "MainTexture": "基础",
-      "SkinAlphaMask": "皮肤遮罩",
+      "SkinAlphaMask": "皮肤蒙版",
       "SkinOverlay": "皮肤覆盖物",
       "Texture": "材质"
     },
@@ -352,7 +352,7 @@
   },
   "GUI": {
     "Announcement": {
-      "Error": "加载新闻时出现异常. ",
+      "Error": "下载新闻时出现异常. ",
       "Title": "新闻"
     },
     "AvatarEditor": {
@@ -1083,7 +1083,7 @@
           "LightIntencity": "强度",
           "LightPropertyLabel": "Lighting",
           "LightReset": "Reset",
-          "LoadingMessage": "Now Loading",
+          "LoadingMessage": "Now Loading加载中",
           "Login": "登录",
           "LoginRequiredMessage": "你需要登录到VRoid Hub",
           "LookAtCamera": "看向镜头",
@@ -1105,20 +1105,20 @@
           "Male_Punch": "Punching",
           "Male_Running": "Running",
           "Male_Special": "Deadly Blow",
-          "Male_spot_acrobatic_1": "Acrobatic1",
-          "Male_spot_acrobatic_2": "Acrobatic2",
-          "Male_spot_lie_down_2": "LieDown2",
-          "Male_spot_target_locked": "TargetLocked",
-          "Male_Standby0": "Standby 0",
-          "Male_Standby1": "Standby 1",
-          "Male_Standby2": "Standby 2",
-          "Male_Standby3": "Standby 3",
-          "Male_Standby4": "Standby 4",
-          "Male_Standby5": "Standby 5",
-          "Male_Standby6": "Standby 6",
-          "Male_Walking": "Walking",
-          "Male_we_ve_got_this": "We'veGotThis!",
-          "MaleAnimationMode": "Animations 2",
+          "Male_spot_acrobatic_1": "Acrobatic1 杂技 1",
+          "Male_spot_acrobatic_2": "Acrobatic2 杂技 2",
+          "Male_spot_lie_down_2": "LieDown2躺下 2",
+          "Male_spot_target_locked": "TargetLocked锁定目标",
+          "Male_Standby0": "Standby 0站立 0",
+          "Male_Standby1": "Standby 站立 1",
+          "Male_Standby2": "Standby 站立 2",
+          "Male_Standby3": "Standby 站立 3",
+          "Male_Standby4": "Standby 站立 4",
+          "Male_Standby5": "Standby 站立 5",
+          "Male_Standby6": "Standby 站立 6",
+          "Male_Walking": "Walking行走",
+          "Male_we_ve_got_this": "We'veGotThis!成功了!",
+          "MaleAnimationMode": "Animations 2动画 2",
           "MaterialCount": "材质数量",
           "MaterialReduction": "减少材质",
           "MaterialReductionMode": {
@@ -1150,53 +1150,53 @@
           "MTH_Surprised": "吃惊",
           "MTH_U": "U",
           "MTH_Up": "上升",
-          "Oil": "Oil Painting",
+          "Oil": "Oil Painting油画",
           "OriginalModel": "原始模型",
           "PlayAnimation": "播放",
           "PortraitImage": "肖像",
           "PortraitImageCapturing": "拍照",
-          "PortraitImageCapturingWithProgress": "拍摄一张肖像图片作为缩略图(2/2)",
+          "PortraitImageCapturingWithProgress": "拍摄肖像缩略图(2/2)",
           "Pose": "姿势&动画",
           "PoseAndAnimation": "姿势&动画",
           "PoseLeftHand": "左手",
           "PoseMode": "姿势",
           "PoseModel": {
             "AStance": "默认",
-            "shot_aori": "Arms Crossed",
-            "shot_face_hand": "Head-in-Hand",
-            "shot_fight": "Fighting",
-            "shot_hair_up": "Touching Hair",
-            "shot_hizidon": "Leaning",
-            "shot_left_hand": "This Way",
-            "shot_newyear_kirarajump_a": "Jumping",
+            "shot_aori": "Arms Crossed叉手",
+            "shot_face_hand": "Head-in-Hand手拉手",
+            "shot_fight": "Fighting打斗",
+            "shot_hair_up": "Touching Hair挠头",
+            "shot_hizidon": "Leaning学习",
+            "shot_left_hand": "This Way指路",
+            "shot_newyear_kirarajump_a": "Jumping跳",
             "shot_newyear_nezumi": "Grrr",
-            "shot_nicely_stand": "Hands Out",
-            "shot_nose": "Wiping Nose",
-            "shot_question": "Thinking",
-            "shot_salute": "Greeting",
-            "shot_sitting": "Sitting",
-            "shot_standingKnee": "Kneeling"
+            "shot_nicely_stand": "Hands Out伸手",
+            "shot_nose": "Wiping Nose擦鼻涕",
+            "shot_question": "Thinking思考",
+            "shot_salute": "Greeting问好",
+            "shot_sitting": "Sitting坐",
+            "shot_standingKnee": "Kneeling跪"
           },
           "PoseRightHand": "右手",
           "PoseWeight": "强度",
           "PostEffect": "后处理",
           "PresetPose": "预设姿势",
           "Print3D": "3D打印",
-          "Print3DConfirm": "Confirm Expression and Posing",
-          "Print3DConfirmMessage": "The character will be 3D printed with this pose and expression",
+          "Print3DConfirm": "Confirm Expression and Posing确认表情和动作",
+          "Print3DConfirmMessage": "The character will be 3D printed with this pose and expression 3D打印角色会包含动作和表情.",
           "Print3DFactory": "pixiv FACTORY",
-          "Print3DFactory2": "About 3D Printing",
-          "Print3DFileSizeOver": "This file size is too big to be uploaded to pixiv FACTORY",
-          "Print3DInformation": "3D Printing",
-          "Print3DNote": "The current posing and expression will be 3D printed. If you selected an animation, please set the pose you'd like to print.",
+          "Print3DFactory2": "About 3D Printing关于 3D 打印",
+          "Print3DFileSizeOver": "This file size is too big to be uploaded to pixiv FACTORY文件过大无法上传至 pixiv FACTORY",
+          "Print3DInformation": "3D Printing3D 打印",
+          "Print3DNote": "The current posing and expression will be 3D printed. If you selected an animation, please set the pose you'd like to print.当前姿势和表情将会 3D 打印. 如果你选择了动画, 请设置你想要打印的动作.",
           "Print3DStep1": "步骤 1",
           "Print3DStep2": "步骤 2",
-          "Print3DVRoidHelp": "* Check out the instructions",
-          "Print3DVRoidHelp2": "for 3D Printing",
-          "Processing": "Processing...",
-          "ReductedModel": "After Reduction",
-          "ReductionLevelAdjustment": "Adjust Reductions",
-          "RemoveBackgroundImage": "Remove Background Picture",
+          "Print3DVRoidHelp": "* Check out the instructions* 查看说明",
+          "Print3DVRoidHelp2": "for 3D Printing用于 3D 打印",
+          "Processing": "Processing...处理中...",
+          "ReductedModel": "After Reduction缩减后",
+          "ReductionLevelAdjustment": "Adjust Reductions调整缩减",
+          "RemoveBackgroundImage": "Remove Background Picture移除背景图",
           "Reset": "重置",
           "ResetPose": "重置",
           "Saturation": "饱和度",
@@ -1206,26 +1206,26 @@
           "Smoothness": "平滑度",
           "SoftKnee": "阈值",
           "StopAnimation": "停止",
-          "StripDensity": "Tone Density",
-          "StripInnerColor": "Inner Color",
+          "StripDensity": "Tone Density阶调密度",
+          "StripInnerColor": "Inner Color内部颜色",
           "StripLimitsMax": "最大阈值",
           "StripLimitsMin": "最小阈值",
-          "StripOuterColor": "Outer Color",
-          "StripThickness": "Tone Size",
+          "StripOuterColor": "Outer Color外部颜色",
+          "StripThickness": "Tone Size阶调大小",
           "TargetCharacterModelHeader": "步骤 1",
-          "Temperature": "Temperature",
+          "Temperature": "Temperature色温",
           "TextureCompressionMode": {
-            "Original": "Original",
-            "Shrinked": "Shrink"
+            "Original": "Original原始",
+            "Shrinked": "Shrink缩小"
           },
           "TextureQuality": "纹理质量",
           "Tint": "色调",
           "Triangles": "多边形: ",
           "Upload": "上传",
           "UploadHeader": "步骤 2",
-          "Uploading": "正在上传, 请稍候. \r\n上传完成后, 您将被重定向到VRoid Hub. ",
-          "UploadMode": "上传到VRoid Hub",
-          "VariationName": "Variation Name",
+          "Uploading": "正在上传, 请稍候. \r\n上传完成后将重定向到 VRoid Hub.",
+          "UploadMode": "上传到 VRoid Hub",
+          "VariationName": "Variation Name变动名",
           "Vertices": "顶点: ",
           "Vignette": "Vignette",
           "VRMSettings": "VRM设置",
@@ -1241,117 +1241,117 @@
         }
       },
       "Print3DScreenTransform": {
-        "Title": "Export for 3D Printing on pixiv FACTORY"
+        "Title": "Export for 3D Printing on pixiv FACTORY导出 3D 打印到 pixiv FACTORY"
       },
       "TextureEditor": {
         "ColorGroupSection": {
-          "SectionName": "Set Color"
+          "SectionName": "Set Color设置颜色"
         },
         "ColorSelector": {
           "HashCharacter": "#",
-          "RGBSlidersHeader": "RGB Sliders"
+          "RGBSlidersHeader": "RGB Sliders滑块"
         },
         "ParameterConfigPanel": {
           "Parameter": "参数"
         },
         "SizeSpaceItem": {
           "UV": "UV",
-          "Viewport": "Viewport",
-          "World": "Worlds"
+          "Viewport": "Viewport视野",
+          "World": "Worlds世界"
         },
         "SketchUniversalCommandUtils": {
-          "DefaultImage": "Default Design",
-          "Guide": "Guides",
-          "Layer": "Layer"
+          "DefaultImage": "Default Design默认设计",
+          "Guide": "Guides指南",
+          "Layer": "Layer图层"
         },
         "TextureEditorDevInitializer": {
           "Color": "颜色",
-          "EyeHighlightL": "Eye Highlights (Left)",
-          "EyeHighlightR": "Eye Highlights (Right)",
-          "EyeIrisL": "Iris (Left)",
-          "EyeIrisR": "Iris (Right)",
-          "Skin": "Face Skin",
-          "Tint": "Tint",
-          "Unlit": "Unlit"
+          "EyeHighlightL": "Eye Highlights (Left)眼睛高光 (左)",
+          "EyeHighlightR": "Eye Highlights (Right)眼睛高光 (右)",
+          "EyeIrisL": "Iris (Left)瞳孔 (左)",
+          "EyeIrisR": "Iris (Right)瞳孔 (右)",
+          "Skin": "Face Skin面部肌肤",
+          "Tint": "Tint色调",
+          "Unlit": "Unlit无光照"
         },
         "TextureEditorLayerPanel": {
-          "AddPattern": "Add a Template"
+          "AddPattern": "Add a Template添加模板"
         },
         "TextureEditorPanel": {
-          "Property": "Properties",
+          "Property": "Properties属性",
           "Texture": "编辑纹理"
         },
         "TextureEditorTexturePanel": {
-          "Layers": "Layers"
+          "Layers": "Layers图层"
         },
         "TextureEditorViewModel": {
-          "BrushColor": "Brush Color",
-          "BrushOpacity": "Brush Opacity",
+          "BrushColor": "Brush Color笔刷颜色",
+          "BrushOpacity": "Brush Opacity笔刷透明度",
           "BrushParameters": "笔刷参数",
-          "BrushProperties": "Brush Properties",
-          "BrushType": "Brush Type",
+          "BrushProperties": "Brush Properties笔刷属性",
+          "BrushType": "Brush Type笔刷类型",
           "ClothingTemplate": {
             "Duplicate": "粘贴",
             "Remove": "删除",
             "Rename": "重命名"
           },
           "ColorConfig": "颜色校准",
-          "CompositionMode": "Drawing Mode",
-          "CopyPostfix": " (copy)",
+          "CompositionMode": "绘图模式",
+          "CopyPostfix": "(复制)",
           "DuplicateLayer": "粘贴",
-          "ExportGuide": "Export Guide",
-          "ExportLayer": "Export",
-          "Highlight": "Hair Group Bumpiness",
-          "ImportLayer": "Import",
-          "Layer": "Layer",
+          "ExportGuide": "导出指南",
+          "ExportLayer": "导出",
+          "Highlight": "Hair Group Bumpiness毛发组突起",
+          "ImportLayer": "导入",
+          "Layer": "图层",
           "LayerCompositionMode": {
             "Color": "颜色",
-            "ColorBurn": "颜色 Burn",
-            "ColorDodge": "颜色 Dodge",
-            "Darken": "Darken",
-            "DarkerColor": "Darker Color",
-            "Difference": "Difference",
-            "Dither": "Dither",
-            "Divide": "Divide",
-            "Exclusion": "Exclusion",
-            "HardLight": "Hard Light",
-            "HardMix": "Hard Mix",
-            "Hue": "Hue",
-            "Lighten": "Lighten",
-            "LighterColor": "Lighter Color",
-            "LinearBurn": "Linear Burn",
-            "LinearDodge": "Linear Dodge",
-            "LinearLight": "Linear Light",
-            "Luminocity": "Luminosity",
-            "Multiply": "Multiply",
-            "Normal": "默认",
-            "Overlay": "Overlay",
-            "PinLight": "Pin Light",
-            "Saturation": "Saturation",
-            "Screen": "Screen",
-            "SoftLight": "Soft Light",
-            "Subtract": "Subtract",
-            "VividLight": "Vivid Light"
+            "ColorBurn": "颜色加深",
+            "ColorDodge": "颜色减淡",
+            "Darken": "变暗",
+            "DarkerColor": "深色",
+            "Difference": "差异",
+            "Dither": "图像抖动",
+            "Divide": "划分",
+            "Exclusion": "排除",
+            "HardLight": "强光",
+            "HardMix": "实色混合",
+            "Hue": "色相",
+            "Lighten": "变亮",
+            "LighterColor": "浅色",
+            "LinearBurn": "线性加深",
+            "LinearDodge": "线性减淡",
+            "LinearLight": "线性光",
+            "Luminocity": "光泽度",
+            "Multiply": "正片叠底",
+            "Normal": "正常",
+            "Overlay": "叠加",
+            "PinLight": "点光",
+            "Saturation": "对比度",
+            "Screen": "滤色",
+            "SoftLight": "柔光",
+            "Subtract": "减去",
+            "VividLight": "t亮光"
           },
-          "LayerOpacity": "Layer Opacity",
-          "LayerProperties": "Layer Properties",
-          "LineWidth": "Brush Width",
-          "MaterialConfig": "Materials Settings",
-          "MoveDownLayer": "Move Down",
-          "MoveUpLayer": "Move Up",
-          "NewLayerNameFormat": "Layer {0}",
+          "LayerOpacity": "图层透明度",
+          "LayerProperties": "图层属性",
+          "LineWidth": "Brush Width笔刷宽度",
+          "MaterialConfig": "材质设定",
+          "MoveDownLayer": "向下移动",
+          "MoveUpLayer": "向上移动",
+          "NewLayerNameFormat": "图层 {0}",
           "NormalMapWeight": "强度",
           "RemoveLayer": "删除",
           "RenameLayer": "重命名",
-          "Select": "Select",
-          "SizeSpace": "Editing Mode",
+          "Select": "选择",
+          "SizeSpace": "编辑模式",
           "SubCategory": {
-            "AlphaMask": "Skin Mask",
+            "AlphaMask": "皮肤蒙版",
             "Main": "衣服"
           },
           "TextureEdition": "编辑纹理",
-          "ToggleLayerAlphaLock": "Toggle Alpha Lock",
-          "ToggleLayerVisibility": "Toggle Visibility"
+          "ToggleLayerAlphaLock": "切换 Alpha 通道锁",
+          "ToggleLayerVisibility": "切换可见"
         },
         "TextureSection": {
           "SectionName": "纹理"
@@ -1379,15 +1379,15 @@
       "Remove": "从列表移除",
       "Rename": "重命名",
       "RenameModel": "重命名模型",
-      "Sample": "Sample Models",
+      "Sample": "Sample Models实例模型",
       "TutorialSelectDialog": {
-        "Anime": "Anime Style",
-        "Description": "These are step-by-step tutorial videos showing you how to create each model.\r\nYou can watch them at any time later.",
-        "Illustration": "Illustration Style",
-        "Skip": "Skip",
-        "Title": "Welcome to VRoid Studio! What kind of model are you going for?",
-        "Watch": "Watch Tutorials on Youtube",
-        "Young": "Shota"
+        "Anime": "Anime Style动画风",
+        "Description": "These are step-by-step tutorial videos showing you how to create each model.\r\nYou can watch them at any time later.步骤式建模教程. \r\n随时可以观看.",
+        "Illustration": "Illustration Style插画风",
+        "Skip": "Skip跳过",
+        "Title": "Welcome to VRoid Studio! What kind of model are you going for?欢迎来到 Vroid Studio! 你要做什么模型?",
+        "Watch": "Watch Tutorials on Youtube上 Youtube 看教程",
+        "Young": "Shota翔太"
       }
     },
     "UserControls": {
@@ -1410,14 +1410,14 @@
     },
     "Util": {
       "BetaModelUtil": {
-        "BetaModelConversionInProgress": "Converting model..."
+        "BetaModelConversionInProgress": "Converting model...正在转换模型..."
       }
     },
     "VRoidStudioStyle": {
       "Duplicate": "粘贴"
     },
     "Welcome": {
-      "AppDescription": "Your 3D characters, \r\njust the way you pictured them",
+      "AppDescription": "Your 3D characters, \r\njust the way you pictured them你的角色, \r\n如你所想",
       "Avatars": {
         "Header": "你的模型",
         "NewAvatar": "新建模型"
@@ -1427,7 +1427,7 @@
         "Back": "返回",
         "Header": "选择一个类型"
       },
-      "NeedToLogin": "要继续使用VRoid Studio,\r\n请登录VRoid.",
+      "NeedToLogin": "要继续使用 VRoid Studio,\r\n请登录 VRoid.",
       "Preferences": {
         "Language": {
           "English": "简体中文",
@@ -1452,58 +1452,58 @@
       "HairLabel": "头发",
       "HairWithNumber": "Hair {0}"
     },
-    "HairBoneGroup": "Bone Group {0}"
+    "HairBoneGroup": "Bone Group {0}骨骼组 {0}"
   },
   "Main": {
     "CoinCharge": {
       "CoinChargeTransform": {
-        "CoinChargeMode": "Purchase Coins",
-        "Owned": "Coins",
-        "PurchaseMode": "Usage History",
-        "Sctl": "Notation based on the Specified Commercial Transaction Act",
-        "Settlement": "Notation based on the Payment Services Act"
+        "CoinChargeMode": "Purchase Coins购买硬币",
+        "Owned": "Coins硬币",
+        "PurchaseMode": "Usage History使用历史",
+        "Sctl": "Notation based on the Specified Commercial Transaction Act基于《特定商业交易法》的说明",
+        "Settlement": "Notation based on the Payment Services Act基于《支付服务法》的说明"
       },
       "CoinUsageNote": {
-        "Android": "Purchased coins can be used in the VRoid Android app only.",
-        "IOS": "Purchased coins can be used in the VRoid iOS app only."
+        "Android": "Purchased coins can be used in the VRoid Android app only.可以在 VRoid Android 应用中购买硬币.",
+        "IOS": "Purchased coins can be used in the VRoid iOS app only.可以在 VRoid IOS 应用中购买硬币."
       },
       "InitializationFailureReason": {
         "NoProductsAvailable": {
-          "NoProductsText": "This feature is not ready at the moment. \r\nPlease come back after a while."
+          "NoProductsText": "This feature is not ready at the moment. \r\nPlease come back after a while.功能还未上线. \r\n请稍后重试."
         },
         "PurchasingUnavailable": {
-          "NoProductsText": "Purchases on this device are limited\\nby the device settings.",
-          "Toast": "Purchases on this device are limited by the device settings."
+          "NoProductsText": "Purchases on this device are limited\\nby the device settings.此设备已设置购买.",
+          "Toast": "Purchases on this device are limited by the device settings.购买达到设备设置的限制."
         }
       },
-      "PurchaseFailureByUnknownReason": "Something went wrong with your purchase.",
+      "PurchaseFailureByUnknownReason": "Something went wrong with your purchase.购买时出错.",
       "PurchaseFailureReason": {
-        "PurchasingUnavailable": "Purchases on this device are limited by the device settings.",
-        "UserCancelled": "Your purchase was cancelled"
+        "PurchasingUnavailable": "Purchases on this device are limited by the device settings.购买达到设备设置的限制.",
+        "UserCancelled": "Your purchase was cancelled购买已取消"
       },
       "PurchaseHistoryModel": {
         "Description": {
-          "PurchaseModelItem": "Item Purchase"
+          "PurchaseModelItem": "Item Purchase购买物品"
         }
       },
       "PurchaseTransform": {
         "Item": {
-          "Payment": "Paid"
+          "Payment": "Paid付费"
         },
         "MessageItem": {
-          "Content": "It can take up to 5 minutes \r\nfor you usage history to update."
+          "Content": "It can take up to 5 minutes \r\nfor you usage history to update.使用历史 \r\n需要 5 分钟更新"
         }
       }
     },
     "MainViewModel": {
       "ARNotSupportedError": {
-        "Toast": "This feature is not available on your device."
+        "Toast": "This feature is not available on your device.设备功能不兼容."
       },
       "CreateModelFailed": {
-        "Toast": "Something went wrong while creating model data."
+        "Toast": "Something went wrong while creating model data.创建模型时出错."
       },
       "LoadModelFailed": {
-        "Toast": "Something went wrong while loading models."
+        "Toast": "Something went wrong while loading models.加载模型时出错."
       }
     },
     "ModelEditor": {
@@ -1697,7 +1697,7 @@
         },
         "PresetOptionViewModel": {
           "LoadFailed": {
-            "Toast": "Something went wrong while loading data."
+            "Toast": "Something went wrong while loading data.加载数据时出错"
           }
         }
       },
@@ -1712,15 +1712,15 @@
             "EyeIrisSizeY": "Iris Size (Y)",
             "GazeDistance": "Irises Distance",
             "GazeDistance2": "Gaze Distance",
-            "GazePosY": "Gaze (Y)"
+            "GazePosY": "Gaze (Y)目光 (Y)"
           }
         }
       },
       "ModelEditorViewModel": {
-        "GetForFreeFailed": "Something went wrong while collecting items.",
-        "GetForFreeSucceeded": "All items were collected succesfully",
-        "PaidPurchaseFailed": "Something went wrong with your purchase.",
-        "PaidPurchaseSucceeded": "Your purchase was successful"
+        "GetForFreeFailed": "Something went wrong while collecting items.物品收集时错误",
+        "GetForFreeSucceeded": "All items were collected succesfully物品收集完成",
+        "PaidPurchaseFailed": "Something went wrong with your purchase.购买时出错.",
+        "PaidPurchaseSucceeded": "Your purchase was successful购买成功"
       }
     },
     "Share": {
@@ -1738,7 +1738,7 @@
       "Receiver": {
         "ReceiverModel": {
           "name": {
-            "CharacterShare": "Publish on VRoid Hub"
+            "CharacterShare": "Publish on VRoid Hub在 VRoid Hub 上发布"
           }
         }
       }
@@ -1746,26 +1746,26 @@
     "Studio": {
       "Model": {
         "TermsOfUseItemViewModel": {
-          "Characterization": "Usage as Avatar",
-          "CommercialUseOK": "Yes - For-profit",
-          "CorporateCommercialUse": "Corporate Commercial Use",
-          "Credit": "Credits",
-          "Modification": "Alterations",
-          "NG": "No",
-          "OK": "Yes",
-          "Optional": "Optional",
-          "PersonalCommercialUse": "Individial Commercial Use",
-          "PersonalUseOK": "Yes - Non-profit",
-          "Redistribution": "Redistribution",
-          "Required": "Required",
-          "SexualExpression": "Usage in Sexual Depictions",
+          "Characterization": "Usage as Avatar用作头像",
+          "CommercialUseOK": "Yes - For-profit是 - 营利性的",
+          "CorporateCommercialUse": "Corporate Commercial Use企业商用",
+          "Credit": "Credits信用",
+          "Modification": "Alterations修改",
+          "NG": "No否",
+          "OK": "Yes是",
+          "Optional": "Optional可选项",
+          "PersonalCommercialUse": "Individial Commercial Use独立商用",
+          "PersonalUseOK": "Yes - Non-profit是 - 非营利性",
+          "Redistribution": "Redistribution二次配布",
+          "Required": "Required需要",
+          "SexualExpression": "Usage in Sexual Depictions色情场景使用",
           "Undefined": "TBD",
-          "ViolentExpression": "Usage in Violent Depictions"
+          "ViolentExpression": "Usage in Violent Depictions暴力场景使用"
         },
         "View": {
           "TermsOfUseDialogTransform": {
-            "Agreement": "I agree to use this model according to its usage conditions",
-            "Title": "Usage Conditions"
+            "Agreement": "I agree to use this model according to its usage conditions我同意此模型的使用条款",
+            "Title": "Usage Conditions使用条款"
           }
         }
       },
@@ -1773,78 +1773,78 @@
         "PhotoViewModel": {
           "TextureDownloadFailed": "保存图片时出错. ",
           "TextureDownloadSucceeded": "保存成功",
-          "UpdateEventsFailed": "加载事件时出错. "
+          "UpdateEventsFailed": "下载事件时出错. "
         },
         "PostProcessParameter": {
           "PostProcessParameterViewModel": {
             "Label": {
               "Bloom": "泛光",
-              "ChromaticAberration": "Chromatic Aberration",
-              "ColorTemperature": "Temperature",
-              "Contrast": "Contrast",
-              "DepthOfField": "Depth of Field",
-              "Frame": "Frame",
-              "Grain": "Grain",
-              "Hue": "Hue",
-              "Light": "Brightness",
-              "Saturation": "Saturation",
-              "Vignette": "Vignette"
+              "ChromaticAberration": "Chromatic Aberration色差",
+              "ColorTemperature": "Temperature色温",
+              "Contrast": "Contrast对比度",
+              "DepthOfField": "Depth of Field景深",
+              "Frame": "Frame框架",
+              "Grain": "Grain粒子",
+              "Hue": "Hue色相",
+              "Light": "Brightness亮度",
+              "Saturation": "Saturation饱和度",
+              "Vignette": "Vignette晕影"
             }
           }
         },
         "Progress": {
           "TipModel": {
             "Body": {
-              "Focus": "When using filters, try enabling Blur and then tapping on the screen to change the focus!",
-              "Hub": "in the Shoot Alone mode you can call up characters from VRoid Hub by tapping on the icon at the top right of the screen!",
-              "Landscape": "Try using your smartphone sideways, you may find it easier to move around!",
-              "Posing": "Tap on the person-like icon to select from a list of poses and emotions for your character!"
+              "Focus": "When using filters, try enabling Blur and then tapping on the screen to change the focus!应用过滤器时, 尝试使用模糊功能并点击屏幕使其聚焦!",
+              "Hub": "in the Shoot Alone mode you can call up characters from VRoid Hub by tapping on the icon at the top right of the screen!单独拍摄模式中, 点击右上角的图标, 使用 VRoid Hub 中的角色!",
+              "Landscape": "Try using your smartphone sideways, you may find it easier to move around!侧着使用手机移动更方便!",
+              "Posing": "Tap on the person-like icon to select from a list of poses and emotions for your character!点击小人图标, 为你的角色选择动作或表情"
             },
             "Title": {
-              "Focus": "Focus",
-              "Hub": "Call up characters from VRoid Hub",
-              "Landscape": "Landscape Mode",
-              "Posing": "Stirke a pose!"
+              "Focus": "Focus聚焦",
+              "Hub": "Call up characters from VRoid Hub使用 VRoid Hub 中的角色",
+              "Landscape": "Landscape Mode横向模式",
+              "Posing": "Stirke a pose!摆个姿势!"
             }
           }
         },
         "StageViewModel": {
-          "ChannelJoined": "Joined successfully",
-          "Notification": "Notification",
-          "UserJoined": "{0} joined the room"
+          "ChannelJoined": "Joined successfully进入成功",
+          "Notification": "Notification消息提示",
+          "UserJoined": "{0} joined the room{0} 进入的房间"
         }
       },
       "StageType": {
         "StageTypeViewModel": {
-          "MarkDownloadFailed": "Something went wrong while downloading watermarks, \r\nmaking them not available at the moment."
+          "MarkDownloadFailed": "Something went wrong while downloading watermarks, \r\nmaking them not available at the moment.下载水印时出错, \r\n当前任务不可用."
         }
       },
       "StudioViewModel": {
-        "AnimationDownloadFailed": "Something went wrong while downloading animations data. \r\nPlease check your internet connection and try again.",
-        "DownloadingAnimationData": "Downloading Animation Data",
-        "DownloadingWorld": "Downloading 3D Photo Studio Data",
-        "WorldCommonDownloadFailed": "Something went wrong while downloading common data. \r\nPlease check your internet connection and try again.",
-        "WorldDownloadFailed": "Something went wrong while downloading 3D photo studios data. \r\nPlease check your internet connection and try again."
+        "AnimationDownloadFailed": "Something went wrong while downloading animations data. \r\nPlease check your internet connection and try again.加载动作数据时出错. \r\n请检查网络连接并重试.",
+        "DownloadingAnimationData": "Downloading Animation Data正在下载动作数据",
+        "DownloadingWorld": "Downloading 3D Photo Studio Data正在下载 3D photo studios 数据",
+        "WorldCommonDownloadFailed": "Something went wrong while downloading common data. \r\nPlease check your internet connection and try again.下载数据时出错. \r\n请检查网络连接并重试.",
+        "WorldDownloadFailed": "Something went wrong while downloading 3D photo studios data. \r\nPlease check your internet connection and try again.下载 3D photo studios 时出错. \r\n请检查网络连接并重试."
       }
     },
     "View": {
       "AboutTransform": {
-        "Licenses": "Licenses",
-        "ModelTerms": "Model Usage Conditions",
-        "Version": "Version Info"
+        "Licenses": "Licenses许可",
+        "ModelTerms": "Model Usage Conditions模型使用条款",
+        "Version": "Version Info版本信息"
       },
       "AccountsTransform": {
-        "Title": "Manage Accounts"
+        "Title": "Manage Accounts管理账户"
       },
       "AnnouncementTransform": {
-        "Error": "Something went wrong while loading the news.",
-        "Title": "News"
+        "Error": "Something went wrong while loading the news.加载新闻时出错",
+        "Title": "News新闻"
       },
       "BundleDownloadProgressTransform": {
-        "Description": "Downloading data, please wait"
+        "Description": "Downloading data, please wait下载数据中, 请等待"
       },
       "CharacterTypeSelectorTransform": {
-        "Title": "Create a Character"
+        "Title": "Create a Character创建角色"
       },
       "EyeColorSetCollectionConfiguratorTransform": {
         "BulkEdit": "Edit Both Eyes",
@@ -1852,19 +1852,19 @@
         "Edit": "Edit",
         "Exit": "关闭",
         "LeftEye": "Left Eye",
-        "RightEye": "Right Eye"
+        "RightEye": "Right Eye右眼"
       },
       "LicensesTransform": {
-        "Title": "Licenses"
+        "Title": "Licenses许可"
       },
       "MainTransform": {
-        "AgeConfirmation": "All users must be at least 13 years old in order to create an account.",
-        "Agree": "I Agree",
+        "AgeConfirmation": "All users must be at least 13 years old in order to create an account.创建账户年龄限制 13 岁以上",
+        "Agree": "I Agree我同意",
         "BundleDownloadConfirmation": {
-          "Description": "The app will start downloading necessary data ({0:f1} {1})"
+          "Description": "The app will start downloading necessary data ({0:f1} {1})开始下载必要文件 ({0:f1} {1})"
         },
         "BundleDownloadRetry": {
-          "Description": "Something went wrong while downloading necessary files. \r\nPlease check your internet connection and try again."
+          "Description": "Something went wrong while downloading necessary files. \r\nPlease check your internet connection and try again.下载必要文件时出错. \r\n请检查网络连接并重试."
         },
         "CancelDialog": {
           "ConfirmationText": "关闭",
@@ -1872,155 +1872,155 @@
           "Title": "未保存的改动"
         },
         "CharacterNaming": {
-          "Description": "Pick a name for your character. Names can be up to 32 characters long.",
-          "Title": "New Character"
+          "Description": "Pick a name for your character. Names can be up to 32 characters long.为角色起名. 名称最大长 32 字符",
+          "Title": "New Character新建角色"
         },
         "CharacterRenaming": {
-          "Title": "Rename Character"
+          "Title": "Rename Character重命名角色"
         },
         "CoinChargeWarning": {
-          "ConfirmationText": "Charge",
-          "Description": "Charge coins?",
-          "Title": "Not enough coins"
+          "ConfirmationText": "Charge充值",
+          "Description": "Charge coins?充值硬币?",
+          "Title": "Not enough coins硬币不足"
         },
         "DeleteAccountDataConfirmation": {
-          "Description": "When you delete your account data, \r\nall the models will be deleted too.",
-          "Title": "Delete Account Data"
+          "Description": "When you delete your account data, \r\nall the models will be deleted too.若删除账户数据, \r\n所有模型都会丢失.",
+          "Title": "Delete Account Data删除账户数据"
         },
         "DeleteCharacterConfirmation": {
-          "Description": "By deleting this character you will delete its models too.",
-          "Title": "Delete This Character?"
+          "Description": "By deleting this character you will delete its models too.删除角色后模型也会丢失.",
+          "Title": "Delete This Character?删除这个角色?"
         },
         "DeleteModelConfirmation": {
-          "Title": "Delete This Model?"
+          "Title": "Delete This Model?删除这个模型?"
         },
         "FirstCharacterCreationMessage": {
-          "ConfirmationText": "Start Creating",
-          "Description": "On VRoid Studio you can create 3D characters, dress them up and take their photos. Create your own original 3D avatar!",
-          "Title": "Let's get started with 3D avatars!"
+          "ConfirmationText": "Start Creating开始创建",
+          "Description": "On VRoid Studio you can create 3D characters, dress them up and take their photos. Create your own original 3D avatar!在 VRoid Studio 中, 你可以创建 3D 角色, 装扮并拍照. 创建自己的 3D 角色吧!",
+          "Title": "Let's get started with 3D avatars!开始制作 3D 角色吧!"
         },
         "Help": "FAQ",
         "LoginFailureMessage": {
-          "Description": "Something went wrong with login. \r\nPlease check your internet connection and try again.",
-          "Title": "Something went wrong with login."
+          "Description": "Something went wrong with login. \r\nPlease check your internet connection and try again.登录时出错. \r\n请检查网络连接并重试.",
+          "Title": "Something went wrong with login.登录时出错"
         },
         "LogoutConfirmation": {
-          "Description": "You will log out of VRoid. \r\nDo you want to proceed?"
+          "Description": "You will log out of VRoid. \r\nDo you want to proceed?您将登出 VRoid. \r\n确认登出?"
         },
         "MaintenanceMessage": {
           "ConfirmationText": "Open VRoid's Twitter",
-          "Description": "The app is currently undergoing maintenance. \r\nPlease come back after a while.",
-          "Title": "Under Maintenance"
+          "Description": "The app is currently undergoing maintenance. \r\nPlease come back after a while.应用正在维护. \r\n请稍后重试.",
+          "Title": "Under Maintenance正在维护"
         },
         "ModelNaming": {
-          "Description": "Pick a name for your model. Names can be up to 32 characters long.",
-          "Title": "Create a Model"
+          "Description": "Pick a name for your model. Names can be up to 32 characters long.为模型起名. 名称最大长 32 字符",
+          "Title": "Create a Model创建一个模型"
         },
         "ModelRenaming": {
-          "Title": "Rename Model"
+          "Title": "Rename Model重命名模型"
         },
         "Naming": {
-          "ConfirmationText": "Confirm",
-          "Placeholder": "E.g. Shibu Sendagaya"
+          "ConfirmationText": "Confirm确认",
+          "Placeholder": "E.g. Shibu Sendagaya例如 Shibu Sendagaya"
         },
-        "Notice": "Before you get started with VRoid Studio, you need to agree to the Terms of Use, Privacy Policy, and Guidelines.准则",
+        "Notice": "Before you get started with VRoid Studio, you need to agree to the Terms of Use, Privacy Policy, and Guidelines.使用 VRoid Studio 前, 您需要同意使用条款、隐私政策和准则",
         "PrivacyPolicyConfirmation": {
-          "Description": "VRoid Studio's Privacy Policy was updated on March 30, 2020.",
-          "Title": "See Privacy Policy"
+          "Description": "VRoid Studio's Privacy Policy was updated on March 30, 2020.VRoid Studio 的隐私政策于 2020 年 3 月 30 日更新.",
+          "Title": "See Privacy Policy请参阅隐私政策"
         },
         "PurchaseDeferred": {
-          "Description": "Your purchase is pending approval. \r\nPlease ask your guardian for approval \r\nbefore proceeding with the purchase."
+          "Description": "Your purchase is pending approval. \r\nPlease ask your guardian for approval \r\nbefore proceeding with the purchase.订单已提交. \r\n继续购买前请检查订单."
         },
         "RequireToBackToHomeToAcceptInvitation": {
-          "Description": "In order to join a room, you will need to go back to the home screen first."
+          "Description": "In order to join a room, you will need to go back to the home screen first.请返回主页后加入房间"
         },
         "RequireToBackToHomeToShooting": {
-          "Description": "In order to access the photo booth, you will need to go back to the home screen first."
+          "Description": "In order to access the photo booth, you will need to go back to the home screen first.请返回主页后访问 photo booth"
         },
         "RetryFetchCoin": {
-          "Description": "Something went wrong while loading your coin balance. \r\nPlease check your internet connection and try again."
+          "Description": "Something went wrong while loading your coin balance. \r\nPlease check your internet connection and try again.加载硬币钱包时出错. \r\n请检查网络连接并重试."
         },
         "StudioFetchFailedMessage": {
-          "Description": "Something went wrong while loading 3D photo studios. \r\nPlease check your internet connection and try again.",
-          "Title": "Connection Error"
+          "Description": "Something went wrong while loading 3D photo studios. \r\nPlease check your internet connection and try again.加载 3D photo studios 时出错. \r\n请检查网络连接并重试.",
+          "Title": "Connection Error连接错误"
         },
         "UpdateApplicationConfirmation": {
-          "ConfirmationText": "Check Update",
-          "Description": "In order to use the Shoot Together mode, everyone needs to be running the latest version of the app."
+          "ConfirmationText": "Check Update检查更新",
+          "Description": "In order to use the Shoot Together mode, everyone needs to be running the latest version of the app.分享拍摄模式仅可用于最新版本应用."
         },
         "UpdateAssetBundle": {
-          "Description": "In order to use the Shoot Together mode, everyone needs to be running the latest version of the app. \r\nPlease try again after everyone has restarted their devices."
+          "Description": "In order to use the Shoot Together mode, everyone needs to be running the latest version of the app. \r\nPlease try again after everyone has restarted their devices.分享拍摄模式仅可用于最新版本应用. \r\n请在他人重启设备后重试."
         },
         "UpdateRequiredMessage": {
-          "Description": "There's a new version available. Please update the app.",
-          "Title": "Update"
+          "Description": "There's a new version available. Please update the app.有新的版本可用. 请更新应用.",
+          "Title": "Update更新"
         },
         "ValidateProductInCoinCharge": {
-          "ConfirmationText": "Collect",
-          "Description": "To purchase coins you first need to collect all uncollected coins. \r\nProceed collecting coins?"
+          "ConfirmationText": "Collect收集",
+          "Description": "To purchase coins you first need to collect all uncollected coins. \r\nProceed collecting coins?购买硬币前需要收集硬币.  \r\n确认收集?"
         },
         "ValidateProductInHome": {
-          "ConfirmationText": "Collect",
-          "Description": "You need to collect all uncollected coins. \r\nProceed collecting coins?"
+          "ConfirmationText": "Collect收集",
+          "Description": "You need to collect all uncollected coins. \r\nProceed collecting coins?需要收集硬币. \r\n确认收集?"
         },
         "VRMUploadFailureMessage": {
-          "Description": "Something went wrong while uploading the VRM file. \r\nPlease check your internet connection and try again.",
+          "Description": "Something went wrong while uploading the VRM file. \r\nPlease check your internet connection and try again.上传 VRM 时出错. \r\n请检查网络连接并重试.",
           "Title": "Connection Error"
         },
-        "VRMUploadingMessage": "Now uploading to VRoid Hub",
+        "VRMUploadingMessage": "Now uploading to VRoid Hub正在上传至 VRoid Hub",
         "WaitForUnityIap": {
-          "Description": "Communicating with the server is taking a while. \r\nPlease check your internet connection and try again."
+          "Description": "Communicating with the server is taking a while. \r\nPlease check your internet connection and try again.连接超时. \r\n请检查网络连接并重试."
         },
         "WorldInvitationConfirmation": {
-          "ConfirmationText": "Join",
-          "Description": "Join the room you were invited to?"
+          "ConfirmationText": "Join加入",
+          "Description": "Join the room you were invited to?加入受邀房间?"
         }
       },
       "PurchaseTransform": {
-        "Total": "Total"
+        "Total": "Total总共"
       },
       "SettingsCopyableTextTransform": {
-        "Copied": "Copied {0}"
+        "Copied": "Copied {0}已复制 {0}"
       },
       "SettingsTransform": {
-        "Account": "Account Settings",
-        "Screen": "Screen settings"
+        "Account": "Account Settings账户设置",
+        "Screen": "Screen settings屏幕设置"
       },
       "ShareTransform": {
-        "Broadcasters": "Go Live",
-        "Consumers": "Supported Apps",
-        "OtherConsumers": "Find More Apps"
+        "Broadcasters": "Go Live转到直播",
+        "Consumers": "Supported Apps支持的 App",
+        "OtherConsumers": "Find More Apps查看更多 App"
       },
       "ShareVRMUploadTransform": {
-        "Content": "Uploading data to VRoid Hub"
+        "Content": "Uploading data to VRoid Hub上传数据到 VRoid Hub"
       },
       "Studio": {
         "Stage": {
           "EmotionDrawerTransform": {
-            "Emotion": "Emotions",
-            "Pose": "Poses"
+            "Emotion": "Emotions表情",
+            "Pose": "Poses动作"
           },
           "LogsDrawerTransform": {
-            "Input": "Say something"
+            "Input": "Say something说点什么"
           },
           "ModelsDrawerTransform": {
             "HasNoHeartedModelsHeartFirstLineWide": "❤",
             "HasNoHeartedModelsHeartSecondLineWide": "",
-            "HasNoHeartedModelsPrefix": "VRoid Hubで",
-            "HasNoHeartedModelsPrefixWide": "VRoid Hubで",
-            "HasNoHeartedModelsSecondLine": "呼び出すことができます",
-            "HasNoHeartedModelsSecondLineWide": "ラクターを呼び出すこと",
-            "HasNoHeartedModelsSuffix": "したキャラクターを",
-            "HasNoHeartedModelsSuffixWide": "したキャ",
-            "HasNoHeartedModelsThirdLineWide": "ができます",
-            "HasNoMyModels": "Upload characters to VRoid Hub to call them up",
-            "HasNoMyModelsWide": "Upload characters to VRoid Hub to call them up",
-            "HeartedCharacter": "Characters you ❤",
+            "HasNoHeartedModelsPrefix": "VRoid HubでVRoid Hub 中心",
+            "HasNoHeartedModelsPrefixWide": "VRoid Hub 中心",
+            "HasNoHeartedModelsSecondLine": "呼び出すことができます可以调用可以调用",
+            "HasNoHeartedModelsSecondLineWide": "ラクターを呼び出すこと可以呼出",
+            "HasNoHeartedModelsSuffix": "したキャラクターを角色",
+            "HasNoHeartedModelsSuffixWide": "したキャ我做了",
+            "HasNoHeartedModelsThirdLineWide": "ができます我可以",
+            "HasNoMyModels": "Upload characters to VRoid Hub to call them up上传角色至 VRoid Hub 并调用",
+            "HasNoMyModelsWide": "Upload characters to VRoid Hub to call them up上传角色至 VRoid Hub 并调用",
+            "HeartedCharacter": "Characters you ❤添加 ❤ 的角色",
             "HeartedCharacterPrefix": "",
-            "HeartedCharacterSuffix": "したキャラクター",
-            "IsLoading": "Loading models",
-            "LinkToVRoidHub": "To VRoid Hub",
-            "More": "See More",
+            "HeartedCharacterSuffix": "したキャラクター角色",
+            "IsLoading": "Loading models加载模型",
+            "LinkToVRoidHub": "To VRoid Hub转到 VRoid Hub",
+            "More": "See More查看更多",
             "Reload": "重试"
           },
           "PhotoPreviewTransform": {
@@ -2028,66 +2028,66 @@
             "Mark": "Watermarks",
             "Save": "保存",
             "Share": "Share",
-            "UploadVRoidHubTall": "Post to\r\nVRoid Hub",
-            "UploadVRoidHubWide": "Post to VRoid Hub"
+            "UploadVRoidHubTall": "Post to\r\nVRoid Hub在\r\nVRoid Hub上发布",
+            "UploadVRoidHubWide": "Post to VRoid Hub在 VRoid Hub 上发布"
           },
           "PlaceModelsDrawerTransform": {
-            "IsMaxSinglePlayer": "This room is full"
+            "IsMaxSinglePlayer": "This room is full房间已满"
           },
           "PlayerInfoDrawerTransform": {
-            "Kick": "Kick Out",
-            "Member": "Members"
+            "Kick": "Kick Out踢出",
+            "Member": "Members成员"
           },
           "ProgressTransform": {
-            "Loading": "Now Loading"
+            "Loading": "Now Loading加载中"
           },
           "ScanPromptTransform": {
-            "Text": "Move your device and\r\nscan the ground surface"
+            "Text": "Move your device and\r\nscan the ground surface移动你的设备\r\n并扫描物体表面"
           },
           "StageTransform": {
             "ExitConfirmation": {
-              "ConfirmationText": "Leave",
-              "Description": "Do you want to leave?",
-              "Title": "Leave"
+              "ConfirmationText": "Leave离开",
+              "Description": "Do you want to leave?确认离开?",
+              "Title": "Leave离开"
             },
-            "Next": "Next",
+            "Next": "Next下一步",
             "PhotoDiscardConfirmation": {
-              "ConfirmationText": "Discard",
-              "Description": "The data for the photo you took will be lost.\r\nAre you sure you want to discard this photo?",
-              "Title": "Discard Photo"
+              "ConfirmationText": "Discard丢弃",
+              "Description": "The data for the photo you took will be lost.\r\nAre you sure you want to discard this photo?所有改动将会丢失. \r\n确定丢弃此照片?",
+              "Title": "Discard Photo丢弃照片"
             },
             "ReconnectConfirmation": {
-              "ConfirmationText": "Reconnect",
-              "Description": "The connection was lost. Do you want to reconnect?",
-              "Title": "Connection Error"
+              "ConfirmationText": "Reconnect重新连接",
+              "Description": "The connection was lost. Do you want to reconnect?连接已关闭, 尝试重新连接?",
+              "Title": "Connection Error连接错误"
             },
             "ShareConfirmation": {
               "ConfirmationText": "Copy Link",
-              "Description": "Give your friends the link to this room to invite them here! You can take photos with up to four people.",
-              "Title": "Shoot Together"
+              "Description": "Give your friends the link to this room to invite them here! You can take photos with up to four people.分享链接至好友, 至多邀请 4 人分享拍摄",
+              "Title": "Shoot Together分享拍摄"
             }
           },
           "UploadVRoidHubTransform": {
-            "AgeLimit": "Age Restrictions",
-            "AgeLimitNormal": "All Ages",
+            "AgeLimit": "Age Restrictions年龄分级",
+            "AgeLimitNormal": "All Ages全年龄",
             "AgeLimitR15": "R-15",
             "AgeLimitR18": "R-18",
-            "AttendingEvent": "Event",
-            "Caption": "Description",
-            "CaptionPlaceholder": "Write an introduction and/or use hashtags",
-            "FailureDescription": "Something went wrong while uploading pictures. \r\nPlease check your internet connection and try again.",
+            "AttendingEvent": "Event事件",
+            "Caption": "Description说明",
+            "CaptionPlaceholder": "Write an introduction and/or use hashtags添加说明或使用标签",
+            "FailureDescription": "Something went wrong while uploading pictures. \r\nPlease check your internet connection and try again.图片上传时出错. \r\n请检查网络连接并重试",
             "FailureTitle": "Connection Error连接失败",
             "None": "None没有",
-            "Notice": "By posting this, you agree to the Terms of Use and Guidelines.若发表, 则同意使用条款和准则.",
-            "Upload": "Post发表",
+            "Notice": "By posting this, you agree to the Terms of Use and Guidelines.若发布, 则同意使用条款和准则.",
+            "Upload": "Post发布",
             "UploadCheck": "Go to VRoid Hub转至 VRoid Hub",
-            "UploadDoneMessage": "The photo was posted successfully. \r\nDo you want to see it on VRoid Hub?照片发表成功, \r\n在 VRoid Hub上检视?",
-            "UploadVRoidHub": "Post to VRoid Hub发表在 VRoid Hub 上"
+            "UploadDoneMessage": "The photo was posted successfully. \r\nDo you want to see it on VRoid Hub?照片发布成功, \r\n在 VRoid Hub上检视?",
+            "UploadVRoidHub": "Post to VRoid Hub发布在 VRoid Hub 上"
           }
         },
         "StudioSelectorTransform": {
           "DownloadingWorld": "正在下载 3D Photo Studio 数据",
-          "Error": "出错了. \r\nPlease check your internet connection and try again.请检查网络连接并重试",
+          "Error": "出错了. \r\nPlease check your internet connection and try again.\r\n请检查网络连接并重试",
           "Multiplay": "Shoot Together一起拍摄",
           "Singleplay": "Shoot Alone单独拍摄",
           "Title": "Where are you off to?你要去哪儿?",
@@ -3229,8 +3229,8 @@
     },
     "Player": {
       "PlayerCore": {
-        "OtherModelLoadError": "加载好友的角色时出错. ",
-        "PlayerModelLoadError": "加载你的角色时出错. "
+        "OtherModelLoadError": "下载好友角色时出错. ",
+        "PlayerModelLoadError": "下载角色时出错. "
       }
     },
     "Scripts": {
@@ -3246,7 +3246,7 @@
       },
       "BodyEditor": {
         "ViewModel": {
-          "cs_0": "All"
+          "cs_0": "All全部"
         }
       },
       "Dialog": {
@@ -3388,7 +3388,7 @@
         },
         "PopupAccessorySelectorScreen": {
           "Customize": "自定义",
-          "MaxAccessoryLabel": "The number of accessories in the same category has reached the limit of five同一类别的配件数量已达到上限5个",
+          "MaxAccessoryLabel": "The number of accessories in the same category has reached the limit of five同一类别的配件数量已达到上限 (5个)",
           "Preset": "预设"
         }
       }
@@ -3406,7 +3406,7 @@
       "SceneController": {
         "Error": "Oops",
         "ErrorDefault": "Something went wrong.\r\nYou will be redirected to the photo studio selection screen.出错了.\r\n重定向至 photo studio 选择页面",
-        "ErrorGameFull": "This room is too crowded, better retry joining later.房间已满, 请稍后重试",
+        "ErrorGameFull": "This room is too crowded, better retry joining later.房间拥挤, 请稍后重试",
         "JoinRoomFailed": "Could not join the room未能加入房间"
       }
     }
@@ -3418,15 +3418,15 @@
           "FittingPanel": {
             "Animation": "动画",
             "Category": "Categories分类",
-            "LoadMan": "男性をロード加载男性",
-            "LoadWoman": "女性をロード加载女性",
+            "LoadMan": "男性をロード下载男性",
+            "LoadWoman": "女性をロード下载女性",
             "Run": "执行"
           },
           "FittingPanelTransform": {
             "Animation": "动画",
             "Category": "Categories分类",
-            "LoadMan": "男性をロード加载男性",
-            "LoadWoman": "女性をロード加载女性",
+            "LoadMan": "男性をロード下载男性",
+            "LoadWoman": "女性をロード下载女性",
             "Run": "执行"
           },
           "GenerationPanel": {
@@ -3601,7 +3601,7 @@
           "Description": "是否要在开始编辑之前将临时项目另存为自定义项目\r\n未保存的项目将丢失. ",
           "Title": "保存临时项目"
         },
-        "FailedToLoadCustomItemsMessage": "加载在新版本的 VRoid Studio 上创建的数据时出错. \r\n请更新 VRoid Studio.",
+        "FailedToLoadCustomItemsMessage": "下载在新版本的 VRoid Studio 上创建的数据时出错. \r\n请更新 VRoid Studio.",
         "ModelPresets": {
           "TemporaryCustomItem": {
             "Customizing": "未保存的项目",
@@ -3763,7 +3763,7 @@
             }
           }
         },
-        "ModelLoadingLabel": "正在加载, 请稍待片刻. ",
+        "ModelLoadingLabel": "正在下载, 请稍待片刻. ",
         "TutorialSelectDialog": {
           "Description": "如果您是初学者, 请参阅基础教程. \r\nBeta 版用户可以查看新功能和更改内容. ",
           "ForBeginners": "新手教学",
@@ -3782,8 +3782,8 @@
             "InvalidNameErrorDescription": "模型名称包含无法使用的字符. 请使用不带字符的模型名称\r\n「¥」「/」「:」「*」「?」「”」「<」「>」「|」",
             "NewErrorDescription": "创建新模型失败. 请再次尝试创建新模型. ",
             "NewErrorTitle": "创建新模型失败. ",
-            "OpenErrorDescription": "未能加载模型. 请检查文件夹中是否存在该模型, 然后重试. ",
-            "OpenErrorTitle": "加载失败",
+            "OpenErrorDescription": "未能下载模型. 请检查文件夹中是否存在该模型, 然后重试. ",
+            "OpenErrorTitle": "下载失败",
             "RenameErrorDescription": "重命名失败. 如果继续失败, 请尝试在资源管理器上重命名它. ",
             "RenameErrorTitle": "重命名失败",
             "SameNameErrorDescription": "此名称已存在, 请换一个其他名字. "
@@ -3838,11 +3838,11 @@
     },
     "HubCharacterModelSettingsDialog": {
       "Character": {
-        "NameLabel": "角色名字",
+        "NameLabel": "角色名",
         "Title": "Character Settings角色设定"
       },
       "CharacterModel": {
-        "NameLabel": "模型名字",
+        "NameLabel": "模型名",
         "Title": "Model Settings模型设定"
       }
     },
@@ -3860,19 +3860,19 @@
       "AddCharacterLabel": "New Character新建角色",
       "AddCharacterModelLabel": "New Model新建模型",
       "AddCharacterModelSubLabel": "Add a new model to an existing character为现有角色添加一个新模型",
-      "AddCharacterSubLabel": "Create a new character创建一个新角色",
+      "AddCharacterSubLabel": "Create a new character创建新角色",
       "Title": "上传到 VRoid Hub",
       "UpdateCharacterModelLabel": "Model Update更新模型",
       "UpdateCharacterModelSubLabel": "Update a model of an existing character更新现有角色的模型"
     },
     "JumpToVRoidHubMessage": "Check it out on VRoid Hub在 VRoid Hub 上检视",
-    "LoginFailed": "Something went wrong with login.登录出错",
+    "LoginFailed": "Something went wrong with login.登录时出错",
     "ModelListTitle": "Select the variation of the model you want to modify选择需要修改的模型变动",
     "ModelNameMessage": "Enter a name for this variation为此变动添加一个名字",
     "ModelNamePlaceholder": "Variation Name变动名称",
     "ModelSetting": "New Model Settings新建模型设定",
     "PasteButtonLabel": "Paste粘贴",
-    "UpdateModelButtonLabel": "Model Update上传模型",
+    "UpdateModelButtonLabel": "Model Update更新模型",
     "UpdateNewCharacterButtonSubLabel": "Update and replace an existing model上传并替换现有模型",
     "UploadCompletedMessage": "Your upload was successful上传成功",
     "UploadFailed": "Something went wrong with the upload.上传时出错",
