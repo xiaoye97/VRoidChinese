@@ -2,7 +2,7 @@
   "Application": {
     "Saving": {
       "PathInfo": {
-        "AvatarDirectoryAccessFailure": "无法访问此文件夹 \"{0}\".  \r\n打开VRoid Studio时出错.  \r\n请检查指定的文件夹. ",
+        "AvatarDirectoryAccessFailure": "无法访问此文件夹 \"{0}\". \r\n打开VRoid Studio时出错. \r\n请检查指定的文件夹.",
         "Error": "出现了一些错误"
       }
     }
@@ -17,7 +17,7 @@
           "JoyL": "高兴 (左)",
           "JoyR": "高兴 (右)",
           "Sorrow": "沮丧",
-          "Spread": "张开",
+          "Spread": "睁眼",
           "Surprised": "吃惊"
         },
         "Eyebrow": {
@@ -49,7 +49,7 @@
           "JoyL": "高兴 (左)",
           "JoyR": "高兴 (右)",
           "Sorrow": "沮丧",
-          "Spread": "张开",
+          "Spread": "睁眼",
           "Surprised": "吃惊"
         },
         "Eyebrow": {
@@ -75,9 +75,9 @@
       },
       "N00": {
         "Eye": {
-          "Close": "关闭",
-          "CloseL": "关闭 (左)",
-          "CloseR": "关闭 (右)",
+          "Close": "闭眼",
+          "CloseL": "闭眼 (左)",
+          "CloseR": "闭眼 (右)",
           "HideHighlight": "隐藏高光",
           "HideIris": "隐藏虹膜",
           "IrisCat": "猫眼",
@@ -89,13 +89,13 @@
           "Cat": "猫嘴",
           "CatUp": "猫嘴形状",
           "Close": "关闭",
-          "Down": "下降",
-          "Large": "宽度",
+          "Down": "下抬",
+          "Large": "加宽",
           "SkinFung": "吸血鬼的牙齿 (皮肤)",
           "SkinFungL": "吸血鬼的牙齿 (皮肤, 左)",
           "SkinFungR": "吸血鬼的牙齿 (皮肤, 右)",
-          "Small": "狭窄",
-          "Up": "上升"
+          "Small": "收窄",
+          "Up": "上抬"
         },
         "Tooth": {
           "Fung1": "吸血鬼的牙齿",
@@ -146,7 +146,7 @@
   "BugReportDialog": {
     "Close": "关闭",
     "CopyAllText": "复制所有文本",
-    "Description": "如果您想报告问题, 请将以下信息粘贴到联系表单中. ",
+    "Description": "如果您想报告问题, 请将以下信息粘贴到联系表单中.",
     "Detail": "您的电脑硬件规格",
     "ErrorInfomation": "错误信息",
     "ErrorLog": "错误信息",
@@ -226,7 +226,7 @@
     "GetForFree": "获取",
     "Guideline": "Guidelines",
     "Import": "导入",
-    "Loading": "正在加载, 请稍等片刻. ",
+    "Loading": "正在加载, 请稍等片刻.",
     "Logout": "登出",
     "Material": {
       "NormalMapWeight": "法线映射强度"
@@ -301,16 +301,16 @@
     "Quality": "显示质量",
     "Save": "保存",
     "Settings": "设置",
-    "SomethingWentWrong": "出现异常. ",
+    "SomethingWentWrong": "出错了.",
     "Start": "快速开始",
     "TOS": "使用条款",
     "TransmissionRetry": "重试",
-    "TransmissionRetryDescription": "出现异常. \r\n请检查你的网络并重试. ",
+    "TransmissionRetryDescription": "出错了. \r\n请检查网络连接并重试.",
     "Use": "使用此模型",
     "Yes": "是"
   },
   "ExportDialogController": {
-    "AllowedUser": "谁可以使用此角色？",
+    "AllowedUser": "谁可以使用此角色? ",
     "AllowedUserDropDown": {
       "Everyone": "任何人",
       "ExplicitlyLicensedPerson": "那些有明确授权的人",
@@ -321,8 +321,8 @@
     "CommericalUssage": "商业用途",
     "Contact": "联系方式",
     "DialogTitle": "VRM设置",
-    "ExportFailedAlertIO": "导出数据时出现异常. ",
-    "ExportFailedAlertUnknown": "导出数据时出现异常. (未知错误)",
+    "ExportFailedAlertIO": "导出数据时出错.",
+    "ExportFailedAlertUnknown": "导出数据时出错. (未知错误)",
     "Information": "模型信息",
     "LicenseType": "许可证",
     "LicenseTypeDropDown": {
@@ -352,7 +352,7 @@
   },
   "GUI": {
     "Announcement": {
-      "Error": "下载新闻时出现异常. ",
+      "Error": "加载新闻时出错",
       "Title": "新闻"
     },
     "AvatarEditor": {
@@ -542,7 +542,7 @@
         "Customize": "自定义",
         "EditAccessoryBone": "编辑配件碰撞",
         "EditAccessoryDesign": "编辑配件",
-        "EditHairBone": "编辑头发碰撞",
+        "EditHairBone": "编辑头发骨骼",
         "EditHairDesign": "编辑头发",
         "EditPreset": "编辑预设",
         "EditTexture": "编辑纹理",
@@ -686,12 +686,12 @@
       },
       "GeneralEditor": {
         "EyeExcursion": {
-          "HorizontalInner": "Inner",
-          "HorizontalOuter": "Outer",
-          "VerticalLower": "Lower",
-          "VerticalUpper": "Upper"
+          "HorizontalInner": "靠内",
+          "HorizontalOuter": "靠外",
+          "VerticalLower": "靠上",
+          "VerticalUpper": "靠下"
         },
-        "EyeExcursionMode": "Eye Alignment",
+        "EyeExcursionMode": "眼睛移动校准",
         "OutlineParameter": {
           "Accessory": "配件",
           "Body": "身体",
@@ -777,7 +777,7 @@
           "Delete": "Delete Bone Group",
           "RemoveHairFromBoneGroup": "Remove Hair from Bone Group",
           "Rename": "重命名",
-          "ToggleVisibility": "Toggle Visibility"
+          "ToggleVisibility": "切换可见性"
         },
         "HairBoneViewModel": {
           "AddHairToBoneGroupCommand": "Move to Selected Group",
@@ -813,16 +813,16 @@
           "ToggleVisibility": "可见性"
         },
         "HairEditorViewController": {
-          "ProhibitionControlPoint": "控制点不能用于此头发类型. ",
-          "ProhibitionRetouch": "修饰笔刷不能用于此头发类型. "
+          "ProhibitionControlPoint": "控制点不能用于此头发类型.",
+          "ProhibitionRetouch": "修饰笔刷不能用于此头发类型."
         },
         "HairEditorViewModel": {
           "AddBangsHair": "添加逻辑组",
           "AddBrushGuide": "添加手绘组",
           "AddTailHair": "添加马尾",
-          "Diamond": "Diamond",
+          "Diamond": "菱形",
           "ExportAsPreset": "保存为预设",
-          "Flat": "Flat",
+          "Flat": "平面",
           "Fluffy": "Fluffy",
           "Hair": "头发",
           "HairList": "Hair Groups",
@@ -834,10 +834,10 @@
           "PresetWithNumber": "预设 {0}",
           "Straight": "Straight",
           "Tail": "Tail",
-          "Triangle": "Triangle (Beta Compatible)",
-          "Triangle2": "Triangle",
-          "UnfilledTriangle": "Bottomless Triangle (Beta Compatible)",
-          "UnfilledTriangle2": "Bottomless Triangle",
+          "Triangle": "三角形 (旧版)",
+          "Triangle2": "三角形",
+          "UnfilledTriangle": "空三角形 (旧版)",
+          "UnfilledTriangle2": "空三角形",
           "UnfilledTriangleCompatibleWithTriangle": "Bottomless Triangle (c/w Triangle (Old))"
         },
         "HairGroupViewModel": {
@@ -863,7 +863,7 @@
           "FlowCurvePointT": "头发层叠 (侧扫强度 )",
           "FlowDirection": "头发层叠 (方向)",
           "FrontFitness": "偏向脑袋 (Z)",
-          "GrowFrom": "头发线",
+          "GrowFrom": "发际线",
           "GuideParameters": "组参数",
           "Hair": "头发",
           "HairCount": "头发数量",
@@ -953,7 +953,7 @@
           "CaptureGuideMessage": "拍照",
           "CapturePreset_4k": "4K (3840×2160)",
           "CapturePreset_8k": "8K (7680×4320)",
-          "CapturePreset_Auto": "调整到窗口大小",
+          "CapturePreset_Auto": "自动大小",
           "CapturePreset_Custom": "自定义",
           "CapturePreset_FullHD": "Full HD (1920×1080)",
           "CapturePreset_FWXGA": "FWXGA (1366×768)",
@@ -973,9 +973,9 @@
           "CharacterName": "角色名字",
           "ClothingReductionStrength": "衣服",
           "Color": "颜色",
-          "ColorFilter": "颜色 Filter",
-          "ColorGrading": "颜色 Grading",
-          "ColorRatio": "颜色 Ratio",
+          "ColorFilter": "滤色",
+          "ColorGrading": "颜色调节",
+          "ColorRatio": "颜色比例",
           "Comic": "漫画",
           "Contrast": "对比度",
           "Default": "默认",
@@ -1006,15 +1006,15 @@
           "Female_determined": "Determined",
           "Female_elated": "Elated",
           "Female_hey": "Hey!",
-          "Female_Jumping0": "Jumping 0",
-          "Female_Jumping1": "Jumping 1",
-          "Female_Jumping2": "Jumping 2",
-          "Female_Jumping3": "Jumping 3",
+          "Female_Jumping0": "跳动 0",
+          "Female_Jumping1": "跳动 1",
+          "Female_Jumping2": "跳动 2",
+          "Female_Jumping3": "跳动 3",
           "Female_JumpingOver": "Vaulting Horse",
           "Female_laugh": "Laughing",
           "Female_lmao": "LMAO",
           "Female_Lost": "Loss",
-          "Female_Running": "Running",
+          "Female_Running": "奔跑",
           "Female_Sliding": "Sliding",
           "Female_spot_awkward_smile": "AwkwardSmile",
           "Female_spot_crouching_1": "Crouching1",
@@ -1026,28 +1026,28 @@
           "Female_spot_hold_out_hands": "HoldOutHands",
           "Female_spot_lie_down_1": "LieDown1",
           "Female_spot_look_over_shoulder": "LookOverShoulder",
-          "Female_Standby0": "Standby 0",
-          "Female_Standby1": "Standby 1",
-          "Female_Standby2": "Standby 2",
-          "Female_Standby3": "Standby 3",
-          "Female_Standby4": "Standby 4",
-          "Female_Standby5": "Standby 5",
-          "Female_Standby6": "Standby 6",
-          "Female_Standby7": "Standby 7",
-          "Female_Standby8": "Standby 8",
+          "Female_Standby0": "站立 0",
+          "Female_Standby1": "站立 1",
+          "Female_Standby2": "站立 2",
+          "Female_Standby3": "站立 3",
+          "Female_Standby4": "站立 4",
+          "Female_Standby5": "站立 5",
+          "Female_Standby6": "站立 6",
+          "Female_Standby7": "站立 7",
+          "Female_Standby8": "站立 8",
           "Female_stretch": "Stretch",
           "Female_stroll": "Stroll",
           "Female_super_delicious": "SuperDelicious",
           "Female_Tired": "Tired",
-          "Female_Walking": "Walking",
+          "Female_Walking": "行走",
           "Female_Won": "Victory",
           "Female_yay": "Yay!",
-          "FemaleAnimationMode": "Animations 1",
-          "FullBodyImage": "Full-body",
+          "FemaleAnimationMode": "Animations 1动作 1",
+          "FullBodyImage": "Full-body全身",
           "FullBodyImageCapturing": "Take a full-body picture",
           "FullBodyImageCapturingWithProgress": "Take a whole-body pic to be used as a thumbnail (1/2)",
-          "GazeOffsetSync": "Synch Gaze",
-          "HA": "Teeth",
+          "GazeOffsetSync": "同步双眼",
+          "HA": "牙齿",
           "HA_Fung1": "吸血鬼的牙齿",
           "HA_Fung1_Low": "吸血鬼的牙齿 (下)",
           "HA_Fung1_Up": "吸血鬼的牙齿 (上)",
@@ -1065,24 +1065,24 @@
           "HairCrossSection": "编辑头发横截面",
           "HairReductionStrength": "头发",
           "HairSmoothnessRate": "头发光滑度",
-          "HandGao": "Beast Hand",
-          "HandGood": "Thumbs Up",
-          "HandGrip": "Grip",
-          "HandIndex": "Pointing",
-          "HandNatural": "Natural",
-          "HandOpen": "Open",
+          "HandGao": "Beast Hand凶凶",
+          "HandGood": "Thumbs Up👍",
+          "HandGrip": "Grip握紧",
+          "HandIndex": "Pointing指",
+          "HandNatural": "Natural自然",
+          "HandOpen": "Open打开",
           "HandReductionStrength": "手",
-          "HandV": "Victory Hand",
-          "HueShift": "Hue",
-          "ImagesHeader": "Step 2",
+          "HandV": "Victory Hand比V",
+          "HueShift": "色相",
+          "ImagesHeader": "Step 2步骤 2",
           "Intensity": "强度",
-          "Light": "Lighting",
+          "Light": "光照",
           "LightColor": "颜色",
-          "LightDegreeAltitude": "Vertical Angle",
-          "LightDegreeAzimuth": "Horizontal Angle",
+          "LightDegreeAltitude": "Vertical Angle垂直角",
+          "LightDegreeAzimuth": "Horizontal Angle水平角",
           "LightIntencity": "强度",
-          "LightPropertyLabel": "Lighting",
-          "LightReset": "Reset",
+          "LightPropertyLabel": "光照",
+          "LightReset": "重置",
           "LoadingMessage": "Now Loading加载中",
           "Login": "登录",
           "LoginRequiredMessage": "你需要登录到VRoid Hub",
@@ -1134,23 +1134,23 @@
           "MTH_A": "A",
           "MTH_Angry": "生气",
           "MTH_Close": "关闭",
-          "MTH_Down": "下降",
+          "MTH_Down": "下抬",
           "MTH_E": "E",
           "MTH_Fun": "开心",
           "MTH_I": "I",
           "MTH_Joy": "高兴",
-          "MTH_Large": "宽度",
+          "MTH_Large": "扩张",
           "MTH_Neutral": "默认",
           "MTH_O": "O",
           "MTH_SkinFung": "吸血鬼的牙齿 (皮肤)",
           "MTH_SkinFung_L": "吸血鬼的牙齿 (皮肤, 左)",
           "MTH_SkinFung_R": "吸血鬼的牙齿 (皮肤, 右)",
-          "MTH_Small": "狭窄",
+          "MTH_Small": "收窄",
           "MTH_Sorrow": "沮丧",
           "MTH_Surprised": "吃惊",
           "MTH_U": "U",
-          "MTH_Up": "上升",
-          "Oil": "Oil Painting油画",
+          "MTH_Up": "上抬",
+          "Oil": "油画",
           "OriginalModel": "原始模型",
           "PlayAnimation": "播放",
           "PortraitImage": "肖像",
@@ -1206,14 +1206,14 @@
           "Smoothness": "平滑度",
           "SoftKnee": "阈值",
           "StopAnimation": "停止",
-          "StripDensity": "Tone Density阶调密度",
-          "StripInnerColor": "Inner Color内部颜色",
+          "StripDensity": "线条密度",
+          "StripInnerColor": "内边色",
           "StripLimitsMax": "最大阈值",
           "StripLimitsMin": "最小阈值",
-          "StripOuterColor": "Outer Color外部颜色",
-          "StripThickness": "Tone Size阶调大小",
+          "StripOuterColor": "外边色",
+          "StripThickness": "线条厚度",
           "TargetCharacterModelHeader": "步骤 1",
-          "Temperature": "Temperature色温",
+          "Temperature": "色温",
           "TextureCompressionMode": {
             "Original": "Original原始",
             "Shrinked": "Shrink缩小"
@@ -1260,9 +1260,9 @@
           "World": "Worlds世界"
         },
         "SketchUniversalCommandUtils": {
-          "DefaultImage": "Default Design默认设计",
+          "DefaultImage": "预设",
           "Guide": "Guides指南",
-          "Layer": "Layer图层"
+          "Layer": "图层"
         },
         "TextureEditorDevInitializer": {
           "Color": "颜色",
@@ -1337,8 +1337,8 @@
           "LayerProperties": "图层属性",
           "LineWidth": "Brush Width笔刷宽度",
           "MaterialConfig": "材质设定",
-          "MoveDownLayer": "向下移动",
-          "MoveUpLayer": "向上移动",
+          "MoveDownLayer": "下移",
+          "MoveUpLayer": "上移",
           "NewLayerNameFormat": "图层 {0}",
           "NormalMapWeight": "强度",
           "RemoveLayer": "删除",
@@ -1379,7 +1379,7 @@
       "Remove": "从列表移除",
       "Rename": "重命名",
       "RenameModel": "重命名模型",
-      "Sample": "Sample Models实例模型",
+      "Sample": "示例模型",
       "TutorialSelectDialog": {
         "Anime": "Anime Style动画风",
         "Description": "These are step-by-step tutorial videos showing you how to create each model.\r\nYou can watch them at any time later.步骤式建模教程. \r\n随时可以观看.",
@@ -1410,7 +1410,7 @@
     },
     "Util": {
       "BetaModelUtil": {
-        "BetaModelConversionInProgress": "Converting model...正在转换模型..."
+        "BetaModelConversionInProgress": "转换模型中..."
       }
     },
     "VRoidStudioStyle": {
@@ -1450,9 +1450,9 @@
     "BrushHairGroup": "手绘组 {0}",
     "Hair": {
       "HairLabel": "头发",
-      "HairWithNumber": "Hair {0}"
+      "HairWithNumber": "头发 {0}"
     },
-    "HairBoneGroup": "Bone Group {0}骨骼组 {0}"
+    "HairBoneGroup": "骨骼组 {0}"
   },
   "Main": {
     "CoinCharge": {
@@ -1575,7 +1575,7 @@
             "BustSize": "胸部尺寸",
             "BustThickness": "胸部厚度",
             "CheekPosZ": "颧骨位置 (Z)",
-            "ChinDown": "下颌线位置 (Y)",
+            "ChinDown": "下巴位置 (Y)",
             "ChinRoundness": "下巴圆度",
             "ChinTipPosY": "下巴长度",
             "ChinTipPosZ": "下巴尖位置 (Z)",
@@ -1602,7 +1602,7 @@
             "EyeCenterPosYUp": "移动下眼睑向上",
             "EyeInsidePosY": "内眼角位置 (Y)",
             "EyeInsideSuppressCurve": "内眼角曲线",
-            "EyeJitome": "轻蔑的表情",
+            "EyeJitome": "轻蔑的眼神",
             "EyelashLow": "睫毛角度",
             "EyelidStraightLower": "拉直下眼睑",
             "EyelidStraightUpper": "拉直上眼睑",
@@ -1624,8 +1624,8 @@
             "FigureSizeY": "高度",
             "FingerThickness": "手指尺寸",
             "FootSize": "脚尺寸",
-            "FullCheeked": "凹陷的脸颊",
-            "FullCheekedTestVersion": "凹陷的脸颊 (Test)",
+            "FullCheeked": "脸颊宽度",
+            "FullCheekedTestVersion": "脸颊宽度 (Test)",
             "HandSize": "头尺寸",
             "HeadShapeFemale": "女性头型",
             "HeadShapeMale": "男性头型",
@@ -1771,9 +1771,9 @@
       },
       "Stage": {
         "PhotoViewModel": {
-          "TextureDownloadFailed": "保存图片时出错. ",
+          "TextureDownloadFailed": "保存图片时出错.",
           "TextureDownloadSucceeded": "保存成功",
-          "UpdateEventsFailed": "下载事件时出错. "
+          "UpdateEventsFailed": "加载事件时出错."
         },
         "PostProcessParameter": {
           "PostProcessParameterViewModel": {
@@ -1868,7 +1868,7 @@
         },
         "CancelDialog": {
           "ConfirmationText": "关闭",
-          "Description": "如果关闭而不保存, 编辑内容将丢失. \r\n您确定要关闭吗？",
+          "Description": "如果关闭而不保存, 编辑内容将丢失.\r\n您确定要关闭吗? ",
           "Title": "未保存的改动"
         },
         "CharacterNaming": {
@@ -3124,9 +3124,9 @@
   },
   "SaveAsDialogController": {
     "AvatarName": "角色名字",
-    "ReplaceAlert": "您已将该名称用于现有角色. \r\n是否覆盖数据并替换它？",
+    "ReplaceAlert": "您已将该名称用于现有角色.\r\n是否覆盖数据并替换它? ",
     "Save": "保存",
-    "SaveFailedAlert": "保存角色时出错. "
+    "SaveFailedAlert": "保存角色时出错."
   },
   "Scripts": {
     "HairEditor": {
@@ -3151,7 +3151,7 @@
       "ApplyColorDialog": {
         "View": {
           "ApplyColorDialog": {
-            "InfoMessage": "通过选择在编辑时应用颜色,&#x0A;\r\n你可以实时看到纹理变化&#x0A;\r\n在3D预览中. "
+            "InfoMessage": "通过选择在编辑时应用颜色,&#x0A;\r\n你可以实时看到纹理变化&#x0A;\r\n在3D预览中."
           }
         }
       },
@@ -3311,7 +3311,7 @@
           },
           "ViewModel": {
             "SaveAsCustomItemDialogViewModel": {
-              "InfoTitle": "是否将编辑保存为自定义项目？"
+              "InfoTitle": "是否将编辑保存为自定义项目? "
             }
           }
         }
@@ -3331,10 +3331,10 @@
         "BaseSelectDialog": {
           "View": {
             "BaseSelectDialog": {
-              "InfoMessage": "之后你可以使用滑块来编辑模型. "
+              "InfoMessage": "之后你可以使用滑块来编辑模型."
             },
             "BaseSelectDialogTransform": {
-              "InfoMessage": "之后你可以使用滑块来编辑模型. "
+              "InfoMessage": "之后你可以使用滑块来编辑模型."
             }
           },
           "ViewModel": {
@@ -3371,7 +3371,7 @@
               "ShortOnePiece": "Dress (Short Sleeve)连衣裙 (短袖)",
               "SkinOverlay": "Skin Overlay紧身衣",
               "StandLongCoat": "Long Coat (Stand-up Collar)大衣 (立领)",
-              "TShirt": "T-ShirtT恤"
+              "TShirt": "T恤"
             }
           }
         }
@@ -3469,8 +3469,8 @@
           "Equipping": "装着している譲渡要素安装的可移植项目"
         },
         "GenerationPanel": {
-          "Log": "日志",
-          "Run": "执行"
+          "Log": "Log",
+          "Run": "実行"
         },
         "MigrationPanel": {
           "AutoGenerateLackFolder": "Creates necessary files and folders in the folder you indicated from Settings在设置所指定的目录中创建必要的文件和文件夹.",
@@ -3515,7 +3515,7 @@
   },
   "UnsavedDialogController": {
     "QuitLabel": "关闭",
-    "QuitText": "You haven't saved since your last edits. \r\nAre you sure you want to close VRoid Studio?当前编辑未保存. \r\n确认关闭 VRoid Studio?"
+    "QuitText": "自上次编辑后您尚未保存.\r\n确定要关闭VRoid Studio吗? "
   },
   "URL": {
     "About3DPrintCaution": "https://vroid.pixiv.help/hc/en-us/articles/900006051606",
@@ -3592,13 +3592,13 @@
           "TitleSelectTemplate": "选择模板"
         },
         "ApplyColorDialog": {
-          "Description": "颜色可自定义项是您可以随时编辑颜色的部分\r\n使用颜色校准和编辑纹理的<b>灰度</b>来优化着色和自定义项目的最终结果. ",
+          "Description": "颜色可自定义项是您可以随时编辑颜色的部分\r\n使用颜色校准和编辑纹理的<b>灰度</b>来优化着色和自定义项目的最终结果.",
           "StartTextureEdit": "开始编辑纹理",
           "Title": "颜色可自定义项目"
         },
         "ConfirmCustomItemSavingDialog": {
           "ContinueWithoutSave": "开始编辑而不保存",
-          "Description": "是否要在开始编辑之前将临时项目另存为自定义项目\r\n未保存的项目将丢失. ",
+          "Description": "在开始编辑之前, 是否要将未保存的项目另存为自定义项目吗? \r\n未保存的项目将会丢失.",
           "Title": "保存临时项目"
         },
         "FailedToLoadCustomItemsMessage": "下载在新版本的 VRoid Studio 上创建的数据时出错. \r\n请更新 VRoid Studio.",
@@ -3626,8 +3626,8 @@
           "Overwrite": "覆盖",
           "QuitWithoutSaving": "关闭但不保存",
           "SaveAsNewItem": "保存为新项目",
-          "SaveConfirmationMessage": "是否要在关闭编辑器之前保存此项目\r\n新编辑的项目保存在“自定义”选项卡中. ",
-          "TitleQuitHairBoneEditor": "关闭Bounce编辑器",
+          "SaveConfirmationMessage": "是否要在关闭编辑器之前保存此项目\r\n新编辑的项目保存在“自定义”选项卡中.",
+          "TitleQuitHairBoneEditor": "关闭骨骼编辑器",
           "TitleQuitHairDesignEditor": "关闭发型编辑器",
           "TitleQuitTextureEditor": "关闭材质编辑器"
         },
@@ -3653,7 +3653,7 @@
           "GenHairBoneGroupCommand": "自动生成骨骼组",
           "GenHairBoneGroupCount": "骨骼组",
           "GenHairBoneGroupEdge": "前发细节",
-          "GroupedHairs": "组头发",
+          "GroupedHairs": "头发组",
           "UngroupedHairs": "未分组头发"
         }
       },
@@ -3706,8 +3706,8 @@
             "LoginDialogViewModel": {
               "Login": "登录",
               "LoginMessage": "请登录",
-              "LoginTitle": "上传到 VRoid Hub",
-              "ModelEditingReLoginMessage": "您似乎还没有登录, 请登录. \r\n到目前为止所做的任何编辑都不会丢失.",
+              "LoginTitle": "上传到VRoid Hub",
+              "ModelEditingReLoginMessage": "您似乎还没有登录, 请登录.\r\n到目前为止所做的任何编辑都不会丢失.",
               "ReLoginMessage": "您似乎还没有登录, 请登录."
             }
           }
@@ -3727,8 +3727,8 @@
           "ViewModel": {
             "HubUploadDiscardingStateWarningDialogViewModel": {
               "Exit": "关闭",
-              "Message": "If you close now, unsaved edits will be lost.\r\nDo you want to close?若取消, 任何改动将丢失.\r\n确定取消?",
-              "Title": "Stop Upload取消上传"
+              "Message": "如果现在关闭, 未保存的编辑将丢失.\r\n确定要取消吗? ",
+              "Title": "取消上传"
             }
           }
         }
@@ -3737,10 +3737,10 @@
         "AgreementsConfirmationDialog": {
           "ViewModel": {
             "AgreementsConfirmationDialogViewModel": {
-              "AgeConfirmation": "VRoid Mobile requires all users be at least 13 years old in order to create an account.创建 VRoid Mobile 账户年龄限制 13 岁以上",
-              "Agree": "Agree同意",
-              "Message": "Before you get started with VRoid Studio, you need to agree to the Terms of Use, Privacy Policy, and Guidelines.使用 VRoid Studio 前, 您需要同意使用条款、隐私政策与准则",
-              "Title": "Start开始"
+              "AgeConfirmation": "创建VRoid Mobile账户, 年龄需要满13岁或以上.",
+              "Agree": "同意",
+              "Message": "在使用VRoid Studio前, 您需要同意使用条款、隐私政策与准则.",
+              "Title": "开始"
             }
           }
         },
@@ -3763,10 +3763,10 @@
             }
           }
         },
-        "ModelLoadingLabel": "正在下载, 请稍待片刻. ",
+        "ModelLoadingLabel": "正在加载, 请稍待片刻.",
         "TutorialSelectDialog": {
-          "Description": "如果您是初学者, 请参阅基础教程. \r\nBeta 版用户可以查看新功能和更改内容. ",
-          "ForBeginners": "新手教学",
+          "Description": "如果您是初学者, 请参阅基础教程.\r\nBeta版用户可以查看新功能和更改内容.",
+          "ForBeginners": "初学者教程",
           "ForBetaUsers": "与测试版的差异",
           "Skip": "跳过",
           "Title": "欢迎来到 VRoid Studio!",
@@ -3782,11 +3782,11 @@
             "InvalidNameErrorDescription": "模型名称包含无法使用的字符. 请使用不带字符的模型名称\r\n「¥」「/」「:」「*」「?」「”」「<」「>」「|」",
             "NewErrorDescription": "创建新模型失败. 请再次尝试创建新模型. ",
             "NewErrorTitle": "创建新模型失败. ",
-            "OpenErrorDescription": "未能下载模型. 请检查文件夹中是否存在该模型, 然后重试. ",
-            "OpenErrorTitle": "下载失败",
-            "RenameErrorDescription": "重命名失败. 如果继续失败, 请尝试在资源管理器上重命名它. ",
+            "OpenErrorDescription": "未能加载模型. 请检查文件夹中是否存在该模型, 并重试. ",
+            "OpenErrorTitle": "加载失败",
+            "RenameErrorDescription": "重命名失败. 如果继续失败, 请在系统中重命名文件. ",
             "RenameErrorTitle": "重命名失败",
-            "SameNameErrorDescription": "此名称已存在, 请换一个其他名字. "
+            "SameNameErrorDescription": "名称已存在, 请换一个."
           },
           "Header": {
             "Models": "你的模型",
@@ -3806,7 +3806,7 @@
       },
       "UnSavedDialog": {
         "DontSave": "不保存",
-        "InfoText": "在你离开前,  \r\n想要保存改动吗？\r\n如果你不保存, 你最后的改动会被丢弃. ",
+        "InfoText": "在你离开前,  \r\n想要保存改动吗? \r\n如果你不保存, 你最后的改动会被丢弃.",
         "Save": "保存",
         "Title": "未保存的改动"
       },
