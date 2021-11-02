@@ -44,7 +44,7 @@ VRoid 汉化插件
 
 4. GIF 图示
 
-![image](Asset/VRoidStudioChineseInstallTutorial.gif)
+![教程](https://cdn.jsdelivr.net/gh/xiaoye97/VRoidChinese@master/Asset/VRoidStudioChineseInstallTutorial.gif)
 
 #### 更新翻译
 
