@@ -72,7 +72,7 @@ Q:
 
 A:
 
-1. 检查 GitHub 上插件是否更新, 若更新请在 release 中下载最新版本, 在文件目录中**覆盖**之前的文件. 若无效, 请参考下一条.
+1. 检查 GitHub 上插件是否更新, 若有更新请在 release 中下载最新版本, 在文件目录中**覆盖**之前的文件. 若无效, 请参考下一条.
 2. 尝试重新安装插件, 甚至重新安装软件后安装插件. 若无效, 请参考下一条.
 3. 下载使用集成了插件的 vroid 软件, 例如~~<https://share.weiyun.com/TSkcpf9I>~~. 若无效, 请参考下一条.
 4. 定位到 c:\用户\你的用户名\AppData\LocalLow\pixiv\VRoid Studio\Player.log

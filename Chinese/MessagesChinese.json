@@ -165,9 +165,9 @@
     },
     "IOS": {
       "InfoPlist": {
-        "NSCameraUsageDescription": "You will be able to use AR features by granting the app access to the camera.允许应用使用摄像头, 可以使用 AR 功能",
-        "NSPhotoLibraryAddUsageDescription": "You will be able to save pictures by granting the app access to your photo library.",
-        "NSPhotoLibraryUsageDescription": "You will be able to save pictures by granting the app access to your photo library."
+        "NSCameraUsageDescription": "You will be able to use AR features by granting the app access to the camera.允许应用获得摄像头权限才能使用 AR 功能",
+        "NSPhotoLibraryAddUsageDescription": "You will be able to save pictures by granting the app access to your photo library.允许应用获得图库权限才能保存照片",
+        "NSPhotoLibraryUsageDescription": "You will be able to save pictures by granting the app access to your photo library.允许应用获得图库权限才能保存照片"
       },
       "LocalizationCode": "en"
     }
@@ -326,29 +326,29 @@
     "Information": "模型信息",
     "LicenseType": "许可证",
     "LicenseTypeDropDown": {
-      "Cc0": "Copyright Waiver (CC0)",
-      "CcBy": "Creative Commons CC-BY License",
-      "CcByNc": "Creative Commons CC-BY-NC License",
-      "CcByNcNd": "Creative Commons CC-BY-NC-ND License",
-      "CcByNcSa": "Creative Commons CC-BY-NC-SA License",
-      "CcByNd": "Creative Commons CC-BY-ND License",
-      "CcBySa": "Creative Commons CC-BY-SA License",
+      "Cc0": "版权豁免 (CC0)",
+      "CcBy": "知识共享许可协议 CC-BY ",
+      "CcByNc": "知识共享许可协议 CC-BY-NC ",
+      "CcByNcNd": "知识共享许可协议 CC-BY-NC-ND ",
+      "CcByNcSa": "知识共享许可协议 CC-BY-NC-SA ",
+      "CcByNd": "知识共享许可协议 CC-BY-ND ",
+      "CcBySa": "知识共享许可协议 CC-BY-SA ",
       "Other": "其他",
-      "RedistributionProhibited": "禁止再发布"
+      "RedistributionProhibited": "禁止二次配布"
     },
     "Options": {
-      "EnableHairCombination": "合并头发网格",
+      "EnableHairCombination": "合并毛发网格",
       "Options_": "选项"
     },
     "OtherPermissionUrl": "附加许可证信息",
     "Permitted": "同意",
-    "RedistributionAndModificationsPermissionTitle": "再发布与二次编辑",
+    "RedistributionAndModificationsPermissionTitle": "二次配布与二次编辑",
     "Reference": "参考",
     "RequiredInput": "* 必须",
-    "SexualUssage": "性行为描述",
+    "SexualUssage": "性描写",
     "Title": "标题",
     "Version": "版本",
-    "ViolentUssage": "暴力描述"
+    "ViolentUssage": "暴力描写"
   },
   "GUI": {
     "Announcement": {
