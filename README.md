@@ -31,18 +31,18 @@ VRoid 汉化插件
   |
   |-MonoBleedingEdge          软件的资源文件夹
   |
-  |-VRoidChinese*             汉化插件
-    |-..                      一些 .cs 文件
+  |-VRoidChinese*             汉化插件文件夹
+    |-..                      一些文件...
   |
   |-VRoidStudio_Data          软件的资源文件夹
   |
   |-VRoidStudio.exe           启动软件的执行文件
   |
-  |-doorstop_config.ini*      汉化插件配置
+  |-doorstop_config.ini*      BeplnEx 的文件
   |
-  |-winhttp.dll*              汉化插件依赖
+  |-winhttp.dll*              BeplnEx 的文件
   |
-  |-..                        乱七八糟的文件们
+  |-..                        乱七八糟的文件们...
 ```
 
 4. GIF 图示
