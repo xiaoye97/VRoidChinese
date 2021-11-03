@@ -326,7 +326,7 @@
     "Information": "模型信息",
     "LicenseType": "许可证",
     "LicenseTypeDropDown": {
-      "Cc0": "版权豁免 (CC0)",
+      "Cc0": "公共领域 (CC0)",
       "CcBy": "知识共享许可协议 CC-BY ",
       "CcByNc": "知识共享许可协议 CC-BY-NC ",
       "CcByNcNd": "知识共享许可协议 CC-BY-NC-ND ",
@@ -377,9 +377,9 @@
         "AccessoryEditorViewModel": {
           "AnimalEar": "动物耳朵",
           "BaseModel": "基础模型",
-          "BlendShapeBottomsCrease": "Pants折痕",
-          "BlendShapeBottomsWide": "Pants宽度",
-          "BlendShapeOnePieceSkirtWeight": "裙摆",
+          "BlendShapeBottomsCrease": "裤子折痕",
+          "BlendShapeBottomsWide": "裤子宽度",
+          "BlendShapeOnePieceSkirtWeight": "裙摆喇叭口",
           "BlendShapeOnePieceSleeve1": "袖口宽度",
           "BlendShapeOnePieceSleeve2": "袖口紧度",
           "Categories": "种类",
@@ -394,7 +394,7 @@
           "Name": "名字",
           "None": "无",
           "OnePiece": "连衣裙",
-          "Pants": "制服 (Pants)",
+          "Pants": "制服 (裤子)",
           "PartCategory": {
             "Accessory": "配饰",
             "Base": "基础模型",
@@ -490,11 +490,11 @@
       "ClothingEditor": {
         "ClothingEditorViewModel": {
           "BaseModel": "基础模型",
-          "BlendShapeBottomsCrease": "Pants折痕",
+          "BlendShapeBottomsCrease": "裤子折痕",
           "BlendShapeBottomsWide": "裤宽",
-          "BlendShapeOnePieceSkirtWeight": "裙摆敞开度",
-          "BlendShapeOnePieceSleeve1": "袖口宽",
-          "BlendShapeOnePieceSleeve2": "袖口紧缩",
+          "BlendShapeOnePieceSkirtWeight": "裙摆喇叭口",
+          "BlendShapeOnePieceSleeve1": "袖口宽度",
+          "BlendShapeOnePieceSleeve2": "袖口紧度",
           "Categories": "分类",
           "Delete": "删除",
           "Foot": "脚趾形状",
@@ -505,7 +505,7 @@
           "Name": "名字",
           "None": "None",
           "OnePiece": "连衣裙",
-          "Pants": "制服 (Pants)",
+          "Pants": "制服 (裤子)",
           "PartCategory": {
             "Accessory": "配饰",
             "Base": "基础模型",
@@ -1299,7 +1299,7 @@
           "CompositionMode": "绘图模式",
           "CopyPostfix": "(复制)",
           "DuplicateLayer": "粘贴",
-          "ExportGuide": "导出指南",
+          "ExportGuide": "导出UV",
           "ExportLayer": "导出",
           "Highlight": "Hair Group Bumpiness毛发组突起",
           "ImportLayer": "导入",
@@ -1331,7 +1331,7 @@
             "Screen": "滤色",
             "SoftLight": "柔光",
             "Subtract": "减去",
-            "VividLight": "t亮光"
+            "VividLight": "亮光"
           },
           "LayerOpacity": "图层不透明度",
           "LayerProperties": "图层属性",
@@ -2010,7 +2010,7 @@
             "HasNoHeartedModelsPrefixWide": "VRoid Hub 中心",
             "HasNoHeartedModelsSecondLine": "呼び出すことができます ?可以调用可以调用",
             "HasNoHeartedModelsSecondLineWide": "ラクターを呼び出すこと ?可以呼出",
-            "HasNoHeartedModelsSuffix": "已添加 ❤ 的角色",
+            "HasNoHeartedModelsSuffix": "したキャラクターを ?角色",
             "HasNoHeartedModelsSuffixWide": "したキャ ?我做了",
             "HasNoHeartedModelsThirdLineWide": "ができます ?我可以",
             "HasNoMyModels": "上传角色至 VRoid Hub 并调用",
@@ -2171,7 +2171,7 @@
         "F00_000": "基础模型",
         "F00_001_01": "制服 (短裙)",
         "F00_002_01": "连衣裙",
-        "F00_003_01": "制服 (Pants)",
+        "F00_003_01": "制服 (裤子)",
         "F00_004_01": "Formal 1",
         "F00_005_01": "Casual 1",
         "F00_006_01": "Casual 2",
@@ -2180,37 +2180,37 @@
       },
       "Casual1": {
         "BlendShape": {
-          "HeightLong": "Hem Length",
-          "ShoesHi": "Sole Height (更高)",
-          "ShoesLow": "Sole Height (下)",
-          "SleeveLong": "Sleeve Length (更长)",
-          "SleeveNarrow": "Sleeve Width (更窄)",
-          "WidthWide": "Waist Width (更宽)"
+          "HeightLong": "下摆长度",
+          "ShoesHi": "鞋底高度 (加高)",
+          "ShoesLow": "鞋底高度 (降低)",
+          "SleeveLong": "袖子长度 (更长)",
+          "SleeveNarrow": "袖子宽度 (更窄)",
+          "WidthWide": "腰宽 (更宽)"
         }
       },
       "Casual2": {
         "BlendShape": {
-          "FoodNarrow": "Hood Size (更小)",
-          "HeightLong": "Hem Length",
-          "ShoesHi": "Sole Height (更高)",
-          "ShoesLow": "Sole Height (下)",
-          "SleeveCrease": "Sleeve Crease (加深)",
-          "SleeveSqueeze": "Sleeve Taper (更窄)",
-          "SleeveThick": "Sleeve Thickness",
-          "WidthWide": "Waist Width (更宽)"
+          "FoodNarrow": "兜帽大小 (更小)",
+          "HeightLong": "下摆长度",
+          "ShoesHi": "鞋底高度 (加高)",
+          "ShoesLow": "鞋底高度 (降低)",
+          "SleeveCrease": "袖子折痕 (加深)",
+          "SleeveSqueeze": "袖口收窄",
+          "SleeveThick": "袖子厚度",
+          "WidthWide": "腰宽 (更宽)"
         }
       },
       "Casual3": {
         "BlendShape": {
-          "ShoesHi": "Sole Height (更高)",
-          "ShoesLow": "Sole Height (下)"
+          "ShoesHi": "鞋底高度 (加高)",
+          "ShoesLow": "鞋底高度 (降低)"
         }
       },
       "ClothingSet": {
         "F00_000": "基础模型",
         "F00_001_01": "制服 (短裙)",
         "F00_002_01": "连衣裙",
-        "F00_003_01": "制服(Pants)",
+        "F00_003_01": "制服 (裤子)",
         "F00_004_01": "Formal 1",
         "F00_005_01": "Casual 1",
         "F00_006_01": "Casual 2",
@@ -2219,56 +2219,56 @@
       },
       "Formal1": {
         "BlendShape": {
-          "HeightLong": "Hem Length",
+          "HeightLong": "下摆长度",
           "ShoesHeelSmall": "Pin Heel",
-          "ShoesHi": "Sole Height",
-          "SleeveNarrow": "Sleeve Width (更窄)",
-          "WaistNarrow": "Waist Width (更窄)"
+          "ShoesHi": "鞋底高度",
+          "SleeveNarrow": "袖子宽度 (更窄)",
+          "WaistNarrow": "腰宽 (更窄)"
         }
       },
       "LongCoat": {
         "BlendShape": {
           "AllVolume": "衣服厚度 (增加)",
-          "ArmFat": "Sleeve Thickness",
-          "ArmLong": "Sleeve Length (更长)",
-          "ArmPuff00": "Sleeve Puff (Big)",
-          "ArmPuff01": "Sleeve Puff (Subtle)",
-          "ArmRoll": "Sleeve Roll Up",
-          "ArmShort": "Sleeve Length (更短)",
-          "ArmSpread": "Cuff Width",
-          "ArmWide00": "Sleeve Width",
-          "ArmWide01": "Cuff Width (更宽)",
-          "ArmWideFlat00": "Sleeve Width (Z)",
-          "ArmWideFlat01": "Cuff Width (Z)",
-          "ArmWrinkle": "Hem Crease",
-          "NeckFlat": "Shoulder Slope",
-          "NeckHigh": "Collar Height (更高)",
-          "NeckInside": "Collar Hem Tightness",
-          "NeckLow": "Collar Height (下)",
-          "NeckNarrow": "Collar Tightness",
-          "NeckVolume": "Collar Thickness",
-          "NeckWave": "Collar Sag",
-          "NeckWide": "Collar Width",
-          "NeckWrinkle": "Collar Seam",
-          "ShoulderCrees": "Shoulder Seam",
-          "ShoulderPuff00": "Shoulder Puff 1",
-          "ShoulderPuff01": "Shoulder Puff 2",
-          "ShoulderPuff02": "Shoulder Puff 3",
-          "ShoulderUP": "Shoulder Tip",
-          "ShoulderWide": "Shoulder Padding",
-          "UnderLong": "Hem Length (更长)",
-          "UnderShort": "Hem Length (更短)",
-          "UnderStretch": "Skirt Broadness from the Waist",
-          "UnderTight": "Hem Width (更窄)",
-          "UnderWave": "Hem Crease",
-          "UnderWide": "Hem Width",
-          "WaistFlat": "Waist Width (更宽)",
-          "WestThin00": "腰围 (Broad Sash)",
-          "WestThin01": "腰围 (Belted)",
-          "WestThin02": "腰围 (Lower Back)",
-          "WestThin03": "腰围 (Corseted)",
-          "WestThin04": "腰围 (Widen Sag)",
-          "WestWrinkle": "Waist Crease Width"
+          "ArmFat": "袖子厚度",
+          "ArmLong": "袖子长度 (更长)",
+          "ArmPuff00": "袖子泡泡袖 (大)",
+          "ArmPuff01": "袖子泡泡袖 (微妙)",
+          "ArmRoll": "袖口卷起",
+          "ArmShort": "袖子长度 (更短)",
+          "ArmSpread": "袖口宽度",
+          "ArmWide00": "袖子宽度",
+          "ArmWide01": "袖口宽度 (更宽)",
+          "ArmWideFlat00": "袖子宽度 (向后)",
+          "ArmWideFlat01": "袖口宽度 (向后)",
+          "ArmWrinkle": "下摆折痕",
+          "NeckFlat": "肩斜",
+          "NeckHigh": "衣领拉高",
+          "NeckInside": "领口松紧",
+          "NeckLow": "衣领降低",
+          "NeckNarrow": "衣领松紧",
+          "NeckVolume": "衣领厚度",
+          "NeckWave": "衣领下垂",
+          "NeckWide": "衣领宽度",
+          "NeckWrinkle": "衣领缝",
+          "ShoulderCrees": "肩缝",
+          "ShoulderPuff00": "肩部泡泡袖 1",
+          "ShoulderPuff01": "肩部泡泡袖 2",
+          "ShoulderPuff02": "肩部泡泡袖 3",
+          "ShoulderUP": "肩峰抬高",
+          "ShoulderWide": "肩垫",
+          "UnderLong": "下摆长度 (更长)",
+          "UnderShort": "下摆长度 (更短)",
+          "UnderStretch": "裙子从腰部变宽",
+          "UnderTight": "下摆宽度 (更窄)",
+          "UnderWave": "下摆折痕",
+          "UnderWide": "下摆宽度",
+          "WaistFlat": "腰宽 (更宽)",
+          "WestThin00": "腰围 (腰带)",
+          "WestThin01": "腰围 (皮带)",
+          "WestThin02": "腰围 (后部)",
+          "WestThin03": "腰围 (收紧)",
+          "WestThin04": "腰围 (加宽凹陷)",
+          "WestWrinkle": "腰部折痕宽度"
         }
       },
       "Material": {
@@ -2295,11 +2295,11 @@
         "F00_002_03_Tops_01_CLOTH": "连衣裙 (短袖)",
         "F00_002_04_Tops_01_CLOTH": "连衣裙 (铅笔裙)",
         "F00_003_01_AccessoryNeck_01_CLOTH": "Tie",
-        "F00_003_01_Body_00_SKIN": "Skin (制服Pants)",
+        "F00_003_01_Body_00_SKIN": "Skin (制服裤子)",
         "F00_003_01_Bottoms_01_CLOTH": "内裤",
         "F00_003_01_Shoes_01_CLOTH": "Loafers",
-        "F00_003_01_Tops_01_CLOTH": "制服内衬 (Pants, 短袖)",
-        "F00_003_02_Tops_01_CLOTH": "制服内衬 (Pants, 长袖)",
+        "F00_003_01_Tops_01_CLOTH": "制服内衬 (裤子, 短袖)",
+        "F00_003_02_Tops_01_CLOTH": "制服内衬 (裤子, 长袖)",
         "F00_004_00_Body_00_SKIN": "Skin (Formal 1)",
         "F00_004_01_Bottoms_01_CLOTH": "铅笔裙",
         "F00_004_01_Shoes_01_CLOTH": "Heels",
@@ -2310,7 +2310,7 @@
         "F00_006_01_Tops_01_CLOTH": "连帽衫",
         "F00_007_01_Shoes_01_CLOTH": "High Cut Sneakers",
         "F00_008_01_Body_00_SKIN": "Skin (大衣)",
-        "F00_008_01_Bottoms_01_CLOTH": "Pants (大衣)",
+        "F00_008_01_Bottoms_01_CLOTH": "裤子 (大衣)",
         "F00_008_01_Tops_01_CLOTH": "大衣 (高领)",
         "F00_008_02_Tops_01_CLOTH": "大衣 (衬衣领)",
         "F00_008_03_Tops_01_CLOTH": "大衣 (立领)"
@@ -2330,11 +2330,11 @@
         "F00_002_03_Tops": "连衣裙 (短袖)",
         "F00_002_04_Tops": "连衣裙 (铅笔裙)",
         "F00_003_01_AccessoryNeck": "Tie",
-        "F00_003_01_Body": "Body (制服Pants)",
+        "F00_003_01_Body": "Body (制服裤子)",
         "F00_003_01_Bottoms": "内裤",
-        "F00_003_01_Shoes": "Loafers (Pants)",
-        "F00_003_01_Tops": "制服内衬 (Pants, 短袖)",
-        "F00_003_02_Tops": "制服内衬 (Pants, 长袖)",
+        "F00_003_01_Shoes": "Loafers (裤子)",
+        "F00_003_01_Tops": "制服内衬 (裤子, 短袖)",
+        "F00_003_02_Tops": "制服内衬 (裤子, 长袖)",
         "F00_004_01_Body": "Body (Formal 1)",
         "F00_004_01_Bottoms": "铅笔裙",
         "F00_004_01_Shoes": "Heels",
@@ -2348,43 +2348,43 @@
         "F00_007_01_Body": "Body (Casual 3)",
         "F00_007_01_Shoes": "High Cut Sneakers",
         "F00_008_01_Body": "Body (大衣)",
-        "F00_008_01_Bottoms": "Pants (大衣)",
+        "F00_008_01_Bottoms": "裤子 (大衣)",
         "F00_008_01_Tops": "大衣 (高领)",
-        "F00_008_02_Bottoms": "Pants (无褶)",
+        "F00_008_02_Bottoms": "裤子 (无褶)",
         "F00_008_02_Tops": "大衣 (衬衣领)",
         "F00_008_03_Tops": "大衣 (立领)",
         "F00_Face": "Face"
       },
       "Shoes": {
         "BlendShape": {
-          "Low": "Sole Height (下)"
+          "Low": "鞋底高度 (降低)"
         }
       },
       "Tops": {
         "BlendShape": {
-          "CuffTightness": "Cuff Tightness",
-          "ShoulderFlat": "Shoulder Slope",
-          "SkirtALine": "Waist Width",
-          "SkirtLength": "Skirt Length",
-          "SkirtLightness": "Skirt Flare",
-          "SkirtPanier": "Skirt Volume",
-          "SkirtStraight": "Skirt Flare (更窄)",
-          "SkirtTipSpread": "Hem Flare",
-          "SleeveWidth": "Sleeve Width"
+          "CuffTightness": "袖口松紧",
+          "ShoulderFlat": "肩斜",
+          "SkirtALine": "腰宽",
+          "SkirtLength": "裙子长度",
+          "SkirtLightness": "裙摆喇叭口",
+          "SkirtPanier": "裙子体积",
+          "SkirtStraight": "裙摆喇叭口 (更窄)",
+          "SkirtTipSpread": "下摆加宽",
+          "SleeveWidth": "袖子宽度"
         }
       },
       "UniformLongSleeve": {
         "BlendShape": {
-          "CuffTightness": "Cuff Tightness",
-          "SleeveCrease": "Sleeve Crease"
+          "CuffTightness": "袖口松紧",
+          "SleeveCrease": "袖子折痕"
         }
       },
       "UniformPants": {
         "BlendShape": {
-          "PantsCrease": "Pants Crease",
-          "PantsWidth": "Pants Width",
-          "ShoesIn": "Ankle Hem (更窄)",
-          "ShoesOut": "Ankle Hem (Raise)"
+          "PantsCrease": "裤子褶皱",
+          "PantsWidth": "裤子宽度",
+          "ShoesIn": "裤脚下摆 (收窄)",
+          "ShoesOut": "裤脚下摆 (提高)"
         }
       }
     },
@@ -2392,18 +2392,18 @@
       "BrushHairGroup": "手绘组",
       "BrushHairGroupIndexed": "手绘组 {0}",
       "BrushHairStrand": "头发",
-      "BrushHairStrandIndexed": "Hair {0}",
-      "HairBoneGroup": "Bone Group",
-      "HairBoneGroupIndexed": "Bone Group {0}",
+      "BrushHairStrandIndexed": "头发 {0}",
+      "HairBoneGroup": "骨骼组",
+      "HairBoneGroupIndexed": "骨骼组 {0}",
       "ProceduralHairGroup": "逻辑组",
       "ProceduralHairGroupIndexed": "逻辑组 {0}",
       "ProceduralHairStrand": "头发",
-      "ProceduralHairStrandIndexed": "Hair {0}"
+      "ProceduralHairStrandIndexed": "头发 {0}"
     },
     "M00": {
       "Accessory": {
         "M00_000": "基础模型",
-        "M00_001_01": "制服 (Pants)",
+        "M00_001_01": "制服 (裤子)",
         "M00_002_01": "连衣裙",
         "M00_003_01": "制服 (短裙)",
         "M00_004_01": "Formal 1",
@@ -2414,41 +2414,41 @@
       },
       "Casual1": {
         "BlendShape": {
-          "HightLong": "Hem Length",
-          "Skirt": "Hem Width (更宽)",
-          "SleeveLong": "Sleeve Length (更长)",
-          "SleeveNarrow": "Sleeve Taper (更窄)",
-          "WidthWide": "Waist Width"
+          "HightLong": "下摆长度",
+          "Skirt": "下摆宽度 (更宽)",
+          "SleeveLong": "袖子长度 (更长)",
+          "SleeveNarrow": "袖口收窄",
+          "WidthWide": "腰宽"
         },
         "Shoes": {
-          "Hi": "Sole Height (更高)",
-          "Low": "Sole Height (下)"
+          "Hi": "鞋底高度 (加高)",
+          "Low": "鞋底高度 (降低)"
         }
       },
       "Casual2": {
         "BlendShape": {
-          "FoodNarrow": "Hood Size (更小)",
-          "HeightLong": "Hem Length",
-          "Skirt": "Hem Width (更宽)",
-          "SleeveCrease": "Crease",
-          "SleeveSqueeze": "Sleeve Width (更窄)",
-          "SleeveThick": "Sleeve Thickness",
-          "WidthWide": "Waist Width"
+          "FoodNarrow": "兜帽大小 (更小)",
+          "HeightLong": "下摆长度",
+          "Skirt": "下摆宽度 (更宽)",
+          "SleeveCrease": "折痕",
+          "SleeveSqueeze": "袖子宽度 (更窄)",
+          "SleeveThick": "袖子厚度",
+          "WidthWide": "腰宽"
         },
         "Shoes": {
-          "Hi": "Sole Height (更高)",
-          "Low": "Sole Height (下)"
+          "Hi": "鞋底高度 (加高)",
+          "Low": "鞋底高度 (降低)"
         }
       },
       "Casual3": {
         "Shoes": {
-          "Hi": "Sole Height (更高)",
-          "Low": "Sole Height (下)"
+          "Hi": "鞋底高度 (加高)",
+          "Low": "鞋底高度 (降低)"
         }
       },
       "ClothingSet": {
         "M00_000": "基础模型",
-        "M00_001_01": "制服(Pants)",
+        "M00_001_01": "制服(裤子)",
         "M00_002_01": "连衣裙",
         "M00_003_01": "制服 (短裙)",
         "M00_004_01": "Formal 1",
@@ -2459,56 +2459,56 @@
       },
       "Formal1": {
         "BlendShape": {
-          "HeightLong": "Hem Length",
-          "ShoesHeelSmall": "Heel Base Width",
-          "ShoesHi": "Sole Height",
-          "SleeveNarrow": "Sleeve Width (更窄)",
-          "WaistNarrow": "Waist Width (更窄)"
+          "HeightLong": "下摆长度",
+          "ShoesHeelSmall": "鞋跟宽度",
+          "ShoesHi": "鞋底高度",
+          "SleeveNarrow": "袖子宽度 (更窄)",
+          "WaistNarrow": "腰宽 (更窄)"
         }
       },
       "LongCoat": {
         "BlendShape": {
-          "AllVolume": "Clothing Bulk (增加)",
-          "ArmFat": "Sleeve Thickness",
-          "ArmLong": "Sleeve Length (更长)",
-          "ArmPuff00": "Sleeve Puff (Big)",
-          "ArmPuff01": "Sleeve Puff (Subtle)",
-          "ArmRoll": "Sleeve Roll Up",
-          "ArmShort": "Sleeve Length (更短)",
-          "ArmSpread": "Cuff Width",
-          "ArmWide00": "Sleeve Width",
-          "ArmWide01": "Cuff Width (更宽)",
-          "ArmWideFlat00": "Sleeve Width (Z)",
-          "ArmWideFlat01": "Cuff Width (Z)",
-          "ArmWrinkle": "Sleeve Crease",
-          "NeckFlat": "Shoulder Slope",
-          "NeckHigh": "Collar Height (更高)",
-          "NeckInside": "Collar Hem Tightness",
-          "NeckLow": "Collar Height (下)",
-          "NeckNarrow": "Collar Tightness",
-          "NeckVolume": "Collar Thickness",
-          "NeckWave": "Collar Sag",
-          "NeckWide": "Collar Width (更宽)",
-          "NeckWrinkle": "Collar Seam (加深)",
-          "ShoulderCrees": "Shoulder Seam",
-          "ShoulderPuff00": "Shoulder Puff 1",
-          "ShoulderPuff01": "Shoulder Puff 2",
-          "ShoulderPuff02": "Shoulder Puff 3",
-          "ShoulderUP": "Shoulder Tip (更高)",
-          "ShoulderWide": "Shoulder Padding",
-          "UnderLong": "Hem Length (更长)",
-          "UnderShort": "Hem Length (更短)",
-          "UnderStretch": "Skirt Broadness from the Waist",
-          "UnderTight": "Hem Width (更窄)",
-          "UnderWave": "Hem Crease",
-          "UnderWide": "Hem Width",
-          "WaistFlat": "Waist Width (更宽)",
-          "WestThin00": "腰围 (Broad Sash)",
-          "WestThin01": "腰围 (Belted)",
-          "WestThin02": "腰围 (Lower Back)",
-          "WestThin03": "腰围 (Corseted)",
-          "WestThin04": "腰围 (Widen Sag)",
-          "WestWrinkle": "Waist Crease Width"
+          "AllVolume": "衣服厚度 (增加)",
+          "ArmFat": "袖子厚度",
+          "ArmLong": "袖子长度 (更长)",
+          "ArmPuff00": "袖子泡泡袖 (大)",
+          "ArmPuff01": "袖子泡泡袖 (微妙)",
+          "ArmRoll": "袖口卷起",
+          "ArmShort": "袖子长度 (更短)",
+          "ArmSpread": "袖口宽度",
+          "ArmWide00": "袖子宽度",
+          "ArmWide01": "袖口宽度 (更宽)",
+          "ArmWideFlat00": "袖子宽度 (向后)",
+          "ArmWideFlat01": "袖口宽度 (向后)",
+          "ArmWrinkle": "袖子折痕",
+          "NeckFlat": "肩斜",
+          "NeckHigh": "衣领拉高",
+          "NeckInside": "领口松紧",
+          "NeckLow": "衣领降低",
+          "NeckNarrow": "衣领松紧",
+          "NeckVolume": "衣领厚度",
+          "NeckWave": "衣领下垂",
+          "NeckWide": "衣领宽度 (更宽)",
+          "NeckWrinkle": "衣领缝 (加深)",
+          "ShoulderCrees": "肩缝",
+          "ShoulderPuff00": "肩部泡泡袖 1",
+          "ShoulderPuff01": "肩部泡泡袖 2",
+          "ShoulderPuff02": "肩部泡泡袖 3",
+          "ShoulderUP": "肩峰抬高 (更高)",
+          "ShoulderWide": "肩垫",
+          "UnderLong": "下摆长度 (更长)",
+          "UnderShort": "下摆长度 (更短)",
+          "UnderStretch": "裙子从腰部变宽",
+          "UnderTight": "下摆宽度 (更窄)",
+          "UnderWave": "下摆折痕",
+          "UnderWide": "下摆宽度",
+          "WaistFlat": "腰宽 (更宽)",
+          "WestThin00": "腰围 (腰带)",
+          "WestThin01": "腰围 (皮带)",
+          "WestThin02": "腰围 (后部)",
+          "WestThin03": "腰围 (收紧)",
+          "WestThin04": "腰围 (加宽凹陷)",
+          "WestWrinkle": "腰部折痕宽度"
         }
       },
       "Material": {
@@ -2525,7 +2525,7 @@
         "M00_000_01_Body_00_SKIN": "皮肤",
         "M00_001_01_AccessoryNeck_01_CLOTH": "Tie",
         "M00_001_01_Body_00_SKIN": "Skin (Uniform)",
-        "M00_001_01_Bottoms_01_CLOTH": "制服Pants",
+        "M00_001_01_Bottoms_01_CLOTH": "制服裤子",
         "M00_001_01_Shoes_01_CLOTH": "Loafers",
         "M00_001_01_Tops_01_CLOTH": "制服内衬 (短袖)",
         "M00_001_02_Tops_01_CLOTH": "制服内衬 (长袖)",
@@ -2551,7 +2551,7 @@
         "M00_006_01_Tops_01_CLOTH": "连帽衫",
         "M00_007_01_Shoes_01_CLOTH": "High Cut Sneakers",
         "M00_008_01_Body_00_SKIN": "Skin (大衣)",
-        "M00_008_01_Bottoms_01_CLOTH": "Pants (大衣)",
+        "M00_008_01_Bottoms_01_CLOTH": "裤子 (大衣)",
         "M00_008_01_Tops_01_CLOTH": "大衣 (高领)",
         "M00_008_02_Tops_01_CLOTH": "大衣 (衬衣领)",
         "M00_008_03_Tops_01_CLOTH": "大衣 (立领)"
@@ -2560,7 +2560,7 @@
         "M00_000_00_Body": "基础模型",
         "M00_001_01_AccessoryNeck": "Tie",
         "M00_001_01_Body": "Body (Uniform)",
-        "M00_001_01_Bottoms": "制服Pants",
+        "M00_001_01_Bottoms": "制服裤子",
         "M00_001_01_Shoes": "Loafers",
         "M00_001_01_Tops": "制服内衬 (短袖)",
         "M00_001_02_Tops": "制服内衬 (长袖)",
@@ -2589,43 +2589,43 @@
         "M00_007_01_Body": "Body (Casual 3)",
         "M00_007_01_Shoes": "High Cut Sneakers",
         "M00_008_01_Body": "Body (大衣)",
-        "M00_008_01_Bottoms": "Pants (大衣)",
+        "M00_008_01_Bottoms": "裤子 (大衣)",
         "M00_008_01_Tops": "大衣 (高领)",
-        "M00_008_02_Bottoms": "Pants (无褶)",
+        "M00_008_02_Bottoms": "裤子 (无褶)",
         "M00_008_02_Tops": "大衣 (衬衣领)",
         "M00_008_03_Tops": "大衣 (立领)",
         "M00_Face": "Face"
       },
       "Shoes": {
         "BlendShape": {
-          "Low": "Sole Height (下)"
+          "Low": "鞋底高度 (降低)"
         }
       },
       "Tops": {
         "BlendShape": {
-          "CuffTightness": "Cuff Tightness",
-          "ShoulderFlat": "Shoulder Slope",
-          "SkirtALine": "Waist Width",
-          "SkirtLength": "Skirt Length",
-          "SkirtLightness": "Skirt Flare",
-          "SkirtPanier": "Skirt Volume",
-          "SkirtStraight": "Skirt Flare (更窄)",
-          "SkirtTipSpread": "Hem Flare",
-          "SleeveWidth": "Sleeve Width"
+          "CuffTightness": "袖口松紧",
+          "ShoulderFlat": "肩斜",
+          "SkirtALine": "腰宽",
+          "SkirtLength": "裙子长度",
+          "SkirtLightness": "裙摆喇叭口",
+          "SkirtPanier": "裙子体积",
+          "SkirtStraight": "裙摆喇叭口 (更窄)",
+          "SkirtTipSpread": "下摆加宽",
+          "SleeveWidth": "袖子宽度"
         }
       },
       "UniformLongSleeve": {
         "BlendShape": {
-          "CuffTightness": "Cuff Tightness",
-          "SleeveCrease": "Sleeve Crease"
+          "CuffTightness": "袖口松紧",
+          "SleeveCrease": "袖子折痕"
         }
       },
       "UniformPants": {
         "BlendShape": {
-          "PantsCrease": "Pants Crease",
-          "PantsWidth": "Pants Width",
-          "ShoesIn": "Ankle Hem (更窄)",
-          "ShoesOut": "Ankle Hem (Raise)"
+          "PantsCrease": "裤子褶皱",
+          "PantsWidth": "裤子宽度",
+          "ShoesIn": "裤脚下摆 (收窄)",
+          "ShoesOut": "裤脚下摆 (提高)"
         }
       }
     },
@@ -2634,7 +2634,7 @@
         "F00_000": "身体",
         "F00_001_01": "制服 (短裙)",
         "F00_002_01": "连衣裙",
-        "F00_003_01": "制服(Pants)",
+        "F00_003_01": "制服 (裤子)",
         "F00_004_01": "Formal 1",
         "F00_005_01": "Casual 1",
         "F00_006_01": "Casual 2",
@@ -2643,55 +2643,55 @@
       },
       "Casual1": {
         "BlendShape": {
-          "HeightLong": "Hem Length",
-          "ShoesHi": "鞋底 (更高)",
-          "ShoesLow": "鞋底 (下)",
-          "SleeveLong": "Sleeve (更长)",
-          "SleeveNarrow": "Sleeve (更窄)",
-          "WaistSpread": "Hem Spread",
-          "WidthWide": "Waist Width"
+          "HeightLong": "下摆长度",
+          "ShoesHi": "鞋底 (加高)",
+          "ShoesLow": "鞋底 (降低)",
+          "SleeveLong": "袖子长度",
+          "SleeveNarrow": "袖口收窄",
+          "WaistSpread": "下摆松紧",
+          "WidthWide": "腰宽"
         }
       },
       "Casual2": {
         "BlendShape": {
-          "FoodNarrow": "Hood (更小)",
-          "HeightLong": "Hem Length",
-          "ShoesHi": "鞋底 (更高)",
-          "ShoesLow": "鞋底 (下)",
-          "SleeveCrease": "Crease",
-          "SleeveSqueeze": "Sleeve Taper (更窄)",
-          "SleeveThick": "Sleeve Thickness",
-          "WaistSpread": "Hem Spread",
-          "WidthWide": "Waist Width"
+          "FoodNarrow": "兜帽大小 (更小)",
+          "HeightLong": "下摆长度",
+          "ShoesHi": "鞋底 (加高)",
+          "ShoesLow": "鞋底 (降低)",
+          "SleeveCrease": "袖子折痕",
+          "SleeveSqueeze": "袖口收窄",
+          "SleeveThick": "袖子厚度",
+          "WaistSpread": "下摆松紧",
+          "WidthWide": "腰宽"
         }
       },
       "Casual3": {
         "BlendShape": {
-          "ShoesHi": "鞋底 (更高)",
-          "ShoesLow": "鞋底 (下)"
+          "ShoesHi": "鞋底 (加高)",
+          "ShoesLow": "鞋底 (降低)"
         }
       },
       "CatEar": {
         "BlendShape": {
-          "Form01": "Ear Shape 2",
-          "Form01_Fur": "Fur Volume (Ear Shape 2)",
-          "Form02": "Ear Shape 3",
-          "Form02_Fur": "Fur Volume (Ear Shape 3)",
-          "Form03": "Ear Shape 4",
-          "Form03_Fur": "Fur Volume (Ear Shape 4)",
-          "Fur": "Fur Volume",
-          "Large": "Ear Size (更大)",
-          "Round": "Tip Roundness",
-          "Small": "Ear Size (更小)",
-          "Sorrow": "Ear Shape 1",
-          "Sorrow_Fur": "毛量 (Ear Shape 1)"
+          "Form01": "耳朵形状 2",
+          "Form01_Fur": "毛量 (耳朵形状 2)",
+          "Form02": "耳朵形状 3",
+          "Form02_Fur": "毛量 (耳朵形状 3)",
+          "Form03": "耳朵形状 4",
+          "Form03_Fur": "毛量 (耳朵形状 4)",
+          "Fur": "毛量",
+          "Large": "耳朵大小 (更大)",
+          "Round": "耳尖圆度",
+          "Small": "耳朵大小 (更小)",
+          "Sorrow": "耳朵形状 1",
+          "Sorrow_Fur": "毛量 (耳朵形状 1)"
         }
       },
       "ClothingSet": {
         "F00_000": "身体",
         "F00_001_01": "制服 (短裙)",
         "F00_002_01": "连衣裙",
-        "F00_003_01": "制服(Pants)",
+        "F00_003_01": "制服(裤子)",
         "F00_004_01": "Formal 1",
         "F00_005_01": "Casual 1",
         "F00_006_01": "Casual 2",
@@ -2700,109 +2700,109 @@
       },
       "Formal1": {
         "BlendShape": {
-          "HeightLong": "Hem Length",
-          "ShoesHeelSmall": "Heel Base Width",
-          "ShoesHi": "Sole Height",
-          "SleeveNarrow": "Sleeve (更窄)",
-          "WaistNarrow": "Waist Width (更窄)",
-          "WaistWide": "Waist Width (更宽)"
+          "HeightLong": "下摆长度",
+          "ShoesHeelSmall": "鞋跟宽度",
+          "ShoesHi": "鞋底高度",
+          "SleeveNarrow": "袖口收窄",
+          "WaistNarrow": "腰宽 (更窄)",
+          "WaistWide": "腰宽 (更宽)"
         }
       },
       "GlassesHi": {
         "BlendShape": {
-          "BridgeNarrow": "Bridge (Thinner)",
-          "BridgeWide": "Bridge (Thicker)",
-          "Frame01": "Frame Shape 1",
-          "Frame02": "Frame Shape 2",
-          "Frame03": "Frame Shape 3",
-          "Frame04": "Frame Shape 4",
-          "Frame05": "Frame Shape 5",
-          "Frame06": "Frame Shape 6",
-          "Frame07": "Frame Shape 7",
-          "Frame08": "Frame Shape 8",
-          "Frame09": "Frame Shape 9",
-          "Frame10": "Frame Shape 10",
-          "FrameExpand": "Frame (Larger)",
-          "FrameThick": "Frame (Thicker)",
-          "FrameThin": "Frame (Thinner)",
-          "FrameThinly": "Frame (Lighter)",
-          "FrontMove": "Move Forward",
-          "NoseHang": "Resting on Nose",
-          "TempleInside": "Temple (Tighter)",
-          "TempleNarrow": "Temple (Thinner)",
-          "TempleOutside": "Temple (Looser)",
-          "TempleWide": "Temple (Thicker)"
+          "BridgeNarrow": "鼻梁 (减细)",
+          "BridgeWide": "鼻梁 (加粗)",
+          "Frame01": "镜框形状 1",
+          "Frame02": "镜框形状 2",
+          "Frame03": "镜框形状 3",
+          "Frame04": "镜框形状 4",
+          "Frame05": "镜框形状 5",
+          "Frame06": "镜框形状 6",
+          "Frame07": "镜框形状 7",
+          "Frame08": "镜框形状 8",
+          "Frame09": "镜框形状 9",
+          "Frame10": "镜框形状 10",
+          "FrameExpand": "框架 (加粗)",
+          "FrameThick": "框架 (加厚)",
+          "FrameThin": "框架 (减薄)",
+          "FrameThinly": "框架 (减细)",
+          "FrontMove": "前移",
+          "NoseHang": "靠在鼻子",
+          "TempleInside": "镜腿 (夹紧)",
+          "TempleNarrow": "镜腿 (减细)",
+          "TempleOutside": "镜腿 (宽松)",
+          "TempleWide": "镜腿 (加厚)"
         }
       },
       "GlassesLow": {
         "BlendShape": {
-          "BridgeNarrow": "Bridge (Thinner)",
-          "BridgeWide": "Bridge (Thicker)",
-          "Frame01": "Frame Shape 1",
-          "Frame02": "Frame Shape 2",
-          "Frame03": "Frame Shape 3",
-          "Frame04": "Frame Shape 4",
-          "Frame05": "Frame Shape 5",
-          "Frame06": "Frame Shape 6",
-          "Frame07": "Frame Shape 7",
-          "Frame08": "Frame Shape 8",
-          "Frame09": "Frame Shape 9",
-          "Frame10": "Frame Shape 10",
-          "FrameExpand": "Frame (Larger)",
-          "FrameThick": "Frame (Thicker)",
-          "FrameThin": "Frame (Thinner)",
-          "FrameThinly": "Frame (Lighter)",
-          "FrontMove": "Move Forward",
-          "NoseHang": "Resting on Nose",
-          "TempleInside": "Temple (Tighter)",
-          "TempleNarrow": "Temple (Thinner)",
-          "TempleOutside": "Temple (Looser)",
-          "TempleWide": "Temple (Thicker)"
+          "BridgeNarrow": "鼻梁 (减细)",
+          "BridgeWide": "鼻梁 (加粗)",
+          "Frame01": "镜框形状 1",
+          "Frame02": "镜框形状 2",
+          "Frame03": "镜框形状 3",
+          "Frame04": "镜框形状 4",
+          "Frame05": "镜框形状 5",
+          "Frame06": "镜框形状 6",
+          "Frame07": "镜框形状 7",
+          "Frame08": "镜框形状 8",
+          "Frame09": "镜框形状 9",
+          "Frame10": "镜框形状 10",
+          "FrameExpand": "框架 (加粗)",
+          "FrameThick": "框架 (加厚)",
+          "FrameThin": "框架 (减薄)",
+          "FrameThinly": "框架 (减细)",
+          "FrontMove": "前移",
+          "NoseHang": "靠在鼻子",
+          "TempleInside": "镜腿 (夹紧)",
+          "TempleNarrow": "镜腿 (减细)",
+          "TempleOutside": "镜腿 (宽松)",
+          "TempleWide": "镜腿 (加厚)"
         }
       },
       "LongCoat": {
         "BlendShape": {
           "AllVolume": "厚度",
-          "ArmFat": "Sleeve Thickness",
-          "ArmLong": "Sleeve (更长)",
-          "ArmPuff00": "Sleeve Puff (Big)",
-          "ArmPuff01": "Sleeve Puff (Subtle)",
-          "ArmRoll": "Sleeve Roll Up",
-          "ArmShort": "Sleeve (更短)",
-          "ArmSpread": "Cuff Flare",
-          "ArmWide00": "Sleeve Width",
-          "ArmWide01": "Cuff Width",
-          "ArmWideFlat00": "Sleeve Width (Z)",
-          "ArmWideFlat01": "Cuff Width (Z)",
-          "ArmWrinkle": "Sleeve Crease",
-          "NeckFlat": "Shoulder Slope",
-          "NeckHigh": "Collar (更高)",
-          "NeckInside": "Collar Hem Tightness",
-          "NeckLow": "Collar (下)",
-          "NeckNarrow": "Collar Tightness",
-          "NeckVolume": "Collar Thickness",
-          "NeckWave": "Collar Sag",
-          "NeckWide": "Collar Width",
-          "NeckWrinkle": "Collar Seam",
-          "ShoulderCrees": "Shoulder Seam",
-          "ShoulderPuff00": "Shoulder Puff 1",
-          "ShoulderPuff01": "Shoulder Puff 2",
-          "ShoulderPuff02": "Shoulder Puff 3",
-          "ShoulderUP": "Shoulder Tip",
-          "ShoulderWide": "Shoulder Padding",
-          "UnderLong": "Skirt (更长)",
-          "UnderShort": "Skirt (更短)",
+          "ArmFat": "袖子厚度",
+          "ArmLong": "袖子长度 (更长)",
+          "ArmPuff00": "袖子泡泡袖 (大)",
+          "ArmPuff01": "袖子泡泡袖 (微妙)",
+          "ArmRoll": "袖口卷起",
+          "ArmShort": "袖子长度 (更短)",
+          "ArmSpread": "袖口喇叭口",
+          "ArmWide00": "袖子宽度",
+          "ArmWide01": "袖口宽度",
+          "ArmWideFlat00": "袖子宽度 (向后)",
+          "ArmWideFlat01": "袖口宽度 (向后)",
+          "ArmWrinkle": "袖子折痕",
+          "NeckFlat": "肩斜",
+          "NeckHigh": "衣领拉高",
+          "NeckInside": "领口松紧",
+          "NeckLow": "衣领降低",
+          "NeckNarrow": "衣领收紧",
+          "NeckVolume": "衣领厚度",
+          "NeckWave": "衣领下垂",
+          "NeckWide": "衣领加宽",
+          "NeckWrinkle": "衣领缝",
+          "ShoulderCrees": "肩缝",
+          "ShoulderPuff00": "肩部泡泡袖 1",
+          "ShoulderPuff01": "肩部泡泡袖 2",
+          "ShoulderPuff02": "肩部泡泡袖 3",
+          "ShoulderUP": "肩峰抬高",
+          "ShoulderWide": "肩垫",
+          "UnderLong": "下摆加长",
+          "UnderShort": "下摆缩短",
           "UnderStretch": "裙子厚度",
-          "UnderTight": "Hem (Tighter)",
-          "UnderWave": "Skirt Crease",
-          "UnderWide": "Hem Flare",
-          "WaistFlat": "Waist Width",
-          "WestThin00": "腰围 (Broad Sash)",
-          "WestThin01": "腰围 (Belted)",
-          "WestThin02": "腰围 (Lower Back)",
-          "WestThin03": "腰围 (Corseted)",
-          "WestThin04": "腰围 (Widen Sag)",
-          "WestWrinkle": "Waist Crease"
+          "UnderTight": "下摆收紧",
+          "UnderWave": "下摆折痕",
+          "UnderWide": "下摆加宽",
+          "WaistFlat": "腰宽",
+          "WestThin00": "腰围 (腰带)",
+          "WestThin01": "腰围 (皮带)",
+          "WestThin02": "腰围 (后部)",
+          "WestThin03": "腰围 (收紧)",
+          "WestThin04": "腰围 (加宽凹陷)",
+          "WestWrinkle": "腰部折痕"
         }
       },
       "Material": {
@@ -2829,11 +2829,11 @@
         "F00_002_03_Tops_01_CLOTH": "连衣裙 (短袖)",
         "F00_002_04_Tops_01_CLOTH": "连衣裙 (铅笔裙)",
         "F00_003_01_AccessoryNeck_01_CLOTH": "Tie",
-        "F00_003_01_Body_00_SKIN": "Skin (制服Pants)",
+        "F00_003_01_Body_00_SKIN": "Skin (制服裤子)",
         "F00_003_01_Bottoms_01_CLOTH": "内裤",
         "F00_003_01_Shoes_01_CLOTH": "Loafers",
-        "F00_003_01_Tops_01_CLOTH": "制服内衬 (Pants, 短袖)",
-        "F00_003_02_Tops_01_CLOTH": "制服内衬 (Pants, 长袖)",
+        "F00_003_01_Tops_01_CLOTH": "制服内衬 (裤子, 短袖)",
+        "F00_003_02_Tops_01_CLOTH": "制服内衬 (裤子, 长袖)",
         "F00_004_00_Body_00_SKIN": "Skin (Formal 1)",
         "F00_004_01_Bottoms_01_CLOTH": "铅笔裙",
         "F00_004_01_Shoes_01_CLOTH": "Heels",
@@ -2844,7 +2844,7 @@
         "F00_006_01_Tops_01_CLOTH": "连帽衫",
         "F00_007_01_Shoes_01_CLOTH": "High Cut Sneakers",
         "F00_008_01_Body_00_SKIN": "Skin (大衣)",
-        "F00_008_01_Bottoms_01_CLOTH": "Pants (大衣)",
+        "F00_008_01_Bottoms_01_CLOTH": "裤子 (大衣)",
         "F00_008_01_Tops_01_CLOTH": "大衣 (高领)",
         "F00_008_02_Tops_01_CLOTH": "大衣 (衬衣领)",
         "F00_008_03_Tops_01_CLOTH": "大衣 (立领)"
@@ -2864,11 +2864,11 @@
         "F00_002_03_Tops": "连衣裙 (短袖)",
         "F00_002_04_Tops": "连衣裙 (铅笔裙)",
         "F00_003_01_AccessoryNeck": "Tie",
-        "F00_003_01_Body": "Body (制服Pants)",
+        "F00_003_01_Body": "Body (制服裤子)",
         "F00_003_01_Bottoms": "内裤",
-        "F00_003_01_Shoes": "Loafers (Pants)",
-        "F00_003_01_Tops": "制服内衬 (Pants, 短袖)",
-        "F00_003_02_Tops": "制服内衬 (Pants, 长袖)",
+        "F00_003_01_Shoes": "Loafers (裤子)",
+        "F00_003_01_Tops": "制服内衬 (裤子, 短袖)",
+        "F00_003_02_Tops": "制服内衬 (裤子, 长袖)",
         "F00_004_01_Body": "Body (Formal 1)",
         "F00_004_01_Bottoms": "铅笔裙",
         "F00_004_01_Shoes": "Heels",
@@ -2882,9 +2882,9 @@
         "F00_007_01_Body": "Body (Casual 3)",
         "F00_007_01_Shoes": "High Cut Sneakers",
         "F00_008_01_Body": "Body (大衣)",
-        "F00_008_01_Bottoms": "Pants (大衣)",
+        "F00_008_01_Bottoms": "裤子 (大衣)",
         "F00_008_01_Tops": "大衣 (高领)",
-        "F00_008_02_Bottoms": "Pants (无褶)",
+        "F00_008_02_Bottoms": "裤子 (无褶)",
         "F00_008_02_Tops": "大衣 (衬衣领)",
         "F00_008_03_Tops": "大衣 (立领)",
         "F00_Face": "脸",
@@ -2893,7 +2893,7 @@
         "N00_001_01_Shoes": "Loafers",
         "N00_001_01_Tops": "制服内衬 (短袖)",
         "N00_001_02_Accessory_Tie": "Ribbon",
-        "N00_001_02_Bottoms": "Pants (无褶)",
+        "N00_001_02_Bottoms": "裤子 (无褶)",
         "N00_001_02_Tops": "制服内衬 (长袖)",
         "N00_001_03_Bottoms": "制服裙",
         "N00_002_01_Shoes": "Shoes (Dress)",
@@ -2909,50 +2909,50 @@
         "N00_005_01_Shoes": "Basketball Sneakers",
         "N00_005_01_Tops": "连帽衫",
         "N00_006_01_Shoes": "High Cut Sneakers",
-        "N00_007_01_Bottoms": "Pants (大衣)",
+        "N00_007_01_Bottoms": "裤子 (大衣)",
         "N00_007_01_Tops": "大衣 (高领)",
-        "N00_007_02_Bottoms": "Pants (无褶)",
+        "N00_007_02_Bottoms": "裤子 (无褶)",
         "N00_007_02_Tops": "大衣 (衬衣领)",
         "N00_007_03_Tops": "大衣 (立领)"
       },
       "RabbitEar": {
         "BlendShape": {
-          "Bend_L": "Ear Bend (Left)耳朵弯曲 (向左)",
-          "Bend_R": "Ear Bend (Right)",
-          "Drop_L": "Droopy Ear (Left)",
-          "Drop_R": "Droopy Ear (Right)",
-          "Shrink": "Ear Size (更小)",
-          "Straight": "Stand-up Ears",
-          "Stretch": "Stretched Ears",
-          "Wide": "Wider Ears更宽的耳朵"
+          "Bend_L": "耳朵弯折 (左)",
+          "Bend_R": "耳朵弯折 (右)",
+          "Drop_L": "耳朵下垂 (左)",
+          "Drop_R": "耳朵下垂 (右)",
+          "Shrink": "耳朵大小 (更小)",
+          "Straight": "耳朵竖立",
+          "Stretch": "耳朵拉长",
+          "Wide": "耳朵加宽"
         }
       },
       "Shoes": {
         "BlendShape": {
-          "Low": "鞋底 (下)"
+          "Low": "鞋底 (降低)"
         }
       },
       "Tops": {
         "BlendShape": {
-          "CuffTightness": "Cuff Tightness袖口松紧",
-          "ShoulderFlat": "Shoulder Slope",
-          "SkirtALine": "Waist Width",
-          "SkirtLength": "Skirt Length",
-          "SkirtLightness": "Skirt Flare",
+          "CuffTightness": "袖口松紧",
+          "ShoulderFlat": "肩斜",
+          "SkirtALine": "腰宽",
+          "SkirtLength": "裙子长度",
+          "SkirtLightness": "裙摆喇叭口",
           "SkirtPanier": "裙子厚度",
-          "SkirtStraight": "Skirt Flare (更窄)",
-          "SkirtTipSpread": "Hem Flare",
-          "SleeveWidth": "Sleeve Width"
+          "SkirtStraight": "裙摆喇叭口 (更窄)",
+          "SkirtTipSpread": "下摆加宽",
+          "SleeveWidth": "袖子宽度"
         }
       },
       "Transferable": {
-        "CatEar": "Cat Ears猫耳",
-        "GlassesHi": "Glasses (Thick)眼镜 (厚)",
-        "GlassesLow": "Glasses (Thin)眼镜 (薄)",
-        "pixiv_VRoid_Attachment_CatEar_N00_Base_N00_000_00_Accessory_CatEar_TransferableType_N00_CatEar_transferable": "Cat Ears猫耳",
-        "pixiv_VRoid_Attachment_GlassesHi_N00_Base_N00_000_00_Accessory_GlassesHi_TransferableType_N00_GlassesHi_transferable": "Glasses (Thick)",
-        "pixiv_VRoid_Attachment_GlassesLow_N00_Base_N00_000_00_Accessory_GlassesLow_TransferableType_N00_GlassesLow_transferable": "Glasses (Thin)",
-        "pixiv_VRoid_Attachment_RabbitEar_N00_Base_N00_000_00_Accessory_RabbitEar_TransferableType_N00_RabbitEar_transferable": "兔儿",
+        "CatEar": "猫耳",
+        "GlassesHi": "眼镜 (厚)",
+        "GlassesLow": "眼镜 (薄)",
+        "pixiv_VRoid_Attachment_CatEar_N00_Base_N00_000_00_Accessory_CatEar_TransferableType_N00_CatEar_transferable": "猫耳",
+        "pixiv_VRoid_Attachment_GlassesHi_N00_Base_N00_000_00_Accessory_GlassesHi_TransferableType_N00_GlassesHi_transferable": "眼镜 (厚)",
+        "pixiv_VRoid_Attachment_GlassesLow_N00_Base_N00_000_00_Accessory_GlassesLow_TransferableType_N00_GlassesLow_transferable": "眼镜 (薄)",
+        "pixiv_VRoid_Attachment_RabbitEar_N00_Base_N00_000_00_Accessory_RabbitEar_TransferableType_N00_RabbitEar_transferable": "兔耳",
         "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_001_01_Tops_TransferableType_N00_ArmAccessory_transferable": "制服内衬 (短袖)",
         "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_001_02_Tops_TransferableType_N00_ArmAccessory_transferable": "制服内衬 (长袖)",
         "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_002_01_Tops_TransferableType_N00_ArmAccessory_transferable": "连衣裙 (长袖)",
@@ -2969,8 +2969,8 @@
         "pixiv_VRoid_Clothing_AccessoryNeck_N00_Base_N00_001_01_Accessory_Tie_TransferableType_N00_NeckAccessory_transferable": "Tie",
         "pixiv_VRoid_Clothing_AccessoryNeck_N00_Base_N00_001_02_Accessory_Tie_TransferableType_N00_NeckAccessory_transferable": "Ribbon",
         "pixiv_VRoid_Clothing_AccessoryNeck_N00_Base_SkinOverlay_TransferableType_N00_NeckAccessory_transferable": "Skin Overlay",
-        "pixiv_VRoid_Clothing_Bottoms_N00_Base_N00_001_01_Bottoms_TransferableType_N00_Bottoms_transferable": "Pants (有褶)",
-        "pixiv_VRoid_Clothing_Bottoms_N00_Base_N00_001_02_Bottoms_TransferableType_N00_Bottoms_transferable": "Pants (无褶)",
+        "pixiv_VRoid_Clothing_Bottoms_N00_Base_N00_001_01_Bottoms_TransferableType_N00_Bottoms_transferable": "裤子 (有褶)",
+        "pixiv_VRoid_Clothing_Bottoms_N00_Base_N00_001_02_Bottoms_TransferableType_N00_Bottoms_transferable": "裤子 (无褶)",
         "pixiv_VRoid_Clothing_Bottoms_N00_Base_N00_001_03_Bottoms_TransferableType_N00_Bottoms_transferable": "制服裙",
         "pixiv_VRoid_Clothing_Bottoms_N00_Base_N00_003_01_Bottoms_TransferableType_N00_Bottoms_transferable": "铅笔裙",
         "pixiv_VRoid_Clothing_Bottoms_N00_Base_SkinOverlay_TransferableType_N00_Bottoms_transferable": "Skin Overlay",
@@ -3010,13 +3010,13 @@
         "pixiv_VRoid_Clothing_Tops_N00_Base_N00_007_02_Tops_TransferableType_N00_Tops_transferable": "大衣 (衬衣领)",
         "pixiv_VRoid_Clothing_Tops_N00_Base_N00_007_03_Tops_TransferableType_N00_Tops_transferable": "大衣 (立领)大衣 (立领)",
         "pixiv_VRoid_Clothing_Tops_N00_Base_SkinOverlay_TransferableType_N00_Tops_transferable": "Skin Overlay紧身衣",
-        "RabbitEar": "兔儿"
+        "RabbitEar": "兔耳"
       },
       "TransferableGroup": {
-        "pixiv_VRoid_Attachment_CatEar_N00_Base_N00_000_00_Accessory_CatEar_TransferableGroupType_N00_Level1_AnimalEar_transferablegroup": "Cat Ears猫耳",
-        "pixiv_VRoid_Attachment_GlassesHi_N00_Base_N00_000_00_Accessory_GlassesHi_TransferableGroupType_N00_Level1_Glasses_transferablegroup": "Glasses (Thick)",
-        "pixiv_VRoid_Attachment_GlassesLow_N00_Base_N00_000_00_Accessory_GlassesLow_TransferableGroupType_N00_Level1_Glasses_transferablegroup": "Glasses (Thin)",
-        "pixiv_VRoid_Attachment_RabbitEar_N00_Base_N00_000_00_Accessory_RabbitEar_TransferableGroupType_N00_Level1_AnimalEar_transferablegroup": "兔儿",
+        "pixiv_VRoid_Attachment_CatEar_N00_Base_N00_000_00_Accessory_CatEar_TransferableGroupType_N00_Level1_AnimalEar_transferablegroup": "猫耳",
+        "pixiv_VRoid_Attachment_GlassesHi_N00_Base_N00_000_00_Accessory_GlassesHi_TransferableGroupType_N00_Level1_Glasses_transferablegroup": "眼镜 (厚)",
+        "pixiv_VRoid_Attachment_GlassesLow_N00_Base_N00_000_00_Accessory_GlassesLow_TransferableGroupType_N00_Level1_Glasses_transferablegroup": "眼镜 (薄)",
+        "pixiv_VRoid_Attachment_RabbitEar_N00_Base_N00_000_00_Accessory_RabbitEar_TransferableGroupType_N00_Level1_AnimalEar_transferablegroup": "兔耳",
         "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_001_01_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - 制服内衬 (短袖)手臂配饰 - 制服内衬 (短袖)",
         "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_001_02_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - 制服内衬 (长袖)",
         "pixiv_VRoid_Clothing_AccessoryArm_N00_Base_N00_002_01_Tops_TransferableGroupType_N00_Level1_ArmAccessory_transferablegroup": "Arm Accessory - 连衣裙 (长袖)",
@@ -3033,8 +3033,8 @@
         "pixiv_VRoid_Clothing_AccessoryNeck_N00_Base_N00_001_01_Accessory_Tie_TransferableGroupType_N00_Level1_NeckAccessory_transferablegroup": "Neck Accessory - Tie",
         "pixiv_VRoid_Clothing_AccessoryNeck_N00_Base_N00_001_02_Accessory_Tie_TransferableGroupType_N00_Level1_NeckAccessory_transferablegroup": "Neck Accessory - Ribbon",
         "pixiv_VRoid_Clothing_AccessoryNeck_N00_Base_SkinOverlay_TransferableGroupType_N00_Level1_NeckAccessory_transferablegroup": "Neck Accessory - Skin Overlay",
-        "pixiv_VRoid_Clothing_Bottoms_N00_Base_N00_001_01_Bottoms_TransferableGroupType_N00_Level1_Bottoms_transferablegroup": "Bottoms - Pants (Crease)",
-        "pixiv_VRoid_Clothing_Bottoms_N00_Base_N00_001_02_Bottoms_TransferableGroupType_N00_Level1_Bottoms_transferablegroup": "Bottoms - Pants (无褶)",
+        "pixiv_VRoid_Clothing_Bottoms_N00_Base_N00_001_01_Bottoms_TransferableGroupType_N00_Level1_Bottoms_transferablegroup": "Bottoms - 裤子 (Crease)",
+        "pixiv_VRoid_Clothing_Bottoms_N00_Base_N00_001_02_Bottoms_TransferableGroupType_N00_Level1_Bottoms_transferablegroup": "Bottoms - 裤子 (无褶)",
         "pixiv_VRoid_Clothing_Bottoms_N00_Base_N00_001_03_Bottoms_TransferableGroupType_N00_Level1_Bottoms_transferablegroup": "Bottoms - 制服裙",
         "pixiv_VRoid_Clothing_Bottoms_N00_Base_N00_003_01_Bottoms_TransferableGroupType_N00_Level1_Bottoms_transferablegroup": "Bottoms - 铅笔裙",
         "pixiv_VRoid_Clothing_Bottoms_N00_Base_SkinOverlay_TransferableGroupType_N00_Level1_Bottoms_transferablegroup": "Bottoms - Skin Overlay",
@@ -3079,15 +3079,15 @@
         "BlendShape": {
           "CuffTightness": "袖口松紧",
           "SleeveCrease": "袖子皱褶",
-          "Spread": "腰部宽度"
+          "Spread": "下摆松紧"
         }
       },
       "UniformPants": {
         "BlendShape": {
-          "PantsCrease": "Pants褶皱",
-          "PantsWidth": "Pants宽度",
-          "ShoesIn": "脚踝下摆 (降低)",
-          "ShoesOut": "脚踝下摆 (提高)"
+          "PantsCrease": "裤子褶皱",
+          "PantsWidth": "裤子宽度",
+          "ShoesIn": "裤脚下摆 (收窄)",
+          "ShoesOut": "裤脚下摆 (提高)"
         }
       },
       "UniformShortSleeve": {
@@ -3124,7 +3124,7 @@
   },
   "SaveAsDialogController": {
     "AvatarName": "角色名字",
-    "ReplaceAlert": "您已将该名称用于现有角色.\r\n是否覆盖数据并替换它? ",
+    "ReplaceAlert": "您现有的角色已使用了该名称.\r\n是否覆盖数据并替换它? ",
     "Save": "保存",
     "SaveFailedAlert": "保存角色时出错."
   },
@@ -3358,9 +3358,9 @@
               "LongOnePiece": "连衣裙 (长袖)",
               "MiniTShirt": "迷你T恤",
               "OnePiece": "连衣裙",
-              "Pants": "Pants",
-              "PantsNoCrease": "Pants (无褶)",
-              "PantsWithCrease": "Pants (折痕 )",
+              "Pants": "裤子",
+              "PantsNoCrease": "裤子 (无褶)",
+              "PantsWithCrease": "裤子 (折痕)",
               "PencilOnePiece": "连衣裙 (铅笔裙)",
               "PencilSkirt": "铅笔裙铅笔裙",
               "SchoolLongVest": "制服内衬 (长袖)",
@@ -3475,9 +3475,9 @@
         "MigrationPanel": {
           "AutoGenerateLackFolder": "在设置所指定的目录中创建必要的文件和文件夹.",
           "AutoGenerateSettingFolder": "自动生成的可移植项目",
-          "Copy": "将 Beta 版本的女性模型转换成正式版, 并复制到设置中指定的目录",
+          "Copy": "将测试版本的女性模型转换成正式版, 并复制到设置中指定的目录",
           "Info": "请注意, 若您已在设置中指定可移植项目位置, 内容将会丢失.",
-          "Translate": "Beta 版本中自动生成的可移植项目"
+          "Translate": "测试版本中自动生成的可移植项目"
         },
         "SettingsPanel": {
           "CopyInfo": "你可以通过以下方式复制文件夹地址",
@@ -3747,17 +3747,17 @@
         "BetaModelImportDialog": {
           "ViewModel": {
             "BetaModelImportDialogViewModel": {
-              "AboutBetaModelImport": "Beta 版本的模型发生了什么?",
-              "Content": "编辑导入的 Beta 版本模型前, 你需要转换模型数据. \r\n创建新的转换数据...",
+              "AboutBetaModelImport": "测试版本的模型发生了什么?",
+              "Content": "编辑导入的测试版本模型前, 你需要转换模型数据. \r\n创建新的转换数据...",
               "Import": "选择保存位置并转换",
-              "Title": "转换一个 Beta 版本模型"
+              "Title": "转换一个测试版本的模型"
             }
           }
         },
         "BetaModelImportErrorDialog": {
           "ViewModel": {
             "BetaModelImportErrorDialogViewModel": {
-              "AboutBetaModelImport": "Beta 版本的模型发生了什么?",
+              "AboutBetaModelImport": "测试版本的模型发生了什么?",
               "Content": "导入失败. 乱数假文",
               "Title": "转换模型失败"
             }
