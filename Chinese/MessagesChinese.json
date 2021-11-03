@@ -688,8 +688,8 @@
         "EyeExcursion": {
           "HorizontalInner": "靠内",
           "HorizontalOuter": "靠外",
-          "VerticalLower": "靠上",
-          "VerticalUpper": "靠下"
+          "VerticalLower": "靠下",
+          "VerticalUpper": "靠上"
         },
         "EyeExcursionMode": "眼睛移动校准",
         "OutlineParameter": {
