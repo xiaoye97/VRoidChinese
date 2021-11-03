@@ -379,7 +379,7 @@
           "BaseModel": "基础模型",
           "BlendShapeBottomsCrease": "裤子折痕",
           "BlendShapeBottomsWide": "裤子宽度",
-          "BlendShapeOnePieceSkirtWeight": "裙摆喇叭口",
+          "BlendShapeOnePieceSkirtWeight": "裙摆开口",
           "BlendShapeOnePieceSleeve1": "袖口宽度",
           "BlendShapeOnePieceSleeve2": "袖口紧度",
           "Categories": "种类",
@@ -492,7 +492,7 @@
           "BaseModel": "基础模型",
           "BlendShapeBottomsCrease": "裤子折痕",
           "BlendShapeBottomsWide": "裤宽",
-          "BlendShapeOnePieceSkirtWeight": "裙摆喇叭口",
+          "BlendShapeOnePieceSkirtWeight": "裙摆开口",
           "BlendShapeOnePieceSleeve1": "袖口宽度",
           "BlendShapeOnePieceSleeve2": "袖口紧度",
           "Categories": "分类",
@@ -1299,7 +1299,7 @@
           "CompositionMode": "绘图模式",
           "CopyPostfix": "(复制)",
           "DuplicateLayer": "粘贴",
-          "ExportGuide": "导出UV",
+          "ExportGuide": "导出 UV",
           "ExportLayer": "导出",
           "Highlight": "Hair Group Bumpiness毛发组突起",
           "ImportLayer": "导入",
@@ -1371,7 +1371,7 @@
       }
     },
     "StartScreen": {
-      "Beta": "测试版本的模型",
+      "Beta": " Beta 版本的模型",
       "CopyLabel": "复制",
       "Duplicate": "粘贴",
       "OpenModelFolder": "打开模型文件夹",
@@ -2010,7 +2010,7 @@
             "HasNoHeartedModelsPrefixWide": "VRoid Hub 中心",
             "HasNoHeartedModelsSecondLine": "呼び出すことができます ?可以调用可以调用",
             "HasNoHeartedModelsSecondLineWide": "ラクターを呼び出すこと ?可以呼出",
-            "HasNoHeartedModelsSuffix": "したキャラクターを ?角色",
+            "HasNoHeartedModelsSuffix": "已添加 ❤ 的角色",
             "HasNoHeartedModelsSuffixWide": "したキャ ?我做了",
             "HasNoHeartedModelsThirdLineWide": "ができます ?我可以",
             "HasNoMyModels": "上传角色至 VRoid Hub 并调用",
@@ -2366,9 +2366,9 @@
           "ShoulderFlat": "肩斜",
           "SkirtALine": "腰宽",
           "SkirtLength": "裙子长度",
-          "SkirtLightness": "裙摆喇叭口",
+          "SkirtLightness": "裙摆开口",
           "SkirtPanier": "裙子体积",
-          "SkirtStraight": "裙摆喇叭口 (更窄)",
+          "SkirtStraight": "裙摆开口 (更窄)",
           "SkirtTipSpread": "下摆加宽",
           "SleeveWidth": "袖子宽度"
         }
@@ -2607,9 +2607,9 @@
           "ShoulderFlat": "肩斜",
           "SkirtALine": "腰宽",
           "SkirtLength": "裙子长度",
-          "SkirtLightness": "裙摆喇叭口",
+          "SkirtLightness": "裙摆开口",
           "SkirtPanier": "裙子体积",
-          "SkirtStraight": "裙摆喇叭口 (更窄)",
+          "SkirtStraight": "裙摆开口 (更窄)",
           "SkirtTipSpread": "下摆加宽",
           "SleeveWidth": "袖子宽度"
         }
@@ -2769,7 +2769,7 @@
           "ArmPuff01": "袖子泡泡袖 (微妙)",
           "ArmRoll": "袖口卷起",
           "ArmShort": "袖子长度 (更短)",
-          "ArmSpread": "袖口喇叭口",
+          "ArmSpread": "袖口开口",
           "ArmWide00": "袖子宽度",
           "ArmWide01": "袖口宽度",
           "ArmWideFlat00": "袖子宽度 (向后)",
@@ -2938,9 +2938,9 @@
           "ShoulderFlat": "肩斜",
           "SkirtALine": "腰宽",
           "SkirtLength": "裙子长度",
-          "SkirtLightness": "裙摆喇叭口",
+          "SkirtLightness": "裙摆开口",
           "SkirtPanier": "裙子厚度",
-          "SkirtStraight": "裙摆喇叭口 (更窄)",
+          "SkirtStraight": "裙摆开口 (更窄)",
           "SkirtTipSpread": "下摆加宽",
           "SleeveWidth": "袖子宽度"
         }
@@ -3124,7 +3124,7 @@
   },
   "SaveAsDialogController": {
     "AvatarName": "角色名字",
-    "ReplaceAlert": "您现有的角色已使用了该名称.\r\n是否覆盖数据并替换它? ",
+    "ReplaceAlert": "现有角色名称已占用. \r\n是否覆盖数据并替换它? ",
     "Save": "保存",
     "SaveFailedAlert": "保存角色时出错."
   },
@@ -3475,9 +3475,9 @@
         "MigrationPanel": {
           "AutoGenerateLackFolder": "在设置所指定的目录中创建必要的文件和文件夹.",
           "AutoGenerateSettingFolder": "自动生成的可移植项目",
-          "Copy": "将测试版本的女性模型转换成正式版, 并复制到设置中指定的目录",
+          "Copy": "将 Beta 版本的女性模型转换成正式版, 并复制到设置中指定的目录",
           "Info": "请注意, 若您已在设置中指定可移植项目位置, 内容将会丢失.",
-          "Translate": "测试版本中自动生成的可移植项目"
+          "Translate": "Beta 版本中自动生成的可移植项目"
         },
         "SettingsPanel": {
           "CopyInfo": "你可以通过以下方式复制文件夹地址",
@@ -3541,7 +3541,7 @@
       "AccountIcon": {
         "ViewModel": {
           "AccountMenuItemDataSources": {
-            "DownLoadBeta": "下载测试版本",
+            "DownLoadBeta": "下载 Beta 版本",
             "ForBetaUsers": "版本差异",
             "Help": "FAQ",
             "KeyboardShortcut": "快捷键",
@@ -3747,17 +3747,17 @@
         "BetaModelImportDialog": {
           "ViewModel": {
             "BetaModelImportDialogViewModel": {
-              "AboutBetaModelImport": "测试版本的模型发生了什么?",
-              "Content": "编辑导入的测试版本模型前, 你需要转换模型数据. \r\n创建新的转换数据...",
+              "AboutBetaModelImport": " Beta 版本的模型发生了什么?",
+              "Content": "编辑导入的 Beta 版本模型前, 你需要转换模型数据. \r\n创建新的转换数据...",
               "Import": "选择保存位置并转换",
-              "Title": "转换一个测试版本的模型"
+              "Title": "转换一个 Beta 版本的模型"
             }
           }
         },
         "BetaModelImportErrorDialog": {
           "ViewModel": {
             "BetaModelImportErrorDialogViewModel": {
-              "AboutBetaModelImport": "测试版本的模型发生了什么?",
+              "AboutBetaModelImport": " Beta 版本的模型发生了什么?",
               "Content": "导入失败. 乱数假文",
               "Title": "转换模型失败"
             }
@@ -3767,7 +3767,7 @@
         "TutorialSelectDialog": {
           "Description": "如果您是初学者, 请参阅基础教程.\r\nBeta 版用户可以查看新功能和更改内容.",
           "ForBeginners": "初学者教程",
-          "ForBetaUsers": "与测试版的差异",
+          "ForBetaUsers": "与 Beta 版的差异",
           "Skip": "跳过",
           "Title": "欢迎来到 VRoid Studio!",
           "UrlForBeginners": "https://vroid.pixiv.help/hc/en-us/articles/4405597663385",
