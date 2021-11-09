@@ -14,13 +14,19 @@ VRoid 汉化插件
 
 #### 安装
 
-1. 下载 Releases 中的最新版本
+##### 视频教程
+
++ [bilibili][3]
+
+##### 文字教程
+
+1. 下载 `Releases` 中的最新版本(`不是点击绿色的Code下的Download Zip，而是右侧的Releases`)
 2. 解压到软件根目录, 解压之后的目录结构如下 (标星号\* 的为汉化插件, 请确保路径正确)
 
 ```
 |-VRoid Studio
   |-BeplnEx*                  BeplnEx 框架
-    |-config
+    |-config                  BepInEx 的设置文件夹
       |-BepInEx.cfg           BeplnEx 的设置文件
     |-plugins                 BepInEx 插件存放目录
       |-VRoidChinese.dll      汉化插件
@@ -35,7 +41,7 @@ VRoid 汉化插件
   |-..                        乱七八糟的文件们...
 ```
 
-4. GIF 图示
+3. GIF 图示
 
 ![教程](https://cdn.jsdelivr.net/gh/xiaoye97/VRoidChinese@master/Asset/VRoidStudioChineseInstallTutorial.gif)
 
@@ -106,3 +112,4 @@ A:
 
 [1]: https://github.com/BepInEx/BepInEx/releases
 [2]: https://share.weiyun.com/cgPKjcxc
+[3]: https://www.bilibili.com/video/BV1BL41137Tc/
