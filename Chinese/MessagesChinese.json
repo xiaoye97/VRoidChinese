@@ -204,7 +204,7 @@
     "Confirmation": "确定",
     "Delete": "删除",
     "DoNotShowThisMessageAgain": "不再提醒",
-    "Duplicate": "粘贴",
+    "Duplicate": "复制",
     "Editable": {
       "Bone": "骨骼",
       "ColorChangerEnabled": "使用颜色校准",
@@ -368,7 +368,7 @@
           "AccessoryList": "配饰",
           "AddAccessory": "添加配饰",
           "AddAccessoryButton": "添加一个配饰",
-          "Duplicate": "粘贴",
+          "Duplicate": "复制",
           "Hide": "隐藏",
           "Lock": "锁定",
           "NoAccessories": "没有配饰",
@@ -743,7 +743,7 @@
         "ChangeHasOwnValueHistoryCommand": "点击复选框",
         "ChangeParameterHistoryCommand": "参数变化",
         "ChangeSelectionHistoryCommand": "旋转",
-        "CloneHairishHistoryCommand": "粘贴头发",
+        "CloneHairishHistoryCommand": "复制头发",
         "ConvertToBrushHairishHistoryCommand": "转换为手绘头发",
         "DeformHairGuideHistoryCommand": "修改头发组",
         "DeleteBrushHairHistoryCommand": "删除手绘组",
@@ -804,7 +804,7 @@
           "PresetNameDummy": "预设名字显示在这里"
         },
         "HairEditorToolPanel": {
-          "Clone": "粘贴",
+          "Clone": "复制",
           "ConvertToBrush": "转换为自由手绘发型",
           "Delete": "删除",
           "Flip": "翻转",
@@ -1292,14 +1292,14 @@
           "BrushProperties": "笔刷属性",
           "BrushType": "笔刷类型",
           "ClothingTemplate": {
-            "Duplicate": "粘贴",
+            "Duplicate": "复制",
             "Remove": "删除",
             "Rename": "重命名"
           },
           "ColorConfig": "颜色校准",
           "CompositionMode": "绘图模式",
           "CopyPostfix": "(复制)",
-          "DuplicateLayer": "粘贴",
+          "DuplicateLayer": "复制",
           "ExportGuide": "导出 UV",
           "ExportLayer": "导出",
           "Highlight": "头发组突起",
@@ -1374,7 +1374,7 @@
     "StartScreen": {
       "Beta": "Beta 版本的模型",
       "CopyLabel": "复制",
-      "Duplicate": "粘贴",
+      "Duplicate": "复制模型",
       "OpenModelFolder": "打开模型文件夹",
       "Recently": "最近编辑",
       "Remove": "从列表移除",
@@ -1415,7 +1415,7 @@
       }
     },
     "VRoidStudioStyle": {
-      "Duplicate": "粘贴"
+      "Duplicate": "复制"
     },
     "Welcome": {
       "AppDescription": "你的角色, \r\n如你所想",
@@ -3778,8 +3778,8 @@
         "ViewModel": {
           "CreateNewModel": "新建",
           "ErrorDialog": {
-            "DuplicationErrorDescription": "粘贴模型失败",
-            "DuplicationErrorTitle": "粘贴失败",
+            "DuplicationErrorDescription": "复制模型失败",
+            "DuplicationErrorTitle": "复制失败",
             "InvalidNameErrorDescription": "模型名称包含无法使用的字符. 请使用不带字符的模型名称\r\n「¥」「/」「:」「*」「?」「”」「<」「>」「|」",
             "NewErrorDescription": "创建新模型失败. 请再次尝试创建新模型. ",
             "NewErrorTitle": "创建新模型失败. ",
