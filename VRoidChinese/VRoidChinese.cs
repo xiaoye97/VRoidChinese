@@ -12,7 +12,7 @@ using StandaloneWindowTitleChanger;
 
 namespace VRoidChinese
 {
-    [BepInPlugin("VRoid.Chinese", "VRoid汉化插件", "1.6")]
+    [BepInPlugin("VRoid.Chinese", "VRoid汉化插件", "1.7")]
     public class VRoidChinese : BaseUnityPlugin
     {
         /// <summary>
@@ -207,8 +207,8 @@ namespace VRoidChinese
         public void DumpOri()
         {
             Debug.Log("开始Dump原文...");
-            File.WriteAllText($"{WorkDir.FullName}/DumpMessages_en.json", ENMessage);
-            File.WriteAllText($"{WorkDir.FullName}/DumpString_en.txt", ENString);
+            File.WriteAllText($"{WorkDir.FullName}/DumpMessages_en_{Application.version}.json", ENMessage);
+            File.WriteAllText($"{WorkDir.FullName}/DumpString_en_{Application.version}.txt", ENString);
         }
 
         /// <summary>

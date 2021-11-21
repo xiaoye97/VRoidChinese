@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>VRoidChinese</RootNamespace>
     <AssemblyName>VRoidChinese</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -45,7 +46,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="StandaloneWindowTitleChanger">
-      <HintPath>..\..\..\SteamLibrary\steamapps\common\VRoid Studio\VRoidStudio_Data\Managed\StandaloneWindowTitleChanger.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRoid Studio\VRoidStudio_Data\Managed\StandaloneWindowTitleChanger.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System">
@@ -81,15 +82,15 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
-      <HintPath>..\..\..\SteamLibrary\steamapps\common\VRoid Studio\VRoidStudio_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRoid Studio\VRoidStudio_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.InputLegacyModule">
-      <HintPath>..\..\..\SteamLibrary\steamapps\common\VRoid Studio\VRoidStudio_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRoid Studio\VRoidStudio_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="VRoid.UI">
-      <HintPath>..\..\..\SteamLibrary\steamapps\common\VRoid Studio\VRoidStudio_Data\Managed\VRoid.UI.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRoid Studio\ExDll\VRoid.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
