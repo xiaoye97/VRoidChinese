@@ -104,7 +104,7 @@ A:
 1. 直接修改 Chinese\MessagesChinese.json 中的值即可实现翻译.
 2. 校对时, 请参考 Asset\旧版校对用翻译.txt 和 Asset\通用翻译参考.json 中的词条 (\_en 的文件是英文原文).
 3. 完成校对或翻译后, 运行 VRoid Studio 进行测试.
-4. 若确认无误, 请提交 PR 或者直接反馈给我 (QQ:1066666683 & QQ 社群:684544577).
+4. 若确认无误, 请提交 PR 或者直接反馈给我 (QQ:1066666683 & VRoidStudio交流群:684544577 & 宵夜食堂:528385469).
 
 [1]: https://github.com/BepInEx/BepInEx/releases
 [2]: https://share.weiyun.com/cgPKjcxc
