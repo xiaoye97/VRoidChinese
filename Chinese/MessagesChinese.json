@@ -310,6 +310,9 @@
     "Yes": "是"
   },
   "ExportDialogController": {
+    "AccessoryLimit": "无法添加更多配件",
+    "AccessoryLimitDescription": "同一类别的配件数量已达到五件的上限",
+    "AccessoryUnknown": "出现未知错误",
     "AllowedUser": "谁可以使用此角色? ",
     "AllowedUserDropDown": {
       "Everyone": "任何人",
