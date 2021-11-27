@@ -350,5 +350,5 @@ MigrationBackup/
 .ionide/
 
 # editor
-.vscode
-.idea
+packages
+VRoidChinese/packages.config

@@ -410,7 +410,7 @@ namespace VRoidChinese
         [HarmonyPrefix, HarmonyPatch(typeof(StandaloneWindowTitle), "Change")]
         public static bool WindowTitlePatch(ref string newTitle)
         {
-            newTitle += "版本:1.04, 作者:宵夜97; 汉化插件开源免费, 谨防受骗";
+            newTitle += " 版本: 1.04 - 汉化版本: 1.6.3 - 作者: 宵夜97 - 汉化开源免费,谨防受骗";
             return true;
         }
 
