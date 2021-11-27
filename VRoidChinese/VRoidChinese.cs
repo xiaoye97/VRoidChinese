@@ -410,7 +410,7 @@ namespace VRoidChinese
         [HarmonyPrefix, HarmonyPatch(typeof(StandaloneWindowTitle), "Change")]
         public static bool WindowTitlePatch(ref string newTitle)
         {
-            newTitle += " 中文汉化 By 宵夜97";
+            newTitle += " 中文汉化: 宵夜97; 汉化插件开源免费, 谨防受骗";
             return true;
         }
 
