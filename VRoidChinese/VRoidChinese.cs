@@ -99,12 +99,12 @@ namespace VRoidChinese
         {
             try
             {
+                System.Diagnostics.Stopwatch sw = new System.Diagnostics.Stopwatch();
+                sw.Start();
                 if (!WorkDir.Exists)
                 {
                     WorkDir.Create();
                 }
-                // 备份原文
-                Backup();
                 // 读取配置
                 ShowOnceTip = Config.Bind<bool>("config", "ShowOnceTip", false, "仅提示一次的消息");
                 OnStartDump = Config.Bind<bool>("config", "OnStartDump", false, "当启动时进行转储(原词条)");
@@ -112,6 +112,9 @@ namespace VRoidChinese
                 DevMode = Config.Bind<bool>("config", "DevMode", false, "汉化者开发模式");
                 RefreshLangKey = Config.Bind<KeyCode>("config", "RefreshLangKey", KeyCode.F10, "[仅限开发模式]刷新语言快捷键");
                 SwitchLangKey = Config.Bind<KeyCode>("config", "SwitchLangKey", KeyCode.F11, "[仅限开发模式]切换语言快捷键");
+
+                // 备份原文
+                Backup();
                 if (OnStartDump.Value)
                 {
                     // Dump原文到硬盘
@@ -124,9 +127,12 @@ namespace VRoidChinese
                 // 切换到中文
                 VRoid.UI.EditorOption.EditorOptionManager.Instance.EditorOption.Preference.languageMode = VRoid.UI.EditorOption.LanguageMode.En;
                 Messages.CurrentCrowdinLanguageCode = "en";
+                sw.Stop();
+                Logger.LogInfo($"总耗时 {sw.ElapsedMilliseconds}ms");
             }
-            catch
+            catch (Exception e)
             {
+                Logger.LogError(e);
                 ShowUpdateTip = true;
             }
         }
@@ -179,6 +185,7 @@ namespace VRoidChinese
             GUILayout.Label("GitHub:xiaoye97");
             GUILayout.Label("QQ:1066666683");
             GUILayout.Label("B站:宵夜97");
+            GUILayout.Label("宵夜食堂:528385469");
             GUILayout.Label("VRoid交流群:684544577");
             GUILayout.Label("汉化插件网址:https://github.com/xiaoye97/VRoidChinese");
             GUILayout.Label(" ");
@@ -213,10 +220,11 @@ namespace VRoidChinese
         /// </summary>
         public void Backup()
         {
-            Debug.Log("开始备份原文...");
+            Logger.LogInfo("开始备份原文...");
+            System.Diagnostics.Stopwatch sw = new System.Diagnostics.Stopwatch();
+            sw.Start();
             ENMessage = JsonConvert.SerializeObject(Messages.All["en"], Formatting.Indented);
-            var s_localeStringDictionary = Traverse.Create(typeof(Messages)).Field("s_localeStringDictionary").GetValue<Dictionary<string, Dictionary<string, string>>>();
-            var enDict = s_localeStringDictionary["en"];
+            var enDict = Messages.s_localeStringDictionary["en"];
             StringBuilder sb = new StringBuilder();
             foreach (var kv in enDict)
             {
@@ -225,6 +233,8 @@ namespace VRoidChinese
                 sb.AppendLine($"{kv.Key}={value}");
             }
             ENString = sb.ToString();
+            sw.Stop();
+            Logger.LogInfo($"备份耗时{sw.ElapsedMilliseconds}ms");
         }
 
         /// <summary>
@@ -247,9 +257,8 @@ namespace VRoidChinese
             string messagesStr = JsonConvert.SerializeObject(messages, Formatting.Indented);
             File.WriteAllText($"{WorkDir.FullName}/DumpMergeMessages.json", messagesStr);
             Debug.Log("开始Dump Merge String...");
-            var s_localeStringDictionary = Traverse.Create(typeof(Messages)).Field("s_localeStringDictionary").GetValue<Dictionary<string, Dictionary<string, string>>>();
-            var strDict = s_localeStringDictionary["en"];
-            StringBuilder sb = new StringBuilder();
+            var strDict = Messages.s_localeStringDictionary["en"]; 
+             StringBuilder sb = new StringBuilder();
             foreach (var kv in strDict)
             {
                 string value = kv.Value.Replace("\r\n", "\\r\\n");
@@ -288,18 +297,12 @@ namespace VRoidChinese
         public void ToEN()
         {
             Logger.LogInfo("切换到英文...");
-            var ori = Traverse.Create(typeof(Messages)).Field("s_localeDictionary").GetValue<Dictionary<string, Messages>>();
-            ori["en"] = JsonConvert.DeserializeObject<Messages>(ENMessage);
-            Traverse.Create(typeof(Messages)).Field("s_localeDictionary").SetValue(ori);
+            Messages.s_localeDictionary["en"] = JsonConvert.DeserializeObject<Messages>(ENMessage);
             Messages.OnMessagesLanguageChange();
-
-            var s_localeStringDictionary = Traverse.Create(typeof(Messages)).Field("s_localeStringDictionary").GetValue<Dictionary<string, Dictionary<string, string>>>();
-            var strDict = s_localeStringDictionary["en"];
             foreach (var kv in ENStringDict)
             {
-                strDict[kv.Key] = kv.Value;
+                Messages.s_localeStringDictionary["en"][kv.Key] = kv.Value;
             }
-            Traverse.Create(typeof(Messages)).Field("s_localeStringDictionary").SetValue(s_localeStringDictionary);
             nowCN = false;
         }
 
@@ -357,9 +360,7 @@ namespace VRoidChinese
                 Logger.LogInfo("开始将中文Messages对象替换到英文对象...");
                 try
                 {
-                    var ori = Traverse.Create(typeof(Messages)).Field("s_localeDictionary").GetValue<Dictionary<string, Messages>>();
-                    ori["en"] = cn;
-                    Traverse.Create(typeof(Messages)).Field("s_localeDictionary").SetValue(ori);
+                    Messages.s_localeDictionary["en"] = cn;
                 }
                 catch (Exception e)
                 {
@@ -394,8 +395,7 @@ namespace VRoidChinese
                     return;
                 }
                 Logger.LogInfo("开始解析String汉化文件...");
-                var s_localeStringDictionary = Traverse.Create(typeof(Messages)).Field("s_localeStringDictionary").GetValue<Dictionary<string, Dictionary<string, string>>>();
-                var strDict = s_localeStringDictionary["en"];
+                var strDict = Messages.s_localeStringDictionary["en"];
                 try
                 {
                     foreach (var line in lines)
@@ -413,16 +413,6 @@ namespace VRoidChinese
                 catch (Exception e)
                 {
                     Logger.LogError($"解析String汉化文件出现异常:{e.Message}\n{e.StackTrace}");
-                    return;
-                }
-                Logger.LogInfo("开始将中文String替换到英文...");
-                try
-                {
-                    Traverse.Create(typeof(Messages)).Field("s_localeStringDictionary").SetValue(s_localeStringDictionary);
-                }
-                catch (Exception e)
-                {
-                    Logger.LogError($"将中文String替换到英文出现异常:{e.Message}\n{e.StackTrace}");
                     return;
                 }
                 Logger.LogInfo("String汉化完毕.");
