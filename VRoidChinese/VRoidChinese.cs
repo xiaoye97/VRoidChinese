@@ -46,6 +46,11 @@ namespace VRoidChinese
         public ConfigEntry<KeyCode> SwitchLangKey;
 
         /// <summary>
+        /// 只提醒一次的提示
+        /// </summary>
+        public ConfigEntry<bool> ShowOnceTip;
+
+        /// <summary>
         /// 是否有空值，有空值则需要Dump
         /// </summary>
         public static bool HasNullValue;
@@ -101,6 +106,7 @@ namespace VRoidChinese
                 // 备份原文
                 Backup();
                 // 读取配置
+                ShowOnceTip = Config.Bind<bool>("config", "ShowOnceTip", false, "仅提示一次的消息");
                 OnStartDump = Config.Bind<bool>("config", "OnStartDump", false, "当启动时进行转储(原词条)");
                 OnHasNullValueDump = Config.Bind<bool>("config", "OnHasNullValueDump", false, "当缺失词条时进行转储(合并后词条)");
                 DevMode = Config.Bind<bool>("config", "DevMode", false, "汉化者开发模式");
@@ -149,14 +155,20 @@ namespace VRoidChinese
 
         private void OnGUI()
         {
+            GUI.backgroundColor = Color.black;
             if (ShowUpdateTip)
             {
                 Rect rect = new Rect(Screen.width / 2 - 200, Screen.height / 2 - 150, 400, 300);
-                rect = GUILayout.Window(1234, rect, TipWindowFunc, "出现异常", GUILayout.ExpandHeight(true));
+                rect = GUILayout.Window(1234, rect, ExceptionTipWindowFunc, "出现异常", GUILayout.ExpandHeight(true));
+            }
+            if (!ShowOnceTip.Value)
+            {
+                Rect rect = new Rect(Screen.width / 2 - 200, Screen.height / 2 - 150, 300, 200);
+                rect = GUILayout.Window(4321, rect, OnceTipWindowFunc, "免费声明", GUILayout.ExpandHeight(true));
             }
         }
 
-        public void TipWindowFunc(int id)
+        public void ExceptionTipWindowFunc(int id)
         {
             GUI.backgroundColor = Color.white;
             GUI.contentColor = Color.black;
@@ -179,6 +191,20 @@ namespace VRoidChinese
             if (GUILayout.Button("确定"))
             {
                 ShowUpdateTip = false;
+            }
+        }
+
+        /// <summary>
+        /// 仅出现一次的提示
+        /// </summary>
+        /// <param name="id"></param>
+        public void OnceTipWindowFunc(int id)
+        {
+            GUILayout.Label("软件和汉化插件均是完全免费的，汉化插件在GitHub开源，近期出现淘宝无良商家贩卖软件和汉化插件，请大家注意警惕，谨防受骗。");
+            GUILayout.FlexibleSpace();
+            if (GUILayout.Button("确定(不再提示此消息)"))
+            {
+                ShowOnceTip.Value = true;
             }
         }
 
@@ -410,7 +436,7 @@ namespace VRoidChinese
         [HarmonyPrefix, HarmonyPatch(typeof(StandaloneWindowTitle), "Change")]
         public static bool WindowTitlePatch(ref string newTitle)
         {
-            newTitle += " 版本: 1.04 - 汉化版本: 1.6.3 - 作者: 宵夜97 - 汉化开源免费,谨防受骗";
+            newTitle += $" v{Application.version} 汉化作者: 宵夜97";
             return true;
         }
 
