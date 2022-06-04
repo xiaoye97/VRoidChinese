@@ -352,3 +352,5 @@ MigrationBackup/
 # editor
 packages
 VRoidChinese/packages.config
+.idea
+.vscode

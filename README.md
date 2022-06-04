@@ -8,9 +8,9 @@ VRoid 汉化插件
 
 ## 简介
 
-- 基于[BeplnEx][1]
-- 运行时对软件进行汉化, 不修改软件本体。
-- 通过配置文件进行翻译配置
+- 基于 [BeplnEx][1]
+- 运行时对软件进行汉化, 不修改软件本体.
+- 通过配置文件进行翻译配置.
 
 ## 使用方法
 
@@ -22,13 +22,13 @@ tldr: [免安装绿色硬盘汉化版][2]
 
 #### 文字教程
 
-1. 下载 `Releases` 中的最新版本(`不是点击绿色的Code下的Download Zip, 而是右侧的Releases`)
+1. 下载 `Releases` 中的最新版本 (`不是点击绿色的Code下的Download Zip, 而是右侧的Releases`)
 2. 解压到软件根目录, 解压之后的目录结构如下 (标星号\* 的为汉化插件, 请确保路径正确)
 
-```filetree
+```files
 |-VRoid Studio
   |-BeplnEx*                  BeplnEx 框架
-    |-config                  BepInEx 的设置文件夹
+    |-config                   BepInEx 的设置文件夹
       |-BepInEx.cfg           BeplnEx 的设置文件
     |-plugins                 BepInEx 插件存放目录
       |-VRoidChinese.dll      汉化插件
@@ -38,7 +38,7 @@ tldr: [免安装绿色硬盘汉化版][2]
   |-MonoBleedingEdge          软件的资源文件夹
   |-VRoidStudio_Data          软件的资源文件夹
   |-VRoidStudio.exe           启动软件的执行文件
-  |-doorstop_config.ini*      BeplnEx 的文件
+  |-doorstop_config.ini*       BeplnEx 的文件
   |-winhttp.dll*              BeplnEx 的文件
   |-..                        乱七八糟的文件们...
 ```
@@ -59,11 +59,11 @@ tldr: [免安装绿色硬盘汉化版][2]
 
 ### 出现了不可名状的 bug? 提交 issue 提醒开发人员! 并汇报插件运行日志
 
-(日志文件定位:%RootLetter%:\install location...\VRoid Studio\BepInEx\LogOutput.log)
+日志文件定位: %RootLetter%:\install location...\VRoid Studio\BepInEx\LogOutput.log
 
 ps:
 
-在..BepInEx\config\BepInEx.cfg 中可以修改日志等级,如果你希望你的 issue 能够得到更有用的回复, 或者帮助开发人员了解 bug 的详细, 请根据此文件内的提示把日志记录等级开到最大.
+在 ..BepInEx\config\BepInEx.cfg 中可以修改日志等级,如果你希望你的 issue 能够得到更有用的回复, 或者帮助开发人员了解 bug 的详细, 请根据此文件内的提示把日志记录等级开到最大.
 
 ### 不知道为什么汉化失效?按照 Q&A 进行自我排查
 
@@ -81,29 +81,29 @@ A:
 4. 定位到 c:\用户\你的用户名\AppData\LocalLow\pixiv\VRoid Studio\Player.log
    浏览此文件, 若存在如下字段
 
-   ```text
-   ...
-    <RI> Initialized touch support.
-    UnloadTime: x.xxxxxx ms
-   ...
-   ```
+    ```text
+    ...
+     <RI> Initialized touch support.
+     UnloadTime: x.xxxxxx ms
+    ...
+    ```
 
-   且在此之后没有看到任何形如
+    且在此之后没有看到任何形如
 
-   ```text
-   [Message:   BepInEx] BepInEx 5.4.17.0 - VRoidStudio
-   [Info   :   BepInEx] Running under Unity v2020.3.19.6877495
-   ```
+    ```text
+    [Message:   BepInEx] BepInEx 5.4.17.0 - VRoidStudio
+    [Info   :   BepInEx] Running under Unity v2020.3.19.6877495
+    ```
 
-   的字段出现, 请按照以下流程进行解决:
+    的字段出现, 请按照以下流程进行解决:
 
-   ```text
-   * 删除位于 c:\用户\你的用户名\AppData\LocalLow 下的pixiv文件夹, 即上述Player.log所在的父目录.
-   * 卸载vroid软件及汉化插件 (直接删除也行).
-   * 重新启动计算机.
-   * 安装vroid软件及汉化插件.
-   * done!
-   ```
+    ```text
+    * 删除位于 c:\用户\你的用户名\AppData\LocalLow 下的 pixiv 文件夹, 即上述 Player.log 所在的父目录.
+    * 卸载 vroid 软件及汉化插件 (直接删除也行).
+    * 重新启动计算机.
+    * 安装 vroid 软件及汉化插件.
+    * done!
+    ```
 
 5. 待续, 任何问题请积极提交.
 
@@ -112,7 +112,7 @@ A:
 1. 直接修改 Chinese\MessagesChinese.json 中的值即可实现翻译.
 2. 校对时, 请参考 Asset\旧版校对用翻译.txt 和 Asset\通用翻译参考.json 中的词条 (\_en 的文件是英文原文).
 3. 完成校对或翻译后, 运行 VRoid Studio 进行测试.
-4. 若确认无误, 请提交 PR 或者直接反馈给我 (QQ:1066666683 & VRoidStudio 交流群:684544577 & 宵夜食堂:528385469).
+4. 若确认无误, 请提交 PR 或者直接反馈给我 (QQ: 1066666683 & VRoidStudio 交流群: 684544577 & 宵夜食堂: 528385469).
 
 [1]: https://github.com/BepInEx/BepInEx/releases
 [2]: https://share.weiyun.com/cgPKjcxc
