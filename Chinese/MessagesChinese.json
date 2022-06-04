@@ -173,14 +173,10 @@
     }
   },
   "Common": {
-    "About": "关于",
     "Accessory": {
       "F00_000": "基础模型",
       "F00_001_01": "制服 (短裙)"
     },
-    "AvatarNameError": "无效字符",
-    "Cancel": "返回",
-    "ClonedPostfix": " (已编辑)",
     "ClothingSet": {
       "F00_000": "基础模型",
       "F00_001_01": "制服 (短裙)"
@@ -201,10 +197,6 @@
       "SkinLight": "亮色",
       "SkinMain": "颜色"
     },
-    "Confirmation": "确定",
-    "Delete": "删除",
-    "DoNotShowThisMessageAgain": "不再提醒",
-    "Duplicate": "复制",
     "Editable": {
       "Bone": "骨骼",
       "ColorChangerEnabled": "使用颜色校准",
@@ -217,23 +209,13 @@
       "SkinOverlay": "皮肤覆盖物",
       "Texture": "材质"
     },
-    "Export": "导出",
     "FileType": {
       "Transferable": "可移植",
       "VRoid": "VRoid"
     },
-    "Free": "免费",
-    "GetForFree": "获取",
-    "Guideline": "准则",
-    "Import": "导入",
-    "Loading": "正在加载, 请稍等片刻.",
-    "Logout": "登出",
     "Material": {
       "NormalMapWeight": "法线映射强度"
     },
-    "No": "否",
-    "OK": "是",
-    "Open": "打开",
     "Part": {
       "Accessory": "配饰",
       "AnimalEar": "动物耳朵",
@@ -296,6 +278,24 @@
       "Waist": "腰部",
       "WholeBody": "身体"
     },
+    "About": "关于",
+    "AvatarNameError": "无效字符",
+    "Cancel": "返回",
+    "ClonedPostfix": " (已编辑)",
+    "Confirmation": "确定",
+    "Delete": "删除",
+    "DoNotShowThisMessageAgain": "不再提醒",
+    "Duplicate": "复制",
+    "Export": "导出",
+    "Free": "免费",
+    "GetForFree": "获取",
+    "Guideline": "准则",
+    "Import": "导入",
+    "Loading": "正在加载, 请稍等片刻.",
+    "Logout": "登出",
+    "No": "否",
+    "OK": "是",
+    "Open": "打开",
     "PrivacyPolicy": "隐私政策",
     "Purchase": "购买",
     "Quality": "显示质量",
@@ -310,25 +310,11 @@
     "Yes": "是"
   },
   "ExportDialogController": {
-    "AccessoryLimit": "无法添加更多配件",
-    "AccessoryLimitDescription": "同一类别的配件数量已达到五件的上限",
-    "AccessoryUnknown": "出现未知错误",
-    "AllowedUser": "谁可以使用此角色? ",
     "AllowedUserDropDown": {
       "Everyone": "任何人",
       "ExplicitlyLicensedPerson": "那些有明确授权的人",
       "OnlyAuthor": "仅作者"
     },
-    "Author": "作者",
-    "CharactorizationPermissionsTitle": "个性化头像",
-    "CommericalUssage": "商业用途",
-    "Contact": "联系方式",
-    "DialogTitle": "VRM 设置",
-    "ExportFailedAlertIO": "导出数据时出错.",
-    "ExportFailedAlertIODescription": "导出过程中出现问题,请重试.",
-    "ExportFailedAlertUnknown": "导出数据时出错. (未知错误)",
-    "Information": "模型信息",
-    "LicenseType": "许可证",
     "LicenseTypeDropDown": {
       "Cc0": "公共领域 (CC0)",
       "CcBy": "知识共享-署名 CC-BY ",
@@ -344,6 +330,20 @@
       "EnableHairCombination": "合并毛发网格",
       "Options_": "选项"
     },
+    "AccessoryLimit": "无法添加更多配件",
+    "AccessoryLimitDescription": "同一类别的配件数量已达到五件的上限",
+    "AccessoryUnknown": "出现未知错误",
+    "AllowedUser": "谁可以使用此角色? ",
+    "Author": "作者",
+    "CharactorizationPermissionsTitle": "个性化头像",
+    "CommericalUssage": "商业用途",
+    "Contact": "联系方式",
+    "DialogTitle": "VRM 设置",
+    "ExportFailedAlertIO": "导出数据时出错.",
+    "ExportFailedAlertIODescription": "导出过程中出现问题,请重试.",
+    "ExportFailedAlertUnknown": "导出数据时出错. (未知错误)",
+    "Information": "模型信息",
+    "LicenseType": "许可证",
     "OtherPermissionUrl": "附加许可证信息",
     "Permitted": "同意",
     "RedistributionAndModificationsPermissionTitle": "二次配布与二次编辑",
@@ -379,26 +379,6 @@
           "Rename": "重命名"
         },
         "AccessoryEditorViewModel": {
-          "AnimalEar": "动物耳朵",
-          "BaseModel": "基础模型",
-          "BlendShapeBottomsCrease": "裤子折痕",
-          "BlendShapeBottomsWide": "裤子宽度",
-          "BlendShapeOnePieceSkirtWeight": "裙摆开口",
-          "BlendShapeOnePieceSleeve1": "袖口宽度",
-          "BlendShapeOnePieceSleeve2": "袖口紧度",
-          "Categories": "种类",
-          "Delete": "删除",
-          "Foot": "脚趾形状",
-          "FootPart0": "赤脚 (平足)",
-          "FootPart1": "袜子 (平底)",
-          "FootPart2": "赤脚 (成角度)",
-          "FootPart3": "袜子 (斜纹)",
-          "Glasses": "眼镜",
-          "Horns": "角",
-          "Name": "名字",
-          "None": "无",
-          "OnePiece": "连衣裙",
-          "Pants": "制服 (裤子)",
           "PartCategory": {
             "Accessory": "配饰",
             "Base": "基础模型",
@@ -420,6 +400,26 @@
             "Head": "头",
             "Shoes": "鞋"
           },
+          "AnimalEar": "动物耳朵",
+          "BaseModel": "基础模型",
+          "BlendShapeBottomsCrease": "裤子折痕",
+          "BlendShapeBottomsWide": "裤子宽度",
+          "BlendShapeOnePieceSkirtWeight": "裙摆开口",
+          "BlendShapeOnePieceSleeve1": "袖口宽度",
+          "BlendShapeOnePieceSleeve2": "袖口紧度",
+          "Categories": "种类",
+          "Delete": "删除",
+          "Foot": "脚趾形状",
+          "FootPart0": "赤脚 (平足)",
+          "FootPart1": "袜子 (平底)",
+          "FootPart2": "赤脚 (成角度)",
+          "FootPart3": "袜子 (斜纹)",
+          "Glasses": "眼镜",
+          "Horns": "角",
+          "Name": "名字",
+          "None": "无",
+          "OnePiece": "连衣裙",
+          "Pants": "制服 (裤子)",
           "Preset": "预设",
           "Save": "保存",
           "Slot": "组件",
@@ -493,23 +493,6 @@
       },
       "ClothingEditor": {
         "ClothingEditorViewModel": {
-          "BaseModel": "基础模型",
-          "BlendShapeBottomsCrease": "裤子折痕",
-          "BlendShapeBottomsWide": "裤宽",
-          "BlendShapeOnePieceSkirtWeight": "裙摆开口",
-          "BlendShapeOnePieceSleeve1": "袖口宽度",
-          "BlendShapeOnePieceSleeve2": "袖口紧度",
-          "Categories": "分类",
-          "Delete": "删除",
-          "Foot": "脚趾形状",
-          "FootPart0": "赤脚 (平足)",
-          "FootPart1": "袜子 (平底)",
-          "FootPart2": "赤脚 (成角度)",
-          "FootPart3": "袜子 (斜纹)",
-          "Name": "名字",
-          "None": "None",
-          "OnePiece": "连衣裙",
-          "Pants": "制服 (裤子)",
           "PartCategory": {
             "Accessory": "配饰",
             "Base": "基础模型",
@@ -531,6 +514,23 @@
             "Head": "头",
             "Shoes": "鞋"
           },
+          "BaseModel": "基础模型",
+          "BlendShapeBottomsCrease": "裤子折痕",
+          "BlendShapeBottomsWide": "裤宽",
+          "BlendShapeOnePieceSkirtWeight": "裙摆开口",
+          "BlendShapeOnePieceSleeve1": "袖口宽度",
+          "BlendShapeOnePieceSleeve2": "袖口紧度",
+          "Categories": "分类",
+          "Delete": "删除",
+          "Foot": "脚趾形状",
+          "FootPart0": "赤脚 (平足)",
+          "FootPart1": "袜子 (平底)",
+          "FootPart2": "赤脚 (成角度)",
+          "FootPart3": "袜子 (斜纹)",
+          "Name": "名字",
+          "None": "None",
+          "OnePiece": "连衣裙",
+          "Pants": "制服 (裤子)",
           "Preset": "预设",
           "Save": "保存",
           "Slot": "组件",
@@ -541,6 +541,19 @@
         }
       },
       "Common": {
+        "Gizmos": {
+          "Rotate": "旋转",
+          "Scale": "缩放",
+          "Translate": "移动"
+        },
+        "Tools": {
+          "Blur": "模糊",
+          "Brush": "笔刷",
+          "ControlPoint": "控制点",
+          "Erase": "橡皮擦",
+          "Retouch": "修饰笔刷",
+          "Select": "选择"
+        },
         "All": "全部",
         "ApplyColorWhenEditing": "编辑时应用颜色",
         "Customize": "自定义",
@@ -550,22 +563,9 @@
         "EditHairDesign": "编辑头发",
         "EditPreset": "编辑预设",
         "EditTexture": "编辑纹理",
-        "Gizmos": {
-          "Rotate": "旋转",
-          "Scale": "缩放",
-          "Translate": "移动"
-        },
         "Parameters": "参数",
         "Rename": "重命名",
-        "ShowLicense": "显示许可证",
-        "Tools": {
-          "Blur": "模糊",
-          "Brush": "笔刷",
-          "ControlPoint": "控制点",
-          "Erase": "橡皮擦",
-          "Retouch": "修饰笔刷",
-          "Select": "选择"
-        }
+        "ShowLicense": "显示许可证"
       },
       "EditorWindowViewModel": {
         "AccessoryEditor": "配饰",
@@ -620,6 +620,9 @@
           "U": "U"
         },
         "FaceEditorViewModel": {
+          "ExpressionEditor": {
+            "Title": "表情"
+          },
           "ChinRound": "下巴圆润度",
           "ChinRoundness": "下巴圆润度",
           "ChinSharp": "下巴尖锐度",
@@ -632,9 +635,6 @@
           "EarTipDown": "耳尖位置 (向下)",
           "EarTipUp": "耳尖位置 (向上)",
           "EarTipWide": "耳尖位置 (水平)",
-          "ExpressionEditor": {
-            "Title": "表情"
-          },
           "EyebrowDown": "眉毛位置 (向下)",
           "EyebrowDrooping": "眉毛倾斜度",
           "EyebrowGather": "眉毛间距变小",
@@ -695,7 +695,6 @@
           "VerticalLower": "靠下",
           "VerticalUpper": "靠上"
         },
-        "EyeExcursionMode": "眼睛移动校准",
         "OutlineParameter": {
           "Accessory": "配饰",
           "Body": "身体",
@@ -703,7 +702,6 @@
           "Hair": "头发",
           "OutlineWidth": "轮廓线宽度"
         },
-        "OutlineParameterMode": "轮廓",
         "RimLight": {
           "BaseColor": "底色",
           "Body": "身体",
@@ -714,7 +712,6 @@
           "Rotation": "旋转",
           "Strength": "强度"
         },
-        "RimLightMode": "边缘光",
         "ShadingParameter": {
           "Body": "身体",
           "Face": "脸",
@@ -724,7 +721,6 @@
           "ShadingShift": "阴影区域",
           "ShadingToony": "阴影硬度"
         },
-        "ShadingParameterMode": "阴影",
         "SpringBone": {
           "Accessory": "配饰",
           "Amplitude": "振幅",
@@ -732,6 +728,10 @@
           "Clothing": "衣服",
           "ErrorReduction": "防止在移动过程中过度摇晃"
         },
+        "EyeExcursionMode": "眼睛移动校准",
+        "OutlineParameterMode": "轮廓",
+        "RimLightMode": "边缘光",
+        "ShadingParameterMode": "阴影",
         "SpringBoneMode": "骨骼"
       },
       "HairBoneEditorScreenTransform": {
@@ -741,17 +741,6 @@
         "Title": "编辑预设"
       },
       "HairEditor": {
-        "AddBrushHairHistoryCommand": "添加手绘组",
-        "AddHairGroupHistoryCommand": "添加头发组",
-        "ChangeHasOwnValueHistoryCommand": "点击复选框",
-        "ChangeParameterHistoryCommand": "参数变化",
-        "ChangeSelectionHistoryCommand": "旋转",
-        "CloneHairishHistoryCommand": "复制头发",
-        "ConvertToBrushHairishHistoryCommand": "转换为手绘头发",
-        "DeformHairGuideHistoryCommand": "修改头发组",
-        "DeleteBrushHairHistoryCommand": "删除手绘组",
-        "DeleteHairGroupHistoryCommand": "删除头发组",
-        "DeleteMaterialHistoryCommand": "删除材质",
         "DesignEditor": {
           "ViewModel": {
             "AllHair": "整体",
@@ -763,8 +752,6 @@
             "HairTied": "辫子"
           }
         },
-        "DuplicateMaterialHistoryCommand": "复制材质",
-        "FlipHairishHistoryCommand": "翻毛",
         "HairBoneCommand": {
           "AddHairToBoneGroup": "移动到所选组",
           "ChangeBoneCount": "改变骨骼数量",
@@ -900,23 +887,67 @@
           "Width": "宽度",
           "WidthScale": "宽度比"
         },
-        "ImportPresetHistoryCommand": "导入预设",
-        "ModifyHairishHistoryCommand": "修改头发",
-        "ProceduralHairGroup": "逻辑组 {0}",
         "Property": {
           "MaterialSelector": {
             "EditMaterial": "编辑材质"
           }
         },
+        "AddBrushHairHistoryCommand": "添加手绘组",
+        "AddHairGroupHistoryCommand": "添加头发组",
+        "ChangeHasOwnValueHistoryCommand": "点击复选框",
+        "ChangeParameterHistoryCommand": "参数变化",
+        "ChangeSelectionHistoryCommand": "旋转",
+        "CloneHairishHistoryCommand": "复制头发",
+        "ConvertToBrushHairishHistoryCommand": "转换为手绘头发",
+        "DeformHairGuideHistoryCommand": "修改头发组",
+        "DeleteBrushHairHistoryCommand": "删除手绘组",
+        "DeleteHairGroupHistoryCommand": "删除头发组",
+        "DeleteMaterialHistoryCommand": "删除材质",
+        "DuplicateMaterialHistoryCommand": "复制材质",
+        "FlipHairishHistoryCommand": "翻毛",
+        "ImportPresetHistoryCommand": "导入预设",
+        "ModifyHairishHistoryCommand": "修改头发",
+        "ProceduralHairGroup": "逻辑组 {0}",
         "RenameMaterialHistoryCommand": "重命名",
         "RetouchHairHistoryCommand": "修饰头发"
       },
       "HubUploadScreenTransform": {
         "Title": "上传到 VRoid Hub"
       },
-      "Mirror": "镜子",
       "PhotoBooth": {
         "PhotoBoothViewModel": {
+          "AtlasResolution": {
+            "AtlasResolution_": "纹理图集分辨率",
+            "FourK": "4096 x 4096",
+            "TwoK": "2048 x 2048"
+          },
+          "MaterialReductionMode": {
+            "High": "2",
+            "Low": "12",
+            "Medium": "8",
+            "None": "默认"
+          },
+          "PoseModel": {
+            "AStance": "默认",
+            "shot_aori": "叉手",
+            "shot_face_hand": "托腮帮子",
+            "shot_fight": "打斗",
+            "shot_hair_up": "摸头",
+            "shot_hizidon": "学习",
+            "shot_left_hand": "这边",
+            "shot_newyear_kirarajump_a": "跳",
+            "shot_newyear_nezumi": "凶凶(╯▔皿▔)╯",
+            "shot_nicely_stand": "害羞",
+            "shot_nose": "擦鼻涕",
+            "shot_question": "思考考",
+            "shot_salute": "你好啊( •̀ ω •́ )y",
+            "shot_sitting": "坐",
+            "shot_standingKnee": "跪"
+          },
+          "TextureCompressionMode": {
+            "Original": "原始",
+            "Shrinked": "缩小"
+          },
           "ALL": "基础表情",
           "ALL_Angry": "生气",
           "ALL_Fun": "开心",
@@ -929,11 +960,6 @@
           "Antialias_High": "高",
           "Antialias_Low": "低",
           "Antialiasing": "抗锯齿",
-          "AtlasResolution": {
-            "AtlasResolution_": "纹理图集分辨率",
-            "FourK": "4096 x 4096",
-            "TwoK": "2048 x 2048"
-          },
           "AutoBlink": "自动眨眼",
           "Background": "背景",
           "BackgroundColor": "背景颜色",
@@ -1125,12 +1151,6 @@
           "MaleAnimationMode": "动画 2",
           "MaterialCount": "材质数量",
           "MaterialReduction": "减少材质",
-          "MaterialReductionMode": {
-            "High": "2",
-            "Low": "12",
-            "Medium": "8",
-            "None": "默认"
-          },
           "Materials": "材质: ",
           "MeshErasure": "删除透明网格",
           "MeshReduction": "减少多边形",
@@ -1164,23 +1184,6 @@
           "PoseAndAnimation": "姿势&动画",
           "PoseLeftHand": "左手",
           "PoseMode": "姿势",
-          "PoseModel": {
-            "AStance": "默认",
-            "shot_aori": "叉手",
-            "shot_face_hand": "托腮帮子",
-            "shot_fight": "打斗",
-            "shot_hair_up": "摸头",
-            "shot_hizidon": "学习",
-            "shot_left_hand": "这边",
-            "shot_newyear_kirarajump_a": "跳",
-            "shot_newyear_nezumi": "凶凶(╯▔皿▔)╯",
-            "shot_nicely_stand": "害羞",
-            "shot_nose": "擦鼻涕",
-            "shot_question": "思考考",
-            "shot_salute": "你好啊( •̀ ω •́ )y",
-            "shot_sitting": "坐",
-            "shot_standingKnee": "跪"
-          },
           "PoseRightHand": "右手",
           "PoseWeight": "强度",
           "PostEffect": "后处理",
@@ -1218,10 +1221,6 @@
           "StripThickness": "线条厚度",
           "TargetCharacterModelHeader": "步骤 1",
           "Temperature": "色温",
-          "TextureCompressionMode": {
-            "Original": "原始",
-            "Shrinked": "缩小"
-          },
           "TextureQuality": "纹理质量",
           "Tint": "色调",
           "Triangles": "多边形: ",
@@ -1289,25 +1288,11 @@
           "Layers": "图层"
         },
         "TextureEditorViewModel": {
-          "BrushColor": "笔刷颜色",
-          "BrushOpacity": "笔刷不透明度",
-          "BrushParameters": "笔刷参数",
-          "BrushProperties": "笔刷属性",
-          "BrushType": "笔刷类型",
           "ClothingTemplate": {
             "Duplicate": "复制",
             "Remove": "删除",
             "Rename": "重命名"
           },
-          "ColorConfig": "颜色校准",
-          "CompositionMode": "绘图模式",
-          "CopyPostfix": "(复制)",
-          "DuplicateLayer": "复制",
-          "ExportGuide": "导出 UV",
-          "ExportLayer": "导出",
-          "Highlight": "头发组突起",
-          "ImportLayer": "导入",
-          "Layer": "图层",
           "LayerCompositionMode": {
             "Color": "颜色",
             "ColorBurn": "颜色加深",
@@ -1337,6 +1322,24 @@
             "Subtract": "减去",
             "VividLight": "亮光"
           },
+          "SubCategory": {
+            "AlphaMask": "皮肤蒙版",
+            "Main": "衣服"
+          },
+          "BrushColor": "笔刷颜色",
+          "BrushOpacity": "笔刷不透明度",
+          "BrushParameters": "笔刷参数",
+          "BrushProperties": "笔刷属性",
+          "BrushType": "笔刷类型",
+          "ColorConfig": "颜色校准",
+          "CompositionMode": "绘图模式",
+          "CopyPostfix": "(复制)",
+          "DuplicateLayer": "复制",
+          "ExportGuide": "导出 UV",
+          "ExportLayer": "导出",
+          "Highlight": "头发组突起",
+          "ImportLayer": "导入",
+          "Layer": "图层",
           "LayerOpacity": "图层不透明度",
           "LayerProperties": "图层属性",
           "LineWidth": "笔刷宽度",
@@ -1349,10 +1352,6 @@
           "RenameLayer": "重命名",
           "Select": "选择",
           "SizeSpace": "编辑模式",
-          "SubCategory": {
-            "AlphaMask": "皮肤蒙版",
-            "Main": "衣服"
-          },
           "TextureEdition": "编辑纹理",
           "ToggleLayerAlphaLock": "切换 Alpha 锁定",
           "ToggleLayerVisibility": "切换可见"
@@ -1372,18 +1371,10 @@
       },
       "VRMExportScreenTransform": {
         "Title": "导出 VRM"
-      }
+      },
+      "Mirror": "镜子"
     },
     "StartScreen": {
-      "Beta": "Beta 版本的模型",
-      "CopyLabel": "复制",
-      "Duplicate": "复制模型",
-      "OpenModelFolder": "打开模型文件夹",
-      "Recently": "最近编辑",
-      "Remove": "从列表移除",
-      "Rename": "重命名",
-      "RenameModel": "重命名模型",
-      "Sample": "示例模型",
       "TutorialSelectDialog": {
         "Anime": "动画风",
         "Description": "步骤式建模教程. \r\n随时可以观看.",
@@ -1392,7 +1383,16 @@
         "Title": "欢迎来到 Vroid Studio! 你要做什么模型?",
         "Watch": "在 Youtube 上观看教程",
         "Young": "翔太"
-      }
+      },
+      "Beta": "Beta 版本的模型",
+      "CopyLabel": "复制",
+      "Duplicate": "复制模型",
+      "OpenModelFolder": "打开模型文件夹",
+      "Recently": "最近编辑",
+      "Remove": "从列表移除",
+      "Rename": "重命名",
+      "RenameModel": "重命名模型",
+      "Sample": "示例模型"
     },
     "UserControls": {
       "DummyBodyPresetView": {
@@ -1421,17 +1421,14 @@
       "Duplicate": "复制"
     },
     "Welcome": {
-      "AppDescription": "你的角色, \r\n如你所想",
       "Avatars": {
         "Header": "你的模型",
         "NewAvatar": "新建模型"
       },
-      "Login": "登录",
       "ModelTypeSelection": {
         "Back": "返回",
         "Header": "选择一个类型"
       },
-      "NeedToLogin": "要继续使用 VRoid Studio,\r\n请登录 VRoid.",
       "Preferences": {
         "Language": {
           "English": "简体中文",
@@ -1446,16 +1443,19 @@
       },
       "Samples": {
         "Header": "示例模型"
-      }
+      },
+      "AppDescription": "你的角色, \r\n如你所想",
+      "Login": "登录",
+      "NeedToLogin": "要继续使用 VRoid Studio,\r\n请登录 VRoid."
     }
   },
   "HairEditor": {
-    "BaseHair": "基础头发",
-    "BrushHairGroup": "手绘组 {0}",
     "Hair": {
       "HairLabel": "头发",
       "HairWithNumber": "头发 {0}"
     },
+    "BaseHair": "基础头发",
+    "BrushHairGroup": "手绘组 {0}",
     "HairBoneGroup": "骨骼组 {0}"
   },
   "Main": {
@@ -1480,7 +1480,6 @@
           "Toast": "购买受限."
         }
       },
-      "PurchaseFailureByUnknownReason": "购买时出错.",
       "PurchaseFailureReason": {
         "PurchasingUnavailable": "购买受限.",
         "UserCancelled": "购买已取消"
@@ -1497,7 +1496,8 @@
         "MessageItem": {
           "Content": "使用历史 \r\n需要 5 分钟更新"
         }
-      }
+      },
+      "PurchaseFailureByUnknownReason": "购买时出错."
     },
     "MainViewModel": {
       "ARNotSupportedError": {
@@ -1862,8 +1862,6 @@
         "Title": "许可"
       },
       "MainTransform": {
-        "AgeConfirmation": "创建账户年龄必须达到 13 岁",
-        "Agree": "我同意",
         "BundleDownloadConfirmation": {
           "Description": "开始下载必要文件 ({0:f1} {1})"
         },
@@ -1903,7 +1901,6 @@
           "Description": "在 VRoid Studio 中, 你可以创建 3D 角色, 装扮并拍照. 创建自己的 3D 角色吧!",
           "Title": "开始制作 3D 角色吧!"
         },
-        "Help": "FAQ",
         "LoginFailureMessage": {
           "Description": "登录时出错. \r\n请检查网络连接并重试.",
           "Title": "登录时出错"
@@ -1927,7 +1924,6 @@
           "ConfirmationText": "确认",
           "Placeholder": "例如 Shibu Sendagaya"
         },
-        "Notice": "使用 VRoid Studio 前, 您需要同意使用条款、隐私政策和准则",
         "PrivacyPolicyConfirmation": {
           "Description": "VRoid Studio 的隐私政策于 2020 年 3 月 30 日更新.",
           "Title": "请参阅隐私政策"
@@ -1971,14 +1967,18 @@
           "Description": "上传 VRM 时出错. \r\n请检查网络连接并重试.",
           "Title": "连接错误"
         },
-        "VRMUploadingMessage": "正在上传至 VRoid Hub",
         "WaitForUnityIap": {
           "Description": "连接超时. \r\n请检查网络连接并重试."
         },
         "WorldInvitationConfirmation": {
           "ConfirmationText": "加入",
           "Description": "加入受邀房间?"
-        }
+        },
+        "AgeConfirmation": "创建账户年龄必须达到 13 岁",
+        "Agree": "我同意",
+        "Help": "FAQ",
+        "Notice": "使用 VRoid Studio 前, 您需要同意使用条款、隐私政策和准则",
+        "VRMUploadingMessage": "正在上传至 VRoid Hub"
       },
       "PurchaseTransform": {
         "Total": "总共"
@@ -2054,7 +2054,6 @@
               "Description": "确认离开?",
               "Title": "离开"
             },
-            "Next": "下一步",
             "PhotoDiscardConfirmation": {
               "ConfirmationText": "丢弃",
               "Description": "所有改动将会丢失. \r\n确定丢弃此照片?",
@@ -2069,7 +2068,8 @@
               "ConfirmationText": "复制链接",
               "Description": "分享链接给好友, 至多邀请 4 人分享拍摄",
               "Title": "分享拍摄"
-            }
+            },
+            "Next": "下一步"
           },
           "UploadVRoidHubTransform": {
             "AgeLimit": "年龄分级",
@@ -2090,14 +2090,14 @@
           }
         },
         "StudioSelectorTransform": {
+          "WorldDownloadError": {
+            "Title": "无法打开 photo studio"
+          },
           "DownloadingWorld": "正在下载 3D Photo Studio 数据",
           "Error": "出错了. \r\n请检查网络连接并重试",
           "Multiplay": "一起拍摄",
           "Singleplay": "单独拍摄",
-          "Title": "你要去哪儿?",
-          "WorldDownloadError": {
-            "Title": "无法打开 photo studio"
-          }
+          "Title": "你要去哪儿?"
         }
       },
       "StudioActionButtonTutorialTransform": {
@@ -2123,7 +2123,6 @@
         },
         "Studio": {
           "Stage": {
-            "Custom": "自定义",
             "ModelsDrawer": {
               "ModelsDrawerTab": {
                 "VRoidHub": "VRoid Hub"
@@ -2133,7 +2132,6 @@
               },
               "VRoidHub": "VRoid Hub"
             },
-            "NoFilter": "无滤镜",
             "PhotoDrawer": {
               "Custom": "自定义",
               "NoFilter": "无滤镜",
@@ -2143,7 +2141,9 @@
               "Custom": "自定义",
               "NoFilter": "无滤镜",
               "Sixty": "60"
-            }
+            },
+            "Custom": "自定义",
+            "NoFilter": "无滤镜"
           }
         }
       }
@@ -3585,8 +3585,7 @@
           "ThemeSettingViewModel": {
             "Dark": "暗色主题",
             "Light": "亮色主题",
-            "Title": "主题",
-            "Title_Background": "背景颜色"
+            "Title": "主题"
           }
         }
       },
@@ -3605,7 +3604,6 @@
           "Description": "在开始编辑之前, 是否要将未保存的项目另存为自定义项目吗? \r\n未保存的项目将会丢失.",
           "Title": "保存临时项目"
         },
-        "FailedToLoadCustomItemsMessage": "下载在新版本的 VRoid Studio 上创建的数据时出错. \r\n请更新 VRoid Studio.",
         "ModelPresets": {
           "TemporaryCustomItem": {
             "Customizing": "未保存的项目",
@@ -3647,7 +3645,8 @@
           "SaveAsCustomItem": "保存为自定义项目",
           "SaveAsNewItem": "保存为新项目",
           "ToApplyColorOnStartEditing": "编辑时应用颜色"
-        }
+        },
+        "FailedToLoadCustomItemsMessage": "下载在新版本的 VRoid Studio 上创建的数据时出错. \r\n请更新 VRoid Studio."
       },
       "HairBoneEditorScreen": {
         "ViewModel": {
@@ -3751,7 +3750,7 @@
         "BetaModelImportDialog": {
           "ViewModel": {
             "BetaModelImportDialogViewModel": {
-              "AboutBetaModelImport": "Beta 版本的模型发生了什么?",
+              "AboutBetaModelImport": "Beta 版本的模型发生了错误",
               "Content": "编辑导入的 Beta 版本模型前, 你需要转换模型数据. \r\n创建新的转换数据...",
               "Import": "选择保存位置并转换",
               "Title": "转换一个 Beta 版本的模型"
@@ -3761,13 +3760,12 @@
         "BetaModelImportErrorDialog": {
           "ViewModel": {
             "BetaModelImportErrorDialogViewModel": {
-              "AboutBetaModelImport": "Beta 版本的模型发生了什么?",
-              "Content": "导入失败. 乱数假文",
+              "AboutBetaModelImport": "Beta 版本的模型发生了错误",
+              "Content": "导入失败.",
               "Title": "转换模型失败"
             }
           }
         },
-        "ModelLoadingLabel": "正在加载, 请稍待片刻.",
         "TutorialSelectDialog": {
           "Description": "如果您是初学者, 请参阅基础教程.\r\nBeta 版用户可以查看新功能和更改内容.",
           "ForBeginners": "初学者教程",
@@ -3779,7 +3777,6 @@
           "Watch": "阅读帮助"
         },
         "ViewModel": {
-          "CreateNewModel": "新建",
           "ErrorDialog": {
             "DuplicationErrorDescription": "复制模型失败",
             "DuplicationErrorTitle": "复制失败",
@@ -3798,9 +3795,14 @@
             "Samples": "示例模型"
           },
           "StartScreenMode": {
+            "TermsOfUse1": "使用示例模型时请遵守",
+            "TermsOfUse2": "使用条款",
+            "TermsOfUse3": ".",
             "ModelSelection": "模型"
-          }
-        }
+          },
+          "CreateNewModel": "新建"
+        },
+        "ModelLoadingLabel": "正在加载, 请稍待片刻."
       },
       "TextureEditorScreen": {
         "ViewModel": {
@@ -3828,14 +3830,6 @@
       "R15": "R-15",
       "R18": "R-18"
     },
-    "AgeLimitMessage": "设置媒体文件年龄分级",
-    "AuthorizationMessage": "输入认证码",
-    "CharacterListTitleToAddModel": "选择需要添加模型的角色",
-    "CharacterListTitleToChooseModel": "选择需要添加模型的角色",
-    "CharacterNameMessage": "为此角色添加一个名字",
-    "CharacterNamePlaceholder": "角色名",
-    "CharacterSetting": "新建角色设定",
-    "DefaultModelName": "默认模型",
     "HubCharacterModelSelectionDialog": {
       "Message": "选择需要更新的模型",
       "Title": "更新 VRoid Hub 上的模型"
@@ -3869,6 +3863,14 @@
       "UpdateCharacterModelLabel": "更新模型",
       "UpdateCharacterModelSubLabel": "更新现有角色的模型"
     },
+    "AgeLimitMessage": "设置媒体文件年龄分级",
+    "AuthorizationMessage": "输入认证码",
+    "CharacterListTitleToAddModel": "选择需要添加模型的角色",
+    "CharacterListTitleToChooseModel": "选择需要添加模型的角色",
+    "CharacterNameMessage": "为此角色添加一个名字",
+    "CharacterNamePlaceholder": "角色名",
+    "CharacterSetting": "新建角色设定",
+    "DefaultModelName": "默认模型",
     "JumpToVRoidHubMessage": "在 VRoid Hub 上检视",
     "LoginFailed": "登录时出错",
     "ModelListTitle": "选择需要修改的模型变动",
