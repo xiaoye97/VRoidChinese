@@ -32,6 +32,10 @@ V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.NeckAccessory.Initial_
 V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.NeckAccessory.Initial_010.TemplateName=领带
 V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.NeckAccessory.Initial_020.ClothingName=蝴蝶结
 V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.NeckAccessory.Initial_020.TemplateName=蝴蝶结
+V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.NeckAccessory.Initial_030.ClothingName=长领带
+V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.NeckAccessory.Initial_030.TemplateName=长领带
+V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.NeckAccessory.Initial_040.ClothingName=系带
+V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.NeckAccessory.Initial_040.TemplateName=系带
 V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.Onepiece.Initial_010.ClothingName=裙子
 V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.Onepiece.Initial_010.TemplateName=裙子
 V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.Onepiece.Initial_011.ClothingName=无袖连衣裙
