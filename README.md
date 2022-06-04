@@ -4,7 +4,11 @@ VRoid 汉化插件
 
 ## 免费声明
 
-本插件为完全免费插件, 禁止任何形式的售卖, 近日看到有淘宝无良卖家在贩卖 VRoidStudio 软件本体和汉化插件, 请大家注意警惕, 如果看到请帮忙举报一下, 谢谢.
+本插件 (软件) 为[自由软件][5], 使用 [MIT][6] 协议, 永久免费, 未经授权禁止任何形式的售卖.
+
+有不法分子在网络上贩卖 VRoidStudio 软件本体和汉化插件, 请注意警惕, 如有遇到请务必举报, 谢谢.
+
+---
 
 ## 简介
 
@@ -14,15 +18,13 @@ VRoid 汉化插件
 
 ## 使用方法
 
-tldr: [免安装绿色硬盘汉化版][2]
+tldr: [免安装绿色中文硬盘板版][2] (此版本陈旧, 请及时更新)
 
-### 视频教程
+### [视频教程][3]
 
-- [bilibili][3]
+### 文字教程
 
-#### 文字教程
-
-1. 下载 `Releases` 中的最新版本 (`不是点击绿色的Code下的Download Zip, 而是右侧的Releases`)
+1. 下载 `Releases` 中的[最新版本][4]
 2. 解压到软件根目录, 解压之后的目录结构如下 (标星号\* 的为汉化插件, 请确保路径正确)
 
 ```files
@@ -117,3 +119,6 @@ A:
 [1]: https://github.com/BepInEx/BepInEx/releases
 [2]: https://share.weiyun.com/cgPKjcxc
 [3]: https://www.bilibili.com/video/BV1BL41137Tc/
+[4]: https://github.com/xiaoye97/VRoidChinese/releases/download/v1.7.1/VRoidChinese.v1.7.1.zip
+[5]: https://zh.wikipedia.org/zh-cn/%E8%87%AA%E7%94%B1%E8%BD%AF%E4%BB%B6
+[6]: https://mit-license.org/
