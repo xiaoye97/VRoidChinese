@@ -12,7 +12,7 @@ using StandaloneWindowTitleChanger;
 
 namespace VRoidChinese
 {
-    [BepInPlugin("VRoid.Chinese", "VRoid汉化插件", "1.8")]
+    [BepInPlugin("VRoid.Chinese", "VRoid汉化插件", "1.9")]
     public class VRoidChinese : BaseUnityPlugin
     {
         /// <summary>
@@ -232,8 +232,8 @@ namespace VRoidChinese
             string messagesStr = JsonConvert.SerializeObject(messages, Formatting.Indented);
             File.WriteAllText($"{WorkDir.FullName}/DumpMergeMessages.json", messagesStr);
             Debug.Log("开始 Dump Merge String...");
-            var strDict = Messages.s_localeStringDictionary["en"]; 
-             StringBuilder sb = new StringBuilder();
+            var strDict = Messages.s_localeStringDictionary["en"];
+            StringBuilder sb = new StringBuilder();
             foreach (var kv in strDict)
             {
                 string value = kv.Value.Replace("\r\n", "\\r\\n");
@@ -306,7 +306,8 @@ namespace VRoidChinese
                     JSONObject ori = new JSONObject(ENMessage);
                     JSONObject cnJson = new JSONObject(json);
                     MergeJson(ori, cnJson);
-                    MergeMessage = ori.ToString();
+                    JSONObject sortJson = SortJson(ori);
+                    MergeMessage = sortJson.ToString();
                 }
                 catch (Exception e)
                 {
@@ -434,6 +435,28 @@ namespace VRoidChinese
                     HasNullValue = true;
                     Logger.LogWarning($"检测到缺失的词条 {k}:{baseJson[k]}");
                 }
+            }
+        }
+
+        /// <summary>
+        /// 根据Key排序Json
+        /// </summary>
+        public JSONObject SortJson(JSONObject baseJson)
+        {
+            if (baseJson.type == JSONObject.Type.OBJECT)
+            {
+                List<string> keys = new List<string>(baseJson.keys);
+                keys.Sort();
+                JSONObject obj = new JSONObject(JSONObject.Type.OBJECT);
+                foreach (var key in keys)
+                {
+                    obj.SetField(key, baseJson[key]);
+                }
+                return obj;
+            }
+            else
+            {
+                return baseJson;
             }
         }
     }

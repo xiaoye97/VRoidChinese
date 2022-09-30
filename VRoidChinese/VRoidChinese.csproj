@@ -34,16 +34,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>..\..\..\APP\VRoidStudio-v0.14.0-win\BepInEx\core\0Harmony.dll</HintPath>
+      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\VRoid Studio\BepInEx\core\0Harmony.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="BepInEx">
-      <HintPath>..\..\..\APP\VRoidStudio-v0.14.0-win\BepInEx\core\BepInEx.dll</HintPath>
+      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\VRoid Studio\BepInEx\core\BepInEx.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\SteamLibrary\steamapps\common\VRoid Studio\VRoidStudio_Data\Managed\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\VRoid Studio\VRoidStudio_Data\Managed\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="StandaloneWindowTitleChanger">
@@ -75,11 +74,11 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>..\..\..\APP\VRoidStudio-v0.14.0-win\VRoidStudio_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\VRoid Studio\VRoidStudio_Data\Managed\UnityEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\..\..\APP\VRoidStudio-v0.14.0-win\VRoidStudio_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\VRoid Studio\VRoidStudio_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
@@ -90,8 +89,8 @@
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRoid Studio\VRoidStudio_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="VRoid.UI">
-      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRoid Studio\ExDll\VRoid.UI.dll</HintPath>
+    <Reference Include="VRoid.UI-nstrip">
+      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\VRoid Studio\NStrip\VRoid.UI-nstrip.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>

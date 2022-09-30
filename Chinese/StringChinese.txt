@@ -28,6 +28,8 @@ V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.InnerBottom.Initial_00
 V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.InnerBottom.Initial_001.TemplateName=内衣
 V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.InnerTop.Initial_001.ClothingName=上衣
 V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.InnerTop.Initial_001.TemplateName=内衣
+V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.InnerTop.Initial_010.ClothingName=紧身衣
+V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.InnerTop.Initial_010.TemplateName=紧身衣
 V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.NeckAccessory.Initial_010.ClothingName=领带
 V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.NeckAccessory.Initial_010.TemplateName=领带
 V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.NeckAccessory.Initial_020.ClothingName=蝴蝶结
@@ -64,6 +66,8 @@ V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.Shoes.Initial_050.Clot
 V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.Shoes.Initial_050.TemplateName=皮便鞋
 V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.Shoes.Initial_060.ClothingName=厚底靴子
 V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.Shoes.Initial_060.TemplateName=厚底靴子
+V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.Shoes.Initial_070.ClothingName=长靴
+V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.Shoes.Initial_070.TemplateName=长靴
 V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.Socks.Initial_001.ClothingName=空
 V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.Socks.Initial_001.TemplateName=内衣
 V1.Studio.EditRootScreen.AddClothingCustomItemDialog.Item.Tops.Initial_010.ClothingName=制服背心

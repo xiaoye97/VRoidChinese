@@ -149,19 +149,8 @@
     "Version": "软件版本"
   },
   "BuildTarget": {
-    "Android": {
-      "ValuesBLocale": "+en+US"
-    },
     "Editor": {
       "SystemLanguage": "简体中文"
-    },
-    "IOS": {
-      "InfoPlist": {
-        "NSCameraUsageDescription": "允许应用获得摄像头权限才能使用 AR 功能.",
-        "NSPhotoLibraryAddUsageDescription": "允许应用获得图库权限才能保存照片.",
-        "NSPhotoLibraryUsageDescription": "允许应用获得图库权限才能保存照片."
-      },
-      "LocalizationCode": "en"
     }
   },
   "Common": {
@@ -875,6 +864,9 @@
           "PartingLength": "头发分割 (长度)",
           "PositionOffsetX": "位置 (X)",
           "PositionOffsetY": "位置 (Y)",
+          "ResetPosition": "Reset Position",
+          "ResetRotate": "Reset Rotation",
+          "ResetScale": "Reset Scale",
           "SideFitness": "偏向脑袋 (X)",
           "TextureHeightDistortion": "高亮位置",
           "TextureParameters": "纹理参数",
@@ -1580,6 +1572,8 @@
             "_02AccessoryTieTightenRightLoop": "右侧丝带结长度",
             "AdamsApple": "喉结",
             "ArmLength": "胳膊长度",
+            "BodySuitNeckThickness": "Neck Thickness",
+            "BodySuitNeckWidth": "Neck Width",
             "BustDirectionX": "胸部张开",
             "BustDirectionY": "胸部位置 (Y)",
             "BustPos": "胸部位置",
@@ -2653,6 +2647,61 @@
         "F00_007_01": "便装 3",
         "F00_008_01": "大衣"
       },
+      "BodySuit": {
+        "BlendShape": {
+          "AdamsApple": "显示喉结",
+          "AllInflate": "展开紧身衣",
+          "AllShrink": "收缩紧身衣",
+          "ArmFlat1": "平整手臂",
+          "ArmFlat2": "围绕手肘平整",
+          "ArmInflate1": "从手腕增大",
+          "ArmInflate2": "从手肘增大",
+          "ArmInflate3": "从肩部增大",
+          "ArmInflate4": "最大化手臂体积",
+          "ArmPuff1": "肩部蓬松 1",
+          "ArmPuff2": "肩部蓬松 2",
+          "ArmPuff3": "袖子蓬松 1",
+          "ArmPuff4": "袖子蓬松 2",
+          "BodyInflate1": "增大身体 1",
+          "BodyInflate2": "增大身体 2",
+          "BodyInflate3": "增大身体 3",
+          "BustFlat1": "平整胸上部",
+          "BustFlat2": "平整胸肌",
+          "BustFlat3": "平整胸肌 (增大胸部)",
+          "ButtFlat1": "平整臀部",
+          "ButtFlat2": "平整臀部 (上部)",
+          "ClavicleFlat": "平整锁骨",
+          "ClavicleLow": "柔和锁骨",
+          "FingerFlat": "平整手指",
+          "FingerInflate": "增大手指",
+          "FingerSharpen": "伸长手指",
+          "FootHeel": "抬高脚后跟",
+          "FootRound1": "圆形脚",
+          "FootRound2": "增大脚部",
+          "FootSharpen": "锥形脚",
+          "HipFlat": "平整大腿后侧与臀部的间隙",
+          "InseamShrink": "收紧胯部",
+          "LegFlat1": "平整腿部",
+          "LegFlat2": "平整膝盖周围",
+          "LegInflate1": "从脚踝增大",
+          "LegInflate2": "从膝盖增大",
+          "LegInflate3": "从大腿增大",
+          "LegInflate4": "最大化腿部体积",
+          "LegPuff1": "大腿上部蓬松",
+          "LegPuff2": "大腿下部蓬松",
+          "LegPuff3": "膝盖蓬松",
+          "LegPuff4": "脚踝蓬松",
+          "NavelFlat": "平整肚脐",
+          "NeckFlat": "平整脖子",
+          "NeckNarrowX": "颈部宽度 (缩窄)",
+          "NeckNarrowZ": "颈部前后宽度 (缩窄)",
+          "NeckSpreadX": "颈部宽度 (扩大)",
+          "NeckSpreadZ": "颈部前后宽度 (扩大)",
+          "ToeExtend": "缩短脚",
+          "ToeUp": "伸长脚",
+          "TorsoFlat": "平整躯干"
+        }
+      },
       "Casual1": {
         "BlendShape": {
           "HeightLong": "下摆长度",
@@ -2772,6 +2821,29 @@
           "TempleWide": "镜腿 (加粗)"
         }
       },
+      "LongBoots": {
+        "BlendShape": {
+          "Crease": "踝部皱纹",
+          "FootThick": "脚部厚度",
+          "HeelExtrude": "鞋跟曲线",
+          "HeelLow": "缩短鞋跟",
+          "HeelLowFlat": "平整鞋跟",
+          "HeelThinZ": "鞋跟厚度",
+          "InflateAll": "总体积",
+          "InflateAnkle": "平整踝部曲线",
+          "InflateBottom": "鞋子体积",
+          "SoleFlat": "鞋跟楔形",
+          "SoleThick1": "鞋底厚度",
+          "SoleThick2": "平台厚度",
+          "ToeInflate": "脚趾体积",
+          "ToeSharpen": "脚趾长度",
+          "ToeThick": "脚趾厚度",
+          "ToeWide": "脚趾宽度",
+          "TopSpread": "靴口宽度",
+          "TopSpreadX": "靴口宽度 (X)",
+          "TopSpreadZ": "靴口宽度 (Z)"
+        }
+      },
       "LongCoat": {
         "BlendShape": {
           "_01AccessoryTieNeckNarrow": "首元を狭める",
@@ -2815,6 +2887,15 @@
           "ArmWideFlat00": "袖子宽度 (向后)",
           "ArmWideFlat01": "袖口宽度 (向后)",
           "ArmWrinkle": "袖子折痕",
+          "Crease": "踝部皱纹",
+          "FootThick": "脚部厚度",
+          "HeelExtrude": "鞋跟曲线",
+          "HeelLow": "缩短鞋跟",
+          "HeelLowFlat": "平整鞋跟",
+          "HeelThinZ": "鞋跟厚度",
+          "InflateAll": "总体积",
+          "InflateAnkle": "平整踝部曲线",
+          "InflateBottom": "鞋子体积",
           "NeckFlat": "肩斜",
           "NeckHigh": "衣领拉高",
           "NeckInside": "领口松紧",
@@ -2830,6 +2911,16 @@
           "ShoulderPuff02": "肩部泡泡袖 3",
           "ShoulderUP": "肩峰抬高",
           "ShoulderWide": "肩垫",
+          "SoleFlat": "Wedges",
+          "SoleThick1": "Sole Thickness",
+          "SoleThick2": "Platform Thickness",
+          "ToeInflate": "Toebox Volume",
+          "ToeSharpen": "Toebox Point",
+          "ToeThick": "Toebox Thickness",
+          "ToeWide": "Toebox Width",
+          "TopSpread": "Collar Width",
+          "TopSpreadX": "Collar Width (X)",
+          "TopSpreadZ": "Collar Width (Z)",
           "UnderLong": "下摆加长",
           "UnderShort": "下摆缩短",
           "UnderStretch": "裙子厚度",
@@ -2955,7 +3046,9 @@
         "N00_007_02_Accessory_Tie": "系带",
         "N00_007_02_Bottoms": "裤子 (无褶)",
         "N00_007_02_Tops": "大衣 (衬衣领)",
-        "N00_007_03_Tops": "大衣 (立领)"
+        "N00_007_03_Tops": "大衣 (立领)",
+        "N00_008_01_Shoes": "长靴",
+        "N00_010_01_OnePiece": "紧身衣"
       },
       "RabbitEar": {
         "BlendShape": {
@@ -3201,6 +3294,12 @@
         "Cancel": "取消",
         "Save": "保存",
         "StartEditWithDontSave": "开始编辑而不保存"
+      },
+      "ImportCustomItemDialog": {
+        "DontWear": "Wear later",
+        "importedLabel": " was imported successfully",
+        "Title": "Imported successfully",
+        "Wear": "Wear now"
       }
     },
     "GUI": {
@@ -3266,6 +3365,36 @@
           "RenameMaterial": {
             "Title": "重命名材质"
           }
+        }
+      }
+    },
+    "MessageOverlay": {
+      "MessageOverlayViewModel": {
+        "ImportCustomItem": "导入自定义项..."
+      }
+    },
+    "ModelPresetsSelector": {
+      "BasePresetsSelectorViewModel": {
+        "ContextMenu": {
+          "ReName": "重命名",
+          "SaveAndExport": "保存并导出自定义项"
+        }
+      },
+      "CustomItemRegistry": {
+        "ErrorDialog": {
+          "ExportErrorTitle": "导出过程中出现问题",
+          "ImportErrorDescription": "此项目不兼容。请使用最新版本的VRoid Studio导出项目后，再尝试重新导入。",
+          "ImportErrorTitle": "导入数据时出错。",
+          "IncompatibleDescription": "此项目不兼容。请在最新版本的VRoid Studio上重试。",
+          "IncompatibleTitle": "加载数据时出错",
+          "SecurityErrorDescription": "请检查您的安全软件设置。如果这不能解决问题"
+        },
+        "ExportCustomItem": {
+          "Dialogtitle": "导出自定义项"
+        },
+        "ImportCustomItem": {
+          "DialogFileType": "自定义项",
+          "Dialogtitle": "导入自定义项"
         }
       }
     },
@@ -3444,6 +3573,16 @@
         }
       }
     },
+    "View": {
+      "ModelPresets": {
+        "AddCustomItemButtonTransform": {
+          "CreateNewItem": "新建"
+        },
+        "ImportCustomItemTransform": {
+          "Import": "导入"
+        }
+      }
+    },
     "World": {
       "SceneController": {
         "Error": "Oops",
@@ -3567,6 +3706,7 @@
     "AboutItemAndCustomize": "https://vroid.pixiv.help/hc/en-us/articles/900005583186",
     "AboutKeyboardShortcut": "https://vroid.pixiv.help/hc/en-us/articles/900006050066",
     "AboutSkinMask": "https://vroid.pixiv.help/hc/en-us/articles/4405516267033",
+    "BoothVRoidCategory": "https://booth.pm/en/browse/VRoid",
     "DownloadBeta": "https://vroid.com/en/studio/releases",
     "Guideline": "https://vroid.com/en/studio/guidelines",
     "Help": "https://vroid.pixiv.help/hc/en-us/categories/360000054482",
@@ -3630,6 +3770,7 @@
       },
       "EditRootScreen": {
         "AddClothingCustomItemDialog": {
+          "CategoryListHeaderSelectTemplate": "从其他类别中选取",
           "TitleAddTemplate": "添加模板",
           "TitleSelectTemplate": "选择模板"
         },
@@ -3641,6 +3782,14 @@
         "ConfirmCustomItemSavingDialog": {
           "ContinueWithoutSave": "开始编辑而不保存",
           "Description": "在开始编辑之前, 是否要将未保存的项目另存为自定义项目吗? \r\n未保存的项目将会丢失.",
+          "Export": {
+            "ContinueWithoutSave": "导出而不保存",
+            "Description": "导出此项目之前，是否要将未保存的项目保存为自定义项目？未保存的项目将被删除。"
+          },
+          "Rename": {
+            "ContinueWithoutSave": "重命名而不保存",
+            "Description": "重命名此项目之前，是否要将未保存的项目保存为自定义项目？未保存的项目将被删除。"
+          },
           "Title": "保存临时项目"
         },
         "FailedToLoadCustomItemsMessage": "下载在新版本的 VRoid Studio 上创建的数据时出错. \r\n请更新 VRoid Studio.",
@@ -3967,6 +4116,11 @@
         }
       },
       "UserControls": {
+        "BoothJumpButtonTransform": {
+          "BoothInfo": "您可以从BOOTH上的VRoid类别购买创作者制作的用于VRoid的各种纹理。",
+          "JumpToBooth": "查看BOOTH",
+          "SearchMoreItem": "搜索更多项目"
+        },
         "DummyBodyPresetViewTransform": {
           "Customize": "自定义",
           "Preset": "预设"
