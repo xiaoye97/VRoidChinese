@@ -135,6 +135,86 @@
       }
     }
   },
+  "Booth": {
+    "BodyEditor": {
+      "ViewModel_TransferableGroupType": {
+        "N00": {
+          "Level1": {
+            "BodySkin": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Body+Skins"
+          }
+        }
+      }
+    },
+    "ClothingEditor": {
+      "ViewModel_TransferableGroupType": {
+        "N00": {
+          "Level0": {
+            "ClothingSet": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Outfits+Sets"
+          },
+          "Level1": {
+            "ArmAccessory": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Arm+Accessories",
+            "Bottoms": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Bottoms+%28Clothing%29",
+            "InnerBottom": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Bottoms+%28Underwear%29",
+            "InnerTop": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Tops+%28Underwear%29",
+            "NeckAccessory": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Neck+Accessories",
+            "Onepiece": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Dresses",
+            "Shoes": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Shoes",
+            "Socks": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Socks",
+            "Tops": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Tops+%28Clothing%29"
+          }
+        }
+      }
+    },
+    "FaceEditor": {
+      "ViewModel_TransferableGroupType": {
+        "N00": {
+          "Level0": {
+            "FaceSet": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Face+Sets"
+          },
+          "Level1": {
+            "Cheek": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Cheeks",
+            "Eyebrow": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Eyebrows",
+            "EyeSet": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Eyes+Sets",
+            "FacePaint": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Face+Paint",
+            "FaceSkin": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Face+Skins",
+            "Lip": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Lips",
+            "Mouth": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Mouth+Insides",
+            "MouthLine": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Mouths",
+            "NoseLighting": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Noses"
+          },
+          "Level2": {
+            "Eyelash": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Eyelashes",
+            "Eyelid": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Eyelids",
+            "Eyeline": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Eyeliner"
+          },
+          "Level3": {
+            "EyeHighlight": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Eye+Highlights",
+            "EyeWhite": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Scleras",
+            "Iris": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Irises"
+          }
+        }
+      }
+    },
+    "HairEditor": {
+      "ViewModel_TransferableGroupType": {
+        "N00": {
+          "Level0": {
+            "HairSet": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Hairstyle+Sets"
+          },
+          "Level1": {
+            "AllHair": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Overall+Hair",
+            "BaseHair": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Base+Hair",
+            "HairAhoge": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Ahoge+Hair",
+            "HairBack": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Back+Hair",
+            "HairFront": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Front+Hair",
+            "HairHanege": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Extra+Hair",
+            "HairSideburns": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Side+Hair",
+            "HairTied": "https://booth.pm/en/browse/VRoid?in_stock=true&tags%5B%5D=Hair+Extensions"
+          }
+        }
+      }
+    }
+  },
   "BugReportDialog": {
     "Close": "关闭",
     "CopyAllText": "复制所有文本",
@@ -287,6 +367,7 @@
     "TOS": "使用条款",
     "TransmissionRetry": "重试",
     "TransmissionRetryDescription": "出错了. \r\n请检查网络连接并重试.",
+    "Upload": "上传",
     "Use": "使用此模型",
     "Yes": "是"
   },
@@ -563,7 +644,8 @@
         "Help": "FAQ",
         "Logout": "登出",
         "LogoutMessage": "从 VRoid Hub 登出",
-        "MoveTo3DPrintExport": "导出 3D 打印数据 (准备中)",
+        "MoveTo3DPrintExport": "导出 3D 打印数据",
+        "MoveToVRChatUpload": "上传到 VRChat",
         "MoveToVRMExport": "导出 VRM",
         "MoveToVRoidHubUpload": "上传到 VRoid Hub",
         "Open": "打开",
@@ -948,6 +1030,7 @@
           "CapturePreset_HD": "HD (1280×720)",
           "CapturePreset_Photo": "照片 (3:2) (3840x2560)",
           "CapturePreset_Square": "方形 (1080×1080)",
+          "CapturePreset_VRChat": "VRChat 缩略图 (1200x900)",
           "CapturePreset_VRoidHub": "VRoid Hub 缩略图 (1200×1600)",
           "CapturePreset_WQHD": "WQHD (2560×1440)",
           "CapturePreset_XGA": "XGA (1024×768)",
@@ -1359,6 +1442,9 @@
           "Title": "编辑纹理"
         },
         "Title": "编辑预设"
+      },
+      "VRChatUploadScreenTransform": {
+        "Title": "上传到 VRChat"
       },
       "VRMExportScreenTransform": {
         "Title": "导出 VRM"
@@ -3716,7 +3802,10 @@
     "OfficialVersionHelpPage": "https://vroid.pixiv.help/hc/en-us/categories/900000339606",
     "PrivacyPolicy": "https://policies.pixiv.net/en.html#privacy",
     "StudioOfficialDistribution": "https://vroid.com/en/studio",
-    "StudioTermsOfUse": "https://policies.pixiv.net/#vroidstudio",
+    "StudioTermsOfUse": "https://policies.pixiv.net/en.html#vroidstudio",
+    "VRChatAvatarAdvancedSetting": "https://vroid.pixiv.help/hc/en-us/articles/9847485646873",
+    "VRChatAvatarInformation": "https://vroid.pixiv.help/hc/en-us/articles/9847238618521",
+    "VRChatHowToUpload": "https://vroid.pixiv.help/hc/en-us/articles/9846691321113",
     "VRoidHub": "https://hub.vroid.com/en"
   },
   "V1": {
@@ -3733,6 +3822,12 @@
             "Tutorial": "教程",
             "VRoidHub": "VRoid Hub"
           }
+        }
+      },
+      "BodyEditor": {
+        "BodyHeightViewModel": {
+          "ModelHeight": "模型高度",
+          "ShowHeightPlane": "显示高度面板"
         }
       },
       "ColorSelection": {
@@ -3895,8 +3990,10 @@
         "LoginDialog": {
           "ViewModel": {
             "LoginDialogViewModel": {
+              "HowToUploadToVRChat": "上传到 VRChat 之前的必要准备",
               "Login": "登录",
               "LoginMessage": "请登录",
+              "LoginMessageVRChat": "请登录",
               "LoginTitle": "上传到 VRoid Hub",
               "ModelEditingReLoginMessage": "您似乎还没有登录, 请登录.\r\n到目前为止所做的任何编辑都不会丢失.",
               "ReLoginMessage": "您似乎还没有登录, 请登录."
@@ -4008,7 +4105,60 @@
         "ModelPresets": {
           "NoPresets": "为此类别添加预设"
         }
+      },
+      "VRChatUploadScreen": {
+        "VRChatUploadDiscardingStateWarningDialog": {
+          "ViewModel": {
+            "VRChatUploadDiscardingStateWarningDialogViewModel": {
+              "Exit": "关闭",
+              "Message": "\"如果您现在关闭, 您的编辑将会丢失. 您确定要关闭吗?\"",
+              "Title": "上传未完成"
+            }
+          }
+        }
       }
+    }
+  },
+  "VRChat": {
+    "VRChatUploadModelSettingDialog": {
+      "AccessoryUnknown": "Something went wrong. Please try again.",
+      "AccountName": "VRChat Account:",
+      "AdvanceSetting": "Advanced Settings",
+      "AvatarInfo": "Avatar Information",
+      "AvatarName": "Avatar Name",
+      "BreastSwing": "Breast Bounce",
+      "BreastSwingOff": "Bounce OFF",
+      "BreastSwingOn": "Bounce ON",
+      "CancelConnectVRChatAccount": "Back",
+      "CanceledUpload": "Cancelling the upload. Please wait until the cancellation process is completed. You will receive a notification on VRoid Hub when the cancellation process is complete.",
+      "CancelUpload": "Cancel upload",
+      "CheckConvertStatus": "Confirm changes",
+      "ConnectVRChatAccount": "Link",
+      "ContentWarnings": "Content Warnings",
+      "DeleteThumbnail": "Delete thumbnail",
+      "GoreUsage": "This avatar can be portrayed in depictions with blood and gore",
+      "HowToUploadMultiModelToVRChat": "How do I upload multiple models to VRChat?",
+      "Information": "Avatar Information",
+      "NeedVRChatConnect": "To upload a model to VRChat you must link your VRoid Hub and VRChat accounts.",
+      "NSFWUsage": "This avatar can be portrayed in other NSFW situations",
+      "OverwriteConfirmInfo": "This will overwrite the model that is currently uploaded. Do you want to proceed?",
+      "RequiredInput": "*Required",
+      "RightsConfirm": "The above information is accurate and I have the rights to upload this content to VRChat.",
+      "SexualUsage": "This avatar can be portrayed nude and depicted in sexual acts",
+      "ShadowColorAdjust": "Model's Shadow Automatic Adjustment",
+      "ShadowColorAdjustInfo": "Please select \"Don't adjust\" if it is not displaying correctly on VRChat, otherwise please select \"Adjust\".",
+      "ShadowColorAdjustOff": "Don't adjust",
+      "ShadowColorAdjustOn": "Adjust",
+      "StartedUpload": "Upload started. You can close VRoid Studio while the model is being converted for VRChat. After the conversion is completed, you will receive a notification on VRoid Hub informing you that you can use the model on VRChat.",
+      "StartingUpload": "Model is uploading to VRChat. Please wait until the upload is finished. When the upload is completed, you will receive a notification on VRoid Hub.",
+      "StartUpload": "Preparing upload...",
+      "SwingSetting": "Bounce Settings",
+      "SwingSettingInfo": "Setting the slider to 0 will turn bounce off. Collision detection will remain.",
+      "Thumbnail": "Thumbnail (Recommended 1200*900px, 5MB or lower)",
+      "ThumbnailSizeOver": "The image is over 5MB",
+      "Title": "Upload to VRChat",
+      "UploadIsCanceling": "Processing upload cancellation. Please wait.",
+      "ViolentUsage": "This avatar can be used for depictions of violence"
     }
   },
   "VRoidHub": {
@@ -4025,6 +4175,7 @@
     "CharacterNameMessage": "为此角色添加一个名字",
     "CharacterNamePlaceholder": "角色名",
     "CharacterSetting": "新建角色设定",
+    "CheckAccountInfo": "检查帐户信息",
     "DefaultModelName": "默认模型",
     "HubCharacterModelSelectionDialog": {
       "Message": "选择需要更新的模型",
@@ -4061,6 +4212,7 @@
     },
     "JumpToVRoidHubMessage": "在 VRoid Hub 上检视",
     "LoginFailed": "登录时出错",
+    "LoginProcessing": "正在登录",
     "ModelListTitle": "选择需要修改的模型变动",
     "ModelNameMessage": "为此变动添加一个名字",
     "ModelNamePlaceholder": "变动名称",
