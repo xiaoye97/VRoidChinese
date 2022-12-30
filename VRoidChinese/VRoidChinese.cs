@@ -12,7 +12,7 @@ using StandaloneWindowTitleChanger;
 
 namespace VRoidChinese
 {
-    [BepInPlugin("VRoid.Chinese", "VRoid汉化插件", "1.9")]
+    [BepInPlugin("VRoid.Chinese", "VRoid汉化插件", "1.10")]
     public class VRoidChinese : BaseUnityPlugin
     {
         /// <summary>
