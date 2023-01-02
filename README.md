@@ -16,10 +16,6 @@ VRoid 汉化插件
 - 运行时对软件进行汉化, 不修改软件本体.
 - 通过配置文件进行翻译配置.
 
-## 使用方法
-
-tldr: [免安装绿色中文硬盘版][2] (此版本陈旧, 请及时更新)
-
 ### [视频教程][3]
 
 ### 文字教程
@@ -47,7 +43,7 @@ tldr: [免安装绿色中文硬盘版][2] (此版本陈旧, 请及时更新)
 
 #### GIF 图示
 
-![教程](https://cdn.jsdelivr.net/gh/xiaoye97/VRoidChinese@master/Asset/VRoidStudioChineseInstallTutorial.gif)
+![教程](Asset/VRoidStudioChineseInstallTutorial.gif)
 
 #### 更新翻译
 
@@ -117,8 +113,7 @@ A:
 4. 若确认无误, 请提交 PR 或者直接反馈给我 (QQ: 1066666683 & VRoidStudio 交流群: 684544577 & 宵夜食堂: 528385469).
 
 [1]: https://github.com/BepInEx/BepInEx/releases
-[2]: https://share.weiyun.com/cgPKjcxc
 [3]: https://www.bilibili.com/video/BV1BL41137Tc/
-[4]: https://github.com/xiaoye97/VRoidChinese/releases/download/v1.7.1/VRoidChinese.v1.7.1.zip
+[4]: https://github.com/xiaoye97/VRoidChinese/releases/latest
 [5]: https://zh.wikipedia.org/zh-cn/%E8%87%AA%E7%94%B1%E8%BD%AF%E4%BB%B6
 [6]: https://mit-license.org/
