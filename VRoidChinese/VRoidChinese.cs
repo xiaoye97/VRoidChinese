@@ -12,7 +12,7 @@ using StandaloneWindowTitleChanger;
 
 namespace VRoidChinese
 {
-    [BepInPlugin("VRoid.Chinese", "VRoid汉化插件", "1.10")]
+    [BepInPlugin("VRoid.Chinese", "VRoid汉化插件", "1.11")]
     public class VRoidChinese : BaseUnityPlugin
     {
         /// <summary>
@@ -117,7 +117,7 @@ namespace VRoidChinese
                 // 开始汉化文本
                 ToCN();
                 Harmony.CreateAndPatchAll(typeof(VRoidChinese));
-                StandaloneWindowTitle.Change("VRoid Studio");
+                //StandaloneWindowTitle.Change("VRoid Studio");
                 // 切换到中文
                 VRoid.UI.EditorOption.EditorOptionManager.Instance.EditorOption.Preference.languageMode = VRoid.UI.EditorOption.LanguageMode.En;
                 Messages.CurrentCrowdinLanguageCode = "en";

@@ -382,15 +382,37 @@
       "OnlyAuthor": "仅作者"
     },
     "Author": "作者",
+    "Authors": "作者",
+    "AvatarName": "角色名",
+    "AvatarUsagePermissionsAntisocialOrHate": "反社会活动或仇恨言论",
+    "AvatarUsagePermissionsPoliticalOrReligious": "政治或宗教内容",
+    "AvatarUsagePermissionsSexual": "过分的性内容",
+    "AvatarUsagePermissionsTitle": "角色内容授权",
+    "AvatarUsagePermissionsViolent": "暴力内容",
+    "AvatarUsePermissionsLicensedPerson": "授予权限的用户",
+    "AvatarUsePermissionsOnlyAuthor": "仅限创建者",
+    "AvatarUsePermissionsTitle": "角色使用授权设置",
+    "AvatarUsePermissionsTitleNew": "角色使用授权",
     "CharactorizationPermissionsTitle": "个性化头像",
+    "CommercialUsageAllowPersonalCommercial": "允许个人商业使用",
+    "CommercialUsageAllowPersonalCorporateCommercial": "允许个人和公司组织进行商业用途",
+    "CommercialUsageOnlyPersonalNonCommercial": "仅限个人非商业用途",
+    "CommercialUsageTitle": "商业用途",
     "CommericalUssage": "商业用途",
     "Contact": "联系方式",
+    "CopyrightNotation": "创建者版权",
+    "CopyrightNotationPlaceholder": "例子: ©︎ 2022 pixiv Inc.",
+    "CreditNotRequired": "不需要",
+    "CreditRequired": "需要",
+    "CreditTitle": "归属",
     "DialogTitle": "VRM 设置",
     "ExportFailedAlertIO": "导出数据时出错.",
     "ExportFailedAlertIODescription": "导出过程中出现问题,请重试.",
     "ExportFailedAlertUnknown": "导出数据时出错. (未知错误)",
+    "ExportFormat": "导出格式",
     "Information": "模型信息",
     "LicenseType": "许可证",
+    "LicenseTypeAllowEveryone": "任何人",
     "LicenseTypeDropDown": {
       "Cc0": "公共领域 (CC0)",
       "CcBy": "知识共享-署名 CC-BY ",
@@ -402,19 +424,38 @@
       "Other": "其他",
       "RedistributionProhibited": "禁止二次配布"
     },
+    "LicenseTypeProhibited": "禁止",
+    "ModificationPermissionsAllow": "允许更改",
+    "ModificationPermissionsAllowRedistribution": "允许重新分发更改后的角色",
+    "ModificationPermissionsTitle": "更改",
+    "MultipleUsingComma": "您可以使用英文逗号输入多个项目。",
+    "Name": "名字",
     "Options": {
       "EnableHairCombination": "合并毛发网格",
       "Options_": "选项"
     },
+    "OtherLicenseUrl": "其他许可证信息URL",
     "OtherPermissionUrl": "附加许可证信息",
+    "OtherPermissionUrlPlaceholder": "例子: https://example.com",
     "Permitted": "同意",
     "RedistributionAndModificationsPermissionTitle": "二次配布与二次编辑",
+    "RedistributionPermissionsAllow": "允许",
+    "RedistributionPermissionsTitle": "再分发",
     "Reference": "参考",
+    "References": "参考",
     "RequiredInput": "* 必须",
     "SexualUssage": "性描写",
+    "ThirdPartyLicenses": "第三方许可",
     "Title": "标题",
+    "TypeURLAlert": "请输入有效的URL。",
     "Version": "版本",
-    "ViolentUssage": "暴力描写"
+    "ViolentUssage": "暴力描写",
+    "VRM0": "VRM0.0",
+    "VRM1": "VRM1.0",
+    "VRM1CompatibilityWarning": "在使用此角色之前，请确保应用程序与VRM 1.0兼容。",
+    "VRM1PublicLicenseNoticeLink": "VRM公共许可证",
+    "VRM1PublicLicenseNoticePostLink": "",
+    "VRM1PublicLicenseNoticePreLink": "用户必须遵守"
   },
   "GUI": {
     "Announcement": {
@@ -990,6 +1031,7 @@
           "ALL_Neutral": "自然",
           "ALL_Sorrow": "沮丧",
           "ALL_Surprised": "吃惊",
+          "Alpha": "Alpha",
           "Animation": "动画",
           "AnimationMode": "动画",
           "Antialias_High": "高",
@@ -1051,6 +1093,10 @@
           "Contrast": "对比度",
           "Default": "默认",
           "EnableHairCombination": "合并头发网格",
+          "ErrorDialog": {
+            "LoadErrorDescription": "此文件不兼容",
+            "LoadErrorTitle": "导入过程中出现错误"
+          },
           "Export": "导出",
           "ExportInformation": "导出信息",
           "ExportQuadHair": "导出头发为 OBJ (四边形网格)",
@@ -1157,6 +1203,7 @@
           "LightPropertyLabel": "光照",
           "LightReset": "重置",
           "LoadingMessage": "加载中",
+          "LoadPose": "加载姿势",
           "Login": "登录",
           "LoginRequiredMessage": "需要登录 VRoid Hub",
           "LookAtCamera": "看向镜头",
@@ -1236,6 +1283,7 @@
           "PoseMode": "姿势",
           "PoseModel": {
             "AStance": "默认",
+            "CustomPose": "自定义",
             "shot_aori": "叉手",
             "shot_face_hand": "托腮帮子",
             "shot_fight": "打斗",
@@ -1276,8 +1324,11 @@
           "Reset": "重置",
           "ResetPose": "重置",
           "Saturation": "饱和度",
+          "SavePose": "保存当前姿势",
           "SelectBackgroundImage": "导入背景图",
           "SelectCharacterModel": "选择要上传的内容",
+          "SelectLoadPoseFileLocation": "选择一个姿势加载",
+          "SelectSavePoseFileLocation": "选择一个保存位置",
           "ShowController": "显示控制器",
           "Smoothness": "平滑度",
           "SoftKnee": "阈值",
@@ -3359,6 +3410,9 @@
     }
   },
   "Studio": {
+    "CurrentFileModel": {
+      "Untitled": "Untitled"
+    },
     "Dialog": {
       "View": {
         "LanguageSetting": {
@@ -3806,6 +3860,7 @@
     "VRChatAvatarAdvancedSetting": "https://vroid.pixiv.help/hc/en-us/articles/9847485646873",
     "VRChatAvatarInformation": "https://vroid.pixiv.help/hc/en-us/articles/9847238618521",
     "VRChatHowToUpload": "https://vroid.pixiv.help/hc/en-us/articles/9846691321113",
+    "VRM1PublicLicense": "https://vrm.dev/en/licenses/1.0/",
     "VRoidHub": "https://hub.vroid.com/en"
   },
   "V1": {
@@ -4291,8 +4346,5 @@
         }
       }
     }
-  },
-  "WindowTitle": {
-    "Untitled": "未命名"
   }
 }
