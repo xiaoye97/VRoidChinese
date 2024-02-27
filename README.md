@@ -2,6 +2,11 @@
 
 VRoid 汉化插件
 
+## 1.26.1 开发环境配置
+1. 下载最新编译的 https://builds.bepinex.dev/projects/bepinex_be
+2. 放进 vroid 运行一次, 会在 `VRoid Studio\BepInEx\interop` 生成原先 `*_Managed` 里的各种 .dll 
+3. 引用这些 dll, done.
+
 ## 免费声明
 
 本插件 (软件) 为[自由软件][5], 使用 [MIT][6] 协议, 永久免费, 禁止任何形式的售卖.

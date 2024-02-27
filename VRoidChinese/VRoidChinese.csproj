@@ -1,103 +1,77 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7156A862-678E-4037-9AD9-42B207BA3CD0}</ProjectGuid>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>VRoidChinese</AssemblyName>
+    <Description>i18n plugin for VRoidStudio</Description>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>VRoidChinese</RootNamespace>
-    <AssemblyName>VRoidChinese</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>C:\Program Files %28x86%29\Steam\steamapps\common\VRoid Studio\BepInEx\plugins\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+    <Version>1.2.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>VRoidChinese</RootNamespace>
+    <PlatformTarget>x64</PlatformTarget>
+    <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
+    <SignAssembly>False</SignAssembly>
+    <Authors>xiaoye97, rainbowflesh</Authors>
+    <Copyright>xiaoye97 © 2024</Copyright>
+    <PackageProjectUrl>https://github.com/xiaoye97/VRoidChinese</PackageProjectUrl>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/xiaoye97/VRoidChinese</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>unity plugin</PackageTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <AssemblyOriginatorKeyFile>C:\Users\catki\keypair.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\VRoid Studio\BepInEx\core\0Harmony.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\AppData\Local\Programs\Steam\steamapps\common\VRoid Studio\BepInEx\core\0Harmony.dll</HintPath>
     </Reference>
-    <Reference Include="BepInEx">
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\VRoid Studio\BepInEx\core\BepInEx.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="BepInEx.Core">
+      <HintPath>..\..\..\AppData\Local\Programs\Steam\steamapps\common\VRoid Studio\BepInEx\core\BepInEx.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Unity.IL2CPP">
+      <HintPath>..\..\..\AppData\Local\Programs\Steam\steamapps\common\VRoid Studio\BepInEx\core\BepInEx.Unity.IL2CPP.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Common">
+      <HintPath>..\..\..\AppData\Local\Programs\Steam\steamapps\common\VRoid Studio\BepInEx\core\Il2CppInterop.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>..\..\..\AppData\Local\Programs\Steam\steamapps\common\VRoid Studio\BepInEx\core\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>..\..\..\AppData\Local\Programs\Steam\steamapps\common\VRoid Studio\BepInEx\interop\Il2Cppmscorlib.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\VRoid Studio\VRoidStudio_Data\Managed\Newtonsoft.Json.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="StandaloneWindowTitleChanger">
-      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRoid Studio\VRoidStudio_Data\Managed\StandaloneWindowTitleChanger.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="System">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="System.Core">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="System.Xml.Linq">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="System.Data.DataSetExtensions">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Microsoft.CSharp">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="System.Data">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="System.Net.Http">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="System.Xml">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\VRoid Studio\VRoidStudio_Data\Managed\UnityEngine.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\AppData\Local\Programs\Steam\steamapps\common\VRoid Studio\BepInEx\interop\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\VRoid Studio\VRoidStudio_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\AppData\Local\Programs\Steam\steamapps\common\VRoid Studio\BepInEx\interop\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
-      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRoid Studio\VRoidStudio_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\AppData\Local\Programs\Steam\steamapps\common\VRoid Studio\BepInEx\interop\UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.InputLegacyModule">
-      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRoid Studio\VRoidStudio_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="VRoid.UI">
+      <HintPath>..\..\..\AppData\Local\Programs\Steam\steamapps\common\VRoid Studio\BepInEx\interop\VRoid.UI.dll</HintPath>
     </Reference>
-    <Reference Include="VRoid.UI-nstrip">
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\VRoid Studio\NStrip\VRoid.UI-nstrip.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="VRoidCore">
+      <HintPath>..\..\..\AppData\Local\Programs\Steam\steamapps\common\VRoid Studio\BepInEx\interop\VRoidCore.dll</HintPath>
     </Reference>
   </ItemGroup>
+
   <ItemGroup>
-    <Compile Include="JSONObject.cs" />
-    <Compile Include="VRoidChinese.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Folder Include="utils\" />
   </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
