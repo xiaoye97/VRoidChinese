@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30413.136
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRoidChinese", "VRoidChinese\VRoidChinese.csproj", "{7156A862-678E-4037-9AD9-42B207BA3CD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VRoidChinese", "VRoidChinese\VRoidChinese.csproj", "{B53DAA64-9FA7-4C3D-8BBC-D957B3AEA858}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7156A862-678E-4037-9AD9-42B207BA3CD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7156A862-678E-4037-9AD9-42B207BA3CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7156A862-678E-4037-9AD9-42B207BA3CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7156A862-678E-4037-9AD9-42B207BA3CD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B53DAA64-9FA7-4C3D-8BBC-D957B3AEA858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B53DAA64-9FA7-4C3D-8BBC-D957B3AEA858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B53DAA64-9FA7-4C3D-8BBC-D957B3AEA858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B53DAA64-9FA7-4C3D-8BBC-D957B3AEA858}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {55518DE3-E74A-413F-9140-B58B2E83D4DD}
+		SolutionGuid = {C46A3297-31BE-4492-9FB2-720AAC9218DE}
 	EndGlobalSection
 EndGlobal
